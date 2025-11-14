@@ -1,0 +1,12 @@
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+h1{
+    font-size: 3rem;
+    color: #5c69ff;
+}

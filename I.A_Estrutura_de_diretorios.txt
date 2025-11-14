@@ -1,0 +1,92 @@
+Este meu projeto Animex, app React, vite,  é sobre minha coleção de animes. A base de dados deste projeto que está em: c:\IMPORTANTE\Meus Projetos 2025\animex\api_animex\db\animex.json. 
+Foi criada usando minha estrutura de pastas que está no meu HD local no endereço: H:\AnimeX. Exemplo: H:\AnimeX\69 Pink Riders\2000 69 Pink Riders - OVA. 
+Vou explicar a estrutura de pastas, nomeDoAnimex / 4 primeiros dígitos são sempre o ano de lançamento, espaço e o nomeDoAnime/ dentro de cada pasta tem uma imagem.jpg cujo nome é o id. 
+Eu quero, o nome pode permanecer o mesmo, copiar cada um destes arquivos (somente os arquivos, sem as pastas) para a pasta: c:\IMPORTANTE\Meus Projetos 2025\animex\public\animes\. Para depois usa-los no projeto. 
+Vc consegue fazer isso? copiar todos os arquivos
+
+Vou passar dois endereços de arquivos package.json para vc entender como meu projeto.
+c:\IMPORTANTE\Meus Projetos 2025\animex\package.json
+c:\IMPORTANTE\Meus Projetos 2025\animex\api_animex\package.json
+Agora neste meu arquivo atual que está em contexto.
+
+é um componente que acabei de criar para desacoplar parte do codigo de: c:\IMPORTANTE\Meus Projetos 2025\animex\pages\animex-detalhes.jsx
+Mas acho que seria melhor receber suas props: {animexDetalhes, currentDisplayId, setCurrentDisplayId} 
+via contextAPI como fiz aqui: c:\IMPORTANTE\Meus Projetos 2025\animex\src\components\AnimexObjsListProvider ou criar um contexto novo?
+
+I.A, comando corrigido (cmd), para copias as imagens: 
+FOR /R "H:\AnimeX" %G IN (*.jpg) DO COPY "%G" "c:\IMPORTANTE\Meus Projetos 2025\animex\public\animes\"
+
+
+c:\IMPORTANTE\Meus Projetos 2025\animex\
+├── .editorconfig
+├── .gitattributes
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── LICENSE
+├── package-lock.json
+├── package.json
+├── README.md
+├── vite.config.js
+├── api_animex\
+│   ├── headers-middleware.js
+│   ├── middleware.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── db\
+│   │   ├── animex copy.json
+│   │   └── animex.json
+│   └── src\
+│       └── models\
+│           └── monitorarPastas.js
+├── public\
+│   ├── favicon.ico
+│   ├── Logo_Dtudo_300p.png
+│   ├── lupa.png
+│   └── animex\
+│       └── [Muitos arquivos .jpg, omitidos para brevidade]
+└── src\
+    ├── App.css
+    ├── App.jsx
+    ├── index.css
+    ├── main.jsx
+    ├── assets\
+    │   ├── react.svg
+    │   └── vite.svg
+    ├── components\
+    │   ├── AnimexObjsListProvider\
+    │   │   ├── AnimexObjsListContext.js
+    │   │   └── AnimexObjsListProvider.jsx
+    │   ├── CampoBuscar\
+    │   │   ├── CampoBuscar.jsx
+    │   │   └── CampoBuscar.module.css
+    │   ├── CardAnime\
+    │   │   ├── CardAnime.jsx
+    │   │   └── CardAnime.module.css
+    │   ├── CardAnimex\
+    │   │   ├── CardAnimex_BKP-OK.jsx
+    │   │   ├── CardAnimex_desacoplado_erro.jsx
+    │   │   ├── CardAnimex.jsx
+    │   │   └── CardAnimex.module.css
+    │   ├── FooterPage\
+    │   │   ├── FooterPage.jsx
+    │   │   └── FooterPage.module.css
+    │   ├── HeaderPage\
+    │   │   ├── HeaderPage.jsx
+    │   │   └── HeaderPage.module.css
+    │   ├── ModalDialog\
+    │   │   ├── ModalDialog.css
+    │   │   └── ModalDialog.jsx
+    │   ├── PageQtdExibir\
+    │   │   ├── PageQtdExibir.jsx
+    │   │   └── PageQtdExibir.module.css
+    │   └── PaginationButtons\
+    │       ├── PaginationButtons.jsx
+    │       └── PaginationButtons.module.css
+    ├── conectAPI\
+    │   ├── conectAPI.js
+    │   ├── conectAPIJikam.js
+    │   └── conectApiTMDB.js
+    └── pages\
+        ├── animex-detalhes.jsx
+        └── animexDetalhes.module.css

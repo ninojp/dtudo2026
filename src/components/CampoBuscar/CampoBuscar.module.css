@@ -1,0 +1,43 @@
+.fieldsetCampoBuscar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    position: relative;
+    border: none;
+}
+.inputCampoBuscar{
+    padding: 14px 20px 14px 62px;
+    border-radius: 32px;
+    font-size: 14pt;
+    min-width: 500px;
+    line-height: 30px;
+    outline: transparent;
+    border: 1px solid transparent;
+}
+.inputCampoBuscar::placeholder{
+    text-align: center;
+}
+.inputCampoBuscar:hover{
+    border: 1px solid #fff;
+}
+
+.fieldsetCampoBuscar::after{
+    content: '';
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+    left: 20px;
+    background-image: url('/lupa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+.labelInput{
+    font-size: 1rem;
+    padding: 0.5rem;
+}

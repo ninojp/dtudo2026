@@ -1,0 +1,60 @@
+.headerPage {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(#082e5c 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
+}
+
+.divContainerImgLogo {
+    height: 60px;
+    display: flex;
+    place-items: center;
+}
+
+.divContainerImgLogo img {
+    height: 100%;
+    width: auto;
+}
+
+/* Titulo e subtitulo */
+.divContainerTituloAnimex {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--hTituloColor);
+}
+
+.divTituloAnimex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1TituloAnimex {
+    font-size: 3rem;
+}
+
+.spanTituloAnimex {
+    font-size: 1.5rem;
+}
+
+/* Icones de Login */
+.divContainerIconsLogin {
+    position: absolute;
+    right: 1rem;
+    bottom: 5px;
+    display: flex;
+    gap: 1rem;
+}
+.divContainerIconsLogin button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

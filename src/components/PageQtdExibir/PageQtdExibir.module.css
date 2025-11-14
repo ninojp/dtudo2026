@@ -1,0 +1,24 @@
+.divContainerControles {
+    width: 100%;
+    display: flex;
+    padding-left: 8rem;
+}
+
+.labelQtdPorPg {
+    font-size: 1.3rem;
+}
+
+.selectQtdPorPg {
+    background-color: #041832;
+    color: #ffffff;
+    border: 0.1px solid #0d4386;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.spanQtdPorPg {
+    font-size: 1.3rem;
+    padding: 0 0.3rem;
+}

@@ -1,0 +1,22 @@
+.app {
+    display: flex;
+    height: 100vh;
+    padding-top: 56px;
+    gap: 28px;
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    /* overflow-y: auto; */
+    min-height: 0;
+}
+
+/* Adicionar espaço para o rodapé fixo em telas menores */
+@media (max-width: 999px) {
+    .app {
+        padding-bottom: 80px;
+    }
+}

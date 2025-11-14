@@ -1,0 +1,10 @@
+.footerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background: linear-gradient(90deg, #000000 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
+    border-top: 0.01px dotted #646cff;
+    margin-top: 2rem;
+}
