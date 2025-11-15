@@ -1,4 +1,4 @@
-.footerContainer{
+.footerContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -7,4 +7,44 @@
     background: linear-gradient(90deg, #000000 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
     border-top: 0.01px dotted #646cff;
     margin-top: 2rem;
+}
+
+/* depois de criar o container flex, os logos ficaram transparentes ou seja esta ali mas nã aparecem */
+.divLogosTecContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 2.5rem; /* Aumentado para acomodar o padding */
+    padding: 0.5rem;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 1.5rem #646cffaa);
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 1.5rem #61dafbaa);
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
 }

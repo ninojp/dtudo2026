@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import styles from './HeaderPage.module.css';
-import { IconAccount } from '../icons/IconAccount';
-import { IconLogout } from '../icons/IconLogout';
-import IconRegister from '../icons/IconRegister';
+import { IconAccount } from '../Icons/IconAccount';
+import { IconLogout } from '../Icons/IconLogout';
+import IconRegister from '../Icons/IconRegister';
 import { use } from 'react';
-import AuthContext from '../../contextAPI/AuthProvider/AuthContext';
-import { IconLogin } from '../icons/IconLogin';
+import AuthContext from '../../context_api/AuthContext/AuthContext';
+import { IconLogin } from '../Icons/IconLogin';
 
 export default function HeaderPage() {
     const { isAuthenticated } = use(AuthContext);

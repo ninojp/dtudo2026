@@ -1,6 +1,6 @@
-import styles from './PageQtdExibir.module.css';
+import styles from './QtdExibirPorPage.module.css';
 
-export default function PageQtdExibir({ value, onChange, options = [6, 12, 24, 48, 96] }) {
+export default function QtdExibirPorPage({ value, onChange, options = [6, 12, 24, 48, 96] }) {
     return (
         <div className={styles.divContainerControles}>
             <label className={styles.labelQtdPorPg}>

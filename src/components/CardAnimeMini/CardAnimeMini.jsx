@@ -1,6 +1,6 @@
 import { use } from 'react';
-import styles from './CardMiniAnime.module.css';
-import AnimexDetalhesContext from '../../contextAPI/AnimexDetalhesProvider/AnimexDetalhesContext';
+import styles from './CardAnimeMini.module.css';
+import AnimexDetalhesContext from '../../context_api/AnimexDetalhesContext/AnimexDetalhesContext';
 
 export default function CardMiniAnime() {
     const { animexDetalhes, currentDisplayId, setCurrentDisplayId } = use(AnimexDetalhesContext);

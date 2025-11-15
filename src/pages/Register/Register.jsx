@@ -1,7 +1,7 @@
 import styles from './register.module.css'
 import { Link, useNavigate } from "react-router"
 import { use } from 'react';
-import AuthContext from '../../contextAPI/AuthProvider/AuthContext';
+import AuthContext from '../../context_api/AuthContext/AuthContext';
 
 export const Register = () => {
     const { register } = use(AuthContext);

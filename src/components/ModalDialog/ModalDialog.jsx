@@ -1,6 +1,7 @@
 import { useRef, useEffect } from 'react';
 import './ModalDialog.css';
-import { IconClose } from '../IconClose/IconClose';
+import IconClose from '../icons/IconClose';
+
 
 export default function ModalDialog({ isOpen=false, onClose, title="Modal título", children }) {
     const modalDialogRef = useRef(null);

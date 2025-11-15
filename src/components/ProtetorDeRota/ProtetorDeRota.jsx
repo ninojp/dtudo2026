@@ -1,5 +1,5 @@
 import { use, useEffect } from "react";
-import AuthContext from "../../contextAPI/AuthProvider/AuthContext";
+import AuthContext from "../../context_api/AuthContext/AuthContext";
 import { Spinner } from "../Spinner";
 import { useNavigate } from "react-router-dom";
 

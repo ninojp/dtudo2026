@@ -2,9 +2,9 @@ import styles from './CardsAnimexList.module.css';
 import { use, useState, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import CampoBuscar from '../CampoBuscar/CampoBuscar';
-import AnimexObjsListContext from '../../contextAPI/AnimexObjsListProvider/AnimexObjsListContext';
+import AnimexObjsListContext from '../../context_api/AnimexObjsListContext/AnimexObjsListContext';
 import PaginationButtons from '../PaginationButtons/PaginationButtons';
-import PageQtdExibir from '../PageQtdExibir/PageQtdExibir';
+import QtdExibirPorPage from '../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../ModalDialog/ModalDialog';
 import CardAnimex from '../CardAnimex/CardAnimex';
 
@@ -45,7 +45,7 @@ export default function CardsAnimexList() {
             <section className={styles.containerFlex}>
                 <CampoBuscar onSearch={handleSearch} />
                 <p>Esta é uma seção para listar em ordem alfabética minha coleção de Hentai!S.</p>
-                <PageQtdExibir
+                <QtdExibirPorPage
                     value={limit}
                     onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
                     options={[6, 12, 24, 48, 96]}

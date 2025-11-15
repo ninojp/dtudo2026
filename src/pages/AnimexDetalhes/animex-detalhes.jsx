@@ -1,7 +1,7 @@
 import { useEffect, useContext } from "react";
 import styles from "./animexDetalhes.module.css";
-import CardMiniAnime from "../../components/CardMiniAnime/CardMiniAnime";
-import AnimexDetalhesContext from "../../contextAPI/AnimexDetalhesProvider/AnimexDetalhesContext";
+import CardMiniAnime from "../../components/CardAnimeMini/CardAnimeMini";
+import AnimexDetalhesContext from "../../context_api/AnimexDetalhesContext/AnimexDetalhesContext";
 import CardAnimeDetalhes from "../../components/CardAnime/CardAnime";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "../../components/Spinner";

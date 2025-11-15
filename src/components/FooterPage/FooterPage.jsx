@@ -1,5 +1,6 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import reactLogo from '/react.svg'
+import viteLogo from '/vite.svg'
+import { useEffect, useState } from "react";
 import styles from './FooterPage.module.css';
 
 //-----------------------------------------
@@ -22,7 +23,15 @@ export default function FooterPage({ children }) {
     return (
         <footer className={styles.footerContainer}>
             <div>
-                <p>Criado em 28/10/2025 - by NinoJP</p>
+                <p>Criado em 13/11/2025 - by NinoJP</p>
+            </div>
+            <div className={styles.divLogosTecContainer}>
+                <a href="https://vite.dev" target="_blank">
+                    <img src={viteLogo} className={styles.logo} alt="Vite logo" />
+                </a>
+                <a href="https://react.dev" target="_blank">
+                    <img src={reactLogo} className={`${styles.logo} ${styles.react}`} alt="React logo" />
+                </a>
             </div>
             <div>
                 {`${dataAtual.date} - ${dataAtual.weekday} às ${dataAtual.time}`}

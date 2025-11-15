@@ -1,0 +1,50 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --pTextColor: #646cff;
+    --hTituloColor: #ffffffec;
+    --gradientColor1: #082e5c;
+    --gradientColor2: #041832;
+    --gradientColor3: #020c19;
+    --bordaPadrao: 0.1px solid #646cff53;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    color: #646cff;
+    background: linear-gradient(#082e5c 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}

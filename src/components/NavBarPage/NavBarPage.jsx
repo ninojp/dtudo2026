@@ -1,33 +1,33 @@
 import styles from './NavBarPage.module.css';
 import { Link } from 'react-router-dom';
-import { IconAccount } from '../icons/IconAccount';
-import { IconLogout } from '../icons/IconLogout';
-import IconRegister from '../icons/IconRegister';
-import { use } from 'react';
-import AuthContext from '../../contextAPI/AuthContext/AuthContext';
-import { IconLogin } from '../icons/IconLogin';
+import { IconAccount } from '../Icons/IconAccount';
+import { IconLogout } from '../Icons/IconLogout';
+import IconRegister from '../Icons/IconRegister';
+// import { use } from 'react';
+import AuthContext from '../../context_api/AuthContext/AuthContext';
+import { IconLogin } from '../Icons/IconLogin';
 
 export default function NavBarPage() {
-    const { isAuthenticated } = use(AuthContext);
+    // const { isAuthenticated } = use(AuthContext);
     return (
         <nav className={styles.navBarPageContainer}>
-            <div className={styles.divContainerTituloAnimex}>
+            <div className={styles.divContainerLogoTitulo}>
                 <Link to="/">
                     <div className={styles.divContainerImgLogo}>
                         <img src="/Logo_Dtudo_300p.png" alt="Imagem Logo Dtudo" />
                     </div>
                 </Link>
-                <div className={styles.divTituloAnimex}>
-                    <h1 className={styles.h1TituloAnimex}>AnimeX </h1>
-                    <span className={styles.spanTituloAnimex}> Minha coleção de Hentai!S</span>
+                <div className={styles.divTitulo}>
+                    <h1 className={styles.h1Titulo}>Dtudo T.I</h1>
+                    <span className={styles.spanTitulo}> Minha coleção de Hentai!S</span>
                 </div>
             </div>
-            <div className={styles.divContainerIconsLogin}>
+            {/* <div className={styles.divContainerIconsLogin}>
                 {!isAuthenticated && <Link to='/auth/register' title='Criar Conta'><IconRegister cor={'#ffffffc0'} largura={'24px'} altura={'24px'} /></Link>}
                 {!isAuthenticated && <Link to='/auth/login' title='Fazer Login'><IconLogin cor={'#ffffffc0'} largura={'24px'} altura={'24px'} /></Link>}
                 {isAuthenticated && <Link to='#' title='Perfil Usuário'><IconAccount cor={'#ffffffc0'} largura={'24px'} altura={'24px'} /></Link>}
                 {isAuthenticated && <Link to='/auth/logout' title='Fazer Logout'><IconLogout cor={'#ffffffc0'} largura={'24px'} altura={'24px'} /></Link>}
-            </div>
+            </div> */}
         </nav>
     )
 };

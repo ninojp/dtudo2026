@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import AnimexObjsListContext from "./AnimexObjsListContext";
-import axiosHttpRequest from "../../ApiConect/conectApiLocal";
+import axiosHttpRequest from "../../api_conect/conectApiLocal";
 
 export default function AnimexObjsListProvider({ children }) {
     const [listObjsAnimex, setListObjsAnimex] = useState([]);
