@@ -9,7 +9,7 @@ export default function AnimexObjsListProvider({ children }) {
     async function fetchAllObjsAnimex() {
         setIsLoading(true);
         try {
-            const response = await axiosHttpRequest.get('/objAnimex');
+            const response = await axiosHttpRequest.get('/animex');
             setListObjsAnimex(response.data);
             return response.data;
         } catch (error) {

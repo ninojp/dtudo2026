@@ -1,5 +1,5 @@
 {
-  "objAnimacoes": [
+  "animacoes": [
     {
       "id": 1,
       "nome": ".Hack",
@@ -82074,7 +82074,7 @@
       ]
     }
   ],
-    "objAnimex": [
+    "animex": [
     {
       "id": 1,
       "nome": "15 Bishoujo Hyouryuuki",
@@ -98062,6 +98062,5 @@
       "imgSrc": "zz_temps.jpg",
       "subpastas": []
     }
-  ],
-  "ultimaAtualizacao": "2025-11-15T05:30:31.231Z"
+  ]
 }
