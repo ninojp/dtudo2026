@@ -1,4 +1,4 @@
-.navBarPageContainer{
+.navBarPageContainer {
     position: relative;
     width: 100%;
     display: flex;
@@ -9,40 +9,50 @@
     background: linear-gradient(#082e5c 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
 }
 
+.divContainerLogoTituloMenu {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--hTituloColor);
+}
+
+/* Logo */
 .divContainerImgLogo {
     height: 60px;
     display: flex;
     place-items: center;
 }
-
 .divContainerImgLogo img {
     height: 100%;
     width: auto;
 }
 
-/* Titulo e subtitulo */
-.divContainerLogoTitulo {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--hTituloColor);
-}
 
-.divTituloAnimex {
-    width: 100%;
+/* Titulo */
+.divTitulo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.h1TituloAnimex {
-    font-size: 3rem;
+.pTituloPage {
+    font-size: 2rem;
+    color: var(--pTextColor);
 }
 
-.spanTituloAnimex {
-    font-size: 1.5rem;
+/* Menu Links */
+.ulMenuLinksContanier {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.liMenuLink {
+    font-size: 1.2rem;
+    font-weight: 600;
+    list-style: none;
 }
 
 /* Icones de Login */
@@ -53,7 +63,8 @@
     display: flex;
     gap: 1rem;
 }
-.divContainerIconsLogin button{
+
+.divContainerIconsLogin button {
     background-color: transparent;
     border: none;
     cursor: pointer;

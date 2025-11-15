@@ -50,13 +50,13 @@ const CampoBuscar = ({ onSearch = () => {} }) => {
     return (
         <fieldset className={styles.fieldsetCampoBuscar}>
             <label htmlFor="campo-buscar" className={styles.labelInput}>
-                Digite o nome do AnimeX que procura
+                Digite um nome que deseja procurar.
             </label>
             <input
                 className={styles.inputCampoBuscar}
                 id="campo-buscar"
                 type="search"
-                placeholder="Busque por nomes, evite nomes completos"
+                placeholder="Busque por nome, evite nomes completos"
                 value={valor}
                 onChange={handleChange}
                 onKeyDown={handleKeyDown}

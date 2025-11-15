@@ -14,7 +14,7 @@ export default function CardMiniAnime() {
                     onClick={() => setCurrentDisplayId(subpasta.id)}
                 >
                     <span className={styles.spanTextCarrossel}>{subpasta.ano}</span>
-                    <img className={styles.imgMiniAnimeBtnCarrossel} src={`/animes/${subpasta.id}.jpg`} />
+                    <img className={styles.imgMiniAnimeBtnCarrossel} src={`/animex/animes/${subpasta.id}.jpg`} />
                     <span className={styles.spanTextCarrossel}>{subpasta.nomeSemAno}</span>
                 </button>
             ))}

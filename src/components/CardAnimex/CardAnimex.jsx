@@ -4,7 +4,7 @@ import styles from './CardAnimex.module.css';
 const CardAnimex = ({ item, onImageClick }) => {
     return (
         <article key={String(item.id)} className={styles.animexCardArticle}>
-            <Link to={`/animex-detalhes/${item.slug}`} target='_blank' className={styles.cardLink} title="Clique para ver os detalhes do anime">
+            <Link to={`/animex/animex-detalhes/${item.slug}`} target='_blank' className={styles.cardLink} title="Clique para ver os detalhes do anime">
                 <div className={styles.divContainerTitulo}>
                     <h3 className={styles.h3Titulo}>{item.nome}</h3>
                 </div>

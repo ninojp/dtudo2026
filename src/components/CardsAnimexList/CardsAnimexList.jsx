@@ -71,9 +71,9 @@ export default function CardsAnimexList() {
                         title={selectedItem.nome}
                     >
                         {selectedItem.subpastas && selectedItem.subpastas.map(item => (
-                            <Link key={item.id} to={`/animex-detalhes/${selectedItem.slug}`} target='_blank'>
+                            <Link key={item.id} to={`/animex/animex-detalhes/${selectedItem.slug}`} target='_blank'>
                                 <p className={styles.pListMiniAnimes}>
-                                    <img className={styles.imgListMiniAnimes} src={`/animes/${item.id}.jpg`} alt={item.nomeSemAno} />
+                                    <img className={styles.imgListMiniAnimes} src={`/animex/animes/${item.id}.jpg`} alt={item.nomeSemAno} />
                                     {item.nome}
                                 </p>
                             </Link>

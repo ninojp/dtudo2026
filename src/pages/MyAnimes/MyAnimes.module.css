@@ -1,0 +1,25 @@
+.mainPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  border: 1px dotted #fff;
+  background: linear-gradient(#082e5c 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
+}
+.sectionContainer{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.containerFlex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 2rem;
+}
