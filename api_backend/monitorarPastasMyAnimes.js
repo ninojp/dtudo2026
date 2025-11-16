@@ -3,7 +3,6 @@ import { fileURLToPath } from 'url';
 import fs from 'node:fs';
 import fsPromises from 'node:fs/promises';
 import path from 'node:path';
-import chokidar from 'chokidar';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,7 +14,49 @@ const pastasParaMonitorar = [
     'F:\\K', 'F:\\L', 'F:\\M', 'F:\\N', 'F:\\O', 'F:\\P', 'F:\\Q', 'F:\\R', 'H:\\S', 'H:\\T', 'H:\\U', 'H:\\V', 'H:\\W', 'H:\\X', 'H:\\Y', 'H:\\Z'
 ];
 const arquivoSaida = path.resolve(__dirname, '../api_backend/db/myanimes.json');
+const pastaDestinoImagens = path.resolve(__dirname, '../public/myanimes/animes');
 
+/**
+ * Varre recursivamente os diretórios de origem, encontra imagens com nomes numéricos
+ * (ex: 123.jpg) e as copia para a pasta de destino.
+ */
+async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
+    console.log(`Iniciando cópia de imagens para: ${pastaDestino}`);
+    await ensureDir(pastaDestino);
+    let imagensCopiadas = 0;
+
+    const MAX_DEPTH = 2; // Limita a busca a 2 níveis de subpasta
+
+    async function walk(diretorio, depth) {
+        // Garante que o diretório é uma string válida antes de prosseguir.
+        if (typeof diretorio !== 'string' || !fs.existsSync(diretorio)) {
+            return;
+        }
+
+        if (depth > MAX_DEPTH) {
+            return; // Para a recursão se a profundidade máxima for atingida
+        }
+
+        const entradas = await readDirSafe(diretorio);
+        for (const entrada of entradas) {
+            const caminhoCompleto = path.join(diretorio, entrada.name);
+            if (entrada.isDirectory()) {
+                await walk(caminhoCompleto, depth + 1); // Recursão para subpastas, incrementando a profundidade
+            } else if (entrada.isFile() && /^\d+\.jpg$/i.test(entrada.name)) {
+                const caminhoDestino = path.join(pastaDestino, entrada.name);
+                try {
+                    await fsPromises.copyFile(caminhoCompleto, caminhoDestino);
+                    imagensCopiadas++;
+                } catch (err) {
+                    console.error(`Erro ao copiar ${caminhoCompleto}:`, err);
+                }
+            }
+        }
+    }
+
+    await Promise.all(pastasOrigem.map(pasta => walk(pasta, 0)));
+    console.log(`Cópia de imagens concluída. Total de ${imagensCopiadas} imagens copiadas.`);
+}
 // --- Helpers ---
 /** SLUGIFY: do curso alura, testar pra ver se é melhor que o atual
  * .toLowerCase()
@@ -49,7 +90,8 @@ async function ensureDir(dirPath) {
 }
 // Lê diretório de forma segura, retornando array vazio em caso de erro
 async function readDirSafe(dir) {
-    try {
+    try { // Garante que 'dir' seja uma string antes de usar
+        if (typeof dir !== 'string') return [];
         return await fsPromises.readdir(dir, { withFileTypes: true });
     } catch (err) {
         console.warn(`Não foi possível ler ${dir}: ${err.message}`);
@@ -63,39 +105,35 @@ async function listContents(dir) {
 }
 /** Gera a estrutura desejada a partir das pastas listadas */
 async function gerarEstruturaPersonalizada(pastas) {
-    let idGlobal = 1;
-    const resultado = [];
-    // Para cada pasta raiz
-    for (const pastaRaiz of pastas) {
-        const itensRaiz = await readDirSafe(pastaRaiz);
-        for (const item of itensRaiz.filter((it) => it.isDirectory())) {
-            const fullPath = path.join(pastaRaiz, item.name);
-            // segundo nível: subpastas dentro de fullPath
-            const subdirs = (await readDirSafe(fullPath)).filter((it) => it.isDirectory());
-            const subpastas = [];
-            // para cada subpasta, lista conteúdos
-            for (const sub of subdirs) {
-                const subFullPath = path.join(fullPath, sub.name);
-                const conteudo = await listContents(subFullPath);
-                // Procura arquivo .jpg com nome numérico (e.g., 1.jpg)
-                const jpg = conteudo.find((arq) => arq.tipo === 'arquivo' && /^\d+\.jpg$/i.test(arq.nome));
-                const idSubpasta = jpg ? parseInt(jpg.nome, 10) : null;
-                // Pega os 4 primeiros digitos do nome da subpasta como ano
-                const ano = sub.name.substring(0, 4);
-                // Retira os 5 primeiros digitos do nome da subpasta como ano
-                const nomeSemAno = sub.name.substring(5).trim();
-                subpastas.push({ id: idSubpasta, nome: sub.name, ano, nomeSemAno, arquivos: conteudo });
-            }
-            resultado.push({
-                id: idGlobal++,
-                nome: item.name,
-                slug: slugify(item.name),
-                imgSrc: `${normalizeName(item.name)}.jpg`,
-                subpastas,
-            });
-        }
-    }
-    return resultado;
+  const processarPastaRaiz = async (pastaRaiz) => {
+    const itensRaiz = await readDirSafe(pastaRaiz);
+    const pastasDeAnime = itensRaiz.filter((it) => it.isDirectory());
+
+    return Promise.all(pastasDeAnime.map(async (item) => {
+      const fullPath = path.join(pastaRaiz, item.name);
+      const subdirs = (await readDirSafe(fullPath)).filter((it) => it.isDirectory());
+
+      const subpastas = await Promise.all(subdirs.map(async (sub) => {
+        const subFullPath = path.join(fullPath, sub.name);
+        const conteudo = await listContents(subFullPath);
+        const jpg = conteudo.find((arq) => arq.tipo === 'arquivo' && /^\d+\.jpg$/i.test(arq.nome));
+        const idSubpasta = jpg ? parseInt(jpg.nome, 10) : null;
+        const ano = sub.name.substring(0, 4);
+        const nomeSemAno = sub.name.substring(5).trim();
+        return { id: idSubpasta, nome: sub.name, ano, nomeSemAno, arquivos: conteudo };
+      }));
+
+      return {
+        nome: item.name,
+        slug: slugify(item.name),
+        imgSrc: `${normalizeName(item.name)}.jpg`,
+        subpastas,
+      };
+    }));
+  };
+
+  const arraysDeResultados = await Promise.all(pastas.map(processarPastaRaiz));
+  return arraysDeResultados.flat().map((item, index) => ({ ...item, id: index + 1 }));
 }
 
 /** Escreve JSON de forma atômica (escreve em arquivo temporário e renomeia) */
@@ -108,14 +146,11 @@ async function writeJsonAtomically(targetPath, data) {
 }
 
 // --- Atualização / debounce ---
-let debounceTimer = null;
-function scheduleAtualizarAnimacoes(delay = 1000) {
-    if (debounceTimer) clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => atualizarAnimacoes().catch((e) => console.error(e)), delay);
-}
-
 async function atualizarAnimacoes() {
     try {
+        // Executa a cópia das imagens antes de gerar o JSON
+        await copiarImagensRelevantes(pastasParaMonitorar, pastaDestinoImagens);
+
         const estrutura = await gerarEstruturaPersonalizada(pastasParaMonitorar);
         let jsonAtual = {};
 
@@ -126,7 +161,7 @@ async function atualizarAnimacoes() {
             }
         } catch (readErr) {
             console.warn(`Falha ao ler ${arquivoSaida}: ${readErr.message}`);
-            jsonAtual = {};
+            jsonAtual = { objAnimex: [] };
         }
 
         jsonAtual.objAnimex = estrutura;
@@ -139,28 +174,6 @@ async function atualizarAnimacoes() {
     }
 }
 
-// --- Inicialização do watcher ---
-const watcher = chokidar.watch(pastasParaMonitorar, { ignoreInitial: false, persistent: true, depth: 2 });
-
-watcher.on('error', (error) => console.warn('Erro ao monitorar:', error && error.message ? error.message : error));
-['add', 'change', 'unlink', 'addDir', 'unlinkDir'].forEach((ev) => watcher.on(ev, () => scheduleAtualizarAnimacoes()));
-
-console.log('Monitorando alterações em:', pastasParaMonitorar.join(', '));
-
-// Garantia: atualiza imediatamente ao iniciar também (chokidar com ignoreInitial:false já dispara, mas chamamos explicitamente)
-scheduleAtualizarAnimacoes(0);
-
-// Limpeza em encerramento do processo (checa se `process` existe — util para alguns ambientes de teste)
-if (typeof globalThis.process !== 'undefined' && typeof globalThis.process.on === 'function') {
-    globalThis.process.on('SIGINT', async () => {
-        console.log('Encerrando watcher...');
-        if (debounceTimer) clearTimeout(debounceTimer);
-        try {
-            await watcher.close();
-        } catch {
-            // ignore
-        }
-        globalThis.process.exit(0);
-    });
-}
-
+// --- Execução Principal ---
+console.log('Iniciando a geração do arquivo de animes...');
+atualizarAnimacoes();

@@ -8,89 +8,9 @@ Eu gostaria que vc analiza-se meu projeto todo, vou passa o endereço do arquivo
 C:\IMPORTANTE\MEUS_PROJETOS\2025 MeusProjetos\dtudo\package.json
 Agora neste meu arquivo atual que está em contexto, a busca e a paginação NÃO estão funcionando.
 
-Eu gostaria que vc analiza-se meu projeto todo, vou passa o endereço do arquivo package.json deste projeto:
-C:\IMPORTANTE\MEUS_PROJETOS\2025 MeusProjetos\dtudo\package.json
-Agora com o json-server 0.17.4, minha página myanimes está funcionando a paginação e o campo de busca, o selecionar quantidade por pagina não. Tenho certeza que o problema todo era o X-Total-Count. 
-Sabendo disso gostaria de voltar a usar o json-server 1.0.0-beta.3 pois basta saber como funciona a paginação no json-server 1.0.0-beta.3.
-
-é um componente que acabei de criar para desacoplar parte do codigo de: c:\IMPORTANTE\Meus Projetos 2025\animex\pages\animex-detalhes.jsx
-Mas acho que seria melhor receber suas props: {animexDetalhes, currentDisplayId, setCurrentDisplayId} 
-via contextAPI como fiz aqui: c:\IMPORTANTE\Meus Projetos 2025\animex\src\components\AnimexObjsListProvider ou criar um contexto novo?
 
 I.A, comando corrigido (cmd), para copias as imagens: 
 FOR /R "H:\AnimeX" %G IN (*.jpg) DO COPY "%G" "c:\IMPORTANTE\Meus Projetos 2025\animex\public\animes\"
 
-
-c:\IMPORTANTE\Meus Projetos 2025\animex\
-├── .editorconfig
-├── .gitattributes
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── LICENSE
-├── package-lock.json
-├── package.json
-├── README.md
-├── vite.config.js
-├── api_animex\
-│   ├── headers-middleware.js
-│   ├── middleware.js
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── db\
-│   │   ├── animex copy.json
-│   │   └── animex.json
-│   └── src\
-│       └── models\
-│           └── monitorarPastas.js
-├── public\
-│   ├── favicon.ico
-│   ├── Logo_Dtudo_300p.png
-│   ├── lupa.png
-│   └── animex\
-│       └── [Muitos arquivos .jpg, omitidos para brevidade]
-└── src\
-    ├── App.css
-    ├── App.jsx
-    ├── index.css
-    ├── main.jsx
-    ├── assets\
-    │   ├── react.svg
-    │   └── vite.svg
-    ├── components\
-    │   ├── AnimexObjsListProvider\
-    │   │   ├── AnimexObjsListContext.js
-    │   │   └── AnimexObjsListProvider.jsx
-    │   ├── CampoBuscar\
-    │   │   ├── CampoBuscar.jsx
-    │   │   └── CampoBuscar.module.css
-    │   ├── CardAnime\
-    │   │   ├── CardAnime.jsx
-    │   │   └── CardAnime.module.css
-    │   ├── CardAnimex\
-    │   │   ├── CardAnimex_BKP-OK.jsx
-    │   │   ├── CardAnimex_desacoplado_erro.jsx
-    │   │   ├── CardAnimex.jsx
-    │   │   └── CardAnimex.module.css
-    │   ├── FooterPage\
-    │   │   ├── FooterPage.jsx
-    │   │   └── FooterPage.module.css
-    │   ├── HeaderPage\
-    │   │   ├── HeaderPage.jsx
-    │   │   └── HeaderPage.module.css
-    │   ├── ModalDialog\
-    │   │   ├── ModalDialog.css
-    │   │   └── ModalDialog.jsx
-    │   ├── PageQtdExibir\
-    │   │   ├── PageQtdExibir.jsx
-    │   │   └── PageQtdExibir.module.css
-    │   └── PaginationButtons\
-    │       ├── PaginationButtons.jsx
-    │       └── PaginationButtons.module.css
-    ├── conectAPI\
-    │   ├── conectAPI.js
-    │   ├── conectAPIJikam.js
-    │   └── conectApiTMDB.js
-    └── pages\
-        ├── animex-detalhes.jsx
-        └── animexDetalhes.module.css
+Eu tenho esta lista ['F:\\A', 'F:\\B', 'F:\\C', 'F:\\D', 'F:\\E', 'F:\\F', 'F:\\G', 'F:\\H', 'F:\\I', 'F:\\J', 'F:\\K', 'F:\\L', 'F:\\M', 'F:\\N', 'F:\\O', 'F:\\P', 'F:\\Q', 'F:\\R', 'H:\\S', 'H:\\T', 'H:\\U', 'H:\\V', 'H:\\W', 'H:\\X', 'H:\\Y', 'H:\\Z'] com os endereços de pastas que estão no meu computador e em dois HDs diferentes.
+Eu preciso que vc procure dentro destas pastas e subpastas e apenas COPIE todas as imagens (apenas imagens, sem pastas) com nome que contenha apenas numeros e extensão jpg, 12345.jpg. para este endereço: C:\IMPORTANTE\MEUS_PROJETOS\2025 MeusProjetos\dtudo\public\myanimes\animes
