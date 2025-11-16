@@ -1,4 +1,4 @@
-import CardMyAnimes from '../../components/CardMyAnimes/CardMyAnimes';
+import CardsMyAnimesList from '../../components/CardsMyAnimesList/CardsMyAnimesList';
 import styles from './MyAnimes.module.css';
 
 export default function MyAnimes() {
@@ -12,7 +12,7 @@ export default function MyAnimes() {
           </div>
         </section>
         <section className={styles.sectionContainer}>
-          <CardMyAnimes />
+          <CardsMyAnimesList />
         </section>
       </main>
   );

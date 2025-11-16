@@ -1,55 +1,80 @@
-.containerListaCardAnimacaoDiv{
+.animexCardArticle {
+    width: 200px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.8px solid #0d4386;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.divContainerTitulo {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    row-gap: 3rem;
-    padding: 1rem;
+    /* padding: 0.5rem; */
+    margin-bottom: 0.5rem;
 }
-.animacaoCardArticle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 220px;
-    height: 420px;
-    border: 0.8px solid #0d4386;
-    border-radius: 8px;
-    padding: 1rem;
+
+.h3Titulo {
+    width: 20ch;/* Limita a largura para aproximadamente 40 caracteres */
+    overflow: hidden;/* Oculta o texto que ultrapassa a largura */
+    text-overflow: ellipsis;/* Adiciona reticências (...) ao final do texto cortado */
+    white-space: nowrap;/* Impede a quebra de linha */
+    font-size: 1.1rem;
+    font-weight: 600;
+    /* line-height: 1.2; */
+    font-family: monospace;
+    text-align: center;
+    color: #ffffffdd;
 }
-.figureImagemAnimacao{
+
+.figureImagemAnimacao {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 300px;
 }
-.imgAnimacao{
-    width: 200px;
+
+.imgAnimacao {
+    width: 196px;
     height: 300px;
 }
-.animacaoCardArticle p{
+
+.animacaoCardArticle p {
     text-align: center;
     font-size: 0.7rem;
 }
 
-.animacaoCardArticle h3{
-    font-size: 1rem;
-}
-.divImgsEditaExclui{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.divContainerIdData {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
     width: 100%;
-    gap: 2rem;
-    padding: 5px;
+    padding: 0.5rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 22ch;
 }
-.imgIcones{
-    cursor: pointer;
-    width: 10px;
+.spanData {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    color: #ffffff;
 }
-.btnExcluirAnimacao{
-    cursor: pointer;
-    width: 10px;
+.spanId{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    font-size: 0.6rem;
+    color: #ffffffcc;
+    margin-right: 0.5rem;
 }

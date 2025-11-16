@@ -5,17 +5,20 @@ import App from './App.jsx'
 import AnimexObjsListProvider from './context_api/AnimexObjsListContext/AnimexObjsListProvider';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx';
 import DtudoRouter from './router/DtudoRouter.jsx';
-import { AuthProvider } from './context_api/AuthContext/AuthProvider.jsx'; 
+import { AuthProvider } from './context_api/AuthContext/AuthProvider.jsx';
+import { AnimesObjsListProvider } from './context_api/AnimesObjsListContext/AnimesObjsListContext.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+    <StrictMode>
         <AnimexObjsListProvider>
-            <AuthProvider>
-                <DtudoRouter >
-                    <App />
-                    <ScrollToTop />
-                </DtudoRouter>
-            </AuthProvider>
+            <AnimesObjsListProvider>
+                <AuthProvider>
+                    <DtudoRouter >
+                        <App />
+                        <ScrollToTop />
+                    </DtudoRouter>
+                </AuthProvider>
+            </AnimesObjsListProvider>
         </AnimexObjsListProvider>
-  </StrictMode>
+    </StrictMode>
 );

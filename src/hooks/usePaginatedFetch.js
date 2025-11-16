@@ -32,10 +32,10 @@ export function usePaginatedFetch(endpoint, limit = 10) {
                 _limit: limit,
                 q: debouncedSearchTerm || undefined, // 'q' é o parâmetro de busca full-text do json-server
             };
-            console.log('Fetching data with params:', params);
+            console.log('Parâmetro de busca: ', params);
 
             const response = await axiosHttpRequest.get(endpoint, { params });
-            console.log('Response headers:', response.headers);
+            console.log('Cabeçalho Response: ', response.headers);
 
             // json-server retorna o total de itens no header 'x-total-count'
             const totalCount = response.headers['x-total-count'];

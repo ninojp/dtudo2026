@@ -1,49 +1,25 @@
+import { Link } from 'react-router-dom';
 import styles from './CardMyAnimes.module.css';
-import { usePaginatedFetch } from '../../hooks/usePaginatedFetch';
-import CampoBusca from '../CampoBusca/CampoBusca'; // Componente de busca genérico
-import Pagination from '../Pagination/Pagination'; // Componente de paginação
 
-export default function CardMyAnimes() {
-    const {
-        data: animacoes,
-        isLoading,
-        error,
-        page,
-        setPage,
-        totalPages,
-        searchTerm,
-        setSearchTerm,
-    } = usePaginatedFetch('/animacoes', 24);
-
+const CardMyAnimes = ({ item, onImageClick }) => {
     return (
-        <>
-            <CampoBusca
-                searchTerm={searchTerm}
-                onSearchChange={setSearchTerm}
-                placeholder="Buscar por nome da animação..."
-            />
-            <p>Esta é uma seção para listar por ordem alfabetica todos as minhas animações.</p>
-
-            {isLoading && <p>Carregando animações...</p>}
-            {error && <p>Ocorreu um erro ao buscar as animações.</p>}
-
-            <div className={styles.containerListaCardAnimacaoDiv}>
-                {!isLoading && animacoes.map((animacao) => (
-                    <article key={String(animacao.id)} className={styles.animacaoCardArticle}>
-                        <h3>{animacao.nome}</h3>
-                        <figure className={styles.figureImagemAnimacao}>
-                            <img
-                                className={styles.imgAnimacao}
-                                src={animacao.imgSrc ? `/myanimes/${encodeURIComponent(String(animacao.imgSrc))}` : '/icone-editar.png'}
-                                alt={`Capa do anime ${animacao.nome}`}
-                            />
-                        </figure>
-                        <p>{animacao.id}</p>
-                    </article>
-                ))}
-            </div>
-
-            <Pagination page={page} totalPages={totalPages} onPageChange={setPage} />
-        </>
+        <article key={item.id} className={styles.animexCardArticle}>
+            <Link to={`/myanimes/myanimes-detalhes/${item.slug}`} target='_blank' className={styles.cardLink} title="Clique para ver os detalhes do anime">
+                <div className={styles.divContainerTitulo}>
+                    <h3 className={styles.h3Titulo}>{item.nome}</h3>
+                </div>
+                <figure className={styles.figureImagemAnimacao} onClick={(e) => { e.preventDefault(); onImageClick(item); }} title="Clique para abrir o modal com mais informações">
+                    <img className={styles.imgAnimacao}
+                        src={item.imgSrc ? `/myanimes/${encodeURIComponent(String(item.imgSrc))}` : '/lupa.png'}
+                        alt={item.nome}
+                    />
+                </figure>
+                <div className={styles.divContainerIdData}>
+                    {item.subpastas.map(subItem => <span className={styles.spanData} key={subItem.nome}>{subItem.ano}</span>)}
+                </div>
+            </Link>
+            <span className={styles.spanId}>ID: {item.id}</span>
+        </article>
     );
 };
+export default CardMyAnimes;
