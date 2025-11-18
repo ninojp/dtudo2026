@@ -1,3 +1,9 @@
+.mainCardsMyAnimesList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .containerListaCardAnimacaoDiv{
     display: flex;
     flex-wrap: wrap;

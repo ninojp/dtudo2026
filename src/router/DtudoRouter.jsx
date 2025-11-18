@@ -9,37 +9,48 @@ import Logout from "../pages/Logout/Logout";
 import ProtetorDeRota from "../components/ProtetorDeRota/ProtetorDeRota";
 import NotFound from "../pages/NotFound/NotFound";
 import App from "../App";
-import { AnimexLayout } from "../layouts/AnimexLayout/AnimexLayout";
 import { IndexLayout } from "../layouts/IndexLayout/IndexLayout";
+import MyAnimesDetalhes from "../pages/MyAnimesDetalhes/myanimes-detalhes";
+import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";
+import MyAnimesObjsListProvider from "../context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider";
 
 export default function DtudoRouter() {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<IndexLayout />} >
-                    {/* <Route path="" element={<App />} /> */}
-                    <Route path="" element={<MyAnimes />} />
-                    <Route path='/auth' element={<AnimexLayout />} >
+                    <Route index element={<MyAnimes />} />
+                    {/* Rotas para Endereços MyAnimes  */}
+                    <Route path="/myanimes">
+                        <Route index element={<MyAnimes />} />
+                        <Route path="myanimes-detalhes/:slug" element={
+                            <MyAnimesObjsListProvider>
+                                <MyAnimesDetalhesProvider>
+                                    <MyAnimesDetalhes />
+                                </MyAnimesDetalhesProvider>
+                            </MyAnimesObjsListProvider>} />
+                    </Route>
+                    {/* Rotas para Endereços Animex */}
+                    <Route path='/animex'>
+                        <Route index element={<ProtetorDeRota><Animex /></ProtetorDeRota>} />
+                        <Route path="animex-detalhes/:slug" element={
+                            <ProtetorDeRota>
+                                <AnimexDetalhesProvider>
+                                    <AnimexDetalhes />
+                                </AnimexDetalhesProvider>
+                            </ProtetorDeRota>}
+                        />
+                    </Route>
+                    {/* Rotas para Endereços de Autentificação */}
+                    <Route path='/auth'>
                         <Route path='register' element={<Register />} />
                         <Route path='login' element={<Login />} />
                         <Route path='logout' element={<Logout />} />
                     </Route>
-                    <Route path="/myanimes" element={<MyAnimes />} />
-                    <Route path='/animex' element={<AnimexLayout />} >
-                        <Route path="" element={<ProtetorDeRota>
-                            <Animex />
-                        </ProtetorDeRota>
-                        } />
-                        <Route path="animex-detalhes/:slug" element={<ProtetorDeRota>
-                            <AnimexDetalhesProvider>
-                                <AnimexDetalhes />
-                            </AnimexDetalhesProvider>
-                        </ProtetorDeRota>
-                        } />
-                    </Route>
+                    {/* Rotas para Endereços NÃO reconhecidos! */}
                     <Route path='*' element={<NotFound />} />
                 </Route>
             </Routes>
-        </BrowserRouter>
+        </BrowserRouter >
     );
 };

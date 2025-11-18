@@ -1,14 +1,14 @@
+import ParagrafoPage from '../ParagrafoPage/ParagrafoPage';
 import styles from './QtdExibirPorPage.module.css';
 
-export default function QtdExibirPorPage({ value, onChange, options = [6, 12, 24, 48, 96] }) {
+export default function QtdExibirPorPage({ value, onChange, options = [6, 12, 24, 48, 96], textoParagrafo }) {
     return (
-        <div className={styles.divContainerControles}>
+        <div className={styles.divContainerParagQtd}>
             <label className={styles.labelQtdPorPg}>
                 <span className={styles.spanQtdPorPg}>Exibir</span>
                 <select className={styles.selectQtdPorPg}
                     value={value}
                     onChange={(e) => onChange(Number(e.target.value))}
-                    style={{ padding: '4px 8px' }}
                 >
                     {options.map(size => (
                         <option key={size} value={size}>{size}</option>
@@ -16,7 +16,7 @@ export default function QtdExibirPorPage({ value, onChange, options = [6, 12, 24
                 </select>
                 <span className={styles.spanQtdPorPg}>por página.</span>
             </label>
+            <ParagrafoPage>{textoParagrafo}</ParagrafoPage>
         </div >
-
     );
 }

@@ -7,6 +7,7 @@ import PaginationButtons from '../PaginationButtons/PaginationButtons';
 import QtdExibirPorPage from '../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../ModalDialog/ModalDialog';
 import CardAnimex from '../CardAnimex/CardAnimex';
+import ParagrafoPage from '../ParagrafoPage/ParagrafoPage';
 
 export default function CardsAnimexList() {
     const { listObjsAnimex } = use(AnimexObjsListContext);
@@ -41,46 +42,44 @@ export default function CardsAnimexList() {
     };
     //=============================================
     return (
-        <main>
-            <section className={styles.containerFlex}>
-                <CampoBuscar onSearch={handleSearch} />
-                <p>Esta é uma seção para listar em ordem alfabética minha coleção de Hentai!S.</p>
-                <QtdExibirPorPage
-                    value={limit}
-                    onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
-                    options={[6, 12, 24, 48, 96]}
-                />
-                <div className={styles.divContainerCardsListAnimex}>
-                    {paginatedItems.map((item) => (
-                        <CardAnimex
-                            key={String(item.id)}
-                            item={item}
-                            onImageClick={handleImageClick}
-                        />
+        <main className={styles.mainCardsAnimexList}>
+            <CampoBuscar onSearch={handleSearch} />
+            <QtdExibirPorPage
+                value={limit}
+                onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
+                options={[12, 24, 48, 96]}
+                textoParagrafo='Esta é uma seção para listar em ordem alfabética minha coleção de Hentai!S.'
+            />
+            <div className={styles.divContainerCardsListAnimex}>
+                {paginatedItems.map((item) => (
+                    <CardAnimex
+                        key={String(item.id)}
+                        item={item}
+                        onImageClick={handleImageClick}
+                    />
+                ))}
+            </div>
+            <PaginationButtons
+                currentPage={page}
+                totalPages={totalPages}
+                onPageChange={setPage}
+            />
+            {selectedItem && (
+                <ModalDialog
+                    isOpen={!!selectedItem}
+                    onClose={() => setSelectedItem(null)}
+                    title={selectedItem.nome}
+                >
+                    {selectedItem.subpastas && selectedItem.subpastas.map(item => (
+                        <Link key={item.id} to={`/animex/animex-detalhes/${selectedItem.slug}`} target='_blank'>
+                            <p className={styles.pListMiniAnimes}>
+                                <img className={styles.imgListMiniAnimes} src={`/animex/animes/${item.id}.jpg`} alt={item.nomeSemAno} />
+                                {item.nome}
+                            </p>
+                        </Link>
                     ))}
-                </div>
-                <PaginationButtons
-                    currentPage={page}
-                    totalPages={totalPages}
-                    onPageChange={setPage}
-                />
-                {selectedItem && (
-                    <ModalDialog
-                        isOpen={!!selectedItem}
-                        onClose={() => setSelectedItem(null)}
-                        title={selectedItem.nome}
-                    >
-                        {selectedItem.subpastas && selectedItem.subpastas.map(item => (
-                            <Link key={item.id} to={`/animex/animex-detalhes/${selectedItem.slug}`} target='_blank'>
-                                <p className={styles.pListMiniAnimes}>
-                                    <img className={styles.imgListMiniAnimes} src={`/animex/animes/${item.id}.jpg`} alt={item.nomeSemAno} />
-                                    {item.nome}
-                                </p>
-                            </Link>
-                        ))}
-                    </ModalDialog>
-                )}
-            </section>
+                </ModalDialog>
+            )}
         </main>
     );
 };

@@ -55,8 +55,8 @@ async function readDirSafe(dir) {
 }
 /** Retorna array de objetos { nome, tipo: 'arquivo'|'pasta' } */
 async function listContents(dir) {
-    const entries = await readDirSafe(dir);
-    return entries.map((entry) => ({ nome: entry.name, tipo: entry.isDirectory() ? 'pasta' : 'arquivo' }));
+  const entries = await readDirSafe(dir);
+  return entries.map((entry) => ({ nome: entry.name, tipo: entry.isDirectory() ? 'pasta' : 'arquivo' }));
 }
 /** Gera a estrutura desejada a partir das pastas listadas */
 async function gerarEstruturaPersonalizada(pastas) {
@@ -160,4 +160,3 @@ if (typeof globalThis.process !== 'undefined' && typeof globalThis.process.on ==
         globalThis.process.exit(0);
     });
 }
-

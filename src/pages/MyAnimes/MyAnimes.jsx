@@ -1,19 +1,19 @@
 import CardsMyAnimesList from '../../components/CardsMyAnimesList/CardsMyAnimesList';
-import styles from './MyAnimes.module.css';
+import H1TituloPage from '../../components/H1TituloPage/H1TituloPage';
+import H2SubTitulo from '../../components/H2SubTitulo/H2SubTitulo';
+import HeaderPage from '../../components/HeaderPage/HeaderPage';
+import ParagrafoPage from '../../components/ParagrafoPage/ParagrafoPage';
 
 export default function MyAnimes() {
   return (
-      <main className={styles.mainPageContainer}>
-        <section className={styles.sectionContainer}>
-          <div className={styles.containerFlex}>
-            <h1>MyAnimes</h1>
-            <h2>Lista de todas Animações que eu já assisti</h2>
-            <p>Minha idéia principal com este projeto é usa-lo para praticar todo meu conhecimento adquirido nos cursos, formações e agora a Carreira React. Para reformular meu projeto pessoal, minha coleção de animes.</p>
-          </div>
-        </section>
-        <section className={styles.sectionContainer}>
-          <CardsMyAnimesList />
-        </section>
-      </main>
+    <>
+      <HeaderPage>
+        <H1TituloPage>MyAnimes</H1TituloPage>
+        <H2SubTitulo>Lista de todas Animações que eu já assisti</H2SubTitulo>
+        <ParagrafoPage>Minha idéia principal com este projeto é usa-lo para praticar todo meu conhecimento adquirido nos cursos, formações e agora a Carreira React. Para reformular meu projeto pessoal, minha coleção de animes.</ParagrafoPage>
+      </HeaderPage>
+      <CardsMyAnimesList />
+    </>
   );
+
 };

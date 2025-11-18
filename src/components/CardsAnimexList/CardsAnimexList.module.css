@@ -1,8 +1,7 @@
-.containerFlex {
+.mainCardsAnimexList{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
 }
 .divContainerCardsListAnimex {
     display: flex;

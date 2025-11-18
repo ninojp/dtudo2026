@@ -1,43 +1,43 @@
 import { useEffect, useContext } from "react";
-import styles from "./animexDetalhes.module.css";
-import AnimexDetalhesContext from "../../context_api/AnimexDetalhesContext/AnimexDetalhesContext";
 import CardAnimeDetalhes from "../../components/CardAnimeDetalhes/CardAnimeDetalhes";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "../../components/Spinner";
-import CardAnimexMini from "../../components/CardAnimexMini/CardAnimexMini";
+import styles from './MyAnimesDetalhes.module.css';
+import MyAnimesDetalhesContext from "../../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesContext";
+import CardMyAnimesMini from "../../components/CardMyAnimesMini/CardMyAnimesMini";
 
-function AnimexDetalhesContent() {
-    const { isLoading, animexDetalhes, currentDisplayId } = useContext(AnimexDetalhesContext);
+export default function MyAnimesDetalhes() {
+const { isLoading, myAnimesDetalhes, currentDisplayId } = useContext(MyAnimesDetalhesContext);
     const navegaPara = useNavigate();
     //-------------------------------
     useEffect(() => {
         // Só navega se o carregamento terminou (isLoading é false) E o anime não foi encontrado (animexDetalhes é undefined ou null)
-        if (!isLoading && !animexDetalhes) {
+        if (!isLoading && !myAnimesDetalhes) {
             navegaPara('/not-found');
         }
-    }, [isLoading, animexDetalhes, navegaPara]);
+    }, [isLoading, myAnimesDetalhes, navegaPara]);
     // Se estiver carregando, exibe o Spinner
     if (isLoading) {
         return <Spinner />;
     }
     // Se o carregamento terminou e o item não existe, retorna null para não tentar renderizar o resto do componente enquanto a navegação do useEffect acontece.
-    if (!animexDetalhes) {
+    if (!myAnimesDetalhes) {
         return null;
     }
     //===============================================
     return (
         <main className={styles.mainContainerAnimex}>
-            <h2>{animexDetalhes.nome}</h2>
+            <h2>{myAnimesDetalhes.nome}</h2>
             <section className={styles.sectionAnimeDetalhes}>
-                {animexDetalhes.subpastas.length >= 2 && <CardAnimexMini />}
+                {myAnimesDetalhes.subpastas.length >= 2 && <CardMyAnimesMini />}
                 <div className={styles.divContainerDetalhesCarrossel}>
                     {currentDisplayId ? (<CardAnimeDetalhes id_mal={currentDisplayId} />)
                         : (<p>Selecione um anime da coleção para ver os detalhes.</p>)}
                 </div>
             </section>
-            <section className={styles.sectionAnimexLocais}>
             <h3 className={styles.h3TituloDescricao}>Coleção Local</h3>
-                {animexDetalhes.subpastas.map((subpasta) => (
+            <section className={styles.sectionAnimexLocais}>
+                {myAnimesDetalhes.subpastas.map((subpasta) => (
                     <div className={styles.divContainerSubsAnimex} key={subpasta.nome}>
                         <h3>{subpasta.nome} - ID: {subpasta.id}</h3>
                         <ul>
@@ -50,8 +50,4 @@ function AnimexDetalhesContent() {
             </section>
         </main>
     );
-};
-//========================================
-export default function AnimexDetalhes() {
-    return <AnimexDetalhesContent />;
 };

@@ -1,20 +1,20 @@
 import { use } from 'react';
-import styles from './CardAnimeMini.module.css';
-import AnimexDetalhesContext from '../../context_api/AnimexDetalhesContext/AnimexDetalhesContext';
+import styles from './CardMyAnimesMini.module.css';
+import MyAnimesDetalhesContext from '../../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesContext';
 
-export default function CardMiniAnime() {
-    const { animexDetalhes, currentDisplayId, setCurrentDisplayId } = use(AnimexDetalhesContext);
-
+export default function CardMyAnimesMini() {
+    const { myAnimesDetalhes, currentDisplayId, setCurrentDisplayId } = use(MyAnimesDetalhesContext);
+    console.log(myAnimesDetalhes)
     return (
         <div className={styles.divContainerBtnsCarrossel}>
-            {animexDetalhes.subpastas.map((subpasta) => (
+            {myAnimesDetalhes.subpastas.map((subpasta) => (
                 <button
                     key={subpasta.id}
                     className={`${styles.btnCarrosselItem} ${currentDisplayId === subpasta.id ? styles.active : ''}`}
                     onClick={() => setCurrentDisplayId(subpasta.id)}
                 >
                     <span className={styles.spanTextCarrossel}>{subpasta.ano}</span>
-                    <img className={styles.imgMiniAnimeBtnCarrossel} src={`/animex/animes/${subpasta.id}.jpg`} />
+                    <img className={styles.imgMiniAnimeBtnCarrossel} src={`/myanimes/animes/${subpasta.id}.jpg`} />
                     <span className={styles.spanTextCarrossel}>{subpasta.nomeSemAno}</span>
                 </button>
             ))}

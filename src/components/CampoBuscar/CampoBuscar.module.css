@@ -8,11 +8,11 @@
     border: none;
 }
 .inputCampoBuscar{
-    padding: 14px 20px 14px 62px;
+    padding: 10px 20px 10px 62px;
     border-radius: 32px;
     font-size: 14pt;
-    min-width: 500px;
-    line-height: 30px;
+    min-width: 450px;
+    line-height: 20px;
     outline: transparent;
     border: 1px solid transparent;
 }
@@ -26,16 +26,16 @@
 .fieldsetCampoBuscar::after{
     content: '';
     position: absolute;
-    top: 70%;
+    top: 75%;
     transform: translateY(-50%);
     left: 20px;
     background-image: url('/lupa.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 25px;
-    height: 25px;
-    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
 }
 .labelInput{
     font-size: 1rem;

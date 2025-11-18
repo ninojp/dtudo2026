@@ -17,8 +17,8 @@ const arquivoSaida = path.resolve(__dirname, '../api_backend/db/myanimes.json');
 const pastaDestinoImagens = path.resolve(__dirname, '../public/myanimes/animes');
 
 /**
- * Varre recursivamente os diretórios de origem, encontra imagens com nomes numéricos
- * (ex: 123.jpg) e as copia para a pasta de destino.
+ * Varre recursivamente até 2 níveis de subpasta dos diretórios de origem, 
+ * encontra imagens com nomes numéricos (ex: 123.jpg) e as copia para a pasta de destino.
  */
 async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
     console.log(`Iniciando cópia de imagens para: ${pastaDestino}`);

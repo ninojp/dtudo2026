@@ -5,11 +5,11 @@ import CampoBuscar from '../CampoBuscar/CampoBuscar';
 import PaginationButtons from '../PaginationButtons/PaginationButtons';
 import QtdExibirPorPage from '../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../ModalDialog/ModalDialog';
-import AnimesObjsListContext from '../../context_api/AnimesObjsListContext/AnimesObjsListContext';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
+import MyAnimesObjsListContext from '../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
 
 export default function CardsMyAnimesList() {
-    const { listObjsAnimes } = useContext(AnimesObjsListContext);
+    const { listObjsMyAnimes } = useContext(MyAnimesObjsListContext);
     const navigate = useNavigate();
     const [page, setPage] = useState(1);
     const [limit, setLimit] = useState(24);
@@ -17,11 +17,11 @@ export default function CardsMyAnimesList() {
     const [selectedItem, setSelectedItem] = useState(null);
 
     const filteredItems = useMemo(() => {
-        if (!searchTerm) return listObjsAnimes;
-        return listObjsAnimes.filter(item =>
+        if (!searchTerm) return listObjsMyAnimes;
+        return listObjsMyAnimes.filter(item =>
             String(item.nome).toLowerCase().includes(searchTerm.toLowerCase())
         );
-    }, [listObjsAnimes, searchTerm]);
+    }, [listObjsMyAnimes, searchTerm]);
 
     const totalPages = Math.max(1, Math.ceil(filteredItems.length / limit));
 
@@ -44,16 +44,15 @@ export default function CardsMyAnimesList() {
             setSelectedItem(item);
         }
     };
-
+    //=======================================================
     return (
-        <>
-            <CampoBuscar onSearch={handleSearch} placeholder="Buscar por nome da animação..." />
-            <p>Esta é uma seção para listar por ordem alfabetica todos as minhas animações.</p>
-
+        <main className={styles.mainCardsMyAnimesList}>
+            <CampoBuscar onSearch={handleSearch} />
             <QtdExibirPorPage
                 value={limit}
                 onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
                 options={[12, 24, 48, 96]}
+                textoParagrafo='Esta é uma seção para listar por ordem alfabetica todos as minhas animações.'
             />
             <div className={styles.containerListaCardAnimacaoDiv}>
                 {paginatedItems.map((item) => (
@@ -64,15 +63,12 @@ export default function CardsMyAnimesList() {
                     />
                 ))}
             </div>
-
             <PaginationButtons
                 currentPage={page}
                 totalPages={totalPages}
                 onPageChange={setPage}
             />
-
-            {selectedItem && (
-                <ModalDialog
+            {selectedItem && ( <ModalDialog
                     isOpen={!!selectedItem}
                     onClose={() => setSelectedItem(null)}
                     title={selectedItem.nome}
@@ -87,6 +83,6 @@ export default function CardsMyAnimesList() {
                     ))}
                 </ModalDialog>
             )}
-        </>
+        </main>
     );
 };

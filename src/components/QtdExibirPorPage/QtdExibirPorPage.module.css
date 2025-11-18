@@ -1,11 +1,12 @@
-.divContainerControles {
+.divContainerParagQtd{
     width: 100%;
     display: flex;
-    padding-left: 8rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem 0px 4rem;
 }
-
 .labelQtdPorPg {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .selectQtdPorPg {
@@ -13,12 +14,12 @@
     color: #ffffff;
     border: 0.1px solid #0d4386;
     border-radius: 4px;
-    padding: 4px;
+    padding: '4px 8px';
     font-size: 0.9rem;
     cursor: pointer;
 }
 
 .spanQtdPorPg {
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 0 0.3rem;
 }

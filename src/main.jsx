@@ -6,19 +6,20 @@ import AnimexObjsListProvider from './context_api/AnimexObjsListContext/AnimexOb
 import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx';
 import DtudoRouter from './router/DtudoRouter.jsx';
 import { AuthProvider } from './context_api/AuthContext/AuthProvider.jsx';
-import { AnimesObjsListProvider } from './context_api/AnimesObjsListContext/AnimesObjsListContext.jsx';
+import MyAnimesObjsListProvider from './context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider.jsx';
+
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
         <AnimexObjsListProvider>
-            <AnimesObjsListProvider>
+            <MyAnimesObjsListProvider>
                 <AuthProvider>
                     <DtudoRouter >
                         <App />
                         <ScrollToTop />
                     </DtudoRouter>
                 </AuthProvider>
-            </AnimesObjsListProvider>
+            </MyAnimesObjsListProvider>
         </AnimexObjsListProvider>
     </StrictMode>
 );
