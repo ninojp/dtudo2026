@@ -12,6 +12,7 @@ import { IndexLayout } from "../layouts/IndexLayout/IndexLayout";
 import MyAnimesDetalhes from "../pages/MyAnimesDetalhes/myanimes-detalhes";
 import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";
 import MyAnimesObjsListProvider from "../context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider";
+import NinoTI from "../pages/NinoTI/nino-ti";
 
 export default function DtudoRouter() {
     return (
@@ -39,6 +40,10 @@ export default function DtudoRouter() {
                                 </AnimexDetalhesProvider>
                             </ProtetorDeRota>}
                         />
+                    </Route>
+                    {/* Rotas para Endereços NinoT.I */}
+                    <Route path="/ninoti">
+                        <Route index element={<NinoTI />} />
                     </Route>
                     {/* Rotas para Endereços de Autentificação */}
                     <Route path='/auth'>

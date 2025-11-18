@@ -4,12 +4,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 4rem;
-    background: linear-gradient(90deg, #000000 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
+    background: var(--linearGradiente);
     border-top: 0.01px dotted #646cff;
-    margin-top: 2rem;
 }
 
-/* depois de criar o container flex, os logos ficaram transparentes ou seja esta ali mas nã aparecem */
 .divLogosTecContainer {
     display: flex;
     flex-wrap: wrap;
@@ -18,33 +16,69 @@
     justify-content: center;
 }
 
-.logo {
-    height: 2.5rem; /* Aumentado para acomodar o padding */
+.logoHTM {
+    height: 2.5rem;
+}
+
+.logoHTM:hover {
+    filter: drop-shadow(0 0 1.5rem #ffc663aa);
+}
+.logoCSS {
+    height: 2.5rem;
+}
+
+.logoCSS:hover {
+    filter: drop-shadow(0 0 1.5rem #6464ffaa);
+}
+.logoJS {
+    height: 2.5rem;
+}
+
+.logoJS:hover {
+    filter: drop-shadow(0 0 1.5rem #fbf46ace);
+}
+.logoNode {
+    height: 2rem;
+}
+
+.logoNode:hover {
+    filter: drop-shadow(0 0 1.5rem #ffffffce);
+}
+
+.logoVite {
+    height: 1.8rem;
+}
+
+.logoVite:hover {
+    filter: drop-shadow(0 0 1.5rem #83ff64aa);
+}
+.logoGitHub {
+    height: 1.8rem;
+}
+
+.logoGitHub:hover {
+    filter: drop-shadow(0 0 1.5rem #ff6464aa);
+}
+
+.logoReact {
+    height: 2.7rem;
     padding: 0.5rem;
     will-change: filter;
     transition: filter 300ms;
 }
-
-.logo:hover {
-    filter: drop-shadow(0 0 1.5rem #646cffaa);
-}
-
-.logo.react:hover {
+.logoReact:hover {
     filter: drop-shadow(0 0 1.5rem #61dafbaa);
 }
-
 @keyframes logo-spin {
     from {
         transform: rotate(0deg);
     }
-
     to {
         transform: rotate(360deg);
     }
 }
-
 @media (prefers-reduced-motion: no-preference) {
-    a:nth-of-type(2) .logo {
+    a:nth-of-type(2) .logoReact {
         animation: logo-spin infinite 20s linear;
     }
 }
