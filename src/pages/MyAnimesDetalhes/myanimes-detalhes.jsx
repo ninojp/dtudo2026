@@ -1,10 +1,10 @@
 import { useEffect, useContext } from "react";
-import CardAnimeDetalhes from "../../components/CardAnimeDetalhes/CardAnimeDetalhes";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "../../components/Spinner";
 import styles from './MyAnimesDetalhes.module.css';
 import MyAnimesDetalhesContext from "../../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesContext";
 import CardMyAnimesMini from "../../components/CardMyAnimesMini/CardMyAnimesMini";
+import CardAnimeDetalhesApiJikan from "../../components/CardAnimeDetalhesApiJikan/CardAnimeDetalhesApiJikan";
 
 export default function MyAnimesDetalhes() {
 const { isLoading, myAnimesDetalhes, currentDisplayId } = useContext(MyAnimesDetalhesContext);
@@ -31,7 +31,7 @@ const { isLoading, myAnimesDetalhes, currentDisplayId } = useContext(MyAnimesDet
             <section className={styles.sectionAnimeDetalhes}>
                 {myAnimesDetalhes.subpastas.length >= 2 && <CardMyAnimesMini />}
                 <div className={styles.divContainerDetalhesCarrossel}>
-                    {currentDisplayId ? (<CardAnimeDetalhes id_mal={currentDisplayId} />)
+                    {currentDisplayId ? (<CardAnimeDetalhesApiJikan id_mal={currentDisplayId} />)
                         : (<p>Selecione um anime da coleção para ver os detalhes.</p>)}
                 </div>
             </section>

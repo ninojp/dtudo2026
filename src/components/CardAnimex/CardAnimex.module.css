@@ -1,14 +1,13 @@
-.animexCardArticle {
-    width: 200px;
-    height: 400px;
+.animesCardArticle {
     position: relative;
+    width: 200px;
+    height: 330px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     border: 0.8px solid #0d4386;
     border-radius: 8px;
     cursor: pointer;
+    gap: 0.3rem;
 }
 
 .divContainerTitulo {
@@ -17,59 +16,47 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* padding: 0.5rem; */
-    margin-bottom: 0.5rem;
+    padding: 0.5rem 0 0.1rem 0;
 }
 
 .h3Titulo {
-    width: 20ch;/* Limita a largura para aproximadamente 40 caracteres */
+    width: 23ch;/* Limita a largura para aproximadamente 40 caracteres */
     overflow: hidden;/* Oculta o texto que ultrapassa a largura */
     text-overflow: ellipsis;/* Adiciona reticências (...) ao final do texto cortado */
     white-space: nowrap;/* Impede a quebra de linha */
-    font-size: 1.1rem;
-    font-weight: 600;
-    /* line-height: 1.2; */
+    font-size: 0.9rem;
+    font-weight: 500;
     font-family: monospace;
     text-align: center;
-    color: #ffffffdd;
+    color: var(--hTituloColor);
 }
 
 .figureImagemAnimacao {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 300px;
 }
 
 .imgAnimacao {
-    width: 196px;
-    height: 300px;
+    width: 180px;
+    height: 270px;
 }
 
-.animacaoCardArticle p {
+.divContainerData {
+    width: 23ch;
+    overflow: hidden;/* Oculta o texto que ultrapassa a largura */
+    text-overflow: ellipsis;/* Adiciona reticências (...) ao final do texto cortado */
+    white-space: nowrap;/* Impede a quebra de linha */
     text-align: center;
-    font-size: 0.7rem;
+}
+.pTextoData {
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: monospace;
+    color: var(--hTituloColor);
+    padding: 0 0.3rem;
 }
 
-.divContainerIdData {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    text-align: center;
-    width: 100%;
-    padding: 0.5rem 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 22ch;
-}
-.spanData {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-right: 0.5rem;
-    color: #ffffff;
-}
 .spanId{
     position: absolute;
     bottom: 1px;

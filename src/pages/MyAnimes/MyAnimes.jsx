@@ -10,8 +10,7 @@ export default function MyAnimes() {
       <HeaderPage>
         <H1TituloPage>MyAnimes</H1TituloPage>
         <H2SubTitulo>Lista de todas Animações que eu já assisti</H2SubTitulo>
-        <ParagrafoPage>Minha idéia principal com este projeto é usa-lo para praticar todo meu conhecimento adquirido nos cursos, formações e agora a Carreira React. Para reformular meu projeto pessoal, minha coleção de animes.</ParagrafoPage>
-      </HeaderPage>
+        </HeaderPage>
       <CardsMyAnimesList />
     </>
   );

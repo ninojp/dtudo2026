@@ -8,7 +8,6 @@ import AnimexDetalhesProvider from "../context_api/AnimexDetalhesContext/AnimexD
 import Logout from "../pages/Logout/Logout";
 import ProtetorDeRota from "../components/ProtetorDeRota/ProtetorDeRota";
 import NotFound from "../pages/NotFound/NotFound";
-import App from "../App";
 import { IndexLayout } from "../layouts/IndexLayout/IndexLayout";
 import MyAnimesDetalhes from "../pages/MyAnimesDetalhes/myanimes-detalhes";
 import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";

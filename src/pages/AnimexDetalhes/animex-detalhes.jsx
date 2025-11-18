@@ -1,10 +1,10 @@
 import { useEffect, useContext } from "react";
 import styles from "./animexDetalhes.module.css";
 import AnimexDetalhesContext from "../../context_api/AnimexDetalhesContext/AnimexDetalhesContext";
-import CardAnimeDetalhes from "../../components/CardAnimeDetalhes/CardAnimeDetalhes";
 import { useNavigate } from "react-router-dom";
 import { Spinner } from "../../components/Spinner";
 import CardAnimexMini from "../../components/CardAnimexMini/CardAnimexMini";
+import CardAnimeDetalhesApiJikan from "../../components/CardAnimeDetalhesApiJikan/CardAnimeDetalhesApiJikan";
 
 function AnimexDetalhesContent() {
     const { isLoading, animexDetalhes, currentDisplayId } = useContext(AnimexDetalhesContext);
@@ -31,7 +31,7 @@ function AnimexDetalhesContent() {
             <section className={styles.sectionAnimeDetalhes}>
                 {animexDetalhes.subpastas.length >= 2 && <CardAnimexMini />}
                 <div className={styles.divContainerDetalhesCarrossel}>
-                    {currentDisplayId ? (<CardAnimeDetalhes id_mal={currentDisplayId} />)
+                    {currentDisplayId ? (<CardAnimeDetalhesApiJikan id_mal={currentDisplayId} />)
                         : (<p>Selecione um anime da coleção para ver os detalhes.</p>)}
                 </div>
             </section>

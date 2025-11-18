@@ -54,7 +54,7 @@ export default function CardsMyAnimesList() {
                 options={[12, 24, 48, 96]}
                 textoParagrafo='Esta é uma seção para listar por ordem alfabetica todos as minhas animações.'
             />
-            <div className={styles.containerListaCardAnimacaoDiv}>
+            <div className={styles.divContainerListaCardsMyaAnimes}>
                 {paginatedItems.map((item) => (
                     <CardMyAnimes
                         key={item.id}

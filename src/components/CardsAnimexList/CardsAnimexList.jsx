@@ -13,7 +13,7 @@ export default function CardsAnimexList() {
     const { listObjsAnimex } = use(AnimexObjsListContext);
     //----------------------------------
     const [page, setPage] = useState(1);
-    const [limit, setLimit] = useState(96);
+    const [limit, setLimit] = useState(24);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedItem, setSelectedItem] = useState(null); // Estado do modal centralizado
 

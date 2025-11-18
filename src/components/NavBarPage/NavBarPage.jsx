@@ -17,9 +17,6 @@ export default function NavBarPage() {
                         <img src="/Logo_Dtudo_300p.png" alt="Imagem Logo Dtudo" />
                     </div>
                 </Link>
-                <div className={styles.divTitulo}>
-                    <p className={styles.pTituloPage}> DTUDO </p>
-                </div>
                 <ul className={styles.ulMenuLinksContanier}>
                     <Link to='myanimes'>
                         <li className={styles.liMenuLink}> MyAnimes </li>
