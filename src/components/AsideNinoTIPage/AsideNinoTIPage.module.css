@@ -1,0 +1,63 @@
+/* Menu Lateral de Navegação */
+.asideMenuAreasTI {
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 83vh;
+    background: var(--linearGradiente2);
+    opacity: 0.7;
+    padding: 1rem;
+    z-index: 100;
+}
+
+.ulMenuAreasTI {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+}
+
+.ulMenuAreasTI li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-shadow: #ffffff4b 0px 0px 1px;
+    cursor: pointer;
+}
+
+.menuDataScience {
+    color: var(--corDataSciencia);
+}
+.menuProgramacao {
+    color: var(--corProgramacao);
+}
+.menuFrontEnd {
+    color: var(--corFrontEnd);
+}
+.menuCyberSecurity {
+    color: var(--corCyberSecurity);
+}
+.menuDesignEUX {
+    color: var(--corDesignEUX);
+}
+.menuInteligenciaArtificial {
+    color: var(--corInteligenciaArtificial);
+}
+.menuBlockchainECriptoAtivos {
+    color: var(--corBlockchainECriptoAtivos);
+}
+.menuHardware {
+    color: var(--corHardware);
+}
+.menuRedes {
+    color: var(--corRedes);
+}
+.menuOS {
+    color: var(--corOS);
+}

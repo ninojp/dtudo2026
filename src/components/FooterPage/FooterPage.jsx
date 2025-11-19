@@ -48,7 +48,7 @@ export default function FooterPage({ children }) {
                 <a href="https://vite.dev" target="_blank" rel="noopener noreferrer nofollow">
                     <img src={viteLogo} className={styles.logoVite} alt="Vite logo" />
                 </a>
-                <a href="https://react.dev" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://github.com/ninojp/dtudo2026" target="_blank" rel="noopener noreferrer nofollow">
                     <img src={GitHubLogo} className={styles.logoGitHub} alt="GitHub logo" />
                 </a>
             </div>

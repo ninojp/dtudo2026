@@ -1,0 +1,11 @@
+.mainContainerPgMusicx{
+    width: 100%;
+    min-height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.imgPgMusicx{
+    max-height: 400px;
+}

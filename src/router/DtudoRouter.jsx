@@ -1,18 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import AnimexDetalhesProvider from "../context_api/AnimexDetalhesContext/AnimexDetalhesProvider";
+import ProtetorDeRota from "../components/ProtetorDeRota/ProtetorDeRota";
+import { IndexLayout } from "../layouts/IndexLayout/IndexLayout";
+import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";
+import MyAnimesObjsListProvider from "../context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider";
 import Animex from "../pages/Animex/Animex";
 import MyAnimes from "../pages/MyAnimes/MyAnimes";
 import AnimexDetalhes from "../pages/AnimexDetalhes/animex-detalhes";
 import { Register } from "../pages/Register/Register";
 import { Login } from "../pages/Login/Login";
-import AnimexDetalhesProvider from "../context_api/AnimexDetalhesContext/AnimexDetalhesProvider";
 import Logout from "../pages/Logout/Logout";
-import ProtetorDeRota from "../components/ProtetorDeRota/ProtetorDeRota";
-import NotFound from "../pages/NotFound/NotFound";
-import { IndexLayout } from "../layouts/IndexLayout/IndexLayout";
 import MyAnimesDetalhes from "../pages/MyAnimesDetalhes/myanimes-detalhes";
-import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";
-import MyAnimesObjsListProvider from "../context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider";
+import NotFound from "../pages/NotFound/NotFound";
 import NinoTI from "../pages/NinoTI/nino-ti";
+import MyMusicX from "../pages/MyMusicX/MyMusicX";
 
 export default function DtudoRouter() {
     return (
@@ -44,6 +45,10 @@ export default function DtudoRouter() {
                     {/* Rotas para Endereços NinoT.I */}
                     <Route path="/ninoti">
                         <Route index element={<NinoTI />} />
+                    </Route>
+                    {/* Rotas para Endereços MyMusicX */}
+                    <Route path="/mymusicx">
+                        <Route index element={<MyMusicX />} />
                     </Route>
                     {/* Rotas para Endereços de Autentificação */}
                     <Route path='/auth'>
