@@ -22,7 +22,7 @@
 .ulMenuAreasTI li {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     padding: 0.8rem;
     font-size: 1.3rem;
@@ -31,14 +31,11 @@
     cursor: pointer;
 }
 
-.menuDataScience {
-    color: var(--corDataSciencia);
-}
-.menuProgramacao {
-    color: var(--corProgramacao);
-}
 .menuFrontEnd {
     color: var(--corFrontEnd);
+}
+.menuBackEnd {
+    color: var(--corProgramacao);
 }
 .menuCyberSecurity {
     color: var(--corCyberSecurity);
@@ -46,8 +43,8 @@
 .menuDesignEUX {
     color: var(--corDesignEUX);
 }
-.menuInteligenciaArtificial {
-    color: var(--corInteligenciaArtificial);
+.menuDataScience {
+    color: var(--corDataSciencia);
 }
 .menuBlockchainECriptoAtivos {
     color: var(--corBlockchainECriptoAtivos);
@@ -60,4 +57,7 @@
 }
 .menuOS {
     color: var(--corOS);
+}
+.menuInteligenciaArtificial {
+    color: var(--corInteligenciaArtificial);
 }

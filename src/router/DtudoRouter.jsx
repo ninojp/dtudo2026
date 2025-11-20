@@ -46,16 +46,19 @@ export default function DtudoRouter() {
                     <Route path="/ninoti">
                         <Route index element={<NinoTI />} />
                     </Route>
+
                     {/* Rotas para Endereços MyMusicX */}
                     <Route path="/mymusicx">
                         <Route index element={<MyMusicX />} />
                     </Route>
+
                     {/* Rotas para Endereços de Autentificação */}
                     <Route path='/auth'>
                         <Route path='register' element={<Register />} />
                         <Route path='login' element={<Login />} />
                         <Route path='logout' element={<Logout />} />
                     </Route>
+
                     {/* Rotas para Endereços NÃO reconhecidos! */}
                     <Route path='*' element={<NotFound />} />
                 </Route>
