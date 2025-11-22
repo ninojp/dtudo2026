@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router"
 import { use } from 'react';
 import AuthContext from '../../context_api/AuthContext/AuthContext';
 
-export const Register = () => {
+export default function Register () {
     const { register } = use(AuthContext);
     const navigate = useNavigate();
 

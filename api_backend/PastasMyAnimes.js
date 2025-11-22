@@ -173,7 +173,6 @@ async function atualizarAnimacoes() {
         console.error('Erro ao atualizar animacoes.json:', err);
     }
 }
-
 // --- Execução Principal ---
 console.log('Iniciando a geração do arquivo de animes...');
 atualizarAnimacoes();

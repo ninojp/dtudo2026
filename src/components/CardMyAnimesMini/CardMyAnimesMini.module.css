@@ -3,18 +3,19 @@
     flex-wrap: wrap;
     gap: 0.5rem;
     padding: 1rem;
-    max-width: 800px;
-    justify-content: flex-start;
+    max-width: 600px;
+    /* justify-content: flex-start; */
     color: #0d4386;
 }
 
 .btnCarrosselItem {
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: transparent;
     border: 0.8px dotted #0d4386;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
     border-radius: 6px;
     cursor: pointer;
     white-space: nowrap; /* Impede que o texto do botão quebre linha */
@@ -29,14 +30,14 @@
     color: white;
 }
 .spanTextCarrossel{
-    width: 20ch;/* Limita a largura para aproximadamente 40 caracteres */
+    width: 18ch;/* Limita a largura para aproximadamente 40 caracteres */
     overflow: hidden;/* Oculta o texto que ultrapassa a largura */
     text-overflow: ellipsis;/* Adiciona reticências (...) ao final do texto cortado */
     white-space: nowrap;/* Impede a quebra de linha */
     color: #646cff;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .imgMiniAnimeBtnCarrossel{
-    width: 100px;
-    height: 150px;
+    width: 80px;
+    height: 120px;
 }

@@ -4,7 +4,6 @@ import MyAnimesDetalhesContext from '../../context_api/MyAnimesDetalhesContext/M
 
 export default function CardMyAnimesMini() {
     const { myAnimesDetalhes, currentDisplayId, setCurrentDisplayId } = use(MyAnimesDetalhesContext);
-    console.log(myAnimesDetalhes)
     return (
         <div className={styles.divContainerBtnsCarrossel}>
             {myAnimesDetalhes.subpastas.map((subpasta) => (

@@ -1,4 +1,3 @@
-/* Menu Lateral de Navegação */
 .asideMenuAreasTI {
     max-width: 300px;
     display: flex;
@@ -7,57 +6,76 @@
     min-height: 83vh;
     background: var(--linearGradiente2);
     opacity: 0.7;
-    padding: 1rem;
     z-index: 100;
 }
 
 .ulMenuAreasTI {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: right; */
     align-items: center;
     width: fit-content;
+}
+
+.linkMenuAreasTI {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .ulMenuAreasTI li {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: right;
     align-items: center;
     padding: 0.8rem;
     font-size: 1.3rem;
     font-weight: bold;
     text-shadow: #ffffff4b 0px 0px 1px;
     cursor: pointer;
+    column-gap: 1rem;
 }
 
 .menuFrontEnd {
     color: var(--corFrontEnd);
 }
+
 .menuBackEnd {
     color: var(--corProgramacao);
 }
+
 .menuCyberSecurity {
     color: var(--corCyberSecurity);
 }
+
 .menuDesignEUX {
     color: var(--corDesignEUX);
 }
+
 .menuDataScience {
     color: var(--corDataSciencia);
 }
+
 .menuBlockchainECriptoAtivos {
-    color: var(--corBlockchainECriptoAtivos);
+    color: var(--corBlockchain);
 }
+
 .menuHardware {
     color: var(--corHardware);
 }
+
 .menuRedes {
     color: var(--corRedes);
 }
+
 .menuOS {
     color: var(--corOS);
 }
+
 .menuInteligenciaArtificial {
-    color: var(--corInteligenciaArtificial);
+    color: var(--corIA);
+}
+.menuLogoOS{
+    border-radius: 50%;
 }

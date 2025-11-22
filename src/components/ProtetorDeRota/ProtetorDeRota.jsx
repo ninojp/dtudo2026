@@ -1,6 +1,6 @@
 import { use, useEffect } from "react";
 import AuthContext from "../../context_api/AuthContext/AuthContext";
-import { Spinner } from "../Spinner";
+import Spinner from "../Spinner/Spinner";
 import { useNavigate } from "react-router-dom";
 
 export default function ProtetorDeRota({ children }) {

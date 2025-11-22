@@ -4,11 +4,11 @@ import { IconAccount } from '../Icons/IconAccount';
 import { IconLogout } from '../Icons/IconLogout';
 import IconRegister from '../Icons/IconRegister';
 import AuthContext from '../../context_api/AuthContext/AuthContext';
-import { IconLogin } from '../Icons/IconLogin';
-import { use } from 'react';
+import { IconLogin } from "../Icons/IconLogin";
+import { useContext } from 'react';
 
 export default function NavBarPage() {
-    const { isAuthenticated } = use(AuthContext);
+    const { isAuthenticated } = useContext(AuthContext);
     return (
         <nav className={styles.navBarPageContainer}>
             <div className={styles.divContainerLogoTituloMenu}>
@@ -21,9 +21,9 @@ export default function NavBarPage() {
                     <Link to='myanimes'>
                         <li className={styles.liMenuLink}> MyAnimes </li>
                     </Link>
-                    <Link to='animex'>
+                    {isAuthenticated && <Link to='animex'>
                         <li className={styles.liMenuLink}> Animex </li>
-                    </Link>
+                    </Link>}
                     <Link to='ninoti'>
                         <li className={styles.liMenuLink}> NinoT.I </li>
                     </Link>

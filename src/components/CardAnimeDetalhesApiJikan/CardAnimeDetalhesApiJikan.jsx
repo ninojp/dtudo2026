@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import conectaAPIJikan from "../../api_conect/conectAPIJikam";
 import styles from "./CardAnimeDetalhesApiJikan.module.css";
-import { Spinner } from "../Spinner";
+import Spinner from "../Spinner/Spinner";
 
 export default function CardAnimeDetalhesApiJikan({ id_mal }) {
     const [detalhesAnime, setDetalhesAnime] = useState(null);

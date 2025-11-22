@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router"
 import { use } from 'react';
 import AuthContext from '../../context_api/AuthContext/AuthContext';
 
-export const Login = () => {
+export default function Login() {
     const { login } = use(AuthContext);
     const navigate = useNavigate();
     //-----------------------------------------
