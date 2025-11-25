@@ -2,6 +2,11 @@ import { useState } from 'react';
 import styles from './MyMusicX.module.css';
 import notaFireMusical from '/mymusicx/NotaMusica.png';
 import axios from 'axios';
+import InputPadrao from '../../components/InputPadrao/InputPadrao';
+import FieldsetPadrao from '../../components/FieldsetPadrao/FieldsetPadrao';
+import LabelPadrao from '../../components/LabelPadrao/LabelPadrao';
+import ButtonPadrao from '../../components/ButtonPadrao/ButtonPadrao';
+import CardCD from '../../components/CardCD/CardCD';
 
 export default function MyMusicX() {
     const [query, setQuery] = useState('');
@@ -23,47 +28,23 @@ export default function MyMusicX() {
         // Iniciar a busca
         setIsLoading(true);
         try {
-            const headers = {};
-            if (discogsToken) headers['Authorization'] = `Discogs token=${discogsToken}`;
-            
-            // Buscar releases do artista usando /database/search com type=release
-            const searchUrl = 'https://api.discogs.com/database/search';
+            // Buscar releases do artista usando o proxy local (evita problemas de CORS)
+            const searchUrl = 'http://localhost:4000/api/discogs/search';
             const searchParams = {
                 artist: query,
                 type: 'release',
-                per_page: 50,
-                page: 1,
             };
-            const searchResp = await axios.get(searchUrl, { params: searchParams, headers });
+            const searchResp = await axios.get(searchUrl, { params: searchParams });
             console.log('Resposta busca releases:', searchResp.data);
-            
-            if (!searchResp.data.results || searchResp.data.results.length === 0) {
+
+            if (!searchResp.data.summary || searchResp.data.summary.Total === 0) {
                 setError('Nenhum CD encontrado para este artista.');
                 setIsLoading(false);
                 return;
             }
-            
-            // Filtrar e mapear os releases para pegar apenas os com thumb (capa)
-            const filteredReleases = searchResp.data.results
-                .filter(r => r.thumb && r.title && r.year)
-                .map(r => ({
-                    id: r.id,
-                    title: r.title,
-                    year: r.year,
-                    thumb: r.thumb,
-                    uri: r.uri,
-                    type: r.type,
-                }))
-                .sort((a, b) => a.year - b.year); // Ordenar por ano
-            
-            // Pegar o nome do artista do primeiro resultado
-            const artistName = searchResp.data.results[0].title ? searchResp.data.results[0].title.split(' - ')[0] : query;
-            
-            setResults({
-                artist: artistName,
-                releases: filteredReleases,
-                totalCount: filteredReleases.length,
-            });
+
+            // Usar a resposta já filtrada e organizada pelo proxy
+            setResults(searchResp.data);
         } catch (err) {
             console.error('Erro ao buscar discografia no Discogs: ', err);
             setError('Erro ao buscar no Discogs. Verifique o token ou a rede. ');
@@ -73,54 +54,89 @@ export default function MyMusicX() {
     };
 
     return (
-        <main className={styles.mainContainerPgMusicx}>
-            <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />
-            <h1>MyMusicX</h1>
-
-            <section className={styles.apiContent}>
-                <h2>Busca de Artista (Discogs)</h2>
-
-                <form onSubmit={handleSearch} style={{ marginBottom: 12 }}>
-                    <input
-                        type="text"
-                        value={query}
-                        onChange={(e) => setQuery(e.target.value)}
-                        placeholder="Nome do artista (ex: Nirvana)"
-                        style={{ padding: 8, width: '60%' }}
-                    />
-                    <button type="submit" style={{ marginLeft: 8, padding: '8px 12px' }}>Buscar</button>
+        <>
+            <header className={styles.headerContainerPgMusicx}>
+                <h1>MyMusicX</h1>
+                <br />
+                <h2>Por hora estamos só buscando por artista no (Discogs)</h2>
+            </header>
+            <main className={styles.mainContainerPgMusicx}>
+                <form className={styles.formBuscarCds} onSubmit={handleSearch}>
+                    <FieldsetPadrao>
+                        <LabelPadrao htmlFor='inputMyMusicx'>Buscar por Artista</LabelPadrao>
+                        <InputPadrao
+                            itId='inputMyMusicx'
+                            itTipo="search"
+                            itValue={query}
+                            itOnChange={(e) => setQuery(e.target.value)}
+                            itPlaceholder="Nome do artista (ex: Nirvana)"
+                        />
+                    </FieldsetPadrao>
+                    <ButtonPadrao styleExterno={styles.btnBuscarDiscos} type="submit" >Buscar</ButtonPadrao>
                 </form>
 
-                {!discogsToken && (
-                    <p style={{ color: '#b35' }}>
-                        Atenção: nenhum token encontrado. Requisições sem autenticação são limitadas.
-                    </p>
+                {!discogsToken && (<p style={{ color: 'red' }}>
+                    Atenção: nenhum token encontrado. Requisições sem autenticação são limitadas.
+                </p>
                 )}
 
                 {isLoading && <p>Buscando...</p>}
                 {error && <p style={{ color: 'red' }}>{error}</p>}
 
+                {!results && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
+                
                 {results && (
-                    <div>
-                        <h3>Discografia de {results.artist} ({results.totalCount} CDs)</h3>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: '16px' }}>
-                            {results.releases && results.releases.length > 0 ? (
-                                results.releases.map((r) => (
-                                    <div key={r.id} style={{ textAlign: 'center', border: '1px solid #ccc', padding: '8px', borderRadius: '4px' }}>
-                                        {r.thumb && (
-                                            <img src={r.thumb} alt={r.title} style={{ maxHeight: '120px', marginBottom: '8px', borderRadius: '4px' }} />
-                                        )}
-                                        <p style={{ fontWeight: 'bold', fontSize: '0.9em', margin: '4px 0' }}>{r.title}</p>
-                                        {r.year && <p style={{ fontSize: '0.8em', color: '#666', margin: '4px 0' }}>Ano: {r.year}</p>}
+                    <section className={styles.sectionResultadosCds}>
+                        <h4>Discografia de {results.artist}</h4>
+                        
+                        {/* Exibir categorias de resultados */}
+                        {Object.entries(results.categories).map(([categoryName, items]) => (
+                            items.length > 0 && (
+                                <div key={categoryName} style={{ marginBottom: '2rem' }}>
+                                    <h3>{categoryName} ({items.length})</h3>
+                                    <div className={styles.divContainerCardsCds}>
+                                        {items.map((r) => {
+                                            const uniqueKey = r.master_id ? `m-${r.master_id}` : `t-${encodeURIComponent(r.title)}-y${r.year || ''}`;
+                                            return (
+                                                <CardCD
+                                                    key={uniqueKey}
+                                                    cdTitulo={r.title}
+                                                    cdImgSrc={r.thumb}
+                                                    cdAno={r.year}
+                                                    cdVersions={r.versions}
+                                                />
+                                            );
+                                        })}
                                     </div>
-                                ))
-                            ) : (
-                                <p>Nenhum CD encontrado para este artista.</p>
-                            )}
-                        </div>
-                    </div>
+                                </div>
+                            )
+                        ))}
+                    </section>
                 )}
-            </section>
-        </main>
-    )
-}
+            </main>
+        </>
+    );
+};
+
+/*
+Albums
+
+Holocausto Urbano
+12 versões
+Zimbabwe Records
+1991
+
+Capa de Raio X Brasil - Liberdade De Expressão
+Raio X Brasil - Liberdade De Expressão
+8 versões
+Zimbabwe Records
+1993
+
+Capa de Sobrevivendo No Inferno
+Sobrevivendo No Inferno
+18 versões
+Cosa Nostra, Cosa Nostra
+1997
+...
+
+*/

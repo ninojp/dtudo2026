@@ -6,6 +6,7 @@
   "scripts": {
     "start": "json-server --watch ./api/db/animacoes.json --port 3666",
     "dev": "vite",
+    "proxy": "node api/discogsProxy.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -14,6 +15,7 @@
     "axios": "^1.13.2",
     "cors": "^2.8.5",
     "disconnect": "^1.2.2",
+    "dotenv": "^16.3.1",
     "express": "^5.1.0",
     "json-server": "^1.0.0-beta.3",
     "open": "^11.0.0",
