@@ -1,14 +1,19 @@
 .asideMenuAreasTI {
     max-width: 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    min-height: 83vh;
+    min-height: 80vh;
     background: var(--linearGradiente2);
-    opacity: 0.7;
     z-index: 100;
 }
+.asideMenuAreasTI p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--hTituloColor);
 
+}
 .ulMenuAreasTI {
     display: flex;
     flex-wrap: wrap;

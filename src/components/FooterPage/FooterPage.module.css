@@ -1,9 +1,11 @@
 .footerContainer {
+    width: 100%;
+    height: 10vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 0 3rem;
     background: var(--linearGradiente);
     border-top: 0.01px dotted #646cff;
 }
@@ -17,28 +19,28 @@
 }
 
 .logoHTM {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .logoHTM:hover {
     filter: drop-shadow(0 0 1.5rem #ffc663aa);
 }
 .logoCSS {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .logoCSS:hover {
     filter: drop-shadow(0 0 1.5rem #6464ffaa);
 }
 .logoJS {
-    height: 2.5rem;
+    height: 2rem;
 }
 
 .logoJS:hover {
     filter: drop-shadow(0 0 1.5rem #fbf46ace);
 }
 .logoNode {
-    height: 2rem;
+    height: 1.8rem;
 }
 
 .logoNode:hover {
@@ -46,14 +48,14 @@
 }
 
 .logoVite {
-    height: 1.8rem;
+    height: 1.6rem;
 }
 
 .logoVite:hover {
     filter: drop-shadow(0 0 1.5rem #83ff64aa);
 }
 .logoGitHub {
-    height: 1.8rem;
+    height: 1.4rem;
 }
 
 .logoGitHub:hover {
@@ -61,7 +63,7 @@
 }
 
 .logoReact {
-    height: 2.7rem;
+    height: 2.5rem;
     padding: 0.5rem;
     will-change: filter;
     transition: filter 300ms;

@@ -7,14 +7,14 @@ import LogoBlockchain from '../Icons/LogoBlockchain';
 import LogoIA from '../Icons/LogoIA';
 import LogoHardware from '../Icons/logoHardware';
 import LogoOS from '../Icons/LogoOS';
-import LogoRede from '../Icons/LogoRede';
 import LogoDataScience from '../Icons/LogoDataScience';
 import LogoDesignUx from '../Icons/LogoDesignUx';
 import LogoDevops from '../Icons/LogoDevops';
-
+// import LogoRede from '../Icons/LogoRede';
 export default function AsideNinoTIPage() {
     return (
         <aside className={styles.asideMenuAreasTI}>
+            <p className="tituloDescricao">Estudando T.I. há 28 anos<br /> Trabalhando e vivendo dela há 17!</p>
             <ul className={styles.ulMenuAreasTI}>
                 <Link className={styles.linkMenuAreasTI} to={'/ninoti/front-end'} >
                     <li className={styles.menuFrontEnd} id="2">

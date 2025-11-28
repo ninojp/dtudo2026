@@ -1,6 +1,6 @@
-import styles from './Badge.module.css';
+import styles from './BadgesTI.module.css';
 
-export default function Badge({ icon, text, backgroundColor, textColor = '#ffffff' }) {
+export default function BadgesTI({ icon, text, backgroundColor, textColor = '#ffffff' }) {
     return (
         <div className={styles.badgeContainer} style={{ backgroundColor: backgroundColor, color: textColor }}>
             <span className={styles.icon}>
