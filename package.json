@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "json-server --watch ./api/db/animacoes.json --port 3666",
-    "dev": "vite",
     "proxy": "node api/discogsProxy.js",
+    "dev": "vite",
+    "servers": "concurrently \"npm run start\" \"npm run proxy\"",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "concurrently": "^8.2.2",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",

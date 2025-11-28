@@ -12,7 +12,7 @@ export default function Login() {
         const password = formData.get('password');
         const response = login(email, password);
         if (response.success) {
-            navigate('/')
+            navigate('/animex')
         } else {
             console.error(response.error)
         }

@@ -30,25 +30,25 @@ export default function FooterPage({ children }) {
                 <p>Criado em 13/11/2025 - by NinoJP</p>
             </div>
             <div className={styles.divLogosTecContainer}>
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={HTMLogo} className={styles.logoHTM} alt="HTML5 logo" />
                 </a>
-                <a href="https://www.w3schools.com/css/" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://www.w3schools.com/css/" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={CSSLogo} className={styles.logoCSS} alt="CSS3 logo" />
                 </a>
-                <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={JSLogo} className={styles.logoJS} alt="JavaScript logo" />
                 </a>
-                <a href="https://nodejs.org/pt" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://nodejs.org/pt" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={NodeLogo} className={styles.logoNode} alt="NodeJS logo" />
                 </a>
-                <a href="https://react.dev" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://react.dev" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={reactLogo} className={styles.logoReact} alt="React logo" />
                 </a>
-                <a href="https://vite.dev" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://vite.dev" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={viteLogo} className={styles.logoVite} alt="Vite logo" />
                 </a>
-                <a href="https://github.com/ninojp/dtudo2026" target="_blank" rel="noopener noreferrer nofollow">
+                <a href="https://github.com/ninojp/dtudo2026" target="_blank" rel="external noopener noreferrer nofollow">
                     <img src={GitHubLogo} className={styles.logoGitHub} alt="GitHub logo" />
                 </a>
             </div>
