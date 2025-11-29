@@ -3,6 +3,7 @@ import styles from './NinoTIFrontEnd.module.css';
 import Badge from '../../components/BadgesTI/BadgesTI';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt } from 'react-icons/fa';
 import { SiVite } from 'react-icons/si';
+import HeaderPage from '../../components/HeaderPage/HeaderPage';
 
 // Lista de tecnologias para os badges
 const technologies = [
@@ -16,28 +17,31 @@ const technologies = [
 
 export default function NinoTIFrontEnd() {
     return (
-        <main className={styles.mainContainerPage}>
-            <h1>Front End</h1>
-            <LogoFronEnd largura={'300px'} altura={'300px'}/>
-            <h2>...</h2>
-            <p>Minha ideia aqui é juntar e expor todos os Cursos, Formações, Certificados, Diplomas e afins desta área para formar meu portfólio.</p>
-            
-            <div className={styles.divContainerBadges}>
-                {technologies.map((tech) => (
-                    <Badge
-                        key={tech.name}
-                        icon={tech.icon}
-                        text={tech.name}
-                        backgroundColor={tech.color}
-                        textColor={tech.textColor}
-                    />
-                ))}
-            </div>
+        <section className={styles.sectionContainerNinoTIPage}>
+            <HeaderPage>
+                <h1>Front End</h1>
+                <h2>A programação front-end é a prática de criar a interface do usuário (UI) e a experiência do usuário (UX) de um site ou aplicativo.</h2>
+                <h3>Minha ideia aqui é juntar e expor todos os Cursos, Formações, Certificados, Diplomas e afins desta área para formar meu portfólio.</h3>
+                <div className={styles.divContainerBadges}>
+                    {technologies.map((tech) => (
+                        <Badge
+                            key={tech.name}
+                            icon={tech.icon}
+                            text={tech.name}
+                            backgroundColor={tech.color}
+                            textColor={tech.textColor}
+                        />
+                    ))}
+                </div>
+            </HeaderPage>
+            <main className={styles.mainContainerPage}>
+                <div className={styles.divContainerAreasTI}>
+                    <LogoFronEnd largura={'200px'} altura={'200px'} />
+                    <p>A programação front-end é a prática de criar a interface do usuário (UI) e a experiência do usuário (UX) de um site ou aplicativo. Ela se concentra em tudo o que o usuário vê e interage diretamente no navegador ou dispositivo móvel. 
+A definição curta é: A programação front-end é a arte e a ciência de transformar dados em uma interface gráfica para o usuário, por meio de HTML, CSS e JavaScript, garantindo funcionalidade e design responsivo.</p>
+                </div>
+            </main>
 
-            {/* Você pode manter a div de áreas de TI ou integrá-la de outra forma */}
-            {/* <div className={styles.divContainerAreasTI}>
-                ICONES das areas...
-            </div> */}
-        </main>
+        </section>
     );
 };

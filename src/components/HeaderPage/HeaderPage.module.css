@@ -1,7 +1,9 @@
 .headerPage {
     width: 100%;
-    height: 10vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem 1rem;
+    gap: 1rem;
 }

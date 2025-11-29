@@ -17,7 +17,13 @@
     align-items: center;
     justify-content: center;
 }
-
+.divLogosTecContainer a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .logoHTM {
     height: 2rem;
 }
@@ -39,10 +45,11 @@
 .logoJS:hover {
     filter: drop-shadow(0 0 1.5rem #fbf46ace);
 }
-.logoNode {
-    height: 1.8rem;
-}
 
+.logoNode {
+    height: 1.6rem;
+    width: 1.3rem;
+}
 .logoNode:hover {
     filter: drop-shadow(0 0 1.5rem #ffffffce);
 }
@@ -50,12 +57,12 @@
 .logoVite {
     height: 1.6rem;
 }
-
 .logoVite:hover {
     filter: drop-shadow(0 0 1.5rem #83ff64aa);
 }
+
 .logoGitHub {
-    height: 1.4rem;
+    height: 1.5rem;
 }
 
 .logoGitHub:hover {

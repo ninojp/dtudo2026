@@ -14,7 +14,7 @@ import LogoDevops from '../Icons/LogoDevops';
 export default function AsideNinoTIPage() {
     return (
         <aside className={styles.asideMenuAreasTI}>
-            <p className="tituloDescricao">Estudando T.I. há 28 anos<br /> Trabalhando e vivendo dela há 17!</p>
+            <p className="tituloDescricao">Estudando TI há 28 anos<br /> Trabalhando e vivendo dela há 17</p>
             <ul className={styles.ulMenuAreasTI}>
                 <Link className={styles.linkMenuAreasTI} to={'/ninoti/front-end'} >
                     <li className={styles.menuFrontEnd} id="2">

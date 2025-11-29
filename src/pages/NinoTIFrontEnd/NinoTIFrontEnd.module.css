@@ -1,6 +1,28 @@
-.mainContainerPage {
+.sectionContainerNinoTIPage {
+    position: relative;
+    /* display: flex; */
+    background: var(--linearGradiente2);
+    padding: 2rem;
+    color: var(--corFrontEnd);
+}
+
+.sectionContainerNinoTIPage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 84vh;
+    height: 100%;
+    background-image: url("/ninoti/code01-background.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    /* z-index: -1; */
+    opacity: 0.1;
+    filter: blur(1px);
+}
+
+.mainContainerPage {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,18 +30,13 @@
     gap: 2rem;
     color: var(--corFrontEnd);
 }
-.mainContainerPage h1{
-    font-size: 3rem;
-    color: var(--corFrontEnd);
-}
+
 .divContainerAreasTI {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
     gap: 2rem;
-    border-radius: 10px;
 }
 
 
