@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import styles from "./animexDetalhes.module.css";
 import AnimexDetalhesContext from "../../context_api/AnimexDetalhesContext/AnimexDetalhesContext";
 import Spinner from "../../components/Spinner/Spinner";
-import CardAnimexMini from "../../components/CardAnimexMini/CardAnimexMini";
+import CardAnimexMini from "../../components/componentsAnimex/CardAnimexMini/CardAnimexMini";
 import CardAnimeDetalhesApiJikan from "../../components/CardAnimeDetalhesApiJikan/CardAnimeDetalhesApiJikan";
 
 function AnimexDetalhesContent() {

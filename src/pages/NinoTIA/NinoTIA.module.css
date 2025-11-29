@@ -6,7 +6,6 @@
     align-items: center;
     gap: 2rem;
     color: var(--corIA);
-    font-family: var(--fonteTI);
 }
 
 .mainContainerPage h1 {

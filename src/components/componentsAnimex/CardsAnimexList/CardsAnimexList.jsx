@@ -1,13 +1,13 @@
 import styles from './CardsAnimexList.module.css';
 import { use, useState, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import CampoBuscar from '../CampoBuscar/CampoBuscar';
-import AnimexObjsListContext from '../../context_api/AnimexObjsListContext/AnimexObjsListContext';
-import PaginationButtons from '../PaginationButtons/PaginationButtons';
-import QtdExibirPorPage from '../QtdExibirPorPage/QtdExibirPorPage';
-import ModalDialog from '../ModalDialog/ModalDialog';
+import CampoBuscar from '../../CampoBuscar/CampoBuscar';
+import AnimexObjsListContext from '../../../context_api/AnimexObjsListContext/AnimexObjsListContext';
+import PaginationButtons from '../../PaginationButtons/PaginationButtons';
+import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
+import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardAnimex from '../CardAnimex/CardAnimex';
-import ParagrafoPage from '../ParagrafoPage/ParagrafoPage';
+import ParagrafoPage from '../../ParagrafoPage/ParagrafoPage';
 
 export default function CardsAnimexList() {
     const { listObjsAnimex } = use(AnimexObjsListContext);

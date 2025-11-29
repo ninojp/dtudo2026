@@ -1,6 +1,5 @@
-.h1TituloAnimex {
+.h1TituloPadrao {
     display: flex;
     align-items: center;
     font-size: 2.5rem;
-    color: var(--pTextColor);
 }
