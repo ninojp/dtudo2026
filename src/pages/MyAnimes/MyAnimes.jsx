@@ -1,4 +1,4 @@
-import CardsMyAnimesList from '../../components/CardsMyAnimesList/CardsMyAnimesList';
+import CardsMyAnimesList from '../../components/componentsMyAnimes/CardsMyAnimesList/CardsMyAnimesList';
 import H1TituloPage from '../../components/H1TituloPage/H1TituloPage';
 import H2SubTitulo from '../../components/H2SubTitulo/H2SubTitulo';
 import HeaderPage from '../../components/HeaderPage/HeaderPage';
