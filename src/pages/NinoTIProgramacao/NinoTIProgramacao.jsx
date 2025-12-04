@@ -1,4 +1,4 @@
-import LogoProgramacao from '../../components/Icons/LogoProgramacao';
+import LogoProgramacao from '../../components/componentsNinoTI/areasTI/LogoProgramacao';
 import styles from './NinoTIProgramacao.module.css';
 
 export default function NinoTIProgramacao() {

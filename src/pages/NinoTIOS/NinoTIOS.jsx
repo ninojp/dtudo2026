@@ -1,4 +1,4 @@
-import LogoOS from '../../components/Icons/LogoOS';
+import LogoOS from '../../components/componentsNinoTI/areasTI/LogoOS';
 import styles from './NinoTIOS.module.css';
 
 export default function NinoTIOS() {

@@ -1,16 +1,16 @@
 import { Link } from 'react-router-dom';
-import LogoFronEnd from '../../Icons/LogoFronEnd';
+import LogoFronEnd from '../areasTI/LogoFronEnd';
 import styles from './AsideNinoTIPage.module.css';
-import LogoProgramacao from '../../Icons/LogoProgramacao';
-import LogoCyberSecurity from '../../Icons/LogoCyberSecurity';
-import LogoBlockchain from '../../Icons/LogoBlockchain';
-import LogoIA from '../../Icons/LogoIA';
-import LogoHardware from '../../Icons/logoHardware';
-import LogoOS from '../../Icons/LogoOS';
-import LogoDataScience from '../../Icons/LogoDataScience';
-import LogoDesignUx from '../../Icons/LogoDesignUx';
-import LogoDevops from '../../Icons/LogoDevops';
-// import LogoRede from '../../Icons/LogoRede';
+import LogoProgramacao from '../areasTI/LogoProgramacao';
+import LogoCyberSecurity from '../areasTI/LogoCyberSecurity';
+import LogoBlockchain from '../areasTI/LogoBlockchain';
+import LogoIA from '../areasTI/LogoIA';
+import LogoHardware from '../areasTI/logoHardware';
+import LogoOS from '../areasTI/LogoOS';
+import LogoDataScience from '../areasTI/LogoDataScience';
+import LogoDesignUx from '../areasTI/LogoDesignUx';
+import LogoDevops from '../areasTI/LogoDevops';
+// import LogoRede from '../areasTI/LogoRede';
 export default function AsideNinoTIPage() {
     return (
         <aside className={styles.asideMenuAreasTI}>

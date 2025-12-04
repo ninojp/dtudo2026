@@ -2,10 +2,9 @@
     "areasTI": [
         {
             "id": 1,
-            "areaNome": "Programação",
-            "descricao": "",
-            "srcImg": "./imgs/areasTI/programacao.svg",
-            "corPadrao": "#00C86F",
+            "areaNome": "Front-End",
+            "descricao": "A programação front-end é a arte e a ciência de transformar dados em uma interface gráfica (UI) que garanta uma boa experiência para o usuário (UX) de um site ou aplicativo. Ela se concentra em tudo o que o usuário vê e interage diretamente no navegador ou dispositivo móvel. Garantindo rapidez, funcionalidade, acessibilidade e um design responsivo.",
+            "carreirasIds": [],
             "formacoesIds": [],
             "cursosIds": [],
             "artigosIds": [],
@@ -14,66 +13,107 @@
         },
         {
             "id": 2,
-            "areaNome": "Front-End",
+            "areaNome": "Programação",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/front-end.svg",
-            "corPadrao": "#4EB7E6"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 3,
-            "areaNome": "Cyber Security",
+            "areaNome": "Blockchain",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/devops.svg",
-            "corPadrao": "#FF4F54"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 4,
-            "areaNome": "Design e UX",
+            "areaNome": "Hardware",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/design-ux.svg",
-            "corPadrao": "#9d0273"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 5,
-            "areaNome": "Sistemas Operacionais",
+            "areaNome": "Inteligência Artificial",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/OS-buddies_300px.webp",
-            "corPadrao": "#b00000"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 6,
-            "areaNome": "Blockchain e Cripto Ativos",
+            "areaNome": "Cyber Security",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/bitcoin_398px.webp",
-            "corPadrao": "#fff461d8"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 7,
-            "areaNome": "Hardware",
+            "areaNome": "Sistemas Operacionais",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/tecnico_computadores.jpg",
-            "corPadrao": "#d5feff"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 8,
             "areaNome": "Redes",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/computadores.jpg",
-            "corPadrao": "#005203"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 9,
             "areaNome": "Data Science",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/data-science.svg",
-            "corPadrao": "#9CD33C"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
         },
         {
             "id": 10,
-            "areaNome": "Inteligência Artificial",
+            "areaNome": "Design e UX",
             "descricao": "",
-            "srcImg": "./imgs/areasTI/inteligencia-artificial.svg",
-            "corPadrao": "#7B71FF"
+            "carreirasIds": [],
+            "formacoesIds": [],
+            "cursosIds": [],
+            "artigosIds": [],
+            "videosIds": [],
+            "sitesIds": []
+        }
+    ],
+    "carreiras": [
+        {
+            "idCarreira": 1
         }
     ],
     "formacoes": [

@@ -1,4 +1,4 @@
-import LogoRede from '../../components/Icons/LogoRede';
+import LogoRede from '../../components/componentsNinoTI/areasTI/LogoRede';
 import styles from './NinoTIRedes.module.css';
 
 export default function NinoTIRedes() {

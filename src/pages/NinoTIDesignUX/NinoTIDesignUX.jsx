@@ -1,4 +1,4 @@
-import LogoDesignUx from '../../components/Icons/LogoDesignUx';
+import LogoDesignUx from '../../components/componentsNinoTI/areasTI/LogoDesignUx';
 import styles from './NinoTIDesignUX.module.css';
 
 export default function NinoTIDesignUX() {
