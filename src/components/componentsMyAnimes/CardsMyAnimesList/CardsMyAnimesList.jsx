@@ -1,12 +1,12 @@
 import styles from './CardsMyAnimesList.module.css';
 import { useState, useMemo, useCallback, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import CampoBuscar from '../CampoBuscar/CampoBuscar';
-import PaginationButtons from '../PaginationButtons/PaginationButtons';
-import QtdExibirPorPage from '../QtdExibirPorPage/QtdExibirPorPage';
-import ModalDialog from '../ModalDialog/ModalDialog';
+import CampoBuscar from '../../CampoBuscar/CampoBuscar';
+import PaginationButtons from '../../PaginationButtons/PaginationButtons';
+import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
+import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
-import MyAnimesObjsListContext from '../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
+import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
 
 export default function CardsMyAnimesList() {
     const { listObjsMyAnimes } = useContext(MyAnimesObjsListContext);

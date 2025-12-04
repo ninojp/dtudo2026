@@ -18,7 +18,6 @@
 .ulMenuAreasTI {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: right; */
     align-items: center;
     width: fit-content;
 }
@@ -26,7 +25,6 @@
 .linkMenuAreasTI {
     width: 100%;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -43,45 +41,6 @@
     column-gap: 1rem;
 }
 
-.menuFrontEnd {
-    color: var(--corFrontEnd);
-}
-
-.menuBackEnd {
-    color: var(--corProgramacao);
-}
-
-.menuCyberSecurity {
-    color: var(--corCyberSecurity);
-}
-
-.menuDesignEUX {
-    color: var(--corDesignEUX);
-}
-
-.menuDataScience {
-    color: var(--corDataSciencia);
-}
-
-.menuBlockchainECriptoAtivos {
-    color: var(--corBlockchain);
-}
-
-.menuHardware {
-    color: var(--corHardware);
-}
-
-.menuRedes {
-    color: var(--corRedes);
-}
-
-.menuOS {
-    color: var(--corOS);
-}
-
-.menuInteligenciaArtificial {
-    color: var(--corIA);
-}
-.menuLogoOS{
+.styleLogoOS{
     border-radius: 50%;
 }

@@ -24,6 +24,18 @@ import NinoTIOS from "../pages/NinoTIOS/NinoTIOS";
 import NinoTIRedes from "../pages/NinoTIRedes/NinoTIRedes";
 import NinoTIDataScience from "../pages/NinoTIDataScience/NinoTIDataScience";
 import NinoTIDesignUX from "../pages/NinoTIDesignUX/NinoTIDesignUX";
+import HTML from "../components/componentsNinoTI/HTML/HTML";
+import CSS from "../components/componentsNinoTI/CSS/CSS";
+import JavaScript from "../components/componentsNinoTI/JavaScript/JavaScript";
+import TypeScript from "../components/componentsNinoTI/TypeScript/TypeScript";
+import NodeJS from "../components/componentsNinoTI/NodeJS/NodeJS";
+import ReactTech from "../components/componentsNinoTI/React/React";
+import Vite from "../components/componentsNinoTI/Vite/Vite";
+import NextJS from "../components/componentsNinoTI/NextJS/NextJS";
+import Git from "../components/componentsNinoTI/Git/Git";
+import GitHub from "../components/componentsNinoTI/GitHub/GitHub";
+import Figma from "../components/componentsNinoTI/Figma/Figma";
+import WordPress from "../components/componentsNinoTI/WordPress/WordPress";
 
 export default function DtudoRouter() {
     return (
@@ -55,7 +67,20 @@ export default function DtudoRouter() {
                     {/* Rotas para Endereços NinoT.I */}
                     <Route path="/ninoti" element={<NinoTIPageLayout />}>
                         <Route index element={<NinoTIFrontEnd />} />
-                        <Route path="front-end" element={<NinoTIFrontEnd />} />
+                        <Route path="front-end" element={<NinoTIFrontEnd />}>
+                            <Route path="html5" element={<HTML />} />
+                            <Route path="css3" element={<CSS />} />
+                            <Route path="javascript" element={<JavaScript />} />
+                            <Route path="typescript" element={<TypeScript />} />
+                            <Route path="nodejs" element={<NodeJS />} />
+                            <Route path="react" element={<ReactTech />} />
+                            <Route path="vite" element={<Vite />} />
+                            <Route path="nextjs" element={<NextJS />} />
+                            <Route path="git" element={<Git />} />
+                            <Route path="github" element={<GitHub />} />
+                            <Route path="figma" element={<Figma />} />
+                            <Route path="wordpress" element={<WordPress />} />
+                        </Route>
                         <Route path="programacao" element={<NinoTIProgramacao />} />
                         <Route path="cyber-security" element={<NinoTICyberSecurity />} />
                         <Route path="blockchain" element={<NinoTIBlockChain />} />

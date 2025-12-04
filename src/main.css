@@ -1,14 +1,14 @@
 :root {
+  color: var(--pTextColor);
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  color: var(--pTextColor);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --fonteTI: 'Courier New', Courier, monospace;
   --linearGradiente: linear-gradient(#082e5c 0%, #041832 23.33%, #020c19 76.67%, #000000 100%);
   --linearGradiente2: linear-gradient(#022147 0%, #031328 33.33%, #031022 66.67%, #000000 100%);
   --corFrontEnd: #4EB7E6;
+  --fonteTipoFrontEnd: 'Courier New', Courier, monospace;
   --corProgramacao: #00C86F;
   --corCyberSecurity: #FF4F54;
   --corBlockchain: #fff461d8;
@@ -52,4 +52,45 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.styleFrontEnd {
+    color: var(--corFrontEnd);
+    font-family: var(--fonteTipoFrontEnd);
+}
+
+.styleBackEnd {
+    color: var(--corProgramacao);
+}
+
+.styleCyberSecurity {
+    color: var(--corCyberSecurity);
+}
+
+.styleDesignEUX {
+    color: var(--corDesignEUX);
+}
+
+.styleDataScience {
+    color: var(--corDataSciencia);
+}
+
+.styleBlockchain {
+    color: var(--corBlockchain);
+}
+
+.styleHardware {
+    color: var(--corHardware);
+}
+
+.styleRedes {
+    color: var(--corRedes);
+}
+
+.styleOS {
+    color: var(--corOS);
+}
+
+.styleIA {
+    color: var(--corIA);
 }

@@ -1,6 +1,6 @@
 import { use } from 'react';
 import styles from './CardMyAnimesMini.module.css';
-import MyAnimesDetalhesContext from '../../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesContext';
+import MyAnimesDetalhesContext from '../../../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesContext';
 
 export default function CardMyAnimesMini() {
     const { myAnimesDetalhes, currentDisplayId, setCurrentDisplayId } = use(MyAnimesDetalhesContext);

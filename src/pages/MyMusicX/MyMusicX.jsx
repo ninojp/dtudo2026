@@ -6,7 +6,7 @@ import InputPadrao from '../../components/InputPadrao/InputPadrao';
 import FieldsetPadrao from '../../components/FieldsetPadrao/FieldsetPadrao';
 import LabelPadrao from '../../components/LabelPadrao/LabelPadrao';
 import ButtonPadrao from '../../components/ButtonPadrao/ButtonPadrao';
-import CardCD from '../../components/CardCD/CardCD';
+import CardCD from '../../components/componentsMyMusicx/CardCD/CardCD';
 
 export default function MyMusicX() {
     const [query, setQuery] = useState('');
