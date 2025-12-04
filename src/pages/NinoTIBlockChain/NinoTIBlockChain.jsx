@@ -1,6 +1,7 @@
-import LogoBlockchain from '../../components/Icons/LogoBlockchain';
+import LogoBlockchain from '../../components/componentsNinoTI/areasTI/LogoBlockchain';
 import styles from './NinoTIBlockChain.module.css';
 import btcImagem from '/ninoti/bitcoin-fundo-digital_1366.webp';
+
 export default function NinoTIBlockChain() {
     return (
         <main className={styles.mainContainerPage}>

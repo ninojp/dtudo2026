@@ -3,10 +3,9 @@ import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub, FaNodeJs, 
 import { BiLogoTypescript } from 'react-icons/bi';
 import { SiVite } from 'react-icons/si';
 import BadgesTI from '../../components/componentsNinoTI/BadgesTI/BadgesTI';
-import LogoFronEnd from '../../components/Icons/LogoFronEnd';
+import LogoFronEnd from '../../components/componentsNinoTI/areasTI/LogoFronEnd';
 import HeaderPage from '../../components/HeaderPage/HeaderPage';
 import H1TituloPage from '../../components/H1TituloPage/H1TituloPage';
-import H2SubTitulo from '../../components/H2SubTitulo/H2SubTitulo';
 import { RiNextjsFill } from 'react-icons/ri';
 import { Outlet } from 'react-router-dom';
 
@@ -35,9 +34,8 @@ export default function NinoTIFrontEnd() {
                     <div>
                         <LogoFronEnd largura={'100px'} altura={'100px'} />
                     </div>
-                    <div>
-                        <H2SubTitulo>Front-end é a prática de criar interfaces para usuários (UI)</H2SubTitulo>
-                        <p>A programação front-end é a arte e a ciência de transformar dados em uma interface gráfica e garanta uma boa experiência para o usuário (UX) de um site ou aplicativo. Ela se concentra em tudo o que o usuário vê e interage diretamente no navegador ou dispositivo móvel. Garantindo funcionalidade, acessibilidade e design responsivo.</p>
+                    <div className={styles.divTextoDescricao}>
+                        <p>A programação front-end é a arte e a ciência de transformar dados em uma interface gráfica (UI) que garanta uma boa experiência para o usuário (UX) de um site ou aplicativo. Ela se concentra em tudo o que o usuário vê e interage diretamente no navegador ou dispositivo móvel. Garantindo rapidez, funcionalidade, acessibilidade e um design responsivo.</p>
                     </div>
                 </div>
                 <div className={styles.divContainerBadges}>
@@ -52,14 +50,7 @@ export default function NinoTIFrontEnd() {
                     ))}
                 </div>
             </HeaderPage>
-            <main className={styles.mainContainerPage}>
-                <div className={styles.divContainerAreasTI}>
-                    <p>Minha ideia aqui é juntar e expor todos os Cursos, Formações, Certificados, Diplomas e afins desta área para formar meu portfólio.</p>
-                    <Outlet />
-                </div>
-                <div>
-                </div>
-            </main>
+            <Outlet />
         </section>
     );
 };

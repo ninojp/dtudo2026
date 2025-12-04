@@ -1,4 +1,4 @@
-import LogoDevops from '../../components/Icons/LogoDevops';
+import LogoDevops from '../../components/componentsNinoTI/areasTI/LogoDevops';
 import styles from './NinoTICyberSecurity.module.css';
 
 export default function NinoTICyberSecurity() {

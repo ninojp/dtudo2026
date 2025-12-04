@@ -1,4 +1,4 @@
-import LogoIA from '../../components/Icons/LogoIA';
+import LogoIA from '../../components/componentsNinoTI/areasTI/LogoIA';
 import styles from './NinoTIA.module.css';
 
 export default function NinoTIA() {

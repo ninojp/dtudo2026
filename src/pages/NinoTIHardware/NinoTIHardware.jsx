@@ -1,4 +1,4 @@
-import LogoHardware from '../../components/Icons/logoHardware';
+import LogoHardware from '../../components/componentsNinoTI/areasTI/logoHardware';
 import styles from './NinoTIHardware.module.css';
 
 export default function NinoTIHardware() {
