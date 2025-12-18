@@ -8,6 +8,7 @@
     "proxy": "node api/discogsProxy.js",
     "dev": "vite",
     "servers": "concurrently \"npm run start\" \"npm run proxy\"",
+    "populate": "node api/populateAnimeDetails.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
