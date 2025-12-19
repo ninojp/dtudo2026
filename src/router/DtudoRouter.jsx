@@ -21,7 +21,6 @@ import NinoTIBlockChain from "../pages/NinoTIBlockChain/NinoTIBlockChain";
 import NinoTIA from "../pages/NinoTIA/NinoTIA";
 import NinoTIHardware from "../pages/NinoTIHardware/NinoTIHardware";
 import NinoTIOS from "../pages/NinoTIOS/NinoTIOS";
-import NinoTIRedes from "../pages/NinoTIRedes/NinoTIRedes";
 import NinoTIDataScience from "../pages/NinoTIDataScience/NinoTIDataScience";
 import NinoTIDesignUX from "../pages/NinoTIDesignUX/NinoTIDesignUX";
 import HTML from "../components/componentsNinoTI/HTML/HTML";
@@ -36,6 +35,7 @@ import Git from "../components/componentsNinoTI/Git/Git";
 import GitHub from "../components/componentsNinoTI/GitHub/GitHub";
 import Figma from "../components/componentsNinoTI/Figma/Figma";
 import WordPress from "../components/componentsNinoTI/WordPress/WordPress";
+import NinoTICienciaComputacao from "../pages/NinoTICienciaComputacao/NinoTICienciaComputacao";
 
 export default function DtudoRouter() {
     return (
@@ -87,7 +87,7 @@ export default function DtudoRouter() {
                         <Route path="ia" element={<NinoTIA />} />
                         <Route path="hardware" element={<NinoTIHardware />} />
                         <Route path="os" element={<NinoTIOS />} />
-                        <Route path="redes" element={<NinoTIRedes />} />
+                        <Route path="ciencia-computacao" element={<NinoTICienciaComputacao />} />
                         <Route path="data-science" element={<NinoTIDataScience />} />
                         <Route path="design-ux" element={<NinoTIDesignUX />} />
                     </Route>

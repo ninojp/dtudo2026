@@ -24,19 +24,15 @@ async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
     console.log(`Iniciando cópia de imagens para: ${pastaDestino}`);
     await ensureDir(pastaDestino);
     let imagensCopiadas = 0;
-
     const MAX_DEPTH = 2; // Limita a busca a 2 níveis de subpasta
-
     async function walk(diretorio, depth) {
         // Garante que o diretório é uma string válida antes de prosseguir.
         if (typeof diretorio !== 'string' || !fs.existsSync(diretorio)) {
             return;
         }
-
         if (depth > MAX_DEPTH) {
             return; // Para a recursão se a profundidade máxima for atingida
         }
-
         const entradas = await readDirSafe(diretorio);
         for (const entrada of entradas) {
             const caminhoCompleto = path.join(diretorio, entrada.name);
