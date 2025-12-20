@@ -32,4 +32,13 @@ Este meu arquivo: PastasMyAnimes está funcionando, mas agora eu preciso que meu
             },
 ===========================================================================================
 
-Este meu arquivo: PastasMyAnimes está funcionando, dentre outras coisas ele copia as imagens numeradas.jpg de cada subpasta, para a pasta do projeto: public/myanimes/animes. Agora eu preciso que além disso, ele também copie apenas a primeira imagem numerada.jpg de apenas a primeira subpasta, pode ignorar as outras subpastas se tiver. Mas agora  
+Este meu arquivo: PastasMyAnimes, na linha 23 tem uma função que varre recursivamente até 2 níveis de subpasta dos diretórios de origem, encontra imagens com nomes numéricos (ex: 123.jpg) e as copia para a pasta de destino.
+Agora quero fazer a mesma coisa, mas usando apenas a primeira subpasta do nivel 2, copiando apenas a primeira imagem numérica (ex: 123.jpg) que encontrar, e renomeando esta imagem para o nome que é gerado na linha 129 ( imgSrc: `${normalizeName(item.name)}.jpg`,) e copiando esta imagem para a pasta do projeto: public/myanimes/
+===========================================================================================
+
+Agora preciso identificar na pasta: public/myanimes/ quais imagens estão sendo usadas no arquivo: api/db/myanimes.json e quais não estão sendo usadas.
+Preciso de um script que gere um relatório listando as imagens que estão sendo usadas e as que não estão sendo usadas.
+
+verifique novamente, pois na pasta: public/myanimes temos exatamente 1026 arquivos e pela quantidade de "id": 1005 no Temos arquivo: api/db/myanimes.json, deveriam ser 1005 arquivos.
+
+===========================================================================================

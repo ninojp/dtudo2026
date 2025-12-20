@@ -15,6 +15,7 @@ const pastasParaMonitorar = [
 ];
 const arquivoSaida = path.resolve(__dirname, '../api/db/myanimes.json');
 const pastaDestinoImagens = path.resolve(__dirname, '../public/myanimes/animes');
+const pastaDestinoCapas = path.resolve(__dirname, '../public/myanimes');
 
 /**
  * Varre recursivamente até 2 níveis de subpasta dos diretórios de origem, 
@@ -52,7 +53,41 @@ async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
     await Promise.all(pastasOrigem.map(pasta => walk(pasta, 0)));
     console.log(`Cópia de imagens concluída. Total de ${imagensCopiadas} imagens copiadas.`);
 }
-// --- Helpers ---
+
+/**
+ * Copia a primeira imagem numérica .jpg da primeira subpasta de nível 2 de cada pasta de anime para a pasta de capas.
+ */
+async function copiarImagensDeCapa(pastasOrigem, pastaDestino) {
+    console.log(`Iniciando cópia de imagens de capa para: ${pastaDestino}`);
+    await ensureDir(pastaDestino);
+    let imagensDeCapaCopiadas = 0;
+    for (const pastaRaiz of pastasOrigem) {
+        const itensRaiz = await readDirSafe(pastaRaiz);
+        const pastasDeAnime = itensRaiz.filter((it) => it.isDirectory());
+        for (const item of pastasDeAnime) {
+            const fullPath = path.join(pastaRaiz, item.name);
+            const subdirs = (await readDirSafe(fullPath)).filter((it) => it.isDirectory());
+            if (subdirs.length === 0) continue;
+            const primeiraSubpasta = subdirs[0];
+            const subFullPath = path.join(fullPath, primeiraSubpasta.name);
+            const conteudo = await listContents(subFullPath);
+            const jpgs = conteudo.filter((arq) => arq.tipo === 'arquivo' && /^\d+\.jpg$/i.test(arq.nome)).sort((a, b) => parseInt(a.nome) - parseInt(b.nome));
+            if (jpgs.length === 0) continue;
+            const primeiraJpg = jpgs[0];
+            const caminhoOrigem = path.join(subFullPath, primeiraJpg.nome);
+            const nomeDestino = `${normalizeName(item.name)}.jpg`;
+            const caminhoDestino = path.join(pastaDestino, nomeDestino);
+            try {
+                await fsPromises.copyFile(caminhoOrigem, caminhoDestino);
+                imagensDeCapaCopiadas++;
+                console.log(`Imagem de capa copiada: ${nomeDestino}`);
+            } catch (err) {
+                console.error(`Erro ao copiar imagem de capa ${caminhoOrigem}:`, err);
+            }
+        }
+    }
+    console.log(`Cópia de imagens de capa concluída. Total de ${imagensDeCapaCopiadas} imagens de capa copiadas.`);
+}
 /** SLUGIFY: do curso alura, testar pra ver se é melhor que o atual
  * .toLowerCase()
     .normalize('NFD').replace(/\p{Diacritic}/gu, '') // Remove acentuação
@@ -147,6 +182,8 @@ async function atualizarAnimacoes() {
     try {
         // Executa a cópia das imagens antes de gerar o JSON
         await copiarImagensRelevantes(pastasParaMonitorar, pastaDestinoImagens);
+        // Copia as imagens de capa para cada pasta de anime
+        await copiarImagensDeCapa(pastasParaMonitorar, pastaDestinoCapas);
         const estrutura = await gerarEstruturaPersonalizada(pastasParaMonitorar);
         let jsonAtual = {};
         try {
