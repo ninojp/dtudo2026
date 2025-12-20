@@ -12,7 +12,7 @@ export default function CardsMyAnimesList() {
     const { listObjsMyAnimes } = useContext(MyAnimesObjsListContext);
     const navigate = useNavigate();
     const [page, setPage] = useState(1);
-    const [limit, setLimit] = useState(24);
+    const [limit, setLimit] = useState(48);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedItem, setSelectedItem] = useState(null);
 

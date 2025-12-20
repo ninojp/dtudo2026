@@ -49,7 +49,6 @@ async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
             }
         }
     }
-
     await Promise.all(pastasOrigem.map(pasta => walk(pasta, 0)));
     console.log(`Cópia de imagens concluída. Total de ${imagensCopiadas} imagens copiadas.`);
 }
@@ -104,11 +103,9 @@ async function gerarEstruturaPersonalizada(pastas) {
   const processarPastaRaiz = async (pastaRaiz) => {
     const itensRaiz = await readDirSafe(pastaRaiz);
     const pastasDeAnime = itensRaiz.filter((it) => it.isDirectory());
-
     return Promise.all(pastasDeAnime.map(async (item) => {
       const fullPath = path.join(pastaRaiz, item.name);
       const subdirs = (await readDirSafe(fullPath)).filter((it) => it.isDirectory());
-
       const subpastas = await Promise.all(subdirs.map(async (sub) => {
         const subFullPath = path.join(fullPath, sub.name);
         const conteudo = await listContents(subFullPath);
@@ -116,9 +113,16 @@ async function gerarEstruturaPersonalizada(pastas) {
         const idSubpasta = jpg ? parseInt(jpg.nome, 10) : null;
         const ano = sub.name.substring(0, 4);
         const nomeSemAno = sub.name.substring(5).trim();
-        return { id: idSubpasta, nome: sub.name, ano, nomeSemAno, arquivos: conteudo };
+        return { 
+          mal_id: idSubpasta, 
+          nome: sub.name, 
+          ano, 
+          nomeSemAno, 
+          jaAssisti: false, 
+          gostei: false, 
+          arquivos: conteudo.map(arq => ({ nome: arq.nome })) 
+        };
       }));
-
       return {
         nome: item.name,
         slug: slugify(item.name),
@@ -127,11 +131,9 @@ async function gerarEstruturaPersonalizada(pastas) {
       };
     }));
   };
-
   const arraysDeResultados = await Promise.all(pastas.map(processarPastaRaiz));
   return arraysDeResultados.flat().map((item, index) => ({ ...item, id: index + 1 }));
 }
-
 /** Escreve JSON de forma atômica (escreve em arquivo temporário e renomeia) */
 async function writeJsonAtomically(targetPath, data) {
     const dir = path.dirname(targetPath);
@@ -140,16 +142,13 @@ async function writeJsonAtomically(targetPath, data) {
     await fsPromises.writeFile(tmpPath, JSON.stringify(data, null, 2), 'utf8');
     await fsPromises.rename(tmpPath, targetPath);
 }
-
 // --- Atualização / debounce ---
 async function atualizarAnimacoes() {
     try {
         // Executa a cópia das imagens antes de gerar o JSON
         await copiarImagensRelevantes(pastasParaMonitorar, pastaDestinoImagens);
-
         const estrutura = await gerarEstruturaPersonalizada(pastasParaMonitorar);
         let jsonAtual = {};
-
         try {
             if (fs.existsSync(arquivoSaida)) {
                 const raw = await fsPromises.readFile(arquivoSaida, 'utf8');
@@ -157,12 +156,10 @@ async function atualizarAnimacoes() {
             }
         } catch (readErr) {
             console.warn(`Falha ao ler ${arquivoSaida}: ${readErr.message}`);
-            jsonAtual = { objAnimex: [] };
+            jsonAtual = { animacoes: [] };
         }
-
-        jsonAtual.objAnimex = estrutura;
+        jsonAtual.animacoes = estrutura;
         jsonAtual.ultimaAtualizacao = new Date().toISOString();
-
         await writeJsonAtomically(arquivoSaida, jsonAtual);
         console.log(`Arquivo ${arquivoSaida} atualizado com sucesso!`);
     } catch (err) {
