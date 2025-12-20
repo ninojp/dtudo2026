@@ -17,7 +17,7 @@ export default function CardAnimeDetalhesApiJikan({ id_mal }) {
         return (<Spinner />);
     }
     return (
-        <article className={styles.articleCardAnime} key={String(detalhesAnime.id)}>
+        <article className={styles.articleCardAnime} key={String(detalhesAnime.mal_id)}>
             <div className={styles.divTitulosAnime}>
                 <h3>{detalhesAnime.title}</h3>
             </div>

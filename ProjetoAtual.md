@@ -6,7 +6,7 @@ Neste meu arquivo: src/pages/MyAnimesDetalhes.jsx estou usando um componente que
 Eu preciso SALVAR os detalhes de cada anime na minha base de dados local, dentro dos seus repectivos locais ("subpastas"). Como posso fazer isso de forma automatizada pois são quase 3000 mil animes. Me pergunte se vc precisar de mais detalhes.
 
 ===========================================================================
-FAZER A TROCA DOS NOMES DAS IMAGENS ANTES
+
 Este meu arquivo: PastasMyAnimes está funcionando, mas agora eu preciso que meu arquivo de saida: api/db/myanimes.json, tenha sua estrutura interna diferente da atual. Abaixo vou colocar um exemplo (com comentários) de como eu gostária que meu arquivo json ficasse.
 {
   "animacoes": [
@@ -30,3 +30,6 @@ Este meu arquivo: PastasMyAnimes está funcionando, mas agora eu preciso que meu
             {
               ...
             },
+===========================================================================================
+
+Este meu arquivo: PastasMyAnimes está funcionando, dentre outras coisas ele copia as imagens numeradas.jpg de cada subpasta, para a pasta do projeto: public/myanimes/animes. Agora eu preciso que além disso, ele também copie apenas a primeira imagem numerada.jpg de apenas a primeira subpasta, pode ignorar as outras subpastas se tiver. Mas agora  

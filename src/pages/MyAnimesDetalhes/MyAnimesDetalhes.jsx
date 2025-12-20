@@ -41,7 +41,7 @@ export default function MyAnimesDetalhes() {
             <section className={styles.sectionMyAnimesLocais}>
                 {myAnimesDetalhes.subpastas.map((subpasta) => (
                     <div className={styles.divContainerSubsMyAnimes} key={subpasta.nome}>
-                        <h3>{subpasta.nome} - ID: {subpasta.id}</h3>
+                        <h3>{subpasta.nome} - ID: {subpasta.mal_id}</h3>
                         <ul>
                             {subpasta.arquivos.map((arquivo) => (
                                 <li className={styles.liSubpastasMyAnimes} key={arquivo.nome}>{arquivo.nome}</li>

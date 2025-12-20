@@ -76,7 +76,7 @@ export default function CardsMyAnimesList() {
                     {selectedItem.subpastas && selectedItem.subpastas.map(item => (
                         <Link key={item.nome} to={`/myanimes/myanimes-detalhes/${selectedItem.slug}`} target='_blank'>
                             <p className={styles.pListMiniAnimes}>
-                                <img className={styles.imgListMiniAnimes} src={`/myanimes/animes/${item.id}.jpg`} alt={item.nomeSemAno} />
+                                <img className={styles.imgListMiniAnimes} src={`/myanimes/animes/${item.mal_id}.jpg`} alt={item.nomeSemAno} />
                                 {item.nome}
                             </p>
                         </Link>

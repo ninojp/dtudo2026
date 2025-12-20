@@ -16,7 +16,7 @@ export default function MyAnimesDetalhesProvider({ children }) {
     //------------------------------------------------------------------
     const currentDisplayId = useMemo(() => {
         if (currentDisplayIdState) return currentDisplayIdState;
-        return myAnimesDetalhes?.subpastas?.[0]?.id ?? null;
+        return myAnimesDetalhes?.subpastas?.[0]?.mal_id ?? null;
     }, [myAnimesDetalhes, currentDisplayIdState]);
     //==========================================
     return (
