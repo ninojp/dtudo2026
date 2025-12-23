@@ -42,3 +42,11 @@ Preciso de um script que gere um relatório listando as imagens que estão sendo
 verifique novamente, pois na pasta: public/myanimes temos exatamente 1026 arquivos e pela quantidade de "id": 1005 no Temos arquivo: api/db/myanimes.json, deveriam ser 1005 arquivos.
 
 ===========================================================================================
+este meu arquivo: populateAnimeDetails.js está funcionado, mas preciso de mais algumas melhorias:
+
+- Agora eu quero que ele salve os detalhes de cada anime em uma lista separada, dentro da pasta: api/db/animeDetails.json
+- verificar se o arquivo de destino já existe antes de salvar se tem animes duplicados e fazer um log listando estes duplicados e salvar os animes em ordem crescente por mal_id.
+
+Animes duplicados encontrados (não adicionados): [
+2105
+]

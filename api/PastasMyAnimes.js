@@ -9,22 +9,26 @@ const __dirname = path.dirname(__filename);
 
 // --- Configuração ---
 // Altere aqui para os diretórios que deseja monitorar
-const pastasParaMonitorar = [
-    'F:\\A', 'F:\\B', 'F:\\C', 'F:\\D', 'F:\\E', 'F:\\F', 'F:\\G', 'F:\\H', 'F:\\I', 'F:\\J',
-    'F:\\K', 'F:\\L', 'F:\\M', 'F:\\N', 'F:\\O', 'F:\\P', 'F:\\Q', 'F:\\R', 'H:\\S', 'H:\\T', 'H:\\U', 'H:\\V', 'H:\\W', 'H:\\X', 'H:\\Y', 'H:\\Z'
-];
-const arquivoSaida = path.resolve(__dirname, '../api/db/myanimes.json');
-const pastaDestinoImagens = path.resolve(__dirname, '../public/myanimes/animes');
-const pastaDestinoCapas = path.resolve(__dirname, '../public/myanimes');
+const CONFIG = {
+    pastasParaMonitorar: [
+        'F:\\A', 'F:\\B', 'F:\\C', 'F:\\D', 'F:\\E', 'F:\\F', 'F:\\G', 'F:\\H', 'F:\\I', 'F:\\J',
+        'F:\\K', 'F:\\L', 'F:\\M', 'F:\\N', 'F:\\O', 'F:\\P', 'F:\\Q', 'F:\\R', 'H:\\S', 'H:\\T', 'H:\\U', 'H:\\V', 'H:\\W', 'H:\\X', 'H:\\Y', 'H:\\Z'
+    ],
+    arquivoSaida: path.resolve(__dirname, '../api/db/myanimes.json'),
+    pastaDestinoImagens: path.resolve(__dirname, '../public/myanimes/animes'),
+    pastaDestinoCapas: path.resolve(__dirname, '../public/myanimes'),
+};
 
 /**
  * Varre recursivamente até 2 níveis de subpasta dos diretórios de origem, 
- * encontra imagens com nomes numéricos (ex: 123.jpg) e as copia para a pasta de destino.
+ * encontra imagens com nomes numéricos (ex: 123.jpg) e as copia para a pasta de destino,
+ * verificando se já existem para evitar sobrescrições.
  */
-async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
+async function copiarCapasAnimes(pastasOrigem, pastaDestino) {
     console.log(`Iniciando cópia de imagens para: ${pastaDestino}`);
     await ensureDir(pastaDestino);
     let imagensCopiadas = 0;
+    let imagensPuladas = 0;
     const MAX_DEPTH = 2; // Limita a busca a 2 níveis de subpasta
     async function walk(diretorio, depth) {
         // Garante que o diretório é uma string válida antes de prosseguir.
@@ -41,26 +45,32 @@ async function copiarImagensRelevantes(pastasOrigem, pastaDestino) {
                 await walk(caminhoCompleto, depth + 1); // Recursão para subpastas, incrementando a profundidade
             } else if (entrada.isFile() && /^\d+\.jpg$/i.test(entrada.name)) {
                 const caminhoDestino = path.join(pastaDestino, entrada.name);
-                try {
-                    await fsPromises.copyFile(caminhoCompleto, caminhoDestino);
-                    imagensCopiadas++;
-                } catch (err) {
-                    console.error(`Erro ao copiar ${caminhoCompleto}:`, err);
+                if (!fs.existsSync(caminhoDestino)) {
+                    try {
+                        await fsPromises.copyFile(caminhoCompleto, caminhoDestino);
+                        imagensCopiadas++;
+                    } catch (err) {
+                        console.error(`Erro ao copiar ${caminhoCompleto}:`, err);
+                    }
+                } else {
+                    imagensPuladas++;
                 }
             }
         }
     }
     await Promise.all(pastasOrigem.map(pasta => walk(pasta, 0)));
-    console.log(`Cópia de imagens concluída. Total de ${imagensCopiadas} imagens copiadas.`);
+    console.log(`Cópia de imagens concluída. Total de ${imagensCopiadas} imagens copiadas, ${imagensPuladas} puladas (já existiam).`);
 }
 
 /**
- * Copia a primeira imagem numérica .jpg da primeira subpasta de nível 2 de cada pasta de anime para a pasta de capas.
+ * Copia a primeira imagem numérica .jpg da primeira subpasta de nível 2 de cada pasta de anime para a pasta de capas,
+ * verificando se já existem para evitar sobrescrições.
  */
-async function copiarImagensDeCapa(pastasOrigem, pastaDestino) {
+async function copiarImagensCapaColecao(pastasOrigem, pastaDestino) {
     console.log(`Iniciando cópia de imagens de capa para: ${pastaDestino}`);
     await ensureDir(pastaDestino);
     let imagensDeCapaCopiadas = 0;
+    let imagensDeCapaPuladas = 0;
     for (const pastaRaiz of pastasOrigem) {
         const itensRaiz = await readDirSafe(pastaRaiz);
         const pastasDeAnime = itensRaiz.filter((it) => it.isDirectory());
@@ -77,16 +87,21 @@ async function copiarImagensDeCapa(pastasOrigem, pastaDestino) {
             const caminhoOrigem = path.join(subFullPath, primeiraJpg.nome);
             const nomeDestino = `${normalizeName(item.name)}.jpg`;
             const caminhoDestino = path.join(pastaDestino, nomeDestino);
-            try {
-                await fsPromises.copyFile(caminhoOrigem, caminhoDestino);
-                imagensDeCapaCopiadas++;
-                console.log(`Imagem de capa copiada: ${nomeDestino}`);
-            } catch (err) {
-                console.error(`Erro ao copiar imagem de capa ${caminhoOrigem}:`, err);
+            if (!fs.existsSync(caminhoDestino)) {
+                try {
+                    await fsPromises.copyFile(caminhoOrigem, caminhoDestino);
+                    imagensDeCapaCopiadas++;
+                    console.log(`Imagem de capa copiada: ${nomeDestino}`);
+                } catch (err) {
+                    console.error(`Erro ao copiar imagem de capa ${caminhoOrigem}:`, err);
+                }
+            } else {
+                imagensDeCapaPuladas++;
+                console.log(`Imagem de capa pulada (já existe): ${nomeDestino}`);
             }
         }
     }
-    console.log(`Cópia de imagens de capa concluída. Total de ${imagensDeCapaCopiadas} imagens de capa copiadas.`);
+    console.log(`Cópia de imagens de capa concluída. Total de ${imagensDeCapaCopiadas} imagens de capa copiadas, ${imagensDeCapaPuladas} puladas (já existiam).`);
 }
 /** SLUGIFY: do curso alura, testar pra ver se é melhor que o atual
  * .toLowerCase()
@@ -94,6 +109,11 @@ async function copiarImagensDeCapa(pastasOrigem, pastaDestino) {
     .replace(/[^a-z0-9\s-]/g, '') // Remove caracteres especiais
     .trim() // Remove espaços do início e fim
     .replace(/\s+/g, '-'); // Troca espaços por hífens
+ */
+/**
+ * Normaliza o nome do arquivo, removendo acentos, convertendo para minúsculas e substituindo espaços por underscores.
+ * @param {string} name - O nome a ser normalizado.
+ * @returns {string} O nome normalizado.
  */
 function normalizeName(name = '') {
     return String(name)
@@ -105,11 +125,18 @@ function normalizeName(name = '') {
         .replace(/_+/g, '_')
         .replace(/^_+|_+$/g, '');
 }
-// Gera slug a partir do nome
+/**
+ * Gera um slug a partir do nome normalizado.
+ * @param {string} name - O nome a ser convertido em slug.
+ * @returns {string} O slug gerado.
+ */
 function slugify(name = '') {
     return normalizeName(name).replace(/[_]+/g, '-');
 }
-// Garante que a pasta exista
+/**
+ * Garante que o diretório exista, criando-o recursivamente se necessário.
+ * @param {string} dirPath - O caminho do diretório.
+ */
 async function ensureDir(dirPath) {
     try {
         await fsPromises.mkdir(dirPath, { recursive: true });
@@ -118,7 +145,11 @@ async function ensureDir(dirPath) {
         if (err.code !== 'EEXIST') throw err;
     }
 }
-// Lê diretório de forma segura, retornando array vazio em caso de erro
+/**
+ * Lê o conteúdo de um diretório de forma segura, retornando um array vazio em caso de erro.
+ * @param {string} dir - O caminho do diretório.
+ * @returns {Promise<fs.Dirent[]>} Array de entradas do diretório.
+ */
 async function readDirSafe(dir) {
     try { // Garante que 'dir' seja uma string antes de usar
         if (typeof dir !== 'string') return [];
@@ -128,12 +159,21 @@ async function readDirSafe(dir) {
         return [];
     }
 }
-/** Retorna array de objetos { nome, tipo: 'arquivo'|'pasta' } */
+/**
+ * Lista o conteúdo de um diretório, retornando objetos com nome e tipo.
+ * @param {string} dir - O caminho do diretório.
+ * @returns {Promise<Array<{nome: string, tipo: 'arquivo'|'pasta'}>>} Array de objetos representando o conteúdo.
+ */
 async function listContents(dir) {
     const entries = await readDirSafe(dir);
     return entries.map((entry) => ({ nome: entry.name, tipo: entry.isDirectory() ? 'pasta' : 'arquivo' }));
 }
-/** Gera a estrutura desejada a partir das pastas listadas */
+/**
+ * Gera a estrutura personalizada de dados a partir das pastas listadas.
+ * Processa cada pasta raiz, extraindo informações de animes e subpastas.
+ * @param {string[]} pastas - Array de caminhos das pastas raiz a serem processadas.
+ * @returns {Promise<Array<Object>>} Array de objetos representando a estrutura de animes.
+ */
 async function gerarEstruturaPersonalizada(pastas) {
   const processarPastaRaiz = async (pastaRaiz) => {
     const itensRaiz = await readDirSafe(pastaRaiz);
@@ -169,7 +209,11 @@ async function gerarEstruturaPersonalizada(pastas) {
   const arraysDeResultados = await Promise.all(pastas.map(processarPastaRaiz));
   return arraysDeResultados.flat().map((item, index) => ({ ...item, id: index + 1 }));
 }
-/** Escreve JSON de forma atômica (escreve em arquivo temporário e renomeia) */
+/**
+ * Escreve dados JSON de forma atômica, criando um arquivo temporário e renomeando para evitar corrupções.
+ * @param {string} targetPath - O caminho do arquivo de destino.
+ * @param {Object} data - Os dados a serem escritos em JSON.
+ */
 async function writeJsonAtomically(targetPath, data) {
     const dir = path.dirname(targetPath);
     await ensureDir(dir);
@@ -177,28 +221,28 @@ async function writeJsonAtomically(targetPath, data) {
     await fsPromises.writeFile(tmpPath, JSON.stringify(data, null, 2), 'utf8');
     await fsPromises.rename(tmpPath, targetPath);
 }
-// --- Atualização / debounce ---
+// Função principal que atualiza as animações: copia imagens, gera estrutura e salva JSON.
 async function atualizarAnimacoes() {
     try {
-        // Executa a cópia das imagens antes de gerar o JSON
-        await copiarImagensRelevantes(pastasParaMonitorar, pastaDestinoImagens);
-        // Copia as imagens de capa para cada pasta de anime
-        await copiarImagensDeCapa(pastasParaMonitorar, pastaDestinoCapas);
-        const estrutura = await gerarEstruturaPersonalizada(pastasParaMonitorar);
+        // Executa a cópia das imagens das capas dos Animes para a pasta public/myanimes/animes/, antes de gerar o JSON
+        await copiarCapasAnimes(CONFIG.pastasParaMonitorar, CONFIG.pastaDestinoImagens);
+        // Copia as imagens de capa de cada COLEÇÃO MyaAnimes, para a pasta public/myanimes/
+        await copiarImagensCapaColecao(CONFIG.pastasParaMonitorar, CONFIG.pastaDestinoCapas);
+        const estrutura = await gerarEstruturaPersonalizada(CONFIG.pastasParaMonitorar);
         let jsonAtual = {};
         try {
-            if (fs.existsSync(arquivoSaida)) {
-                const raw = await fsPromises.readFile(arquivoSaida, 'utf8');
+            if (fs.existsSync(CONFIG.arquivoSaida)) {
+                const raw = await fsPromises.readFile(CONFIG.arquivoSaida, 'utf8');
                 jsonAtual = raw ? JSON.parse(raw) : {};
             }
         } catch (readErr) {
-            console.warn(`Falha ao ler ${arquivoSaida}: ${readErr.message}`);
+            console.warn(`Falha ao ler ${CONFIG.arquivoSaida}: ${readErr.message}`);
             jsonAtual = { animacoes: [] };
         }
         jsonAtual.animacoes = estrutura;
         jsonAtual.ultimaAtualizacao = new Date().toISOString();
-        await writeJsonAtomically(arquivoSaida, jsonAtual);
-        console.log(`Arquivo ${arquivoSaida} atualizado com sucesso!`);
+        await writeJsonAtomically(CONFIG.arquivoSaida, jsonAtual);
+        console.log(`Arquivo ${CONFIG.arquivoSaida} atualizado com sucesso!`);
     } catch (err) {
         console.error('Erro ao atualizar animacoes.json:', err);
     }

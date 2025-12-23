@@ -1743,33 +1743,6 @@
       "id": 17
     },
     {
-      "nome": "A Lenda do Rei Macaco A Volta do Herói",
-      "slug": "a-lenda-do-rei-macaco-a-volta-do-heroi",
-      "imgSrc": "a_lenda_do_rei_macaco_a_volta_do_heroi.jpg",
-      "subpastas": [
-        {
-          "mal_id": null,
-          "nome": "2015 A Lenda do Rei Macaco A Volta do Herói - Filme Dub",
-          "ano": "2015",
-          "nomeSemAno": "A Lenda do Rei Macaco A Volta do Herói - Filme Dub",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "A Lenda do Rei Macaco A Volta do Herói - 2015 480p Dub.torrent"
-            },
-            {
-              "nome": "A.Lenda.do.Rei.Macaco.A.Volta.do.Herói.2017.720p.WEB-DL.x264.DUAL-WWW.BLUDV.COM.mkv"
-            },
-            {
-              "nome": "A.Lenda.do.Rei.Macaco.A.Volta.do.Herói.2017.720p.WEB-DL.x264.DUAL-WWW.BLUDV.COM.srt"
-            }
-          ]
-        }
-      ],
-      "id": 18
-    },
-    {
       "nome": "A Lenda dos Guardiões",
       "slug": "a-lenda-dos-guardioes",
       "imgSrc": "a_lenda_dos_guardioes.jpg",
@@ -1791,7 +1764,7 @@
           ]
         }
       ],
-      "id": 19
+      "id": 18
     },
     {
       "nome": "A Noiva Cadaver",
@@ -1815,7 +1788,7 @@
           ]
         }
       ],
-      "id": 20
+      "id": 19
     },
     {
       "nome": "A Origem dos Guardiões",
@@ -1836,7 +1809,7 @@
           ]
         }
       ],
-      "id": 21
+      "id": 20
     },
     {
       "nome": "A.I.C.O. Incarnation",
@@ -1893,7 +1866,7 @@
           ]
         }
       ],
-      "id": 22
+      "id": 21
     },
     {
       "nome": "Aa! Megami-Sama!",
@@ -2249,7 +2222,7 @@
           ]
         }
       ],
-      "id": 23
+      "id": 22
     },
     {
       "nome": "Abashiri Ikka",
@@ -2312,7 +2285,7 @@
           ]
         }
       ],
-      "id": 24
+      "id": 23
     },
     {
       "nome": "Abenobashi Mahou Shoutengai",
@@ -2375,7 +2348,7 @@
           ]
         }
       ],
-      "id": 25
+      "id": 24
     },
     {
       "nome": "Abominável",
@@ -2402,7 +2375,7 @@
           ]
         }
       ],
-      "id": 26
+      "id": 25
     },
     {
       "nome": "Absolute Duo",
@@ -2459,7 +2432,7 @@
           ]
         }
       ],
-      "id": 27
+      "id": 26
     },
     {
       "nome": "Abunai Sisters Koko & Mika",
@@ -2510,7 +2483,7 @@
           ]
         }
       ],
-      "id": 28
+      "id": 27
     },
     {
       "nome": "Accel World",
@@ -2675,7 +2648,7 @@
           ]
         }
       ],
-      "id": 29
+      "id": 28
     },
     {
       "nome": "Afro Samurai",
@@ -2774,7 +2747,7 @@
           ]
         }
       ],
-      "id": 30
+      "id": 29
     },
     {
       "nome": "Agent Aika",
@@ -2943,7 +2916,7 @@
           ]
         }
       ],
-      "id": 31
+      "id": 30
     },
     {
       "nome": "AI no Idenshi",
@@ -3000,7 +2973,7 @@
           ]
         }
       ],
-      "id": 32
+      "id": 31
     },
     {
       "nome": "Ai Yori Aoshi",
@@ -3180,7 +3153,7 @@
           ]
         }
       ],
-      "id": 33
+      "id": 32
     },
     {
       "nome": "Air",
@@ -3303,7 +3276,7 @@
           ]
         }
       ],
-      "id": 34
+      "id": 33
     },
     {
       "nome": "Air Gear",
@@ -3437,7 +3410,7 @@
           ]
         }
       ],
-      "id": 35
+      "id": 34
     },
     {
       "nome": "Aishen Qiaokeli Jinxingshi (God of Love's Chocolate)",
@@ -3529,7 +3502,7 @@
           ]
         }
       ],
-      "id": 36
+      "id": 35
     },
     {
       "nome": "Aishiteruze Baby★★",
@@ -3628,7 +3601,7 @@
           ]
         }
       ],
-      "id": 37
+      "id": 36
     },
     {
       "nome": "Ajin Demi-Human",
@@ -3814,7 +3787,7 @@
           ]
         }
       ],
-      "id": 38
+      "id": 37
     },
     {
       "nome": "Akahori Gedou Hour Rabuge",
@@ -3874,7 +3847,7 @@
           ]
         }
       ],
-      "id": 39
+      "id": 38
     },
     {
       "nome": "Akame ga Kill!",
@@ -3996,7 +3969,7 @@
           ]
         }
       ],
-      "id": 40
+      "id": 39
     },
     {
       "nome": "Akaneiro ni Somaru Saka",
@@ -4069,7 +4042,7 @@
           ]
         }
       ],
-      "id": 41
+      "id": 40
     },
     {
       "nome": "Aki-Sora",
@@ -4115,7 +4088,7 @@
           ]
         }
       ],
-      "id": 42
+      "id": 41
     },
     {
       "nome": "Akibas Trip The Animation",
@@ -4175,7 +4148,7 @@
           ]
         }
       ],
-      "id": 43
+      "id": 42
     },
     {
       "nome": "Akikan",
@@ -4248,7 +4221,7 @@
           ]
         }
       ],
-      "id": 44
+      "id": 43
     },
     {
       "nome": "Akira",
@@ -4272,7 +4245,7 @@
           ]
         }
       ],
-      "id": 45
+      "id": 44
     },
     {
       "nome": "Akuma no Memumemu-chan",
@@ -4296,7 +4269,7 @@
           ]
         }
       ],
-      "id": 46
+      "id": 45
     },
     {
       "nome": "Akuma no Riddle",
@@ -4369,7 +4342,7 @@
           ]
         }
       ],
-      "id": 47
+      "id": 46
     },
     {
       "nome": "Aldnoah Zero",
@@ -4514,7 +4487,7 @@
           ]
         }
       ],
-      "id": 48
+      "id": 47
     },
     {
       "nome": "Altered Carbon Resleeved",
@@ -4541,7 +4514,7 @@
           ]
         }
       ],
-      "id": 49
+      "id": 48
     },
     {
       "nome": "Amaenaide yo!!",
@@ -4691,7 +4664,7 @@
           ]
         }
       ],
-      "id": 50
+      "id": 49
     },
     {
       "nome": "Ane Log Moyako Neesan no Tomaranai Monologue",
@@ -4747,7 +4720,7 @@
           ]
         }
       ],
-      "id": 51
+      "id": 50
     },
     {
       "nome": "Ange Vierge",
@@ -4816,7 +4789,7 @@
           ]
         }
       ],
-      "id": 52
+      "id": 51
     },
     {
       "nome": "Angel Cop",
@@ -4855,7 +4828,7 @@
           ]
         }
       ],
-      "id": 53
+      "id": 52
     },
     {
       "nome": "Angel Densetsu",
@@ -4879,7 +4852,7 @@
           ]
         }
       ],
-      "id": 54
+      "id": 53
     },
     {
       "nome": "AniKuri15 (Ani Kuri 15)",
@@ -4903,7 +4876,7 @@
           ]
         }
       ],
-      "id": 55
+      "id": 54
     },
     {
       "nome": "Animatrix",
@@ -4930,7 +4903,7 @@
           ]
         }
       ],
-      "id": 56
+      "id": 55
     },
     {
       "nome": "Animegataris",
@@ -5013,7 +4986,7 @@
           ]
         }
       ],
-      "id": 57
+      "id": 56
     },
     {
       "nome": "Anne no Nikki (O Diário de Anne Frank)",
@@ -5050,7 +5023,7 @@
           ]
         }
       ],
-      "id": 58
+      "id": 57
     },
     {
       "nome": "Ao no 6-gou (Blue Submarine No.6)",
@@ -5083,7 +5056,7 @@
           ]
         }
       ],
-      "id": 59
+      "id": 58
     },
     {
       "nome": "Aoi Sekai no Chuushin de",
@@ -5113,7 +5086,7 @@
           ]
         }
       ],
-      "id": 60
+      "id": 59
     },
     {
       "nome": "Aoki Hagane no Arpeggio Ars Nova",
@@ -5215,7 +5188,7 @@
           ]
         }
       ],
-      "id": 61
+      "id": 60
     },
     {
       "nome": "Aoki Honoo (Blue Flames)",
@@ -5245,7 +5218,7 @@
           ]
         }
       ],
-      "id": 62
+      "id": 61
     },
     {
       "nome": "Aozora Shoujo-tai (801 TTS Airbats)",
@@ -5287,7 +5260,7 @@
           ]
         }
       ],
-      "id": 63
+      "id": 62
     },
     {
       "nome": "Applessed",
@@ -5434,7 +5407,7 @@
           ]
         }
       ],
-      "id": 64
+      "id": 63
     },
     {
       "nome": "Aquarion",
@@ -5708,7 +5681,7 @@
           ]
         }
       ],
-      "id": 65
+      "id": 64
     },
     {
       "nome": "Arcade Gamer Fubuki",
@@ -5769,7 +5742,7 @@
           ]
         }
       ],
-      "id": 66
+      "id": 65
     },
     {
       "nome": "Arcane (League Of Legends)",
@@ -5863,7 +5836,7 @@
           ]
         }
       ],
-      "id": 67
+      "id": 66
     },
     {
       "nome": "Ariel Visual",
@@ -5909,7 +5882,7 @@
           ]
         }
       ],
-      "id": 68
+      "id": 67
     },
     {
       "nome": "Arifureta",
@@ -6234,7 +6207,7 @@
           ]
         }
       ],
-      "id": 69
+      "id": 68
     },
     {
       "nome": "Arion",
@@ -6258,7 +6231,7 @@
           ]
         }
       ],
-      "id": 70
+      "id": 69
     },
     {
       "nome": "Armitage III",
@@ -6305,7 +6278,7 @@
           ]
         }
       ],
-      "id": 71
+      "id": 70
     },
     {
       "nome": "Around 40 otoko no isekai tsuuhan (Arafo Otoko No Isekai Tsuhan Seikatsu)",
@@ -6383,7 +6356,7 @@
           ]
         }
       ],
-      "id": 72
+      "id": 71
     },
     {
       "nome": "Arrugas (Rugas)",
@@ -6407,7 +6380,7 @@
           ]
         }
       ],
-      "id": 73
+      "id": 72
     },
     {
       "nome": "Ars no Kyojuu",
@@ -6460,19 +6433,6 @@
             },
             {
               "nome": "[#AnimeNSK]_Ars_no_Kyojuu_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(B404B694).mkv"
-            }
-          ]
-        },
-        {
-          "mal_id": 53179,
-          "nome": "2023 Ars no Kyojuu - TV Mult-Subs",
-          "ano": "2023",
-          "nomeSemAno": "Ars no Kyojuu - TV Mult-Subs",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "53179.jpg"
             },
             {
               "nome": "[Erai-raws] Ars no Kyojuu - 01 [1080p][Multiple Subtitle][6EF819D6].mkv"
@@ -6513,7 +6473,7 @@
           ]
         }
       ],
-      "id": 74
+      "id": 73
     },
     {
       "nome": "Arslan Senki",
@@ -6742,7 +6702,7 @@
           ]
         }
       ],
-      "id": 75
+      "id": 74
     },
     {
       "nome": "Arte",
@@ -6799,7 +6759,7 @@
           ]
         }
       ],
-      "id": 76
+      "id": 75
     },
     {
       "nome": "As Terríveis Aventuras De Billy E Mandy",
@@ -6888,7 +6848,7 @@
           "arquivos": []
         }
       ],
-      "id": 77
+      "id": 76
     },
     {
       "nome": "Asa Made Jugyou Chu!",
@@ -6912,7 +6872,7 @@
           ]
         }
       ],
-      "id": 78
+      "id": 77
     },
     {
       "nome": "Asobi ni Iku yo!",
@@ -6998,7 +6958,7 @@
           ]
         }
       ],
-      "id": 79
+      "id": 78
     },
     {
       "nome": "Assassins Pride",
@@ -7055,7 +7015,7 @@
           ]
         }
       ],
-      "id": 80
+      "id": 79
     },
     {
       "nome": "Assault Lily Bouquet",
@@ -7128,7 +7088,7 @@
           ]
         }
       ],
-      "id": 81
+      "id": 80
     },
     {
       "nome": "Astarotte No Omocha",
@@ -7243,7 +7203,7 @@
           ]
         }
       ],
-      "id": 82
+      "id": 81
     },
     {
       "nome": "Asu no Yoichi! (Samurai Harem)",
@@ -7300,7 +7260,7 @@
           ]
         }
       ],
-      "id": 83
+      "id": 82
     },
     {
       "nome": "Asura Cryin",
@@ -7412,7 +7372,7 @@
           ]
         }
       ],
-      "id": 84
+      "id": 83
     },
     {
       "nome": "Aviões",
@@ -7452,7 +7412,7 @@
           ]
         }
       ],
-      "id": 85
+      "id": 84
     },
     {
       "nome": "Ayakashi",
@@ -7509,7 +7469,7 @@
           ]
         }
       ],
-      "id": 86
+      "id": 85
     },
     {
       "nome": "Ayakashi Triangle",
@@ -7582,7 +7542,7 @@
           ]
         }
       ],
-      "id": 87
+      "id": 86
     },
     {
       "nome": "Ayane-chan High Kick!",
@@ -7609,7 +7569,7 @@
           ]
         }
       ],
-      "id": 88
+      "id": 87
     },
     {
       "nome": "Azur Lane",
@@ -7734,7 +7694,7 @@
           ]
         }
       ],
-      "id": 89
+      "id": 88
     },
     {
       "nome": "B-gata H-kei (B Gata H Kei)",
@@ -7791,7 +7751,7 @@
           ]
         }
       ],
-      "id": 90
+      "id": 89
     },
     {
       "nome": "Baby Princess 3D Paradise 0 [Love]",
@@ -7815,7 +7775,7 @@
           ]
         }
       ],
-      "id": 91
+      "id": 90
     },
     {
       "nome": "Babylon",
@@ -7836,7 +7796,7 @@
           ]
         }
       ],
-      "id": 92
+      "id": 91
     },
     {
       "nome": "Back Street Girls Gokudolls",
@@ -7887,7 +7847,7 @@
           ]
         }
       ],
-      "id": 93
+      "id": 92
     },
     {
       "nome": "Bakemono no Ko (O Rapaz e o Monstro)",
@@ -7914,7 +7874,7 @@
           ]
         }
       ],
-      "id": 94
+      "id": 93
     },
     {
       "nome": "Baki Grappler",
@@ -8186,7 +8146,7 @@
           ]
         }
       ],
-      "id": 95
+      "id": 94
     },
     {
       "nome": "Bakuen Campus Guardress",
@@ -8219,7 +8179,7 @@
           ]
         }
       ],
-      "id": 96
+      "id": 95
     },
     {
       "nome": "Bakuretsu Hunters",
@@ -8362,7 +8322,7 @@
           ]
         }
       ],
-      "id": 97
+      "id": 96
     },
     {
       "nome": "Bakuretsu Tenshi",
@@ -8490,7 +8450,7 @@
           ]
         }
       ],
-      "id": 98
+      "id": 97
     },
     {
       "nome": "Baldr Force Exe Resolution",
@@ -8523,7 +8483,7 @@
           ]
         }
       ],
-      "id": 99
+      "id": 98
     },
     {
       "nome": "Bannou Bunka Neko-Musume",
@@ -8619,7 +8579,7 @@
           ]
         }
       ],
-      "id": 100
+      "id": 99
     },
     {
       "nome": "Basilisk",
@@ -8725,7 +8685,7 @@
           ]
         }
       ],
-      "id": 101
+      "id": 100
     },
     {
       "nome": "Bastard!!",
@@ -8923,7 +8883,7 @@
           ]
         }
       ],
-      "id": 102
+      "id": 101
     },
     {
       "nome": "Batman Ninja",
@@ -8947,7 +8907,7 @@
           ]
         }
       ],
-      "id": 103
+      "id": 102
     },
     {
       "nome": "Battle Athletess Daiundoukai",
@@ -9012,7 +8972,7 @@
           ]
         }
       ],
-      "id": 104
+      "id": 103
     },
     {
       "nome": "Battle Programmer Shirase",
@@ -9063,7 +9023,7 @@
           ]
         }
       ],
-      "id": 105
+      "id": 104
     },
     {
       "nome": "Bayonetta Bloody Fate",
@@ -9090,7 +9050,7 @@
           ]
         }
       ],
-      "id": 106
+      "id": 105
     },
     {
       "nome": "Bean",
@@ -9152,7 +9112,7 @@
           ]
         }
       ],
-      "id": 107
+      "id": 106
     },
     {
       "nome": "Beatless",
@@ -9283,7 +9243,7 @@
           ]
         }
       ],
-      "id": 108
+      "id": 107
     },
     {
       "nome": "Beck",
@@ -9382,7 +9342,7 @@
           ]
         }
       ],
-      "id": 109
+      "id": 108
     },
     {
       "nome": "Ben-To",
@@ -9488,7 +9448,7 @@
           ]
         }
       ],
-      "id": 110
+      "id": 109
     },
     {
       "nome": "Beowulf",
@@ -9509,7 +9469,7 @@
           ]
         }
       ],
-      "id": 111
+      "id": 110
     },
     {
       "nome": "Berserk",
@@ -9816,7 +9776,7 @@
           ]
         }
       ],
-      "id": 112
+      "id": 111
     },
     {
       "nome": "Big Order",
@@ -9958,7 +9918,7 @@
           ]
         }
       ],
-      "id": 113
+      "id": 112
     },
     {
       "nome": "Bikini Warriors",
@@ -10062,7 +10022,7 @@
           ]
         }
       ],
-      "id": 114
+      "id": 113
     },
     {
       "nome": "Binbougami ga!",
@@ -10122,7 +10082,7 @@
           ]
         }
       ],
-      "id": 115
+      "id": 114
     },
     {
       "nome": "Black Blood Brothers",
@@ -10179,7 +10139,7 @@
           ]
         }
       ],
-      "id": 116
+      "id": 115
     },
     {
       "nome": "Black Bullet",
@@ -10252,7 +10212,7 @@
           ]
         }
       ],
-      "id": 117
+      "id": 116
     },
     {
       "nome": "Black Clover",
@@ -10344,7 +10304,7 @@
           ]
         }
       ],
-      "id": 118
+      "id": 117
     },
     {
       "nome": "Black Fox",
@@ -10368,7 +10328,7 @@
           ]
         }
       ],
-      "id": 119
+      "id": 118
     },
     {
       "nome": "Black Jack",
@@ -10548,7 +10508,7 @@
           ]
         }
       ],
-      "id": 120
+      "id": 119
     },
     {
       "nome": "Black Lagoon",
@@ -10644,7 +10604,7 @@
           ]
         }
       ],
-      "id": 121
+      "id": 120
     },
     {
       "nome": "Black Magic M-66",
@@ -10668,7 +10628,7 @@
           ]
         }
       ],
-      "id": 122
+      "id": 121
     },
     {
       "nome": "Blame!",
@@ -10749,7 +10709,7 @@
           ]
         }
       ],
-      "id": 123
+      "id": 122
     },
     {
       "nome": "BlazBlue Alter Memory",
@@ -10819,7 +10779,7 @@
           ]
         }
       ],
-      "id": 124
+      "id": 123
     },
     {
       "nome": "Bleach",
@@ -11095,7 +11055,7 @@
           ]
         }
       ],
-      "id": 125
+      "id": 124
     },
     {
       "nome": "Blood Lad",
@@ -11162,7 +11122,7 @@
           ]
         }
       ],
-      "id": 126
+      "id": 125
     },
     {
       "nome": "Blood+",
@@ -11404,7 +11364,7 @@
           ]
         }
       ],
-      "id": 127
+      "id": 126
     },
     {
       "nome": "Blue Seed",
@@ -11602,7 +11562,7 @@
           ]
         }
       ],
-      "id": 128
+      "id": 127
     },
     {
       "nome": "Boku dake ga Inai Machi",
@@ -11672,7 +11632,7 @@
           ]
         }
       ],
-      "id": 129
+      "id": 128
     },
     {
       "nome": "Boku no Hero Academia",
@@ -12189,7 +12149,7 @@
           ]
         }
       ],
-      "id": 130
+      "id": 129
     },
     {
       "nome": "Boku no Kanojo ga Majimesugiru Sho-bitch na Ken",
@@ -12259,7 +12219,7 @@
           ]
         }
       ],
-      "id": 131
+      "id": 130
     },
     {
       "nome": "Boku no Marie",
@@ -12289,7 +12249,7 @@
           ]
         }
       ],
-      "id": 132
+      "id": 131
     },
     {
       "nome": "Boku no Tsuma wa Kanjou ga Nai",
@@ -12346,7 +12306,7 @@
           ]
         }
       ],
-      "id": 133
+      "id": 132
     },
     {
       "nome": "Boku wa Imouto ni Koi wo Suru",
@@ -12370,7 +12330,7 @@
           ]
         }
       ],
-      "id": 134
+      "id": 133
     },
     {
       "nome": "Boku wa Tomodachi ga Sukunai",
@@ -12550,7 +12510,7 @@
           ]
         }
       ],
-      "id": 135
+      "id": 134
     },
     {
       "nome": "Bokusatsu Tenshi Dokuro-chan",
@@ -12620,7 +12580,7 @@
           ]
         }
       ],
-      "id": 136
+      "id": 135
     },
     {
       "nome": "Bokutachi wa Benkyou ga Dekinai",
@@ -12745,7 +12705,7 @@
           ]
         }
       ],
-      "id": 137
+      "id": 136
     },
     {
       "nome": "Bounty Dog Getsumen no Eve",
@@ -12772,7 +12732,7 @@
           ]
         }
       ],
-      "id": 138
+      "id": 137
     },
     {
       "nome": "Boushoku no Berserk",
@@ -12842,7 +12802,7 @@
           ]
         }
       ],
-      "id": 139
+      "id": 138
     },
     {
       "nome": "Break Blade",
@@ -13024,7 +12984,7 @@
           ]
         }
       ],
-      "id": 140
+      "id": 139
     },
     {
       "nome": "Btooom!",
@@ -13081,7 +13041,7 @@
           ]
         }
       ],
-      "id": 141
+      "id": 140
     },
     {
       "nome": "Bubblegum Crisis",
@@ -13431,7 +13391,7 @@
           ]
         }
       ],
-      "id": 142
+      "id": 141
     },
     {
       "nome": "Bubuki Buranki",
@@ -13537,7 +13497,7 @@
           ]
         }
       ],
-      "id": 143
+      "id": 142
     },
     {
       "nome": "Bungaku Shoujo",
@@ -13596,7 +13556,7 @@
           ]
         }
       ],
-      "id": 144
+      "id": 143
     },
     {
       "nome": "Burn Up",
@@ -13746,7 +13706,7 @@
           ]
         }
       ],
-      "id": 145
+      "id": 144
     },
     {
       "nome": "Busou Chuugakusei - Basket Army",
@@ -13779,7 +13739,7 @@
           ]
         }
       ],
-      "id": 146
+      "id": 145
     },
     {
       "nome": "Busou Shoujo Machiavellianism",
@@ -13849,7 +13809,7 @@
           ]
         }
       ],
-      "id": 147
+      "id": 146
     },
     {
       "nome": "Buttobi!! CPU",
@@ -13879,7 +13839,7 @@
           ]
         }
       ],
-      "id": 148
+      "id": 147
     },
     {
       "nome": "Buzzer Beater",
@@ -13991,7 +13951,7 @@
           ]
         }
       ],
-      "id": 149
+      "id": 148
     },
     {
       "nome": "C - The Money of Soul and Possibility Control",
@@ -14048,7 +14008,7 @@
           ]
         }
       ],
-      "id": 150
+      "id": 149
     },
     {
       "nome": "Caligula",
@@ -14105,7 +14065,7 @@
           ]
         }
       ],
-      "id": 151
+      "id": 150
     },
     {
       "nome": "Call me Tonight",
@@ -14158,7 +14118,7 @@
           ]
         }
       ],
-      "id": 152
+      "id": 151
     },
     {
       "nome": "Campione",
@@ -14218,7 +14178,7 @@
           ]
         }
       ],
-      "id": 153
+      "id": 152
     },
     {
       "nome": "Canaan",
@@ -14294,7 +14254,7 @@
           ]
         }
       ],
-      "id": 154
+      "id": 153
     },
     {
       "nome": "Candy Boy",
@@ -14318,7 +14278,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 5116,
           "nome": "2008 Candy Boy Episode EX01 - Mirai Yohouzu - OVA",
           "ano": "2008",
           "nomeSemAno": "Candy Boy Episode EX01 - Mirai Yohouzu - OVA",
@@ -14326,7 +14286,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "5116.avif"
+              "nome": "5116.jpg"
             },
             {
               "nome": "[_AnimeNSK]_Candy_Boy_EX_-_01_[DVD_848x480_H264+AAC]_(B34EF807).mkv"
@@ -14334,7 +14294,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 4535,
           "nome": "2008 Candy Boy Nonchalant Talk of the Certain Twin Sisters in Daily Life - ONA",
           "ano": "2008",
           "nomeSemAno": "Candy Boy Nonchalant Talk of the Certain Twin Sisters in Daily Life - ONA",
@@ -14342,7 +14302,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "4535.avif"
+              "nome": "4535.jpg"
             },
             {
               "nome": "[_AnimeNSK]_Candy_Boy_-_01_[DVD_848x480_H264+AAC]_(8322A7DE).mkv"
@@ -14368,7 +14328,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 6479,
           "nome": "2009 Candy Boy Episode EX02 - Shiawase Kyouyuu Riron - Special",
           "ano": "2009",
           "nomeSemAno": "Candy Boy Episode EX02 - Shiawase Kyouyuu Riron - Special",
@@ -14376,7 +14336,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "6479.avif"
+              "nome": "6479.jpg"
             },
             {
               "nome": "[_AnimeNSK]_Candy_Boy_EX_-_02_[DVD_848x480_H264+AAC]_(443AA81D).mkv"
@@ -14384,7 +14344,7 @@
           ]
         }
       ],
-      "id": 155
+      "id": 154
     },
     {
       "nome": "Canvas",
@@ -14424,7 +14384,7 @@
           ]
         }
       ],
-      "id": 156
+      "id": 155
     },
     {
       "nome": "Castlevania",
@@ -14468,7 +14428,7 @@
           "arquivos": []
         }
       ],
-      "id": 157
+      "id": 156
     },
     {
       "nome": "Chainsaw Man",
@@ -14541,7 +14501,7 @@
           ]
         }
       ],
-      "id": 158
+      "id": 157
     },
     {
       "nome": "Charlotte",
@@ -14617,7 +14577,7 @@
           ]
         }
       ],
-      "id": 159
+      "id": 158
     },
     {
       "nome": "Cheating Craft",
@@ -14674,7 +14634,7 @@
           ]
         }
       ],
-      "id": 160
+      "id": 159
     },
     {
       "nome": "Chobits",
@@ -14796,7 +14756,7 @@
           ]
         }
       ],
-      "id": 161
+      "id": 160
     },
     {
       "nome": "Chocotto Sister",
@@ -14889,7 +14849,7 @@
           ]
         }
       ],
-      "id": 162
+      "id": 161
     },
     {
       "nome": "Chou Henshin Cosprayers",
@@ -15162,7 +15122,7 @@
           ]
         }
       ],
-      "id": 163
+      "id": 162
     },
     {
       "nome": "Choujin Gakuen Gowcaizer The Voltage Fighters",
@@ -15198,7 +15158,7 @@
           ]
         }
       ],
-      "id": 164
+      "id": 163
     },
     {
       "nome": "Choujuu Densetsu Gestalt",
@@ -15225,7 +15185,7 @@
           ]
         }
       ],
-      "id": 165
+      "id": 164
     },
     {
       "nome": "Choushin Hime Dangaizer 3",
@@ -15258,7 +15218,7 @@
           ]
         }
       ],
-      "id": 166
+      "id": 165
     },
     {
       "nome": "Chrono Crusade (Chrno Crusade)",
@@ -15364,7 +15324,7 @@
           ]
         }
       ],
-      "id": 167
+      "id": 166
     },
     {
       "nome": "Chunqiu Feng Shen",
@@ -15457,7 +15417,7 @@
           ]
         }
       ],
-      "id": 168
+      "id": 167
     },
     {
       "nome": "Chuu bra!!",
@@ -15514,7 +15474,7 @@
           ]
         }
       ],
-      "id": 169
+      "id": 168
     },
     {
       "nome": "Clannad",
@@ -15737,7 +15697,7 @@
           ]
         }
       ],
-      "id": 170
+      "id": 169
     },
     {
       "nome": "Claymore",
@@ -15914,7 +15874,7 @@
           ]
         }
       ],
-      "id": 171
+      "id": 170
     },
     {
       "nome": "Clockwork Planet",
@@ -15971,7 +15931,7 @@
           ]
         }
       ],
-      "id": 172
+      "id": 171
     },
     {
       "nome": "Code Geass",
@@ -16659,7 +16619,7 @@
           ]
         }
       ],
-      "id": 173
+      "id": 172
     },
     {
       "nome": "Code-Breaker",
@@ -16741,7 +16701,7 @@
           ]
         }
       ],
-      "id": 174
+      "id": 173
     },
     {
       "nome": "Colorful",
@@ -16813,7 +16773,7 @@
           ]
         }
       ],
-      "id": 175
+      "id": 174
     },
     {
       "nome": "Comic Party",
@@ -16984,7 +16944,7 @@
           ]
         }
       ],
-      "id": 176
+      "id": 175
     },
     {
       "nome": "Como Treinar seu Dragão",
@@ -17008,7 +16968,7 @@
           ]
         }
       ],
-      "id": 177
+      "id": 176
     },
     {
       "nome": "Compiler",
@@ -17057,7 +17017,7 @@
           ]
         }
       ],
-      "id": 178
+      "id": 177
     },
     {
       "nome": "Conception",
@@ -17078,7 +17038,7 @@
           ]
         }
       ],
-      "id": 179
+      "id": 178
     },
     {
       "nome": "Coppelion",
@@ -17138,7 +17098,7 @@
           ]
         }
       ],
-      "id": 180
+      "id": 179
     },
     {
       "nome": "Coraline e o Mundo Secreto",
@@ -17155,7 +17115,7 @@
           "arquivos": []
         }
       ],
-      "id": 181
+      "id": 180
     },
     {
       "nome": "Corpse Party",
@@ -17204,7 +17164,7 @@
           ]
         }
       ],
-      "id": 182
+      "id": 181
     },
     {
       "nome": "Cosplay Complex",
@@ -17247,7 +17207,7 @@
           ]
         }
       ],
-      "id": 183
+      "id": 182
     },
     {
       "nome": "Cowboy Bebop",
@@ -17316,7 +17276,7 @@
           "arquivos": []
         }
       ],
-      "id": 184
+      "id": 183
     },
     {
       "nome": "Coyote Ragtime Show",
@@ -17373,7 +17333,7 @@
           ]
         }
       ],
-      "id": 185
+      "id": 184
     },
     {
       "nome": "Cream Lemon (Lemon Angel)",
@@ -17506,7 +17466,7 @@
           ]
         }
       ],
-      "id": 186
+      "id": 185
     },
     {
       "nome": "Crying Freeman",
@@ -17545,7 +17505,7 @@
           ]
         }
       ],
-      "id": 187
+      "id": 186
     },
     {
       "nome": "Cutie Honey",
@@ -17730,7 +17690,7 @@
           ]
         }
       ],
-      "id": 188
+      "id": 187
     },
     {
       "nome": "Cyber City Oedo 808",
@@ -17760,7 +17720,7 @@
           ]
         }
       ],
-      "id": 189
+      "id": 188
     },
     {
       "nome": "Cyberpunk Edgerunners",
@@ -17811,7 +17771,7 @@
           ]
         }
       ],
-      "id": 190
+      "id": 189
     },
     {
       "nome": "Cyborg 009",
@@ -17988,7 +17948,7 @@
           ]
         }
       ],
-      "id": 191
+      "id": 190
     },
     {
       "nome": "C³ CubexCursedxCurious",
@@ -18064,7 +18024,7 @@
           ]
         }
       ],
-      "id": 192
+      "id": 191
     },
     {
       "nome": "D-Frag!",
@@ -18137,7 +18097,7 @@
           ]
         }
       ],
-      "id": 193
+      "id": 192
     },
     {
       "nome": "Dai Mahou Touge",
@@ -18195,7 +18155,7 @@
           ]
         }
       ],
-      "id": 194
+      "id": 193
     },
     {
       "nome": "Dakara Boku wa, H ga Dekinai",
@@ -18284,7 +18244,7 @@
           ]
         }
       ],
-      "id": 195
+      "id": 194
     },
     {
       "nome": "Dallos",
@@ -18330,7 +18290,7 @@
           ]
         }
       ],
-      "id": 196
+      "id": 195
     },
     {
       "nome": "Dance In The Vampire Bund",
@@ -18400,7 +18360,7 @@
           ]
         }
       ],
-      "id": 197
+      "id": 196
     },
     {
       "nome": "Dangaiou (G Dangaioh)",
@@ -18473,7 +18433,7 @@
           ]
         }
       ],
-      "id": 198
+      "id": 197
     },
     {
       "nome": "Danganronpa",
@@ -18598,7 +18558,7 @@
           ]
         }
       ],
-      "id": 199
+      "id": 198
     },
     {
       "nome": "DanMachi",
@@ -19051,7 +19011,7 @@
           ]
         }
       ],
-      "id": 200
+      "id": 199
     },
     {
       "nome": "Dantalian no Shoka",
@@ -19124,7 +19084,7 @@
           ]
         }
       ],
-      "id": 201
+      "id": 200
     },
     {
       "nome": "Darker than black",
@@ -19385,7 +19345,7 @@
           ]
         }
       ],
-      "id": 202
+      "id": 201
     },
     {
       "nome": "Darling in the FranXX",
@@ -19478,7 +19438,7 @@
           ]
         }
       ],
-      "id": 203
+      "id": 202
     },
     {
       "nome": "Darwin's Game",
@@ -19512,7 +19472,7 @@
           ]
         }
       ],
-      "id": 204
+      "id": 203
     },
     {
       "nome": "Date A Live",
@@ -19731,7 +19691,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 42423,
           "nome": "2020 Date A Bullet Nightmare or Queen - Filme",
           "ano": "2020",
           "nomeSemAno": "Date A Bullet Nightmare or Queen - Filme",
@@ -19739,7 +19699,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "42423jpg.jpg"
+              "nome": "42423.jpg"
             }
           ]
         },
@@ -19806,7 +19766,7 @@
           ]
         }
       ],
-      "id": 205
+      "id": 204
     },
     {
       "nome": "Deadman Wonderland",
@@ -19879,7 +19839,7 @@
           ]
         }
       ],
-      "id": 206
+      "id": 205
     },
     {
       "nome": "DearS",
@@ -19994,7 +19954,7 @@
           ]
         }
       ],
-      "id": 207
+      "id": 206
     },
     {
       "nome": "Deatte 5-byou de Battle",
@@ -20051,7 +20011,7 @@
           ]
         }
       ],
-      "id": 208
+      "id": 207
     },
     {
       "nome": "Demi-chan wa Kataritai",
@@ -20124,7 +20084,7 @@
           ]
         }
       ],
-      "id": 209
+      "id": 208
     },
     {
       "nome": "Dengeki Oshioki Musume Gootaman",
@@ -20170,7 +20130,7 @@
           ]
         }
       ],
-      "id": 210
+      "id": 209
     },
     {
       "nome": "Denpa-teki na Kanojo",
@@ -20197,7 +20157,7 @@
           ]
         }
       ],
-      "id": 211
+      "id": 210
     },
     {
       "nome": "Densetsu no Yuusha no Densetsu",
@@ -20309,7 +20269,7 @@
           ]
         }
       ],
-      "id": 212
+      "id": 211
     },
     {
       "nome": "Departamento de Conspirações",
@@ -20364,7 +20324,7 @@
           ]
         }
       ],
-      "id": 213
+      "id": 212
     },
     {
       "nome": "Desencanto",
@@ -20552,7 +20512,7 @@
           ]
         }
       ],
-      "id": 214
+      "id": 213
     },
     {
       "nome": "Detona Ralph",
@@ -20598,7 +20558,7 @@
           ]
         }
       ],
-      "id": 215
+      "id": 214
     },
     {
       "nome": "Detroit Metal City",
@@ -20668,7 +20628,7 @@
           ]
         }
       ],
-      "id": 216
+      "id": 215
     },
     {
       "nome": "Deu a Louca na Chapeuzinho",
@@ -20692,7 +20652,7 @@
           ]
         }
       ],
-      "id": 217
+      "id": 216
     },
     {
       "nome": "Devadasy",
@@ -20716,7 +20676,7 @@
           ]
         }
       ],
-      "id": 218
+      "id": 217
     },
     {
       "nome": "Devil May Cry",
@@ -20773,7 +20733,7 @@
           ]
         }
       ],
-      "id": 219
+      "id": 218
     },
     {
       "nome": "Devil Survivor 2 The Animation",
@@ -20833,7 +20793,7 @@
           ]
         }
       ],
-      "id": 220
+      "id": 219
     },
     {
       "nome": "Devilman",
@@ -21182,18 +21142,9 @@
               "nome": "35120.jpg"
             }
           ]
-        },
-        {
-          "mal_id": null,
-          "nome": "Violence Jack",
-          "ano": "Viol",
-          "nomeSemAno": "nce Jack",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": []
         }
       ],
-      "id": 221
+      "id": 220
     },
     {
       "nome": "Di Gi Charat",
@@ -21376,7 +21327,7 @@
           ]
         }
       ],
-      "id": 222
+      "id": 221
     },
     {
       "nome": "Dies Irae",
@@ -21516,7 +21467,7 @@
           ]
         }
       ],
-      "id": 223
+      "id": 222
     },
     {
       "nome": "Dimension W",
@@ -21602,7 +21553,7 @@
           ]
         }
       ],
-      "id": 224
+      "id": 223
     },
     {
       "nome": "Dirty Pair",
@@ -21778,7 +21729,7 @@
           ]
         }
       ],
-      "id": 225
+      "id": 224
     },
     {
       "nome": "Divergence Eve (Misaki Chronicles)",
@@ -21890,7 +21841,7 @@
           ]
         }
       ],
-      "id": 226
+      "id": 225
     },
     {
       "nome": "Divertida Mente",
@@ -21916,7 +21867,7 @@
           "arquivos": []
         }
       ],
-      "id": 227
+      "id": 226
     },
     {
       "nome": "Divine Gate",
@@ -21973,7 +21924,7 @@
           ]
         }
       ],
-      "id": 228
+      "id": 227
     },
     {
       "nome": "Dog Days",
@@ -22173,7 +22124,7 @@
           ]
         }
       ],
-      "id": 229
+      "id": 228
     },
     {
       "nome": "Dogeza de Tanondemita",
@@ -22255,7 +22206,7 @@
           ]
         }
       ],
-      "id": 230
+      "id": 229
     },
     {
       "nome": "Dokushin Apartment Dokudami-sou",
@@ -22300,7 +22251,7 @@
           ]
         }
       ],
-      "id": 231
+      "id": 230
     },
     {
       "nome": "Dokyuu Hentai HxEros",
@@ -22401,7 +22352,7 @@
           ]
         }
       ],
-      "id": 232
+      "id": 231
     },
     {
       "nome": "Domestic na Kanojo",
@@ -22467,7 +22418,7 @@
           ]
         }
       ],
-      "id": 233
+      "id": 232
     },
     {
       "nome": "Dorohedoro",
@@ -22543,7 +22494,7 @@
           ]
         }
       ],
-      "id": 234
+      "id": 233
     },
     {
       "nome": "Dororo",
@@ -22662,7 +22613,7 @@
           ]
         }
       ],
-      "id": 235
+      "id": 234
     },
     {
       "nome": "Dota Dragons Blood",
@@ -22697,7 +22648,7 @@
           "arquivos": []
         }
       ],
-      "id": 236
+      "id": 235
     },
     {
       "nome": "Doujin Work",
@@ -22754,7 +22705,7 @@
           ]
         }
       ],
-      "id": 237
+      "id": 236
     },
     {
       "nome": "Dr. Stone",
@@ -23033,7 +22984,7 @@
           ]
         }
       ],
-      "id": 238
+      "id": 237
     },
     {
       "nome": "Dragon Age Blood Mage no Seisen",
@@ -23060,7 +23011,7 @@
           ]
         }
       ],
-      "id": 239
+      "id": 238
     },
     {
       "nome": "Dragon Ball",
@@ -24836,7 +24787,7 @@
           ]
         }
       ],
-      "id": 240
+      "id": 239
     },
     {
       "nome": "Dragon Crisis!",
@@ -24893,7 +24844,7 @@
           ]
         }
       ],
-      "id": 241
+      "id": 240
     },
     {
       "nome": "Dragon's Heaven",
@@ -24917,7 +24868,7 @@
           ]
         }
       ],
-      "id": 242
+      "id": 241
     },
     {
       "nome": "Dragons Dogma",
@@ -24938,7 +24889,7 @@
           ]
         }
       ],
-      "id": 243
+      "id": 242
     },
     {
       "nome": "Dream Hunter Rem",
@@ -25000,7 +24951,7 @@
           ]
         }
       ],
-      "id": 244
+      "id": 243
     },
     {
       "nome": "Drifters",
@@ -25131,7 +25082,7 @@
           ]
         }
       ],
-      "id": 245
+      "id": 244
     },
     {
       "nome": "Dumbbell Nan Kilo Moteru",
@@ -25201,7 +25152,7 @@
           ]
         }
       ],
-      "id": 246
+      "id": 245
     },
     {
       "nome": "Durarara!!",
@@ -25502,7 +25453,7 @@
           ]
         }
       ],
-      "id": 247
+      "id": 246
     },
     {
       "nome": "Early Reins",
@@ -25526,7 +25477,7 @@
           ]
         }
       ],
-      "id": 248
+      "id": 247
     },
     {
       "nome": "Ebiten Kouritsu Ebisugawa Koukou Tenmonbu",
@@ -25603,7 +25554,7 @@
           ]
         }
       ],
-      "id": 249
+      "id": 248
     },
     {
       "nome": "ef A Tale of Memories",
@@ -25754,7 +25705,7 @@
           ]
         }
       ],
-      "id": 250
+      "id": 249
     },
     {
       "nome": "Eiken Eikenbu yori Ai wo Komete",
@@ -25787,7 +25738,7 @@
           ]
         }
       ],
-      "id": 251
+      "id": 250
     },
     {
       "nome": "Eiyuu Densetsu - Sora no Kiseki The Animation",
@@ -25892,7 +25843,7 @@
           ]
         }
       ],
-      "id": 252
+      "id": 251
     },
     {
       "nome": "Eiyuu Kyoushitsu",
@@ -25971,7 +25922,7 @@
           ]
         }
       ],
-      "id": 253
+      "id": 252
     },
     {
       "nome": "Elf wo Karu Mono-tachi",
@@ -26041,7 +25992,7 @@
           ]
         }
       ],
-      "id": 254
+      "id": 253
     },
     {
       "nome": "Elf-san wa Yaserarenai",
@@ -26140,7 +26091,7 @@
           ]
         }
       ],
-      "id": 255
+      "id": 254
     },
     {
       "nome": "Elfen Lied",
@@ -26258,7 +26209,7 @@
           ]
         }
       ],
-      "id": 256
+      "id": 255
     },
     {
       "nome": "Emoji O Filme",
@@ -26282,7 +26233,7 @@
           ]
         }
       ],
-      "id": 257
+      "id": 256
     },
     {
       "nome": "Encanto",
@@ -26303,7 +26254,7 @@
           ]
         }
       ],
-      "id": 258
+      "id": 257
     },
     {
       "nome": "Engage Kiss",
@@ -26363,7 +26314,7 @@
           ]
         }
       ],
-      "id": 259
+      "id": 258
     },
     {
       "nome": "Enrolados",
@@ -26398,7 +26349,7 @@
           "arquivos": []
         }
       ],
-      "id": 260
+      "id": 259
     },
     {
       "nome": "Eoneu Nal Jameseo Kkaeeoboni Bagelyeoga Doeeo Isseotda",
@@ -26464,7 +26415,7 @@
           ]
         }
       ],
-      "id": 261
+      "id": 260
     },
     {
       "nome": "Erementar Gerad",
@@ -26563,7 +26514,7 @@
           ]
         }
       ],
-      "id": 262
+      "id": 261
     },
     {
       "nome": "Ergo Proxy",
@@ -26659,7 +26610,7 @@
           ]
         }
       ],
-      "id": 263
+      "id": 262
     },
     {
       "nome": "Eromanga Sensei",
@@ -26722,7 +26673,7 @@
           ]
         }
       ],
-      "id": 264
+      "id": 263
     },
     {
       "nome": "Escha & Logy no Atelier Tasogare no Sora no Renkinjutsushi",
@@ -26792,7 +26743,7 @@
           ]
         }
       ],
-      "id": 265
+      "id": 264
     },
     {
       "nome": "Eureka Seven",
@@ -27164,7 +27115,7 @@
           ]
         }
       ],
-      "id": 266
+      "id": 265
     },
     {
       "nome": "Eve no Jikan",
@@ -27201,7 +27152,7 @@
           ]
         }
       ],
-      "id": 267
+      "id": 266
     },
     {
       "nome": "Ex-Arm",
@@ -27258,7 +27209,7 @@
           ]
         }
       ],
-      "id": 268
+      "id": 267
     },
     {
       "nome": "Exaella",
@@ -27288,7 +27239,7 @@
           ]
         }
       ],
-      "id": 269
+      "id": 268
     },
     {
       "nome": "F-Zero Falcon Densetsu",
@@ -27315,7 +27266,7 @@
           ]
         }
       ],
-      "id": 270
+      "id": 269
     },
     {
       "nome": "Fairy Tail",
@@ -27988,7 +27939,7 @@
           ]
         }
       ],
-      "id": 271
+      "id": 270
     },
     {
       "nome": "Fate",
@@ -29350,7 +29301,7 @@
           ]
         }
       ],
-      "id": 272
+      "id": 271
     },
     {
       "nome": "Fight Ippatsu! Juuden-Chan!!",
@@ -29450,7 +29401,7 @@
           ]
         }
       ],
-      "id": 273
+      "id": 272
     },
     {
       "nome": "Figure 17 Tsubasa & Hikaru",
@@ -29510,7 +29461,7 @@
           ]
         }
       ],
-      "id": 274
+      "id": 273
     },
     {
       "nome": "Final Fantasy",
@@ -29877,7 +29828,7 @@
           ]
         }
       ],
-      "id": 275
+      "id": 274
     },
     {
       "nome": "Fire Emblem",
@@ -29904,7 +29855,7 @@
           ]
         }
       ],
-      "id": 276
+      "id": 275
     },
     {
       "nome": "Five Star Stories",
@@ -29928,7 +29879,7 @@
           ]
         }
       ],
-      "id": 277
+      "id": 276
     },
     {
       "nome": "FLCL",
@@ -30073,7 +30024,7 @@
           ]
         }
       ],
-      "id": 278
+      "id": 277
     },
     {
       "nome": "Fortune Arterial Akai Yakusoku",
@@ -30146,7 +30097,7 @@
           ]
         }
       ],
-      "id": 279
+      "id": 278
     },
     {
       "nome": "Freezing",
@@ -30350,7 +30301,7 @@
           ]
         }
       ],
-      "id": 280
+      "id": 279
     },
     {
       "nome": "Full Metal Panic",
@@ -30677,7 +30628,7 @@
           ]
         }
       ],
-      "id": 281
+      "id": 280
     },
     {
       "nome": "Fullmetal Alchemist",
@@ -31232,7 +31183,7 @@
           ]
         }
       ],
-      "id": 282
+      "id": 281
     },
     {
       "nome": "Fumetsu no Anata e",
@@ -31412,7 +31363,7 @@
           ]
         }
       ],
-      "id": 283
+      "id": 282
     },
     {
       "nome": "Fushigi no Kuni no Miyuki-chan",
@@ -31465,7 +31416,7 @@
           ]
         }
       ],
-      "id": 284
+      "id": 283
     },
     {
       "nome": "Futari Ecchi",
@@ -31536,7 +31487,7 @@
           ]
         }
       ],
-      "id": 285
+      "id": 284
     },
     {
       "nome": "Futoku no Guild",
@@ -31593,7 +31544,7 @@
           ]
         }
       ],
-      "id": 286
+      "id": 285
     },
     {
       "nome": "Futurama",
@@ -32133,7 +32084,7 @@
           "arquivos": []
         }
       ],
-      "id": 287
+      "id": 286
     },
     {
       "nome": "Fuufu Ijou, Koibito Miman",
@@ -32193,7 +32144,7 @@
           ]
         }
       ],
-      "id": 288
+      "id": 287
     },
     {
       "nome": "Fuuka (Suzuka)",
@@ -32263,7 +32214,7 @@
           ]
         }
       ],
-      "id": 289
+      "id": 288
     },
     {
       "nome": "Fuuto Tantei",
@@ -32333,7 +32284,7 @@
           ]
         }
       ],
-      "id": 290
+      "id": 289
     },
     {
       "nome": "G-On Riders",
@@ -32415,7 +32366,7 @@
           ]
         }
       ],
-      "id": 291
+      "id": 290
     },
     {
       "nome": "Ga-Rei Zero",
@@ -32485,7 +32436,7 @@
           ]
         }
       ],
-      "id": 292
+      "id": 291
     },
     {
       "nome": "Gaikotsu Kishi-sama Tadaima Isekai e Odekake-chuu",
@@ -32542,7 +32493,7 @@
           ]
         }
       ],
-      "id": 293
+      "id": 292
     },
     {
       "nome": "Gakuen Tokusou Hikaruon",
@@ -32566,7 +32517,7 @@
           ]
         }
       ],
-      "id": 294
+      "id": 293
     },
     {
       "nome": "Gakusen Toshi Asterisk (The Asterisk War)",
@@ -32701,7 +32652,7 @@
           ]
         }
       ],
-      "id": 295
+      "id": 294
     },
     {
       "nome": "Galaxy Angel",
@@ -32809,13 +32760,17 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 652,
           "nome": "2002 Galaxy Angel Z - TV",
           "ano": "2002",
           "nomeSemAno": "Galaxy Angel Z - TV",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "652.jpg"
+            }
+          ]
         },
         {
           "mal_id": 654,
@@ -32831,13 +32786,17 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 655,
           "nome": "2004 Galaxy Angel 4 - TV",
           "ano": "2004",
           "nomeSemAno": "Galaxy Angel 4 - TV",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "655.jpg"
+            }
+          ]
         },
         {
           "mal_id": 12225,
@@ -32866,7 +32825,7 @@
           ]
         }
       ],
-      "id": 296
+      "id": 295
     },
     {
       "nome": "Game Center Arashi",
@@ -32968,7 +32927,7 @@
           ]
         }
       ],
-      "id": 297
+      "id": 296
     },
     {
       "nome": "Gamers!",
@@ -33025,7 +32984,7 @@
           ]
         }
       ],
-      "id": 298
+      "id": 297
     },
     {
       "nome": "Ganbare Douki-chan",
@@ -33095,7 +33054,7 @@
           ]
         }
       ],
-      "id": 299
+      "id": 298
     },
     {
       "nome": "Gankutsuou (O Conde de Monte Cristo)",
@@ -33188,7 +33147,7 @@
           ]
         }
       ],
-      "id": 300
+      "id": 299
     },
     {
       "nome": "Garou Densetsu (Fatal Fury - King of Fighters)",
@@ -33302,7 +33261,7 @@
           ]
         }
       ],
-      "id": 301
+      "id": 300
     },
     {
       "nome": "Gate",
@@ -33408,7 +33367,7 @@
           ]
         }
       ],
-      "id": 302
+      "id": 301
     },
     {
       "nome": "Gato de Botas",
@@ -33448,54 +33407,7 @@
           ]
         }
       ],
-      "id": 303
-    },
-    {
-      "nome": "Gekiganger 3 The Movie",
-      "slug": "gekiganger-3-the-movie",
-      "imgSrc": "gekiganger_3_the_movie.jpg",
-      "subpastas": [
-        {
-          "mal_id": 218,
-          "nome": "1996 Martian Successor Nadesico - TV",
-          "ano": "1996",
-          "nomeSemAno": "Martian Successor Nadesico - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "218.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": null,
-          "nome": "1998 Gekiganger 3 The Movie - OVA",
-          "ano": "1998",
-          "nomeSemAno": "Gekiganger 3 The Movie - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "[#AnimeNSK]_Gekiganger_3_OVA_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(CDCD36F0).mkv"
-            }
-          ]
-        },
-        {
-          "mal_id": 219,
-          "nome": "1998 Kidou Senkan Nadesico The Prince of Darkness - Filme",
-          "ano": "1998",
-          "nomeSemAno": "Kidou Senkan Nadesico The Prince of Darkness - Filme",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "219.jpg"
-            }
-          ]
-        }
-      ],
-      "id": 304
+      "id": 302
     },
     {
       "nome": "Geneshaft",
@@ -33568,7 +33480,7 @@
           ]
         }
       ],
-      "id": 305
+      "id": 303
     },
     {
       "nome": "Genius Party",
@@ -33629,7 +33541,7 @@
           ]
         }
       ],
-      "id": 306
+      "id": 304
     },
     {
       "nome": "Genjitsu Shugi Yuusha no Oukoku Saikenki",
@@ -33741,7 +33653,7 @@
           ]
         }
       ],
-      "id": 307
+      "id": 305
     },
     {
       "nome": "Genmu Senki Leda",
@@ -33765,7 +33677,7 @@
           ]
         }
       ],
-      "id": 308
+      "id": 306
     },
     {
       "nome": "Genocyber",
@@ -33801,7 +33713,7 @@
           ]
         }
       ],
-      "id": 309
+      "id": 307
     },
     {
       "nome": "Genshiken",
@@ -34016,7 +33928,7 @@
           ]
         }
       ],
-      "id": 310
+      "id": 308
     },
     {
       "nome": "Getsuyoubi no Tawawa",
@@ -34063,7 +33975,7 @@
           ]
         }
       ],
-      "id": 311
+      "id": 309
     },
     {
       "nome": "Ghost in the Shell (Koukaku Kidoutai)",
@@ -35052,7 +34964,7 @@
           ]
         }
       ],
-      "id": 312
+      "id": 310
     },
     {
       "nome": "Giant Robo",
@@ -35121,7 +35033,7 @@
           ]
         }
       ],
-      "id": 313
+      "id": 311
     },
     {
       "nome": "Ginban Kaleidoscope",
@@ -35178,7 +35090,7 @@
           ]
         }
       ],
-      "id": 314
+      "id": 312
     },
     {
       "nome": "Ginga Eiyuu Densetsu",
@@ -35545,7 +35457,7 @@
           ]
         },
         {
-          "mal_id": 3014,
+          "mal_id": 3015,
           "nome": "1992 Ginga Eiyuu Densetsu Gaiden Ougon no Tsubasa - Filme",
           "ano": "1992",
           "nomeSemAno": "Ginga Eiyuu Densetsu Gaiden Ougon no Tsubasa - Filme",
@@ -35553,7 +35465,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "3014.jpg"
+              "nome": "3015.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Legend_of_Galactic_Heroes_-_Golden_Wings_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(33076625).mkv"
@@ -35981,7 +35893,7 @@
           ]
         }
       ],
-      "id": 315
+      "id": 313
     },
     {
       "nome": "Ginga Ojousama Densetsu Yuna",
@@ -36030,7 +35942,7 @@
           ]
         }
       ],
-      "id": 316
+      "id": 314
     },
     {
       "nome": "Girls Bravo",
@@ -36139,7 +36051,7 @@
           ]
         }
       ],
-      "id": 317
+      "id": 315
     },
     {
       "nome": "Girly Air Force",
@@ -36196,7 +36108,7 @@
           ]
         }
       ],
-      "id": 318
+      "id": 316
     },
     {
       "nome": "Gleipnir",
@@ -36259,7 +36171,7 @@
           ]
         }
       ],
-      "id": 319
+      "id": 317
     },
     {
       "nome": "Goblin Slayer",
@@ -36394,7 +36306,7 @@
           ]
         }
       ],
-      "id": 320
+      "id": 318
     },
     {
       "nome": "God Eater",
@@ -36506,7 +36418,7 @@
           ]
         }
       ],
-      "id": 321
+      "id": 319
     },
     {
       "nome": "Gokujo. Gokurakuin Joshikou Ryou Monogatari",
@@ -36582,7 +36494,7 @@
           ]
         }
       ],
-      "id": 322
+      "id": 320
     },
     {
       "nome": "Gokukoku no Brynhildr",
@@ -36658,7 +36570,7 @@
           ]
         }
       ],
-      "id": 323
+      "id": 321
     },
     {
       "nome": "Golden Boy",
@@ -36697,7 +36609,7 @@
           ]
         }
       ],
-      "id": 324
+      "id": 322
     },
     {
       "nome": "Golgo 13",
@@ -36750,7 +36662,7 @@
           ]
         }
       ],
-      "id": 325
+      "id": 323
     },
     {
       "nome": "Goshuushou-sama Ninomiya-kun",
@@ -36843,7 +36755,7 @@
           ]
         }
       ],
-      "id": 326
+      "id": 324
     },
     {
       "nome": "Gosick",
@@ -36949,7 +36861,7 @@
           ]
         }
       ],
-      "id": 327
+      "id": 325
     },
     {
       "nome": "Granblue Fantasy The Animation",
@@ -37097,7 +37009,7 @@
           ]
         }
       ],
-      "id": 328
+      "id": 326
     },
     {
       "nome": "Grancrest Senki",
@@ -37206,7 +37118,7 @@
           ]
         }
       ],
-      "id": 329
+      "id": 327
     },
     {
       "nome": "Grandeek",
@@ -37230,7 +37142,7 @@
           ]
         }
       ],
-      "id": 330
+      "id": 328
     },
     {
       "nome": "Green Green",
@@ -37347,7 +37259,7 @@
           ]
         }
       ],
-      "id": 331
+      "id": 329
     },
     {
       "nome": "Grenadier Hohoemi No Senshi",
@@ -37432,7 +37344,7 @@
           ]
         }
       ],
-      "id": 332
+      "id": 330
     },
     {
       "nome": "Grimms Notes The Animation",
@@ -37453,7 +37365,7 @@
           ]
         }
       ],
-      "id": 333
+      "id": 331
     },
     {
       "nome": "Grisaia no Kajitsu",
@@ -37707,7 +37619,7 @@
           ]
         }
       ],
-      "id": 334
+      "id": 332
     },
     {
       "nome": "Guardian Hearts",
@@ -37771,7 +37683,7 @@
           ]
         }
       ],
-      "id": 335
+      "id": 333
     },
     {
       "nome": "Guilty Crown",
@@ -37933,7 +37845,7 @@
           ]
         }
       ],
-      "id": 336
+      "id": 334
     },
     {
       "nome": "Guin Saga",
@@ -38032,7 +37944,7 @@
           ]
         }
       ],
-      "id": 337
+      "id": 335
     },
     {
       "nome": "Gunnm (Battle Angel Alita)",
@@ -38085,7 +37997,7 @@
           ]
         }
       ],
-      "id": 338
+      "id": 336
     },
     {
       "nome": "Gunparade",
@@ -38168,7 +38080,7 @@
           ]
         }
       ],
-      "id": 339
+      "id": 337
     },
     {
       "nome": "Gunslinger Girl",
@@ -38299,7 +38211,7 @@
           ]
         }
       ],
-      "id": 340
+      "id": 338
     },
     {
       "nome": "Gunslinger Stratos",
@@ -38398,7 +38310,7 @@
           ]
         }
       ],
-      "id": 341
+      "id": 339
     },
     {
       "nome": "H2O Footprints in the Sand",
@@ -38455,7 +38367,7 @@
           ]
         }
       ],
-      "id": 342
+      "id": 340
     },
     {
       "nome": "Hachi-nan tte, Sore wa Nai deshou!",
@@ -38512,7 +38424,7 @@
           ]
         }
       ],
-      "id": 343
+      "id": 341
     },
     {
       "nome": "Hacka Doll The Animation",
@@ -38600,7 +38512,7 @@
           ]
         }
       ],
-      "id": 344
+      "id": 342
     },
     {
       "nome": "Hadashi no Gen (Gen, Pés Descalços)",
@@ -38649,7 +38561,7 @@
           ]
         }
       ],
-      "id": 345
+      "id": 343
     },
     {
       "nome": "Hagure Yuusha no Aesthetica",
@@ -38740,7 +38652,7 @@
           ]
         }
       ],
-      "id": 346
+      "id": 344
     },
     {
       "nome": "Haiyore! Nyaruko-san",
@@ -38888,7 +38800,7 @@
           ]
         }
       ],
-      "id": 347
+      "id": 345
     },
     {
       "nome": "Hajimete no Gal",
@@ -38955,7 +38867,7 @@
           ]
         }
       ],
-      "id": 348
+      "id": 346
     },
     {
       "nome": "Hakkenden Touhou Hakken Ibun",
@@ -39067,7 +38979,7 @@
           ]
         }
       ],
-      "id": 349
+      "id": 347
     },
     {
       "nome": "Hametsu no Oukoku",
@@ -39124,7 +39036,7 @@
           ]
         }
       ],
-      "id": 350
+      "id": 348
     },
     {
       "nome": "Hanappe Bazooka",
@@ -39148,7 +39060,7 @@
           ]
         }
       ],
-      "id": 351
+      "id": 349
     },
     {
       "nome": "Hanaukyou Maid-tai",
@@ -39157,7 +39069,7 @@
       "subpastas": [
         {
           "mal_id": 403,
-          "nome": "2001 Hanaukyou Maid-tai - TV",
+          "nome": "2001  Hanaukyou Maid-tai - TV",
           "ano": "2001",
           "nomeSemAno": "Hanaukyou Maid-tai - TV",
           "jaAssisti": false,
@@ -39205,15 +39117,18 @@
           ]
         },
         {
-          "mal_id": null,
-          "nome": "2001 Hanaukyou Maid-tai. - OVA",
+          "mal_id": 797,
+          "nome": "2001 Hanaukyou Maid-tai - OVA",
           "ano": "2001",
-          "nomeSemAno": "Hanaukyou Maid-tai. - OVA",
+          "nomeSemAno": "Hanaukyou Maid-tai - OVA",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
             {
               "nome": "72d1876c6bcd2ee773658b2d8c0b1781489.webp"
+            },
+            {
+              "nome": "797.jpg"
             },
             {
               "nome": "hanaukyou-maid-tai-ova-ep-1.mp4"
@@ -39285,7 +39200,7 @@
           ]
         }
       ],
-      "id": 352
+      "id": 350
     },
     {
       "nome": "Hanbun No Tsuki Ga Noboru Sora",
@@ -39324,7 +39239,7 @@
           ]
         }
       ],
-      "id": 353
+      "id": 351
     },
     {
       "nome": "Hand Maid May",
@@ -39407,7 +39322,7 @@
           ]
         }
       ],
-      "id": 354
+      "id": 352
     },
     {
       "nome": "Hantsu x Trash",
@@ -39437,7 +39352,7 @@
           ]
         }
       ],
-      "id": 355
+      "id": 353
     },
     {
       "nome": "Happy Feet",
@@ -39463,7 +39378,7 @@
           "arquivos": []
         }
       ],
-      "id": 356
+      "id": 354
     },
     {
       "nome": "Happy Sugar Life",
@@ -39520,7 +39435,7 @@
           ]
         }
       ],
-      "id": 357
+      "id": 355
     },
     {
       "nome": "Haru no Ashioto The Movie Ourin Dakkan",
@@ -39544,7 +39459,7 @@
           ]
         }
       ],
-      "id": 358
+      "id": 356
     },
     {
       "nome": "Harukana Receive",
@@ -39614,7 +39529,7 @@
           ]
         }
       ],
-      "id": 359
+      "id": 357
     },
     {
       "nome": "Hataraku Maou-sama!",
@@ -39726,7 +39641,7 @@
           ]
         }
       ],
-      "id": 360
+      "id": 358
     },
     {
       "nome": "Hatena Illusion",
@@ -39760,7 +39675,7 @@
           ]
         }
       ],
-      "id": 361
+      "id": 359
     },
     {
       "nome": "Hatsukoi Limited",
@@ -39777,6 +39692,42 @@
           "arquivos": [
             {
               "nome": "5150.jpg"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_01_[Blu-Ray_1280x720_H264+AAC]_(560DE477).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_02_[Blu-Ray_1280x720_H264+AAC]_(63292BCD).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_03_[Blu-Ray_1280x720_H264+AAC]_(9EC1D06B).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_04_[Blu-Ray_1280x720_H264+AAC]_(6203A1C6).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_05_[Blu-Ray_1280x720_H264+AAC]_(598B6A0C).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_06_[Blu-Ray_1280x720_H264+AAC]_(B1188C02).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_07_[Blu-Ray_1280x720_H264+AAC]_(BD94C881).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_08_[Blu-Ray_1280x720_H264+AAC]_(DF3BF82B).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_09_[Blu-Ray_1280x720_H264+AAC]_(00FEB02D).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_10_[Blu-Ray_1280x720_H264+AAC]_(8231BA4B).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_11_[Blu-Ray_1280x720_H264+AAC]_(8843F3AB).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Hatsukoi_Limited_-_12_Final_[Blu-Ray_1280x720_H264+AAC]_(232D99F3).mkv"
             }
           ]
         },
@@ -39808,27 +39759,6 @@
             },
             {
               "nome": "hatsukoi-limited-gentei-shoujo-ep-6-final.mp4"
-            }
-          ]
-        }
-      ],
-      "id": 362
-    },
-    {
-      "nome": "Hatsukoi Limited. - TV 2009",
-      "slug": "hatsukoi-limited.---tv-2009",
-      "imgSrc": "hatsukoi_limited._-_tv_2009.jpg",
-      "subpastas": [
-        {
-          "mal_id": 6882,
-          "nome": "2009 Hatsukoi Limited. Gentei Shoujo - Special",
-          "ano": "2009",
-          "nomeSemAno": "Hatsukoi Limited. Gentei Shoujo - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "6882.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Hatsukoi_Limited_-_Limited_Girl_-_05_[Blu-Ray_1280x720_H264+AAC]_(E7CDC480).mkv"
@@ -39851,7 +39781,7 @@
           ]
         }
       ],
-      "id": 363
+      "id": 360
     },
     {
       "nome": "Hayate no Gotoku!",
@@ -40106,7 +40036,7 @@
           ]
         }
       ],
-      "id": 364
+      "id": 361
     },
     {
       "nome": "Hazure Waku no Joutai Ijou Skill de Saikyou ni Natta Ore ga Subete wo Juurin Suru made",
@@ -40176,7 +40106,7 @@
           ]
         }
       ],
-      "id": 365
+      "id": 362
     },
     {
       "nome": "Heavy Metal",
@@ -40228,7 +40158,7 @@
           ]
         }
       ],
-      "id": 366
+      "id": 363
     },
     {
       "nome": "Hell Target",
@@ -40252,7 +40182,7 @@
           ]
         }
       ],
-      "id": 367
+      "id": 364
     },
     {
       "nome": "Hellsing",
@@ -40394,7 +40324,7 @@
           ]
         }
       ],
-      "id": 368
+      "id": 365
     },
     {
       "nome": "Hen (Strange Love)",
@@ -40418,7 +40348,7 @@
           ]
         }
       ],
-      "id": 369
+      "id": 366
     },
     {
       "nome": "HenSemi",
@@ -40497,7 +40427,7 @@
           ]
         }
       ],
-      "id": 370
+      "id": 367
     },
     {
       "nome": "Hentai Ouji to Warawanai Neko",
@@ -40567,7 +40497,7 @@
           ]
         }
       ],
-      "id": 371
+      "id": 368
     },
     {
       "nome": "Herlock (Captain Harlock)",
@@ -41076,7 +41006,7 @@
           ]
         }
       ],
-      "id": 372
+      "id": 369
     },
     {
       "nome": "Hidamari Sketch",
@@ -41329,6 +41259,32 @@
           ]
         },
         {
+          "mal_id": 10737,
+          "nome": "2011 A-Channel +A-Channel - Special",
+          "ano": "2011",
+          "nomeSemAno": "A-Channel +A-Channel - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "10737.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 9776,
+          "nome": "2011 A-Channel - TV",
+          "ano": "2011",
+          "nomeSemAno": "A-Channel - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "9776.jpg"
+            }
+          ]
+        },
+        {
           "mal_id": 11237,
           "nome": "2011 Hidamari Sketch x SP - TV Special",
           "ano": "2011",
@@ -41338,6 +41294,32 @@
           "arquivos": [
             {
               "nome": "11237.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 9331,
+          "nome": "2011 Yumekui Merry - TV",
+          "ano": "2011",
+          "nomeSemAno": "Yumekui Merry - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "9331.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 11339,
+          "nome": "2012 A-Channel+smile - OVA",
+          "ano": "2012",
+          "nomeSemAno": "A-Channel+smile - OVA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "11339.jpg"
             }
           ]
         },
@@ -41368,6 +41350,19 @@
           ]
         },
         {
+          "mal_id": 11079,
+          "nome": "2012 Kill Me Baby - 2012",
+          "ano": "2012",
+          "nomeSemAno": "Kill Me Baby - 2012",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "11079.jpg"
+            }
+          ]
+        },
+        {
           "mal_id": 17739,
           "nome": "2013 Hidamari Sketch Sae Hiro Sotsugyou-hen - OVA",
           "ano": "2013",
@@ -41379,9 +41374,227 @@
               "nome": "17739.jpg"
             }
           ]
+        },
+        {
+          "mal_id": 20039,
+          "nome": "2013 Kill Me Baby Butsuzou Kegatte Nise Halloween - OVA",
+          "ano": "2013",
+          "nomeSemAno": "Kill Me Baby Butsuzou Kegatte Nise Halloween - OVA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "20039.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 15911,
+          "nome": "2013 Yuyushiki - TV",
+          "ano": "2013",
+          "nomeSemAno": "Yuyushiki - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "15911.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 19029,
+          "nome": "2013 Yuyushiki Nyanyashiki - Special",
+          "ano": "2013",
+          "nomeSemAno": "Yuyushiki Nyanyashiki - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "19029.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 24765,
+          "nome": "2015 Gakkougurashi! - TV",
+          "ano": "2015",
+          "nomeSemAno": "Gakkougurashi! - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "24765.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 31953,
+          "nome": "2016 New Game! - TV",
+          "ano": "2016",
+          "nomeSemAno": "New Game! - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "31953.jpg"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_01_[BD_1920x1080]_[HEVC_10Bit]_(80BB4D38).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_02_[BD_1920x1080]_[HEVC_10Bit]_(87686BB3).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_03_[BD_1920x1080]_[HEVC_10Bit]_(BDF7C175).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_04_[BD_1920x1080]_[HEVC_10Bit]_(96A79B6E).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_05_[BD_1920x1080]_[HEVC_10Bit]_(F8F864AD).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_06_[BD_1920x1080]_[HEVC_10Bit]_(802CA638).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_07_[BD_1920x1080]_[HEVC_10Bit]_(FDC7A91E).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_08_[BD_1920x1080]_[HEVC_10Bit]_(D3521641).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_09_[BD_1920x1080]_[HEVC_10Bit]_(FF626000).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_10_[BD_1920x1080]_[HEVC_10Bit]_(7FABE8B7).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_11_[BD_1920x1080]_[HEVC_10Bit]_(934A26B5).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(2B3CA400).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 32555,
+          "nome": "2016 Stella no Mahou - TV",
+          "ano": "2016",
+          "nomeSemAno": "Stella no Mahou - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "32555.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 35285,
+          "nome": "2017 A-Channel Nabe wo Tabeyou - Special",
+          "ano": "2017",
+          "nomeSemAno": "A-Channel Nabe wo Tabeyou - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "35285.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 36805,
+          "nome": "2017 Kirara Fantasia - ONA",
+          "ano": "2017",
+          "nomeSemAno": "Kirara Fantasia - ONA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "36805.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 34277,
+          "nome": "2017 New Game! Watashi, Shain Ryokou tte Hajimete nanode... - OVA",
+          "ano": "2017",
+          "nomeSemAno": "New Game! Watashi, Shain Ryokou tte Hajimete nanode... - OVA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "34277.jpg"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!_-_OVA_[DVD_848x480]_[H264_10Bit]_(834FE52D).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 34914,
+          "nome": "2017 New Game!! - TV",
+          "ano": "2017",
+          "nomeSemAno": "New Game!! - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "34914.jpg"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_01_[BD_1920x1080]_[HEVC_10Bit]_(DE3AFD09).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_02_[BD_1920x1080]_[HEVC_10Bit]_(C7008FEF).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_03_[BD_1920x1080]_[HEVC_10Bit]_(82B90054).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_04_[BD_1920x1080]_[HEVC_10Bit]_(552EF560).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_05_[BD_1920x1080]_[HEVC_10Bit]_(4A99BDD3).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_06_[BD_1920x1080]_[HEVC_10Bit]_(9C06D37D).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_07_[BD_1920x1080]_[HEVC_10Bit]_(65399A53).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_08_[BD_1920x1080]_[HEVC_10Bit]_(6267509F).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_09_[BD_1920x1080]_[HEVC_10Bit]_(C99AFF4C).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_10_[BD_1920x1080]_[HEVC_10Bit]_(129F7B1E).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_11_[BD_1920x1080]_[HEVC_10Bit]_(9381E651).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_New_Game!!_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(B0B8E352).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 33035,
+          "nome": "2017 Yuyushiki Komarasetari, Komarasaretari - OVA",
+          "ano": "2017",
+          "nomeSemAno": "Yuyushiki Komarasetari, Komarasaretari - OVA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "33035.jpg"
+            }
+          ]
         }
       ],
-      "id": 373
+      "id": 370
     },
     {
       "nome": "Hidan no Aria",
@@ -41467,7 +41680,7 @@
           ]
         }
       ],
-      "id": 374
+      "id": 371
     },
     {
       "nome": "Higashi no Eden",
@@ -41569,7 +41782,7 @@
           ]
         }
       ],
-      "id": 375
+      "id": 372
     },
     {
       "nome": "High School DxD",
@@ -41956,7 +42169,7 @@
           ]
         }
       ],
-      "id": 376
+      "id": 373
     },
     {
       "nome": "High School Of The Dead",
@@ -42032,7 +42245,7 @@
           ]
         }
       ],
-      "id": 377
+      "id": 374
     },
     {
       "nome": "High Score Girl",
@@ -42151,7 +42364,7 @@
           ]
         }
       ],
-      "id": 378
+      "id": 375
     },
     {
       "nome": "Higurashi no Naku Koro ni",
@@ -42253,7 +42466,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 1889,
           "nome": "2007 Higurashi no Naku Koro ni Kai - TV",
           "ano": "2007",
           "nomeSemAno": "Higurashi no Naku Koro ni Kai - TV",
@@ -42261,7 +42474,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "1889.avif"
+              "nome": "1889.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Higurashi_no_Naku_Koro_ni_Kai_-_01_[Blu-Ray_1280x720]_[10Bit]_(43979074).mkv"
@@ -42364,7 +42577,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 3652,
           "nome": "2009 Higurashi no Naku Koro ni Rei - OVA",
           "ano": "2009",
           "nomeSemAno": "Higurashi no Naku Koro ni Rei - OVA",
@@ -42372,7 +42585,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "3652.avif"
+              "nome": "3652.jpg"
             },
             {
               "nome": "[_AnimeNSK]_Higurashi_no_Naku_Koro_ni_Rei_-_01_[Blu-Ray_1280x720_H264+AAC]_(E41B8C65).mkv"
@@ -42553,7 +42766,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 48488,
           "nome": "2021 igurashi no Naku Koro ni Sotsu - TV",
           "ano": "2021",
           "nomeSemAno": "igurashi no Naku Koro ni Sotsu - TV",
@@ -42561,12 +42774,12 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "48488.avif"
+              "nome": "48488.jpg"
             }
           ]
         }
       ],
-      "id": 379
+      "id": 376
     },
     {
       "nome": "Hikari to Mizu no Daphne",
@@ -42678,7 +42891,7 @@
           ]
         }
       ],
-      "id": 380
+      "id": 377
     },
     {
       "nome": "Hikikomari Kyuuketsuki no Monmon",
@@ -42735,7 +42948,7 @@
           ]
         }
       ],
-      "id": 381
+      "id": 378
     },
     {
       "nome": "Hikyou Tanken Fam & Ihrlie",
@@ -42768,7 +42981,7 @@
           ]
         }
       ],
-      "id": 382
+      "id": 379
     },
     {
       "nome": "Himegoto",
@@ -42828,7 +43041,7 @@
           ]
         }
       ],
-      "id": 383
+      "id": 380
     },
     {
       "nome": "Hitsugi no Chaika",
@@ -42941,7 +43154,7 @@
           ]
         }
       ],
-      "id": 384
+      "id": 381
     },
     {
       "nome": "Holy Knight",
@@ -42974,7 +43187,7 @@
           ]
         }
       ],
-      "id": 385
+      "id": 382
     },
     {
       "nome": "Hon Ran (Crimson Wolf)",
@@ -42998,7 +43211,7 @@
           ]
         }
       ],
-      "id": 386
+      "id": 383
     },
     {
       "nome": "Honoo no Labyrinth",
@@ -43025,7 +43238,7 @@
           ]
         }
       ],
-      "id": 387
+      "id": 384
     },
     {
       "nome": "Honoo no Tenkousei",
@@ -43052,7 +43265,7 @@
           ]
         }
       ],
-      "id": 388
+      "id": 385
     },
     {
       "nome": "Hoshizora e Kakaru Hashi",
@@ -43086,7 +43299,7 @@
           ]
         }
       ],
-      "id": 389
+      "id": 386
     },
     {
       "nome": "Hotel Transilvânia",
@@ -43179,7 +43392,7 @@
           ]
         }
       ],
-      "id": 390
+      "id": 387
     },
     {
       "nome": "Hundred",
@@ -43200,7 +43413,7 @@
           ]
         }
       ],
-      "id": 391
+      "id": 388
     },
     {
       "nome": "Hunter X Hunter",
@@ -43591,7 +43804,7 @@
           ]
         }
       ],
-      "id": 392
+      "id": 389
     },
     {
       "nome": "Hyakka Ryouran Samurai Girls",
@@ -43902,7 +44115,7 @@
           ]
         }
       ],
-      "id": 393
+      "id": 390
     },
     {
       "nome": "Hyakko",
@@ -43978,7 +44191,7 @@
           ]
         }
       ],
-      "id": 394
+      "id": 391
     },
     {
       "nome": "I ll - CKBC",
@@ -44005,7 +44218,7 @@
           ]
         }
       ],
-      "id": 395
+      "id": 392
     },
     {
       "nome": "I''s",
@@ -44094,7 +44307,7 @@
           ]
         }
       ],
-      "id": 396
+      "id": 393
     },
     {
       "nome": "Ice",
@@ -44137,7 +44350,7 @@
           ]
         }
       ],
-      "id": 397
+      "id": 394
     },
     {
       "nome": "Ichiban Ushiro no Daimaou",
@@ -44171,7 +44384,7 @@
           ]
         }
       ],
-      "id": 398
+      "id": 395
     },
     {
       "nome": "Ichigo 100%",
@@ -44321,7 +44534,7 @@
           ]
         }
       ],
-      "id": 399
+      "id": 396
     },
     {
       "nome": "Ichigo Mashimaro",
@@ -44435,7 +44648,7 @@
           ]
         }
       ],
-      "id": 400
+      "id": 397
     },
     {
       "nome": "Iczer",
@@ -44524,7 +44737,7 @@
           ]
         }
       ],
-      "id": 401
+      "id": 398
     },
     {
       "nome": "Ike! Ina-chuu Takkyuubu",
@@ -44626,7 +44839,7 @@
           ]
         }
       ],
-      "id": 402
+      "id": 399
     },
     {
       "nome": "Iketeru Futari",
@@ -44662,7 +44875,7 @@
           ]
         }
       ],
-      "id": 403
+      "id": 400
     },
     {
       "nome": "Ikkitousen",
@@ -45110,7 +45323,7 @@
           ]
         }
       ],
-      "id": 404
+      "id": 401
     },
     {
       "nome": "Immortal (Ad Vitam)",
@@ -45137,7 +45350,7 @@
           ]
         }
       ],
-      "id": 405
+      "id": 402
     },
     {
       "nome": "Inferno de Dante (Dante's Inferno)",
@@ -45158,7 +45371,7 @@
           ]
         }
       ],
-      "id": 406
+      "id": 403
     },
     {
       "nome": "Ingress the Animation",
@@ -45212,7 +45425,7 @@
           ]
         }
       ],
-      "id": 407
+      "id": 404
     },
     {
       "nome": "Initial D",
@@ -45509,7 +45722,7 @@
           ]
         }
       ],
-      "id": 408
+      "id": 405
     },
     {
       "nome": "Innocent Venus",
@@ -45566,7 +45779,7 @@
           ]
         }
       ],
-      "id": 409
+      "id": 406
     },
     {
       "nome": "Inu ni Nattara Suki na Hito ni Hirowareta",
@@ -45639,7 +45852,7 @@
           ]
         }
       ],
-      "id": 410
+      "id": 407
     },
     {
       "nome": "Inukami!",
@@ -45754,7 +45967,7 @@
           ]
         }
       ],
-      "id": 411
+      "id": 408
     },
     {
       "nome": "InuYasha",
@@ -46615,7 +46828,7 @@
           ]
         }
       ],
-      "id": 412
+      "id": 409
     },
     {
       "nome": "Inuyashiki",
@@ -46669,7 +46882,7 @@
           ]
         }
       ],
-      "id": 413
+      "id": 410
     },
     {
       "nome": "Invencível (Invincible)",
@@ -46738,7 +46951,7 @@
           "arquivos": []
         }
       ],
-      "id": 414
+      "id": 411
     },
     {
       "nome": "Ippatsu Kiki Musume",
@@ -46762,7 +46975,7 @@
           ]
         }
       ],
-      "id": 415
+      "id": 412
     },
     {
       "nome": "Iria Zeiram The Animation",
@@ -46801,7 +47014,7 @@
           ]
         }
       ],
-      "id": 416
+      "id": 413
     },
     {
       "nome": "Irregular Hunter X - The Day of Sigma",
@@ -46825,7 +47038,7 @@
           ]
         }
       ],
-      "id": 417
+      "id": 414
     },
     {
       "nome": "IS Infinite Stratos",
@@ -46989,7 +47202,7 @@
           ]
         }
       ],
-      "id": 418
+      "id": 415
     },
     {
       "nome": "Isekai Cheat Magician",
@@ -47062,7 +47275,7 @@
           ]
         }
       ],
-      "id": 419
+      "id": 416
     },
     {
       "nome": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
@@ -47241,7 +47454,7 @@
           ]
         }
       ],
-      "id": 420
+      "id": 417
     },
     {
       "nome": "Isekai Meikyuu de Harem Wo",
@@ -47362,7 +47575,7 @@
           ]
         }
       ],
-      "id": 421
+      "id": 418
     },
     {
       "nome": "Isekai Ojisan",
@@ -47383,7 +47596,7 @@
           ]
         }
       ],
-      "id": 422
+      "id": 419
     },
     {
       "nome": "Isekai Quartet",
@@ -47430,7 +47643,7 @@
           ]
         }
       ],
-      "id": 423
+      "id": 420
     },
     {
       "nome": "Isekai wa Smartphone to Tomo ni",
@@ -47536,7 +47749,7 @@
           ]
         }
       ],
-      "id": 424
+      "id": 421
     },
     {
       "nome": "Ishuzoku Reviewers",
@@ -47593,7 +47806,7 @@
           ]
         }
       ],
-      "id": 425
+      "id": 422
     },
     {
       "nome": "Island",
@@ -47650,7 +47863,7 @@
           ]
         }
       ],
-      "id": 426
+      "id": 423
     },
     {
       "nome": "Issho ni Training",
@@ -47721,7 +47934,7 @@
           ]
         }
       ],
-      "id": 427
+      "id": 424
     },
     {
       "nome": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi",
@@ -47742,7 +47955,7 @@
           ]
         }
       ],
-      "id": 428
+      "id": 425
     },
     {
       "nome": "Isshuukan Friends",
@@ -47897,7 +48110,7 @@
           ]
         }
       ],
-      "id": 429
+      "id": 426
     },
     {
       "nome": "Isuca",
@@ -47964,7 +48177,7 @@
           ]
         }
       ],
-      "id": 430
+      "id": 427
     },
     {
       "nome": "Itai no wa Iya nanode Bougyoryoku ni Kyokufuri Shitai to Omoimasu",
@@ -48070,7 +48283,7 @@
           ]
         }
       ],
-      "id": 431
+      "id": 428
     },
     {
       "nome": "Itsudatte My Santa",
@@ -48097,7 +48310,7 @@
           ]
         }
       ],
-      "id": 432
+      "id": 429
     },
     {
       "nome": "Itsuka Tenma no Kuro Usagi",
@@ -48183,7 +48396,7 @@
           ]
         }
       ],
-      "id": 433
+      "id": 430
     },
     {
       "nome": "Iwa Kakeru! Sport Climbing Girls",
@@ -48240,7 +48453,7 @@
           ]
         }
       ],
-      "id": 434
+      "id": 431
     },
     {
       "nome": "Iya na Kao Sare Nagara Opantsu Misete Moraitai",
@@ -48341,7 +48554,7 @@
           ]
         }
       ],
-      "id": 435
+      "id": 432
     },
     {
       "nome": "Izumo",
@@ -48408,7 +48621,7 @@
           ]
         }
       ],
-      "id": 436
+      "id": 433
     },
     {
       "nome": "Jigokuraku (Hell's Paradise)",
@@ -48468,7 +48681,7 @@
           ]
         }
       ],
-      "id": 437
+      "id": 434
     },
     {
       "nome": "Jin-Roh The Wolf Brigade",
@@ -48492,7 +48705,7 @@
           ]
         }
       ],
-      "id": 438
+      "id": 435
     },
     {
       "nome": "Jitsu wa Ore, Saikyou deshita",
@@ -48549,7 +48762,7 @@
           ]
         }
       ],
-      "id": 439
+      "id": 436
     },
     {
       "nome": "Joshikousei Girls High",
@@ -48619,7 +48832,7 @@
           ]
         }
       ],
-      "id": 440
+      "id": 437
     },
     {
       "nome": "Joshikousei no Mudazukai",
@@ -48676,7 +48889,7 @@
           ]
         }
       ],
-      "id": 441
+      "id": 438
     },
     {
       "nome": "Jubei-chan",
@@ -48749,7 +48962,7 @@
           ]
         }
       ],
-      "id": 442
+      "id": 439
     },
     {
       "nome": "Jujutsu Kaisen",
@@ -48900,7 +49113,7 @@
           ]
         }
       ],
-      "id": 443
+      "id": 440
     },
     {
       "nome": "Juliet",
@@ -48924,7 +49137,7 @@
           ]
         }
       ],
-      "id": 444
+      "id": 441
     },
     {
       "nome": "Jungle de Ikou!",
@@ -48954,7 +49167,7 @@
           ]
         }
       ],
-      "id": 445
+      "id": 442
     },
     {
       "nome": "Junk Boy",
@@ -48978,7 +49191,7 @@
           ]
         }
       ],
-      "id": 446
+      "id": 443
     },
     {
       "nome": "Junketsu no Maria",
@@ -49035,7 +49248,7 @@
           ]
         }
       ],
-      "id": 447
+      "id": 444
     },
     {
       "nome": "Juubee Ninpuuchou (Ninja Scroll)",
@@ -49156,7 +49369,7 @@
           ]
         }
       ],
-      "id": 448
+      "id": 445
     },
     {
       "nome": "Juuni Kokuki",
@@ -49309,7 +49522,7 @@
           ]
         }
       ],
-      "id": 449
+      "id": 446
     },
     {
       "nome": "Juuou Mujin no Fafnir",
@@ -49366,7 +49579,7 @@
           ]
         }
       ],
-      "id": 450
+      "id": 447
     },
     {
       "nome": "Juushinki Pandora",
@@ -49465,7 +49678,7 @@
           ]
         }
       ],
-      "id": 451
+      "id": 448
     },
     {
       "nome": "K (K-Project)",
@@ -49726,7 +49939,7 @@
           ]
         }
       ],
-      "id": 452
+      "id": 449
     },
     {
       "nome": "Kagaku na Yatsura",
@@ -49753,7 +49966,7 @@
           ]
         }
       ],
-      "id": 453
+      "id": 450
     },
     {
       "nome": "Kage no Jitsuryokusha ni Naritakute",
@@ -49873,7 +50086,7 @@
           ]
         }
       ],
-      "id": 454
+      "id": 451
     },
     {
       "nome": "Kagi Hime Monogatari Eikyuu Alice Rondo",
@@ -49933,7 +50146,7 @@
           ]
         }
       ],
-      "id": 455
+      "id": 452
     },
     {
       "nome": "Kaguya-sama wa Kokurasetai",
@@ -50146,7 +50359,7 @@
           ]
         }
       ],
-      "id": 456
+      "id": 453
     },
     {
       "nome": "Kaifuku Jutsushi no Yarinaoshi",
@@ -50206,7 +50419,7 @@
           ]
         }
       ],
-      "id": 457
+      "id": 454
     },
     {
       "nome": "Kakegurui",
@@ -50302,7 +50515,7 @@
           ]
         }
       ],
-      "id": 458
+      "id": 455
     },
     {
       "nome": "Kakugo no Susume",
@@ -50329,7 +50542,7 @@
           ]
         }
       ],
-      "id": 459
+      "id": 456
     },
     {
       "nome": "Kakumeiki Valvrave",
@@ -50448,7 +50661,7 @@
           ]
         }
       ],
-      "id": 460
+      "id": 457
     },
     {
       "nome": "Kakyuusei",
@@ -50676,7 +50889,7 @@
           ]
         }
       ],
-      "id": 461
+      "id": 458
     },
     {
       "nome": "Kamen no Maid Guy",
@@ -50746,7 +50959,7 @@
           ]
         }
       ],
-      "id": 462
+      "id": 459
     },
     {
       "nome": "Kami nomi zo Shiru Sekai",
@@ -50803,7 +51016,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 9675,
           "nome": "2010 Kami nomi zo Shiru Sekai Flag 0 - OVA",
           "ano": "2010",
           "nomeSemAno": "Kami nomi zo Shiru Sekai Flag 0 - OVA",
@@ -50811,12 +51024,12 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "9675.avif"
+              "nome": "9675.jpg"
             }
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 10805,
           "nome": "2011 Kami nomi zo Shiru Sekai 4-nin to Idol - OVA",
           "ano": "2011",
           "nomeSemAno": "Kami nomi zo Shiru Sekai 4-nin to Idol - OVA",
@@ -50824,12 +51037,12 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "10805.avif"
+              "nome": "10805.jpg"
             }
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 10080,
           "nome": "2011 Kami nomi zo Shiru Sekai II - TV",
           "ano": "2011",
           "nomeSemAno": "Kami nomi zo Shiru Sekai II - TV",
@@ -50837,7 +51050,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "10080avif.avif"
+              "nome": "10080.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Kami_Nomi_zo_Shiru_Sekai_II_-_01_[Blu-Ray_1280x720_H264+AAC]_[10bit]_(7647187D).mkv"
@@ -50878,7 +51091,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 15117,
           "nome": "2012 Kami nomi zo Shiru Sekai Tenri-hen - OVA",
           "ano": "2012",
           "nomeSemAno": "Kami nomi zo Shiru Sekai Tenri-hen - OVA",
@@ -50886,12 +51099,12 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "15117.avif"
+              "nome": "15117.jpg"
             }
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 16706,
           "nome": "2013 Kami nomi zo Shiru Sekai Megami-hen - TV",
           "ano": "2013",
           "nomeSemAno": "Kami nomi zo Shiru Sekai Megami-hen - TV",
@@ -50899,7 +51112,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "16706.avif"
+              "nome": "16706.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Kami_Nomi_zo_Shiru_Sekai_Megami_Hen_-_01_[Blu-Ray_1280x720]_[10Bit]_(FA63E3DF).mkv"
@@ -50956,7 +51169,7 @@
           ]
         }
       ],
-      "id": 463
+      "id": 460
     },
     {
       "nome": "Kami wa Game ni Ueteiru",
@@ -51016,7 +51229,7 @@
           ]
         }
       ],
-      "id": 464
+      "id": 461
     },
     {
       "nome": "Kami-sama no Inai Nichiyoubi",
@@ -51089,7 +51302,7 @@
           ]
         }
       ],
-      "id": 465
+      "id": 462
     },
     {
       "nome": "Kamichu!",
@@ -51171,7 +51384,7 @@
           ]
         }
       ],
-      "id": 466
+      "id": 463
     },
     {
       "nome": "Kaminaki Sekai no Kamisama Katsudou",
@@ -51228,7 +51441,7 @@
           ]
         }
       ],
-      "id": 467
+      "id": 464
     },
     {
       "nome": "Kamisama No Memochou",
@@ -51285,7 +51498,7 @@
           ]
         }
       ],
-      "id": 468
+      "id": 465
     },
     {
       "nome": "Kanamemo",
@@ -51345,7 +51558,7 @@
           ]
         }
       ],
-      "id": 469
+      "id": 466
     },
     {
       "nome": "Kanata no Astra",
@@ -51402,7 +51615,7 @@
           ]
         }
       ],
-      "id": 470
+      "id": 467
     },
     {
       "nome": "Kandagawa Jet Girls",
@@ -51488,7 +51701,7 @@
           ]
         }
       ],
-      "id": 471
+      "id": 468
     },
     {
       "nome": "Kanojo, Okarishimasu",
@@ -51789,7 +52002,7 @@
           ]
         }
       ],
-      "id": 472
+      "id": 469
     },
     {
       "nome": "Kanokon",
@@ -51927,7 +52140,7 @@
           ]
         }
       ],
-      "id": 473
+      "id": 470
     },
     {
       "nome": "Kantai Collection KanColle",
@@ -52065,7 +52278,7 @@
           ]
         }
       ],
-      "id": 474
+      "id": 471
     },
     {
       "nome": "Kara no Kyoukai",
@@ -52073,21 +52286,8 @@
       "imgSrc": "kara_no_kyoukai.jpg",
       "subpastas": [
         {
-          "mal_id": 23697,
-          "nome": "2007 Kara no Kyoukai Manner Movies - Filme",
-          "ano": "2007",
-          "nomeSemAno": "Kara no Kyoukai Manner Movies - Filme",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "23697.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 2593,
-          "nome": "2007 Kara no Kyoukai Movie 1 Fukan Fuukei - Filme",
+          "nome": "2007  Kara no Kyoukai Movie 1 Fukan Fuukei - Filme",
           "ano": "2007",
           "nomeSemAno": "Kara no Kyoukai Movie 1 Fukan Fuukei - Filme",
           "jaAssisti": false,
@@ -52098,6 +52298,19 @@
             },
             {
               "nome": "[#AnimeNSK]_Kara_no_Kyoukai_Movie_-_01_[Blu-Ray_1280x720_H264+AAC]_(582D6737).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 23697,
+          "nome": "2007 Kara no Kyoukai Manner Movies - Filme",
+          "ano": "2007",
+          "nomeSemAno": "Kara no Kyoukai Manner Movies - Filme",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "23697.jpg"
             }
           ]
         },
@@ -52262,7 +52475,7 @@
           ]
         }
       ],
-      "id": 475
+      "id": 472
     },
     {
       "nome": "Karakai Jouzu no Takagi-san",
@@ -52446,7 +52659,7 @@
           ]
         }
       ],
-      "id": 476
+      "id": 473
     },
     {
       "nome": "Karakuri no Kimi (Puppet Princess)",
@@ -52470,7 +52683,7 @@
           ]
         }
       ],
-      "id": 477
+      "id": 474
     },
     {
       "nome": "Karin",
@@ -52563,7 +52776,7 @@
           ]
         }
       ],
-      "id": 478
+      "id": 475
     },
     {
       "nome": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka",
@@ -52633,7 +52846,7 @@
           ]
         }
       ],
-      "id": 479
+      "id": 476
     },
     {
       "nome": "Kaze no Na wa Amnesia",
@@ -52657,7 +52870,7 @@
           ]
         }
       ],
-      "id": 480
+      "id": 477
     },
     {
       "nome": "Kaze no Stigma",
@@ -52750,7 +52963,7 @@
           ]
         }
       ],
-      "id": 481
+      "id": 478
     },
     {
       "nome": "Kaze no Tairiku",
@@ -52774,7 +52987,7 @@
           ]
         }
       ],
-      "id": 482
+      "id": 479
     },
     {
       "nome": "Keijo!!!!!!!!",
@@ -52865,7 +53078,7 @@
           ]
         }
       ],
-      "id": 483
+      "id": 480
     },
     {
       "nome": "Keitai Shoujo",
@@ -52901,7 +53114,7 @@
           ]
         }
       ],
-      "id": 484
+      "id": 481
     },
     {
       "nome": "Kekkon Yubiwa Monogatari",
@@ -52994,7 +53207,7 @@
           ]
         }
       ],
-      "id": 485
+      "id": 482
     },
     {
       "nome": "Kekkou Kamen",
@@ -53039,7 +53252,7 @@
           ]
         }
       ],
-      "id": 486
+      "id": 483
     },
     {
       "nome": "Kemeko Deluxe!",
@@ -53109,7 +53322,7 @@
           ]
         }
       ],
-      "id": 487
+      "id": 484
     },
     {
       "nome": "Kenja no Mago",
@@ -53166,7 +53379,7 @@
           ]
         }
       ],
-      "id": 488
+      "id": 485
     },
     {
       "nome": "Kenkou Zenrakei Suiei-bu Umishou",
@@ -53268,7 +53481,7 @@
           ]
         }
       ],
-      "id": 489
+      "id": 486
     },
     {
       "nome": "Kennel Tokorozawa",
@@ -53292,7 +53505,7 @@
           ]
         }
       ],
-      "id": 490
+      "id": 487
     },
     {
       "nome": "Kenzen Robo Daimidaler",
@@ -53362,7 +53575,7 @@
           ]
         }
       ],
-      "id": 491
+      "id": 488
     },
     {
       "nome": "Key the Metal Idol",
@@ -53428,7 +53641,7 @@
           ]
         }
       ],
-      "id": 492
+      "id": 489
     },
     {
       "nome": "Kiddy Grade",
@@ -53595,7 +53808,7 @@
           ]
         }
       ],
-      "id": 493
+      "id": 490
     },
     {
       "nome": "Kidou Senkan Nadesico",
@@ -53703,6 +53916,9 @@
           "arquivos": [
             {
               "nome": "2067.jpg"
+            },
+            {
+              "nome": "[#AnimeNSK]_Gekiganger_3_OVA_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(CDCD36F0).mkv"
             }
           ]
         },
@@ -53723,7 +53939,7 @@
           ]
         }
       ],
-      "id": 494
+      "id": 491
     },
     {
       "nome": "Kidou Senshi Gundam",
@@ -53936,7 +54152,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 92,
           "nome": "1996 Kidou Shinseiki Gundam X - TV",
           "ano": "1996",
           "nomeSemAno": "Kidou Shinseiki Gundam X - TV",
@@ -53944,7 +54160,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "92.webp"
+              "nome": "92.jpg"
             },
             {
               "nome": "[#AnimeNSK]_After_War_Gundam_X_-_01_[BD_1440x1080]_[HEVC_10Bit]_(42F810FB).mkv"
@@ -54241,13 +54457,16 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 2581,
           "nome": "2007 Kidou Senshi Gundam 00 - TV",
           "ano": "2007",
           "nomeSemAno": "Kidou Senshi Gundam 00 - TV",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
+            {
+              "nome": "2581.jpg"
+            },
             {
               "nome": "[_AnimeNSK]_Gundam_00_-_01_[Blu-Ray_1280x720_H264+AAC]_(6C8200A6).mkv"
             },
@@ -54469,19 +54688,6 @@
           ]
         },
         {
-          "mal_id": 40464,
-          "nome": "2011 Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Special",
-          "ano": "2011",
-          "nomeSemAno": "Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "40464.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 17655,
           "nome": "2013 Kidou Senshi Gundam AGE Memory of Eden - OVA",
           "ano": "2013",
@@ -54679,9 +54885,9 @@
         },
         {
           "mal_id": 40464,
-          "nome": "2019 Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Especial",
+          "nome": "2019 Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Special",
           "ano": "2019",
-          "nomeSemAno": "Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Especial",
+          "nomeSemAno": "Kidou Senshi Gundam Hikaru Inochi Chronicle U.C. - Special",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
@@ -54865,7 +55071,7 @@
           ]
         }
       ],
-      "id": 495
+      "id": 492
     },
     {
       "nome": "Kigurumikku V3",
@@ -54892,7 +55098,7 @@
           ]
         }
       ],
-      "id": 496
+      "id": 493
     },
     {
       "nome": "Kikaider Android The Animation",
@@ -54993,7 +55199,7 @@
           ]
         }
       ],
-      "id": 497
+      "id": 494
     },
     {
       "nome": "Kikoushi Enma",
@@ -55088,7 +55294,7 @@
           ]
         }
       ],
-      "id": 498
+      "id": 495
     },
     {
       "nome": "Kill La Kill",
@@ -55207,7 +55413,7 @@
           ]
         }
       ],
-      "id": 499
+      "id": 496
     },
     {
       "nome": "Killing Bites",
@@ -55264,7 +55470,7 @@
           ]
         }
       ],
-      "id": 500
+      "id": 497
     },
     {
       "nome": "Kimetsu no Yaiba (Demon Slayer)",
@@ -55581,7 +55787,7 @@
           ]
         }
       ],
-      "id": 501
+      "id": 498
     },
     {
       "nome": "Kimi ga Aruji de Shitsuji ga Ore de",
@@ -55657,7 +55863,7 @@
           ]
         }
       ],
-      "id": 502
+      "id": 499
     },
     {
       "nome": "Kimi ga Nozomu Eien",
@@ -55749,13 +55955,16 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 1856,
           "nome": "2006 Kimi ga Nozomu Eien Ayu Mayu Gekijou - ONA",
           "ano": "2006",
           "nomeSemAno": "Kimi ga Nozomu Eien Ayu Mayu Gekijou - ONA",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
+            {
+              "nome": "1856.jpg"
+            },
             {
               "nome": "[#AnimeNSK]_Ayumayu_Gekijou_-_01-06_[Blu-Ray_1920x1080]_[HEVC_10Bit]_(141F2E45).mkv"
             }
@@ -55803,7 +56012,7 @@
           ]
         }
       ],
-      "id": 503
+      "id": 500
     },
     {
       "nome": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo",
@@ -55909,7 +56118,7 @@
           ]
         }
       ],
-      "id": 504
+      "id": 501
     },
     {
       "nome": "Kimi to, Nami ni Noretara",
@@ -55933,7 +56142,7 @@
           ]
         }
       ],
-      "id": 505
+      "id": 502
     },
     {
       "nome": "KimiSen",
@@ -56015,7 +56224,7 @@
           ]
         }
       ],
-      "id": 506
+      "id": 503
     },
     {
       "nome": "Kino no Tabi",
@@ -56117,7 +56326,7 @@
           ]
         }
       ],
-      "id": 507
+      "id": 504
     },
     {
       "nome": "Kinsou No Vermeil",
@@ -56174,7 +56383,7 @@
           ]
         }
       ],
-      "id": 508
+      "id": 505
     },
     {
       "nome": "Kirara",
@@ -56198,7 +56407,7 @@
           ]
         }
       ],
-      "id": 509
+      "id": 506
     },
     {
       "nome": "Kiseijuu Sei no Kakuritsu",
@@ -56288,7 +56497,7 @@
           ]
         }
       ],
-      "id": 510
+      "id": 507
     },
     {
       "nome": "Kiss X Sis",
@@ -56394,7 +56603,7 @@
           ]
         }
       ],
-      "id": 511
+      "id": 508
     },
     {
       "nome": "Kite",
@@ -56511,7 +56720,7 @@
           ]
         }
       ],
-      "id": 512
+      "id": 509
     },
     {
       "nome": "Kobayashi-san Chi no Maid Dragon",
@@ -56665,7 +56874,7 @@
           ]
         }
       ],
-      "id": 513
+      "id": 510
     },
     {
       "nome": "Kodomo no Jikan",
@@ -56779,7 +56988,7 @@
           ]
         }
       ],
-      "id": 514
+      "id": 511
     },
     {
       "nome": "Koe de Oshigoto! The Animation",
@@ -56806,7 +57015,7 @@
           ]
         }
       ],
-      "id": 515
+      "id": 512
     },
     {
       "nome": "Koharu Biyori",
@@ -56836,7 +57045,7 @@
           ]
         }
       ],
-      "id": 516
+      "id": 513
     },
     {
       "nome": "Koi Koi 7 (Koi Koi Seven)",
@@ -56912,7 +57121,7 @@
           ]
         }
       ],
-      "id": 517
+      "id": 514
     },
     {
       "nome": "Koi to Senkyo to Chocolate",
@@ -56998,7 +57207,7 @@
           ]
         }
       ],
-      "id": 518
+      "id": 515
     },
     {
       "nome": "Koi wa Sekai Seifuku no Ato de",
@@ -57055,7 +57264,7 @@
           ]
         }
       ],
-      "id": 519
+      "id": 516
     },
     {
       "nome": "Koihime Musou",
@@ -57258,7 +57467,7 @@
           ]
         }
       ],
-      "id": 520
+      "id": 517
     },
     {
       "nome": "Kono Bijutsu-bu ni wa Mondai ga Aru!",
@@ -57315,7 +57524,7 @@
           ]
         }
       ],
-      "id": 521
+      "id": 518
     },
     {
       "nome": "Kono Naka ni Hitori, Imouto ga Iru!",
@@ -57424,7 +57633,7 @@
           ]
         }
       ],
-      "id": 522
+      "id": 519
     },
     {
       "nome": "Kono Yo no Hate de Koi wo Utau Shoujo YU-NO",
@@ -57471,7 +57680,7 @@
           ]
         }
       ],
-      "id": 523
+      "id": 520
     },
     {
       "nome": "KonoSuba (Kono Subarashii Sekai ni Shukufuku wo)",
@@ -57727,7 +57936,7 @@
           ]
         }
       ],
-      "id": 524
+      "id": 521
     },
     {
       "nome": "Kore ga Watashi no Goshujinsama",
@@ -57784,7 +57993,7 @@
           ]
         }
       ],
-      "id": 525
+      "id": 522
     },
     {
       "nome": "Koroshiya 1 The Animation Episode 0 (Ichi the Killer)",
@@ -57808,7 +58017,7 @@
           ]
         }
       ],
-      "id": 526
+      "id": 523
     },
     {
       "nome": "Kotetsu no Daibouken",
@@ -57835,7 +58044,7 @@
           ]
         }
       ],
-      "id": 527
+      "id": 524
     },
     {
       "nome": "koukaku no Pandora",
@@ -57905,7 +58114,7 @@
           ]
         }
       ],
-      "id": 528
+      "id": 525
     },
     {
       "nome": "Koukaku no Regios",
@@ -58011,7 +58220,7 @@
           ]
         }
       ],
-      "id": 529
+      "id": 526
     },
     {
       "nome": "Kouryuu Densetsu Villgust",
@@ -58038,7 +58247,7 @@
           ]
         }
       ],
-      "id": 530
+      "id": 527
     },
     {
       "nome": "Koutetsu Tenshi Kurumi",
@@ -58227,7 +58436,7 @@
           ]
         }
       ],
-      "id": 531
+      "id": 528
     },
     {
       "nome": "Koutetsujou no Kabaneri",
@@ -58326,7 +58535,7 @@
           ]
         }
       ],
-      "id": 532
+      "id": 529
     },
     {
       "nome": "Kubo e as Cordas Mágicas",
@@ -58353,7 +58562,7 @@
           ]
         }
       ],
-      "id": 533
+      "id": 530
     },
     {
       "nome": "Kung Fu Panda",
@@ -58542,7 +58751,7 @@
           ]
         }
       ],
-      "id": 534
+      "id": 531
     },
     {
       "nome": "Kure-nai",
@@ -58618,7 +58827,7 @@
           ]
         }
       ],
-      "id": 535
+      "id": 532
     },
     {
       "nome": "Kuro to Kin no Akanai Kagi",
@@ -58645,7 +58854,7 @@
           ]
         }
       ],
-      "id": 536
+      "id": 533
     },
     {
       "nome": "Kusuriya no Hitorigoto",
@@ -58777,7 +58986,7 @@
           ]
         }
       ],
-      "id": 537
+      "id": 534
     },
     {
       "nome": "Kuttsukiboshi",
@@ -58804,7 +59013,7 @@
           ]
         }
       ],
-      "id": 538
+      "id": 535
     },
     {
       "nome": "Kyochuu Rettou",
@@ -58838,7 +59047,7 @@
           ]
         }
       ],
-      "id": 539
+      "id": 536
     },
     {
       "nome": "Kyou no 5 no 2 (Kyou no 5-2)",
@@ -58913,7 +59122,7 @@
           ]
         }
       ],
-      "id": 540
+      "id": 537
     },
     {
       "nome": "Kyoufu no Bio Ningen Saishuu Kyoushi",
@@ -58937,7 +59146,7 @@
           ]
         }
       ],
-      "id": 541
+      "id": 538
     },
     {
       "nome": "Kyougoku Natsuhiko Kousetsu Hyaku Monogatari",
@@ -58997,7 +59206,7 @@
           ]
         }
       ],
-      "id": 542
+      "id": 539
     },
     {
       "nome": "Kyoukai Senjou no Horizon",
@@ -59126,7 +59335,7 @@
           ]
         }
       ],
-      "id": 543
+      "id": 540
     },
     {
       "nome": "Kyoukai Senk",
@@ -59248,7 +59457,7 @@
           ]
         }
       ],
-      "id": 544
+      "id": 541
     },
     {
       "nome": "Kyoushirou to Towa no Sora",
@@ -59301,7 +59510,7 @@
           ]
         }
       ],
-      "id": 545
+      "id": 542
     },
     {
       "nome": "Kämpfer",
@@ -59390,7 +59599,7 @@
           ]
         }
       ],
-      "id": 546
+      "id": 543
     },
     {
       "nome": "L.O.R.D Legend of Ravaging Dynasties (Jue Ji)",
@@ -59433,7 +59642,7 @@
           ]
         }
       ],
-      "id": 547
+      "id": 544
     },
     {
       "nome": "Ladies vs Butlers!",
@@ -59516,7 +59725,7 @@
           ]
         }
       ],
-      "id": 548
+      "id": 545
     },
     {
       "nome": "Landlock",
@@ -59543,7 +59752,7 @@
           ]
         }
       ],
-      "id": 549
+      "id": 546
     },
     {
       "nome": "Larva",
@@ -59632,7 +59841,7 @@
           "arquivos": []
         }
       ],
-      "id": 550
+      "id": 547
     },
     {
       "nome": "Last Exile",
@@ -59842,7 +60051,7 @@
           ]
         }
       ],
-      "id": 551
+      "id": 548
     },
     {
       "nome": "Leadale no Daichi nite",
@@ -59899,7 +60108,7 @@
           ]
         }
       ],
-      "id": 552
+      "id": 549
     },
     {
       "nome": "Legend of Lemnear Kyokuguro no Tsubasa Valkisas",
@@ -59923,7 +60132,7 @@
           ]
         }
       ],
-      "id": 553
+      "id": 550
     },
     {
       "nome": "Levius",
@@ -60016,7 +60225,7 @@
           ]
         }
       ],
-      "id": 554
+      "id": 551
     },
     {
       "nome": "Liar Liar",
@@ -60073,7 +60282,7 @@
           ]
         }
       ],
-      "id": 555
+      "id": 552
     },
     {
       "nome": "Lime-iro Senkitan (Raimuiro Senkitan)",
@@ -60165,7 +60374,7 @@
           ]
         }
       ],
-      "id": 556
+      "id": 553
     },
     {
       "nome": "Lodoss-tou Senki (Record of Lodoss War)",
@@ -60287,7 +60496,7 @@
           ]
         }
       ],
-      "id": 557
+      "id": 554
     },
     {
       "nome": "Love Hina",
@@ -60448,7 +60657,7 @@
           ]
         }
       ],
-      "id": 558
+      "id": 555
     },
     {
       "nome": "Love, Death & Robots",
@@ -60663,7 +60872,7 @@
           "arquivos": []
         }
       ],
-      "id": 559
+      "id": 556
     },
     {
       "nome": "Lovely★Complex",
@@ -60756,7 +60965,7 @@
           ]
         }
       ],
-      "id": 560
+      "id": 557
     },
     {
       "nome": "Luck & Logic",
@@ -60852,7 +61061,7 @@
           ]
         }
       ],
-      "id": 561
+      "id": 558
     },
     {
       "nome": "Lv1 Maou to One Room Yuusha",
@@ -60909,7 +61118,7 @@
           ]
         }
       ],
-      "id": 562
+      "id": 559
     },
     {
       "nome": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
@@ -60966,7 +61175,7 @@
           ]
         }
       ],
-      "id": 563
+      "id": 560
     },
     {
       "nome": "Lycoris Recoil",
@@ -61039,7 +61248,7 @@
           ]
         }
       ],
-      "id": 564
+      "id": 561
     },
     {
       "nome": "Machine-Doll wa Kizutsukanai",
@@ -61163,7 +61372,7 @@
           ]
         }
       ],
-      "id": 565
+      "id": 562
     },
     {
       "nome": "Macross",
@@ -61639,7 +61848,7 @@
           ]
         }
       ],
-      "id": 566
+      "id": 563
     },
     {
       "nome": "Madagascar",
@@ -61746,7 +61955,7 @@
           "arquivos": []
         }
       ],
-      "id": 567
+      "id": 564
     },
     {
       "nome": "Madan no Ou to Vanadis",
@@ -61862,7 +62071,7 @@
           ]
         }
       ],
-      "id": 568
+      "id": 565
     },
     {
       "nome": "Mad★Bull 34 (Mad Bull 34)",
@@ -61895,7 +62104,7 @@
           ]
         }
       ],
-      "id": 569
+      "id": 566
     },
     {
       "nome": "Magi",
@@ -62159,7 +62368,7 @@
           ]
         }
       ],
-      "id": 570
+      "id": 567
     },
     {
       "nome": "Magic Maker Isekai Mahou no Tsukurikata",
@@ -62213,7 +62422,7 @@
           ]
         }
       ],
-      "id": 571
+      "id": 568
     },
     {
       "nome": "Mahoromatic",
@@ -62386,7 +62595,7 @@
           ]
         }
       ],
-      "id": 572
+      "id": 569
     },
     {
       "nome": "Mahou Sensei Negima!",
@@ -62783,7 +62992,7 @@
           ]
         }
       ],
-      "id": 573
+      "id": 570
     },
     {
       "nome": "Mahou Shoujo Lyrical Nanoha",
@@ -62800,19 +63009,6 @@
           "arquivos": [
             {
               "nome": "4849.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 176,
-          "nome": "2003 Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance - OVA",
-          "ano": "2003",
-          "nomeSemAno": "Mahou Shoujo Lyrical Nanoha EXCEEDS Gun Blaze Vengeance - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "176.jpg"
             }
           ]
         },
@@ -63050,7 +63246,7 @@
           ]
         }
       ],
-      "id": 574
+      "id": 571
     },
     {
       "nome": "Mahou Shoujo Magical Destroyers",
@@ -63146,7 +63342,7 @@
           ]
         }
       ],
-      "id": 575
+      "id": 572
     },
     {
       "nome": "Mahou Shoujo ni Akogaret",
@@ -63206,7 +63402,7 @@
           ]
         }
       ],
-      "id": 576
+      "id": 573
     },
     {
       "nome": "Mahou Shoujo Tokushusen Asuka",
@@ -63263,7 +63459,7 @@
           ]
         }
       ],
-      "id": 577
+      "id": 574
     },
     {
       "nome": "Mahou Shoujo-tai Arusu (Tweeny witches)",
@@ -63381,7 +63577,7 @@
           ]
         }
       ],
-      "id": 578
+      "id": 575
     },
     {
       "nome": "Mahouka Koukou no Rettousei",
@@ -63720,7 +63916,7 @@
           ]
         }
       ],
-      "id": 579
+      "id": 576
     },
     {
       "nome": "Mai-Otome",
@@ -64009,7 +64205,7 @@
           ]
         }
       ],
-      "id": 580
+      "id": 577
     },
     {
       "nome": "Majimoji Rurumo",
@@ -64088,7 +64284,7 @@
           ]
         }
       ],
-      "id": 581
+      "id": 578
     },
     {
       "nome": "Majo to Yajuu",
@@ -64145,7 +64341,7 @@
           ]
         }
       ],
-      "id": 582
+      "id": 579
     },
     {
       "nome": "Makai Toshi Shinjuku (Demon City Shinjuku)",
@@ -64172,7 +64368,7 @@
           ]
         }
       ],
-      "id": 583
+      "id": 580
     },
     {
       "nome": "Maken-Ki!",
@@ -64344,7 +64540,7 @@
           ]
         }
       ],
-      "id": 584
+      "id": 581
     },
     {
       "nome": "Mamono Hunter Youko",
@@ -64380,7 +64576,7 @@
           ]
         }
       ],
-      "id": 585
+      "id": 582
     },
     {
       "nome": "Mamoru-kun ni Megami no Shukufuku wo!",
@@ -64473,7 +64669,7 @@
           ]
         }
       ],
-      "id": 586
+      "id": 583
     },
     {
       "nome": "Mangaka-san to Assistant-san to The Animation",
@@ -64543,7 +64739,7 @@
           ]
         }
       ],
-      "id": 587
+      "id": 584
     },
     {
       "nome": "Manie-Manie Meikyuu Monogatari (Neo Tokyo)",
@@ -64570,7 +64766,7 @@
           ]
         }
       ],
-      "id": 588
+      "id": 585
     },
     {
       "nome": "Manyuu Hikenchou",
@@ -64640,7 +64836,7 @@
           ]
         }
       ],
-      "id": 589
+      "id": 586
     },
     {
       "nome": "Maou 2099",
@@ -64697,7 +64893,7 @@
           ]
         }
       ],
-      "id": 590
+      "id": 587
     },
     {
       "nome": "Maou Gakuin no Futekigousha",
@@ -64819,7 +65015,7 @@
           ]
         }
       ],
-      "id": 591
+      "id": 588
     },
     {
       "nome": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii",
@@ -64876,7 +65072,7 @@
           ]
         }
       ],
-      "id": 592
+      "id": 589
     },
     {
       "nome": "Maoyuu Maou Yuusha",
@@ -64946,7 +65142,7 @@
           ]
         }
       ],
-      "id": 593
+      "id": 590
     },
     {
       "nome": "Mardock Scramble",
@@ -65002,7 +65198,7 @@
           ]
         }
       ],
-      "id": 594
+      "id": 591
     },
     {
       "nome": "Maria-sama ga Miteru",
@@ -65246,7 +65442,7 @@
           ]
         }
       ],
-      "id": 595
+      "id": 592
     },
     {
       "nome": "Marte Precisa de Mães",
@@ -65267,7 +65463,7 @@
           ]
         }
       ],
-      "id": 596
+      "id": 593
     },
     {
       "nome": "Masou Gakuen HxH",
@@ -65355,7 +65551,7 @@
           ]
         }
       ],
-      "id": 597
+      "id": 594
     },
     {
       "nome": "Mato Seihei no Slave",
@@ -65412,7 +65608,7 @@
           ]
         }
       ],
-      "id": 598
+      "id": 595
     },
     {
       "nome": "Mayo Chiki",
@@ -65472,7 +65668,7 @@
           ]
         }
       ],
-      "id": 599
+      "id": 596
     },
     {
       "nome": "Mayoi Neko Overrun!",
@@ -65542,7 +65738,7 @@
           ]
         }
       ],
-      "id": 600
+      "id": 597
     },
     {
       "nome": "Maze☆Bakunetsu Jikuu (Maze The Mega-Burst Space)",
@@ -65686,7 +65882,7 @@
           ]
         }
       ],
-      "id": 601
+      "id": 598
     },
     {
       "nome": "Mazinger (Mazinkaiser)",
@@ -66028,7 +66224,7 @@
           ]
         }
       ],
-      "id": 602
+      "id": 599
     },
     {
       "nome": "Mecha-ude",
@@ -66065,7 +66261,7 @@
           ]
         }
       ],
-      "id": 603
+      "id": 600
     },
     {
       "nome": "Medaka Box",
@@ -66177,7 +66373,7 @@
           ]
         }
       ],
-      "id": 604
+      "id": 601
     },
     {
       "nome": "Megalo Box",
@@ -66302,7 +66498,7 @@
           ]
         }
       ],
-      "id": 605
+      "id": 602
     },
     {
       "nome": "MegaMente",
@@ -66336,7 +66532,7 @@
           ]
         }
       ],
-      "id": 606
+      "id": 603
     },
     {
       "nome": "Megami Paradise",
@@ -66363,7 +66559,7 @@
           ]
         }
       ],
-      "id": 607
+      "id": 604
     },
     {
       "nome": "Megami-ryou no Ryoubo-kun",
@@ -66414,38 +66610,13 @@
           ]
         }
       ],
-      "id": 608
+      "id": 605
     },
     {
       "nome": "Megazone 23",
       "slug": "megazone-23",
       "imgSrc": "megazone_23.jpg",
       "subpastas": [
-        {
-          "mal_id": 1935,
-          "nome": "1885 Megazone 23 - OVA",
-          "ano": "1885",
-          "nomeSemAno": "Megazone 23 - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "1935.jpg"
-            },
-            {
-              "nome": "[#AnimeNSK]_Megazone_23_III_-_01_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(2E0EA132).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_Megazone_23_III_-_02_Final_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(0ED21859).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_Megazone_23_II_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(29998443).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_Megazone_23_I_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(F065040A).mkv"
-            }
-          ]
-        },
         {
           "mal_id": 1935,
           "nome": "1985 Megazone 23 - OVA",
@@ -66471,11 +66642,23 @@
             },
             {
               "nome": "Megazone 23 - Part III, Episode 2 of 2 (1080p BluRay - 1989 TRI Audio).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_Megazone_23_III_-_01_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(2E0EA132).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_Megazone_23_III_-_02_Final_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(0ED21859).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_Megazone_23_II_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(29998443).mkv"
+            },
+            {
+              "nome": "[#AnimeNSK]_Megazone_23_I_[Blu-Ray_1440x1080]_[HEVC_10Bit]_(F065040A).mkv"
             }
           ]
         }
       ],
-      "id": 609
+      "id": 606
     },
     {
       "nome": "Meitou Isekai no Yu Kaitakuki (Isekai Onsen Paradise)",
@@ -66532,7 +66715,7 @@
           ]
         }
       ],
-      "id": 610
+      "id": 607
     },
     {
       "nome": "Melty Lancer",
@@ -66571,7 +66754,7 @@
           ]
         }
       ],
-      "id": 611
+      "id": 608
     },
     {
       "nome": "Memories",
@@ -66616,7 +66799,7 @@
           ]
         }
       ],
-      "id": 612
+      "id": 609
     },
     {
       "nome": "Metal Fighter Miku",
@@ -66676,7 +66859,7 @@
           ]
         }
       ],
-      "id": 613
+      "id": 610
     },
     {
       "nome": "Metal Skin Panic MADOX-01",
@@ -66700,7 +66883,7 @@
           ]
         }
       ],
-      "id": 614
+      "id": 611
     },
     {
       "nome": "Metallic Rouge",
@@ -66760,7 +66943,7 @@
           ]
         }
       ],
-      "id": 615
+      "id": 612
     },
     {
       "nome": "Metropolis",
@@ -66793,7 +66976,7 @@
           ]
         }
       ],
-      "id": 616
+      "id": 613
     },
     {
       "nome": "Meu Malvado Favorito",
@@ -66849,7 +67032,7 @@
           ]
         }
       ],
-      "id": 617
+      "id": 614
     },
     {
       "nome": "Miami Guns",
@@ -66909,7 +67092,7 @@
           ]
         }
       ],
-      "id": 618
+      "id": 615
     },
     {
       "nome": "Michiko to Hatchin",
@@ -66993,7 +67176,7 @@
           ]
         }
       ],
-      "id": 619
+      "id": 616
     },
     {
       "nome": "Midara na Ao-chan wa Benkyou ga Dekinai",
@@ -67050,7 +67233,7 @@
           ]
         }
       ],
-      "id": 620
+      "id": 617
     },
     {
       "nome": "Midnight Eye Gokuu",
@@ -67090,7 +67273,7 @@
           ]
         }
       ],
-      "id": 621
+      "id": 618
     },
     {
       "nome": "Midori No Hibi",
@@ -67150,7 +67333,7 @@
           ]
         }
       ],
-      "id": 622
+      "id": 619
     },
     {
       "nome": "Mikakunin de Shinkoukei",
@@ -67239,7 +67422,7 @@
           ]
         }
       ],
-      "id": 623
+      "id": 620
     },
     {
       "nome": "Minami-ke",
@@ -67416,7 +67599,7 @@
           ]
         }
       ],
-      "id": 624
+      "id": 621
     },
     {
       "nome": "Minna Agechau♡",
@@ -67440,7 +67623,7 @@
           ]
         }
       ],
-      "id": 625
+      "id": 622
     },
     {
       "nome": "Miru Tights",
@@ -67519,7 +67702,7 @@
           ]
         }
       ],
-      "id": 626
+      "id": 623
     },
     {
       "nome": "MM!",
@@ -67616,7 +67799,7 @@
           ]
         }
       ],
-      "id": 627
+      "id": 624
     },
     {
       "nome": "Mnemosyne no Musumetachi",
@@ -67673,7 +67856,7 @@
           ]
         }
       ],
-      "id": 628
+      "id": 625
     },
     {
       "nome": "Mo Dao Zu Shi",
@@ -68009,7 +68192,7 @@
           ]
         }
       ],
-      "id": 629
+      "id": 626
     },
     {
       "nome": "Moana",
@@ -68046,7 +68229,7 @@
           ]
         }
       ],
-      "id": 630
+      "id": 627
     },
     {
       "nome": "Moetan",
@@ -68119,7 +68302,7 @@
           ]
         }
       ],
-      "id": 631
+      "id": 628
     },
     {
       "nome": "Momo Kyun Sword",
@@ -68176,7 +68359,7 @@
           ]
         }
       ],
-      "id": 632
+      "id": 629
     },
     {
       "nome": "Momoiro Sisters",
@@ -68258,7 +68441,7 @@
           ]
         }
       ],
-      "id": 633
+      "id": 630
     },
     {
       "nome": "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo",
@@ -68325,7 +68508,7 @@
           ]
         }
       ],
-      "id": 634
+      "id": 631
     },
     {
       "nome": "Monogatari",
@@ -68941,7 +69124,7 @@
           ]
         }
       ],
-      "id": 635
+      "id": 632
     },
     {
       "nome": "Mononogatari",
@@ -69047,7 +69230,7 @@
           ]
         }
       ],
-      "id": 636
+      "id": 633
     },
     {
       "nome": "Monster Musume no Iru Nichijou",
@@ -69139,7 +69322,7 @@
           ]
         }
       ],
-      "id": 637
+      "id": 634
     },
     {
       "nome": "Monster Musume no Oishasan",
@@ -69196,7 +69379,7 @@
           ]
         }
       ],
-      "id": 638
+      "id": 635
     },
     {
       "nome": "Monstros vs Alienígenas",
@@ -69239,7 +69422,7 @@
           ]
         }
       ],
-      "id": 639
+      "id": 636
     },
     {
       "nome": "Mou Hitotsu no Mirai wo",
@@ -69269,7 +69452,7 @@
           ]
         }
       ],
-      "id": 640
+      "id": 637
     },
     {
       "nome": "Mouryou Senki Madara",
@@ -69296,7 +69479,7 @@
           ]
         }
       ],
-      "id": 641
+      "id": 638
     },
     {
       "nome": "Mouse",
@@ -69353,7 +69536,7 @@
           ]
         }
       ],
-      "id": 642
+      "id": 639
     },
     {
       "nome": "Moyashimon",
@@ -69426,7 +69609,7 @@
           ]
         }
       ],
-      "id": 643
+      "id": 640
     },
     {
       "nome": "Mudazumo Naki Kaikaku The Legend of Koizumi",
@@ -69450,7 +69633,7 @@
           ]
         }
       ],
-      "id": 644
+      "id": 641
     },
     {
       "nome": "Mugen no Ryvius",
@@ -69572,7 +69755,7 @@
           ]
         }
       ],
-      "id": 645
+      "id": 642
     },
     {
       "nome": "Mujaki no Rakuen",
@@ -69602,7 +69785,7 @@
           ]
         }
       ],
-      "id": 646
+      "id": 643
     },
     {
       "nome": "Mulan",
@@ -69649,7 +69832,7 @@
           ]
         }
       ],
-      "id": 647
+      "id": 644
     },
     {
       "nome": "Munto",
@@ -69715,7 +69898,7 @@
           ]
         }
       ],
-      "id": 648
+      "id": 645
     },
     {
       "nome": "Murder Princess",
@@ -69754,7 +69937,7 @@
           ]
         }
       ],
-      "id": 649
+      "id": 646
     },
     {
       "nome": "Musaigen no Phantom World",
@@ -69864,7 +70047,7 @@
           ]
         }
       ],
-      "id": 650
+      "id": 647
     },
     {
       "nome": "Mushoku Tensei",
@@ -70097,7 +70280,7 @@
           ]
         }
       ],
-      "id": 651
+      "id": 648
     },
     {
       "nome": "Muv-Luv Alternative",
@@ -70350,7 +70533,7 @@
           ]
         }
       ],
-      "id": 652
+      "id": 649
     },
     {
       "nome": "Myself; Yourself",
@@ -70410,7 +70593,7 @@
           ]
         }
       ],
-      "id": 653
+      "id": 650
     },
     {
       "nome": "Nana to Kaoru",
@@ -70437,7 +70620,7 @@
           ]
         }
       ],
-      "id": 654
+      "id": 651
     },
     {
       "nome": "Nanatsu no Taizai",
@@ -70930,7 +71113,7 @@
           ]
         }
       ],
-      "id": 655
+      "id": 652
     },
     {
       "nome": "Nande Koko ni Sensei ga",
@@ -71042,7 +71225,7 @@
           ]
         }
       ],
-      "id": 656
+      "id": 653
     },
     {
       "nome": "Naruto",
@@ -71401,7 +71584,7 @@
           ]
         }
       ],
-      "id": 657
+      "id": 654
     },
     {
       "nome": "Natsuki Crisis",
@@ -71428,7 +71611,7 @@
           ]
         }
       ],
-      "id": 658
+      "id": 655
     },
     {
       "nome": "Natsunagu",
@@ -71485,7 +71668,7 @@
           ]
         }
       ],
-      "id": 659
+      "id": 656
     },
     {
       "nome": "Nayuta",
@@ -71509,7 +71692,7 @@
           ]
         }
       ],
-      "id": 660
+      "id": 657
     },
     {
       "nome": "Naze Boku no Sekai wo Daremo Oboeteinai no ka",
@@ -71566,7 +71749,7 @@
           ]
         }
       ],
-      "id": 661
+      "id": 658
     },
     {
       "nome": "Needless",
@@ -71711,7 +71894,7 @@
           ]
         }
       ],
-      "id": 662
+      "id": 659
     },
     {
       "nome": "Nejimaki Seirei Senki Tenkyou no Alderamin",
@@ -71771,7 +71954,7 @@
           ]
         }
       ],
-      "id": 663
+      "id": 660
     },
     {
       "nome": "Neppu Kairiku Bushi Road",
@@ -71811,7 +71994,7 @@
           ]
         }
       ],
-      "id": 664
+      "id": 661
     },
     {
       "nome": "Netoge no Yome wa Onnanoko ja Nai to Omotta",
@@ -71865,7 +72048,7 @@
           ]
         }
       ],
-      "id": 665
+      "id": 662
     },
     {
       "nome": "Netojuu no Susume",
@@ -71932,7 +72115,7 @@
           ]
         }
       ],
-      "id": 666
+      "id": 663
     },
     {
       "nome": "Netsuzou TRap",
@@ -71992,376 +72175,7 @@
           ]
         }
       ],
-      "id": 667
-    },
-    {
-      "nome": "New Game",
-      "slug": "new-game",
-      "imgSrc": "new_game.jpg",
-      "subpastas": [
-        {
-          "mal_id": 7062,
-          "nome": "2010 Hidamari Sketch x ☆☆☆ - TV",
-          "ano": "2010",
-          "nomeSemAno": "Hidamari Sketch x ☆☆☆ - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "7062.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 9563,
-          "nome": "2010 Hidamari Sketch x ☆☆☆ Specials",
-          "ano": "2010",
-          "nomeSemAno": "Hidamari Sketch x ☆☆☆ Specials",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "9563.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 10737,
-          "nome": "2011 A-Channel +A-Channel - Special",
-          "ano": "2011",
-          "nomeSemAno": "A-Channel +A-Channel - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "10737.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 9776,
-          "nome": "2011 A-Channel - TV",
-          "ano": "2011",
-          "nomeSemAno": "A-Channel - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "9776.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 11237,
-          "nome": "2011 Hidamari Sketch x SP - TV Special",
-          "ano": "2011",
-          "nomeSemAno": "Hidamari Sketch x SP - TV Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "11237.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 9331,
-          "nome": "2011 Yumekui Merry - TV",
-          "ano": "2011",
-          "nomeSemAno": "Yumekui Merry - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "9331.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 11339,
-          "nome": "2012 A-Channel+smile - OVA",
-          "ano": "2012",
-          "nomeSemAno": "A-Channel+smile - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "11339.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 11239,
-          "nome": "2012 Hidamari Sketch x Honeycomb - TV",
-          "ano": "2012",
-          "nomeSemAno": "Hidamari Sketch x Honeycomb - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "11239.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 28915,
-          "nome": "2012 Hidamari Sketch x ☆☆☆ Recap - Special",
-          "ano": "2012",
-          "nomeSemAno": "Hidamari Sketch x ☆☆☆ Recap - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "28915.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 11079,
-          "nome": "2012 Kill Me Baby - 2012",
-          "ano": "2012",
-          "nomeSemAno": "Kill Me Baby - 2012",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "11079.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 17739,
-          "nome": "2013 Hidamari Sketch Sae Hiro Sotsugyou-hen - OVA",
-          "ano": "2013",
-          "nomeSemAno": "Hidamari Sketch Sae Hiro Sotsugyou-hen - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "17739.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 20039,
-          "nome": "2013 Kill Me Baby Butsuzou Kegatte Nise Halloween - OVA",
-          "ano": "2013",
-          "nomeSemAno": "Kill Me Baby Butsuzou Kegatte Nise Halloween - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "20039.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 15911,
-          "nome": "2013 Yuyushiki - TV",
-          "ano": "2013",
-          "nomeSemAno": "Yuyushiki - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "15911.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 19029,
-          "nome": "2013 Yuyushiki Nyanyashiki - Special",
-          "ano": "2013",
-          "nomeSemAno": "Yuyushiki Nyanyashiki - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "19029.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 24765,
-          "nome": "2015 Gakkougurashi! - TV",
-          "ano": "2015",
-          "nomeSemAno": "Gakkougurashi! - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "24765.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 31953,
-          "nome": "2016 New Game! - TV",
-          "ano": "2016",
-          "nomeSemAno": "New Game! - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "31953.jpg"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_01_[BD_1920x1080]_[HEVC_10Bit]_(80BB4D38).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_02_[BD_1920x1080]_[HEVC_10Bit]_(87686BB3).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_03_[BD_1920x1080]_[HEVC_10Bit]_(BDF7C175).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_04_[BD_1920x1080]_[HEVC_10Bit]_(96A79B6E).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_05_[BD_1920x1080]_[HEVC_10Bit]_(F8F864AD).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_06_[BD_1920x1080]_[HEVC_10Bit]_(802CA638).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_07_[BD_1920x1080]_[HEVC_10Bit]_(FDC7A91E).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_08_[BD_1920x1080]_[HEVC_10Bit]_(D3521641).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_09_[BD_1920x1080]_[HEVC_10Bit]_(FF626000).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_10_[BD_1920x1080]_[HEVC_10Bit]_(7FABE8B7).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_11_[BD_1920x1080]_[HEVC_10Bit]_(934A26B5).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(2B3CA400).mkv"
-            }
-          ]
-        },
-        {
-          "mal_id": 32555,
-          "nome": "2016 Stella no Mahou - TV",
-          "ano": "2016",
-          "nomeSemAno": "Stella no Mahou - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "32555.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 35285,
-          "nome": "2017 A-Channel Nabe wo Tabeyou - Special",
-          "ano": "2017",
-          "nomeSemAno": "A-Channel Nabe wo Tabeyou - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "35285.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 36805,
-          "nome": "2017 Kirara Fantasia - ONA",
-          "ano": "2017",
-          "nomeSemAno": "Kirara Fantasia - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "36805.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 34277,
-          "nome": "2017 New Game! Watashi, Shain Ryokou tte Hajimete nanode... - OVA",
-          "ano": "2017",
-          "nomeSemAno": "New Game! Watashi, Shain Ryokou tte Hajimete nanode... - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "34277.jpg"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!_-_OVA_[DVD_848x480]_[H264_10Bit]_(834FE52D).mkv"
-            }
-          ]
-        },
-        {
-          "mal_id": 34914,
-          "nome": "2017 New Game!! - TV",
-          "ano": "2017",
-          "nomeSemAno": "New Game!! - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "34914.jpg"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_01_[BD_1920x1080]_[HEVC_10Bit]_(DE3AFD09).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_02_[BD_1920x1080]_[HEVC_10Bit]_(C7008FEF).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_03_[BD_1920x1080]_[HEVC_10Bit]_(82B90054).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_04_[BD_1920x1080]_[HEVC_10Bit]_(552EF560).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_05_[BD_1920x1080]_[HEVC_10Bit]_(4A99BDD3).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_06_[BD_1920x1080]_[HEVC_10Bit]_(9C06D37D).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_07_[BD_1920x1080]_[HEVC_10Bit]_(65399A53).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_08_[BD_1920x1080]_[HEVC_10Bit]_(6267509F).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_09_[BD_1920x1080]_[HEVC_10Bit]_(C99AFF4C).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_10_[BD_1920x1080]_[HEVC_10Bit]_(129F7B1E).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_11_[BD_1920x1080]_[HEVC_10Bit]_(9381E651).mkv"
-            },
-            {
-              "nome": "[#AnimeNSK]_New_Game!!_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(B0B8E352).mkv"
-            }
-          ]
-        },
-        {
-          "mal_id": 33035,
-          "nome": "2017 Yuyushiki Komarasetari, Komarasaretari - OVA",
-          "ano": "2017",
-          "nomeSemAno": "Yuyushiki Komarasetari, Komarasaretari - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "33035.jpg"
-            }
-          ]
-        }
-      ],
-      "id": 668
+      "id": 664
     },
     {
       "nome": "NieR Automata Ver1.1a",
@@ -72486,7 +72300,7 @@
           ]
         }
       ],
-      "id": 669
+      "id": 665
     },
     {
       "nome": "Night Wizard",
@@ -72546,7 +72360,7 @@
           ]
         }
       ],
-      "id": 670
+      "id": 666
     },
     {
       "nome": "Ninin ga Shinobuden (2x2=Shinobuden)",
@@ -72603,7 +72417,7 @@
           ]
         }
       ],
-      "id": 671
+      "id": 667
     },
     {
       "nome": "No Game No Life",
@@ -72744,7 +72558,7 @@
           ]
         }
       ],
-      "id": 672
+      "id": 668
     },
     {
       "nome": "Nobunaga-sensei no Osanazuma",
@@ -72801,7 +72615,7 @@
           ]
         }
       ],
-      "id": 673
+      "id": 669
     },
     {
       "nome": "Nozoki Ana (Nozo x Kimi)",
@@ -72887,7 +72701,7 @@
           ]
         }
       ],
-      "id": 674
+      "id": 670
     },
     {
       "nome": "Nozomanu Fushi no Boukensha",
@@ -72944,7 +72758,7 @@
           ]
         }
       ],
-      "id": 675
+      "id": 671
     },
     {
       "nome": "O Espanta Tubarões",
@@ -72971,7 +72785,7 @@
           ]
         }
       ],
-      "id": 676
+      "id": 672
     },
     {
       "nome": "O Estranho Mundo de Jack",
@@ -72995,7 +72809,7 @@
           ]
         }
       ],
-      "id": 677
+      "id": 673
     },
     {
       "nome": "O Gigante de Ferro",
@@ -73016,7 +72830,7 @@
           ]
         }
       ],
-      "id": 678
+      "id": 674
     },
     {
       "nome": "O Homem Duplo (A Scanner Darkly)",
@@ -73040,7 +72854,7 @@
           ]
         }
       ],
-      "id": 679
+      "id": 675
     },
     {
       "nome": "O Mar Não Está Para Peixe",
@@ -73066,7 +72880,7 @@
           "arquivos": []
         }
       ],
-      "id": 680
+      "id": 676
     },
     {
       "nome": "O Poderoso Chefinho",
@@ -73106,7 +72920,7 @@
           ]
         }
       ],
-      "id": 681
+      "id": 677
     },
     {
       "nome": "O Rei Leão",
@@ -73181,7 +72995,7 @@
           ]
         }
       ],
-      "id": 682
+      "id": 678
     },
     {
       "nome": "Oda Nobuna no Yabou",
@@ -73254,7 +73068,7 @@
           ]
         }
       ],
-      "id": 683
+      "id": 679
     },
     {
       "nome": "Oira Uchuu no Tankoufu",
@@ -73281,7 +73095,7 @@
           ]
         }
       ],
-      "id": 684
+      "id": 680
     },
     {
       "nome": "Ojousama Sousamou (Debutante Detective Corps)",
@@ -73363,7 +73177,7 @@
           ]
         }
       ],
-      "id": 685
+      "id": 681
     },
     {
       "nome": "Okusama ga Seitokaichou!",
@@ -73507,7 +73321,7 @@
           ]
         }
       ],
-      "id": 686
+      "id": 682
     },
     {
       "nome": "Okusama wa Joshikousei",
@@ -73567,7 +73381,7 @@
           ]
         }
       ],
-      "id": 687
+      "id": 683
     },
     {
       "nome": "Okusama wa Mahou Shoujo",
@@ -73627,7 +73441,7 @@
           ]
         }
       ],
-      "id": 688
+      "id": 684
     },
     {
       "nome": "Omamori Himari",
@@ -73684,7 +73498,7 @@
           ]
         }
       ],
-      "id": 689
+      "id": 685
     },
     {
       "nome": "One Piece",
@@ -74637,7 +74451,7 @@
           ]
         }
       ],
-      "id": 690
+      "id": 686
     },
     {
       "nome": "One Punch Man",
@@ -74827,7 +74641,7 @@
           ]
         }
       ],
-      "id": 691
+      "id": 687
     },
     {
       "nome": "Onegai Twins",
@@ -74978,7 +74792,7 @@
           ]
         }
       ],
-      "id": 692
+      "id": 688
     },
     {
       "nome": "Onii-chan no Koto Nanka Zenzen Suki Janain Dakara ne!!",
@@ -75051,7 +74865,7 @@
           ]
         }
       ],
-      "id": 693
+      "id": 689
     },
     {
       "nome": "Oniichan dakedo Ai sae Areba Kankeinai yo ne!",
@@ -75160,7 +74974,7 @@
           ]
         }
       ],
-      "id": 694
+      "id": 690
     },
     {
       "nome": "Ookami to Koushinryou",
@@ -75298,7 +75112,7 @@
           ]
         }
       ],
-      "id": 695
+      "id": 691
     },
     {
       "nome": "Ookami-san to Shichinin no Nakama-tachi",
@@ -75355,7 +75169,7 @@
           ]
         }
       ],
-      "id": 696
+      "id": 692
     },
     {
       "nome": "Ookamikakushi",
@@ -75412,7 +75226,7 @@
           ]
         }
       ],
-      "id": 697
+      "id": 693
     },
     {
       "nome": "Ore dake Haireru Kakushi Dungeon",
@@ -75515,7 +75329,7 @@
           ]
         }
       ],
-      "id": 698
+      "id": 694
     },
     {
       "nome": "Ore dake Level Up na Ken (Solo Leveling)",
@@ -75656,7 +75470,7 @@
           ]
         }
       ],
-      "id": 699
+      "id": 695
     },
     {
       "nome": "Ore ga Ojousama Gakkou ni Shomin Sample Toshite Gets♥Sareta Ken",
@@ -75726,7 +75540,7 @@
           ]
         }
       ],
-      "id": 700
+      "id": 696
     },
     {
       "nome": "Ore no Imouto ga Konnani Kawaii Wake ga Nai",
@@ -75824,7 +75638,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 13659,
           "nome": "2013 Ore no Imouto ga Konnani Kawaii Wake ga Nai. (OreImo 2) - TV",
           "ano": "2013",
           "nomeSemAno": "Ore no Imouto ga Konnani Kawaii Wake ga Nai. (OreImo 2) - TV",
@@ -75832,7 +75646,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "13659.avif"
+              "nome": "13659.jpg"
             },
             {
               "nome": "[#AnimeNSK]_Ore_no_Imouto_ga_Konna_ni_Kawaii_Wake_ga_Nai_2_-_01_[Blu-Ray_1280x720]_[10Bit]_(C5D067A6).mkv"
@@ -75924,7 +75738,7 @@
           ]
         }
       ],
-      "id": 701
+      "id": 697
     },
     {
       "nome": "Oruchuban Ebichu",
@@ -75981,7 +75795,7 @@
           ]
         }
       ],
-      "id": 702
+      "id": 698
     },
     {
       "nome": "Os Incríveis",
@@ -76021,7 +75835,7 @@
           ]
         }
       ],
-      "id": 703
+      "id": 699
     },
     {
       "nome": "Os Sem-Floresta",
@@ -76045,7 +75859,7 @@
           ]
         }
       ],
-      "id": 704
+      "id": 700
     },
     {
       "nome": "Os Simpsons",
@@ -77811,7 +77625,7 @@
           ]
         }
       ],
-      "id": 705
+      "id": 701
     },
     {
       "nome": "Oshiete! Galko-chan",
@@ -77884,7 +77698,7 @@
           ]
         }
       ],
-      "id": 706
+      "id": 702
     },
     {
       "nome": "Otaku no Video",
@@ -77924,7 +77738,7 @@
           ]
         }
       ],
-      "id": 707
+      "id": 703
     },
     {
       "nome": "Otona no Bouguya-san",
@@ -78007,7 +77821,7 @@
           ]
         }
       ],
-      "id": 708
+      "id": 704
     },
     {
       "nome": "Outbreak Company",
@@ -78064,7 +77878,7 @@
           ]
         }
       ],
-      "id": 709
+      "id": 705
     },
     {
       "nome": "Overlord",
@@ -78664,7 +78478,7 @@
           ]
         }
       ],
-      "id": 710
+      "id": 706
     },
     {
       "nome": "Papillon Rose",
@@ -78701,7 +78515,7 @@
           ]
         }
       ],
-      "id": 711
+      "id": 707
     },
     {
       "nome": "Paprika",
@@ -78725,7 +78539,7 @@
           ]
         }
       ],
-      "id": 712
+      "id": 708
     },
     {
       "nome": "Paripi Koumei",
@@ -78795,7 +78609,7 @@
           ]
         }
       ],
-      "id": 713
+      "id": 709
     },
     {
       "nome": "Penguin Musume♥Heart",
@@ -78898,7 +78712,7 @@
           ]
         }
       ],
-      "id": 714
+      "id": 710
     },
     {
       "nome": "Perfect Blue",
@@ -78925,7 +78739,7 @@
           ]
         }
       ],
-      "id": 715
+      "id": 711
     },
     {
       "nome": "Persona",
@@ -79338,7 +79152,7 @@
           ]
         }
       ],
-      "id": 716
+      "id": 712
     },
     {
       "nome": "Peter Grill to Kenja no Jikan",
@@ -79444,7 +79258,7 @@
           ]
         }
       ],
-      "id": 717
+      "id": 713
     },
     {
       "nome": "Pets A Vida Secreta dos Bichos",
@@ -79480,7 +79294,7 @@
           "arquivos": []
         }
       ],
-      "id": 718
+      "id": 714
     },
     {
       "nome": "Pink e Cerebro",
@@ -79756,7 +79570,7 @@
           ]
         }
       ],
-      "id": 719
+      "id": 715
     },
     {
       "nome": "Planeta 51",
@@ -79773,7 +79587,7 @@
           "arquivos": []
         }
       ],
-      "id": 720
+      "id": 716
     },
     {
       "nome": "Plastic Little",
@@ -79797,7 +79611,7 @@
           ]
         }
       ],
-      "id": 721
+      "id": 717
     },
     {
       "nome": "Plunderer",
@@ -79890,7 +79704,7 @@
           ]
         }
       ],
-      "id": 722
+      "id": 718
     },
     {
       "nome": "Princess Minerva",
@@ -79914,7 +79728,7 @@
           ]
         }
       ],
-      "id": 723
+      "id": 719
     },
     {
       "nome": "Prison School",
@@ -80024,7 +79838,7 @@
           ]
         }
       ],
-      "id": 724
+      "id": 720
     },
     {
       "nome": "Procurando Nemo",
@@ -80057,7 +79871,7 @@
           "arquivos": []
         }
       ],
-      "id": 725
+      "id": 721
     },
     {
       "nome": "Project A-ko",
@@ -80142,7 +79956,7 @@
           ]
         }
       ],
-      "id": 726
+      "id": 722
     },
     {
       "nome": "Project Zeorymer",
@@ -80187,7 +80001,7 @@
           ]
         }
       ],
-      "id": 727
+      "id": 723
     },
     {
       "nome": "Psychic Academy",
@@ -80232,7 +80046,7 @@
           ]
         }
       ],
-      "id": 728
+      "id": 724
     },
     {
       "nome": "Psycho Diver Mashou Bosatsu",
@@ -80256,7 +80070,7 @@
           ]
         }
       ],
-      "id": 729
+      "id": 725
     },
     {
       "nome": "Psycho-Pass",
@@ -80531,7 +80345,7 @@
           ]
         }
       ],
-      "id": 730
+      "id": 726
     },
     {
       "nome": "Pé Pequeno",
@@ -80558,7 +80372,7 @@
           ]
         }
       ],
-      "id": 731
+      "id": 727
     },
     {
       "nome": "Quanzhi Gaoshou (The King's Avatar)",
@@ -80644,7 +80458,7 @@
           ]
         }
       ],
-      "id": 732
+      "id": 728
     },
     {
       "nome": "Queen's Blade",
@@ -81146,7 +80960,7 @@
           ]
         }
       ],
-      "id": 733
+      "id": 729
     },
     {
       "nome": "R-15",
@@ -81219,7 +81033,7 @@
           ]
         }
       ],
-      "id": 734
+      "id": 730
     },
     {
       "nome": "R.O.D Read or Die",
@@ -81262,7 +81076,7 @@
           ]
         }
       ],
-      "id": 735
+      "id": 731
     },
     {
       "nome": "Rahxephon",
@@ -81406,7 +81220,7 @@
           ]
         }
       ],
-      "id": 736
+      "id": 732
     },
     {
       "nome": "Rail Wars!",
@@ -81463,7 +81277,7 @@
           ]
         }
       ],
-      "id": 737
+      "id": 733
     },
     {
       "nome": "Rakudai Kishi no Cavalry",
@@ -81556,7 +81370,7 @@
           ]
         }
       ],
-      "id": 738
+      "id": 734
     },
     {
       "nome": "Rakuen Tsuihou",
@@ -81593,7 +81407,7 @@
           ]
         }
       ],
-      "id": 739
+      "id": 735
     },
     {
       "nome": "Rakushou! Hyper Doll",
@@ -81620,7 +81434,7 @@
           ]
         }
       ],
-      "id": 740
+      "id": 736
     },
     {
       "nome": "Rango",
@@ -81647,7 +81461,7 @@
           ]
         }
       ],
-      "id": 741
+      "id": 737
     },
     {
       "nome": "Ranma ½",
@@ -81827,19 +81641,6 @@
           ]
         },
         {
-          "mal_id": 6566,
-          "nome": "2008 It's a Rumic World 50th Anniversary Weekly★Shonen Sunday - Special",
-          "ano": "2008",
-          "nomeSemAno": "It's a Rumic World 50th Anniversary Weekly★Shonen Sunday - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "6566.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 5493,
           "nome": "2008 Ranma ½ Akumu! Shunmin Kou - OVA",
           "ano": "2008",
@@ -81866,7 +81667,7 @@
           ]
         }
       ],
-      "id": 742
+      "id": 738
     },
     {
       "nome": "Ratatouille",
@@ -81890,7 +81691,7 @@
           ]
         }
       ],
-      "id": 743
+      "id": 739
     },
     {
       "nome": "Re.Zero kara Hajimeru Isekai Seikatsu",
@@ -82246,7 +82047,7 @@
           ]
         }
       ],
-      "id": 744
+      "id": 740
     },
     {
       "nome": "REC",
@@ -82310,7 +82111,7 @@
           ]
         }
       ],
-      "id": 745
+      "id": 741
     },
     {
       "nome": "Redline",
@@ -82366,7 +82167,7 @@
           ]
         }
       ],
-      "id": 746
+      "id": 742
     },
     {
       "nome": "ReMonster",
@@ -82423,7 +82224,7 @@
           ]
         }
       ],
-      "id": 747
+      "id": 743
     },
     {
       "nome": "Renai Boukun",
@@ -82480,7 +82281,7 @@
           ]
         }
       ],
-      "id": 748
+      "id": 744
     },
     {
       "nome": "Renai Flops",
@@ -82537,7 +82338,7 @@
           ]
         }
       ],
-      "id": 749
+      "id": 745
     },
     {
       "nome": "Renkin San-kyuu Magical",
@@ -82616,7 +82417,7 @@
           ]
         }
       ],
-      "id": 750
+      "id": 746
     },
     {
       "nome": "Rental Magica",
@@ -82667,7 +82468,7 @@
           ]
         }
       ],
-      "id": 751
+      "id": 747
     },
     {
       "nome": "Rescue Me!",
@@ -82691,7 +82492,7 @@
           ]
         }
       ],
-      "id": 752
+      "id": 748
     },
     {
       "nome": "Resident Evil (Biohazard)",
@@ -82820,7 +82621,7 @@
           ]
         }
       ],
-      "id": 753
+      "id": 749
     },
     {
       "nome": "Revisions",
@@ -82913,7 +82714,7 @@
           ]
         }
       ],
-      "id": 754
+      "id": 750
     },
     {
       "nome": "Rick and Morty",
@@ -83228,7 +83029,7 @@
           "arquivos": []
         }
       ],
-      "id": 755
+      "id": 751
     },
     {
       "nome": "RideBack",
@@ -83285,7 +83086,7 @@
           ]
         }
       ],
-      "id": 756
+      "id": 752
     },
     {
       "nome": "Rikei ga Koi ni Ochita no de Shoumei shitemita",
@@ -83391,7 +83192,7 @@
           ]
         }
       ],
-      "id": 757
+      "id": 753
     },
     {
       "nome": "Rinne no Lagrange",
@@ -83552,7 +83353,7 @@
           ]
         }
       ],
-      "id": 758
+      "id": 754
     },
     {
       "nome": "Rio",
@@ -83586,7 +83387,7 @@
           ]
         }
       ],
-      "id": 759
+      "id": 755
     },
     {
       "nome": "Rizelmine",
@@ -83679,7 +83480,7 @@
           ]
         }
       ],
-      "id": 760
+      "id": 756
     },
     {
       "nome": "Robos",
@@ -83700,7 +83501,7 @@
           ]
         }
       ],
-      "id": 761
+      "id": 757
     },
     {
       "nome": "Robot Carnival",
@@ -83727,7 +83528,7 @@
           ]
         }
       ],
-      "id": 762
+      "id": 758
     },
     {
       "nome": "Rokka no Yuusha",
@@ -83797,7 +83598,7 @@
           ]
         }
       ],
-      "id": 763
+      "id": 759
     },
     {
       "nome": "Rosario to Vampire",
@@ -83831,7 +83632,7 @@
           ]
         }
       ],
-      "id": 764
+      "id": 760
     },
     {
       "nome": "Roujin Z",
@@ -83855,7 +83656,7 @@
           ]
         }
       ],
-      "id": 765
+      "id": 761
     },
     {
       "nome": "Rurouni Kenshin (Samurai X)",
@@ -84034,7 +83835,7 @@
           ]
         }
       ],
-      "id": 766
+      "id": 762
     },
     {
       "nome": "RWBY Hyousetsu Teikoku",
@@ -84091,7 +83892,7 @@
           ]
         }
       ],
-      "id": 767
+      "id": 763
     },
     {
       "nome": "Ryuuki Denshou",
@@ -84121,7 +83922,7 @@
           ]
         }
       ],
-      "id": 768
+      "id": 764
     },
     {
       "nome": "Saber Marionette",
@@ -84361,7 +84162,7 @@
           ]
         }
       ],
-      "id": 769
+      "id": 765
     },
     {
       "nome": "Sacred Seven",
@@ -84447,7 +84248,7 @@
           ]
         }
       ],
-      "id": 770
+      "id": 766
     },
     {
       "nome": "Saenai Heroine no Sodatekata",
@@ -84582,7 +84383,7 @@
           ]
         }
       ],
-      "id": 771
+      "id": 767
     },
     {
       "nome": "Saijaku Muhai no Bahamut",
@@ -84639,7 +84440,7 @@
           ]
         }
       ],
-      "id": 772
+      "id": 768
     },
     {
       "nome": "Saikin Yatotta Maid ga Ayashii",
@@ -84693,7 +84494,7 @@
           ]
         }
       ],
-      "id": 773
+      "id": 769
     },
     {
       "nome": "Saikin, Imouto no Yousu ga Chotto Okashiinda ga",
@@ -84766,7 +84567,7 @@
           ]
         }
       ],
-      "id": 774
+      "id": 770
     },
     {
       "nome": "Saikyou no Shienshoku - Wajutsushi - de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
@@ -84820,7 +84621,7 @@
           ]
         }
       ],
-      "id": 775
+      "id": 771
     },
     {
       "nome": "Saikyou Onmyouji no Isekai Tenseiki",
@@ -84893,7 +84694,7 @@
           ]
         }
       ],
-      "id": 776
+      "id": 772
     },
     {
       "nome": "Saint Seiya (Os Cavaleiros do Zodiaco)",
@@ -85331,7 +85132,7 @@
           ]
         }
       ],
-      "id": 777
+      "id": 773
     },
     {
       "nome": "Saishuu Heiki Kanojo",
@@ -85410,7 +85211,7 @@
           ]
         }
       ],
-      "id": 778
+      "id": 774
     },
     {
       "nome": "Sakamoto Desu ga",
@@ -85483,7 +85284,7 @@
           ]
         }
       ],
-      "id": 779
+      "id": 775
     },
     {
       "nome": "Sakura Trick",
@@ -85540,7 +85341,7 @@
           ]
         }
       ],
-      "id": 780
+      "id": 776
     },
     {
       "nome": "Sakura Wars (Sakura Taisen)",
@@ -85694,7 +85495,7 @@
           ]
         }
       ],
-      "id": 781
+      "id": 777
     },
     {
       "nome": "Sakurasou no Pet na Kanojo",
@@ -85787,7 +85588,7 @@
           ]
         }
       ],
-      "id": 782
+      "id": 778
     },
     {
       "nome": "Samurai Champloo",
@@ -85886,7 +85687,7 @@
           ]
         }
       ],
-      "id": 783
+      "id": 779
     },
     {
       "nome": "Samurai Spirits",
@@ -85936,7 +85737,7 @@
           ]
         }
       ],
-      "id": 784
+      "id": 780
     },
     {
       "nome": "Sankarea",
@@ -86028,7 +85829,7 @@
           ]
         }
       ],
-      "id": 785
+      "id": 781
     },
     {
       "nome": "School Days",
@@ -86130,7 +85931,7 @@
           ]
         }
       ],
-      "id": 786
+      "id": 782
     },
     {
       "nome": "School Rumble",
@@ -86274,7 +86075,7 @@
           ]
         }
       ],
-      "id": 787
+      "id": 783
     },
     {
       "nome": "Science Adventure (Steins Gate)",
@@ -86907,7 +86708,7 @@
           ]
         }
       ],
-      "id": 788
+      "id": 784
     },
     {
       "nome": "Scrapped Princess",
@@ -87000,7 +86801,7 @@
           ]
         }
       ],
-      "id": 789
+      "id": 785
     },
     {
       "nome": "Scryed (s.CRY.ed)",
@@ -87131,7 +86932,7 @@
           ]
         }
       ],
-      "id": 790
+      "id": 786
     },
     {
       "nome": "Seikai no Senki",
@@ -87360,7 +87161,7 @@
           ]
         }
       ],
-      "id": 791
+      "id": 787
     },
     {
       "nome": "Seiken Tsukai no World Break",
@@ -87417,7 +87218,7 @@
           ]
         }
       ],
-      "id": 792
+      "id": 788
     },
     {
       "nome": "Seikoku no Dragonar",
@@ -87474,7 +87275,7 @@
           ]
         }
       ],
-      "id": 793
+      "id": 789
     },
     {
       "nome": "Seikon no Qwaser",
@@ -87730,7 +87531,7 @@
           ]
         }
       ],
-      "id": 794
+      "id": 790
     },
     {
       "nome": "Seirei Tsukai",
@@ -87752,25 +87553,9 @@
               "nome": "[_AnimeNSK]_Seirei_Tsukai_-_OVA_[H264+AAC]_(5885F636).mkv"
             }
           ]
-        },
-        {
-          "mal_id": 1866,
-          "nome": "1996 Seirei Tsukai - OVA",
-          "ano": "1996",
-          "nomeSemAno": "Seirei Tsukai - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "1866.jpg"
-            },
-            {
-              "nome": "[_AnimeNSK]_Seirei_Tsukai_-_OVA_[H264+AAC]_(5885F636).mkv"
-            }
-          ]
         }
       ],
-      "id": 795
+      "id": 791
     },
     {
       "nome": "Seireitsukai no Blade Dance",
@@ -87894,7 +87679,7 @@
           ]
         }
       ],
-      "id": 796
+      "id": 792
     },
     {
       "nome": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
@@ -88012,7 +87797,7 @@
           ]
         }
       ],
-      "id": 797
+      "id": 793
     },
     {
       "nome": "Seitokai no Ichizon",
@@ -88095,7 +87880,7 @@
           ]
         }
       ],
-      "id": 798
+      "id": 794
     },
     {
       "nome": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
@@ -88152,7 +87937,7 @@
           ]
         }
       ],
-      "id": 799
+      "id": 795
     },
     {
       "nome": "Sekirei",
@@ -88290,7 +88075,7 @@
           ]
         }
       ],
-      "id": 800
+      "id": 796
     },
     {
       "nome": "Senjou no Valkyria",
@@ -88434,7 +88219,7 @@
           ]
         }
       ],
-      "id": 801
+      "id": 797
     },
     {
       "nome": "Senki Zesshou Symphogear",
@@ -88637,7 +88422,7 @@
           ]
         }
       ],
-      "id": 802
+      "id": 798
     },
     {
       "nome": "Senpai ga Uzai Kouhai no Hanashi",
@@ -88694,7 +88479,7 @@
           ]
         }
       ],
-      "id": 803
+      "id": 799
     },
     {
       "nome": "Senran Kagura",
@@ -88802,7 +88587,7 @@
           ]
         }
       ],
-      "id": 804
+      "id": 800
     },
     {
       "nome": "Serial Experiments Lain",
@@ -88901,7 +88686,7 @@
           ]
         }
       ],
-      "id": 805
+      "id": 801
     },
     {
       "nome": "Shadow Skill",
@@ -88974,7 +88759,7 @@
           ]
         }
       ],
-      "id": 806
+      "id": 802
     },
     {
       "nome": "Shakugan No Shana",
@@ -89441,7 +89226,7 @@
           ]
         }
       ],
-      "id": 807
+      "id": 803
     },
     {
       "nome": "Shaun, o Carneiro",
@@ -89506,7 +89291,7 @@
           "arquivos": []
         }
       ],
-      "id": 808
+      "id": 804
     },
     {
       "nome": "Shenmue the Animation",
@@ -89579,7 +89364,7 @@
           ]
         }
       ],
-      "id": 809
+      "id": 805
     },
     {
       "nome": "Shijin no Shougai",
@@ -89603,7 +89388,7 @@
           ]
         }
       ],
-      "id": 810
+      "id": 806
     },
     {
       "nome": "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru",
@@ -89660,7 +89445,7 @@
           ]
         }
       ],
-      "id": 811
+      "id": 807
     },
     {
       "nome": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
@@ -89717,7 +89502,7 @@
           ]
         }
       ],
-      "id": 812
+      "id": 808
     },
     {
       "nome": "Shin Angyo Onshi",
@@ -89741,7 +89526,7 @@
           ]
         }
       ],
-      "id": 813
+      "id": 809
     },
     {
       "nome": "Shin Megami Tensei Tokyo Mokushiroku (Tokyo Revelation)",
@@ -89787,7 +89572,7 @@
           ]
         }
       ],
-      "id": 814
+      "id": 810
     },
     {
       "nome": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni Shimashita",
@@ -89860,7 +89645,7 @@
           ]
         }
       ],
-      "id": 815
+      "id": 811
     },
     {
       "nome": "Shinchou Yuusha Kono Yuusha ga Ore Tueee Kuse ni Shinchou Sugiru",
@@ -89930,7 +89715,7 @@
           ]
         }
       ],
-      "id": 816
+      "id": 812
     },
     {
       "nome": "Shingeki no Bahamut",
@@ -90111,7 +89896,7 @@
           ]
         }
       ],
-      "id": 817
+      "id": 813
     },
     {
       "nome": "Shingeki no Kyojin (Attack on Titan)",
@@ -90693,7 +90478,7 @@
           ]
         }
       ],
-      "id": 818
+      "id": 814
     },
     {
       "nome": "Shinigami no Ballad",
@@ -90732,7 +90517,7 @@
           ]
         }
       ],
-      "id": 819
+      "id": 815
     },
     {
       "nome": "Shinkyoku Soukai Polyphonica",
@@ -90838,7 +90623,7 @@
           ]
         }
       ],
-      "id": 820
+      "id": 816
     },
     {
       "nome": "Shinmai Maou no Testament",
@@ -91073,7 +90858,7 @@
           ]
         }
       ],
-      "id": 821
+      "id": 817
     },
     {
       "nome": "Shinreigari (Ghost Hound)",
@@ -91160,7 +90945,7 @@
           ]
         }
       ],
-      "id": 822
+      "id": 818
     },
     {
       "nome": "Shinseiki Evangelion (Neon Genesis Evangelion)",
@@ -91410,7 +91195,7 @@
           ]
         }
       ],
-      "id": 823
+      "id": 819
     },
     {
       "nome": "Shironeko Project Zero Chronicle",
@@ -91480,7 +91265,7 @@
           ]
         }
       ],
-      "id": 824
+      "id": 820
     },
     {
       "nome": "Shokei Shoujo no Virgin Road",
@@ -91537,7 +91322,7 @@
           ]
         }
       ],
-      "id": 825
+      "id": 821
     },
     {
       "nome": "Shokugeki no Souma",
@@ -91677,7 +91462,7 @@
           ]
         }
       ],
-      "id": 826
+      "id": 822
     },
     {
       "nome": "Shonan Junai Gumi",
@@ -91739,7 +91524,7 @@
           ]
         }
       ],
-      "id": 827
+      "id": 823
     },
     {
       "nome": "Short Peace",
@@ -91837,7 +91622,7 @@
           ]
         }
       ],
-      "id": 828
+      "id": 824
     },
     {
       "nome": "Shoujo Kakumei Utena",
@@ -91991,7 +91776,7 @@
           ]
         }
       ],
-      "id": 829
+      "id": 825
     },
     {
       "nome": "Shrek",
@@ -92053,7 +91838,7 @@
           "arquivos": []
         }
       ],
-      "id": 830
+      "id": 826
     },
     {
       "nome": "Shuffle!",
@@ -92175,7 +91960,7 @@
           ]
         }
       ],
-      "id": 831
+      "id": 827
     },
     {
       "nome": "Shukufuku no Campanella",
@@ -92261,7 +92046,7 @@
           ]
         }
       ],
-      "id": 832
+      "id": 828
     },
     {
       "nome": "Shuumatsu Nani Shitemasuka Isogashii Desuka Sukutte Moratte Ii Desuka",
@@ -92318,7 +92103,7 @@
           ]
         }
       ],
-      "id": 833
+      "id": 829
     },
     {
       "nome": "Shuumatsu no Harem",
@@ -92372,7 +92157,7 @@
           ]
         }
       ],
-      "id": 834
+      "id": 830
     },
     {
       "nome": "Shuumatsu no Izetta",
@@ -92429,7 +92214,7 @@
           ]
         }
       ],
-      "id": 835
+      "id": 831
     },
     {
       "nome": "Sin Nanatsu no Taizai",
@@ -92690,7 +92475,7 @@
           ]
         }
       ],
-      "id": 836
+      "id": 832
     },
     {
       "nome": "Sirius the Jaeger",
@@ -92747,7 +92532,7 @@
           ]
         }
       ],
-      "id": 837
+      "id": 833
     },
     {
       "nome": "Sister Princess",
@@ -92898,7 +92683,7 @@
           ]
         }
       ],
-      "id": 838
+      "id": 834
     },
     {
       "nome": "SK8 the Infinity",
@@ -92984,7 +92769,7 @@
           ]
         }
       ],
-      "id": 839
+      "id": 835
     },
     {
       "nome": "Sketchbook Full Color's",
@@ -93057,7 +92842,7 @@
           ]
         }
       ],
-      "id": 840
+      "id": 836
     },
     {
       "nome": "Skirt no Naka wa Kedamono Deshita",
@@ -93078,7 +92863,7 @@
           ]
         }
       ],
-      "id": 841
+      "id": 837
     },
     {
       "nome": "Sky Girls",
@@ -93233,7 +93018,7 @@
           ]
         }
       ],
-      "id": 842
+      "id": 838
     },
     {
       "nome": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
@@ -93267,7 +93052,7 @@
           ]
         }
       ],
-      "id": 843
+      "id": 839
     },
     {
       "nome": "Sono Ki ni Sasete yo My My Mai",
@@ -93300,7 +93085,7 @@
           ]
         }
       ],
-      "id": 844
+      "id": 840
     },
     {
       "nome": "Sora no Method",
@@ -93389,7 +93174,7 @@
           ]
         }
       ],
-      "id": 845
+      "id": 841
     },
     {
       "nome": "Sora no Otoshimono",
@@ -93561,7 +93346,7 @@
           ]
         }
       ],
-      "id": 846
+      "id": 842
     },
     {
       "nome": "Sora wo Kakeru Shoujo",
@@ -93673,7 +93458,7 @@
           ]
         }
       ],
-      "id": 847
+      "id": 843
     },
     {
       "nome": "Soukihei MD Geist",
@@ -93713,7 +93498,7 @@
           ]
         }
       ],
-      "id": 848
+      "id": 844
     },
     {
       "nome": "Soukou Kihei Votoms",
@@ -93965,7 +93750,7 @@
           ]
         }
       ],
-      "id": 849
+      "id": 845
     },
     {
       "nome": "Soukou no Strain",
@@ -94025,7 +93810,7 @@
           ]
         }
       ],
-      "id": 850
+      "id": 846
     },
     {
       "nome": "Soukyuu no Fafner Dead Aggressor",
@@ -94273,7 +94058,7 @@
           ]
         }
       ],
-      "id": 851
+      "id": 847
     },
     {
       "nome": "Soul Eater",
@@ -94506,7 +94291,7 @@
           ]
         }
       ],
-      "id": 852
+      "id": 848
     },
     {
       "nome": "Sounan Desu ka",
@@ -94563,7 +94348,7 @@
           ]
         }
       ],
-      "id": 853
+      "id": 849
     },
     {
       "nome": "Sound & Fury",
@@ -94590,7 +94375,7 @@
           ]
         }
       ],
-      "id": 854
+      "id": 850
     },
     {
       "nome": "Sousou no Frieren",
@@ -94624,7 +94409,7 @@
           ]
         }
       ],
-      "id": 855
+      "id": 851
     },
     {
       "nome": "Space Adventure Cobra",
@@ -94713,7 +94498,7 @@
           ]
         }
       ],
-      "id": 856
+      "id": 852
     },
     {
       "nome": "Spectral Force",
@@ -94753,7 +94538,7 @@
           ]
         }
       ],
-      "id": 857
+      "id": 853
     },
     {
       "nome": "Spriggan",
@@ -94808,7 +94593,7 @@
           ]
         }
       ],
-      "id": 858
+      "id": 854
     },
     {
       "nome": "Sprite Between Two Worlds",
@@ -94835,7 +94620,7 @@
           ]
         }
       ],
-      "id": 859
+      "id": 855
     },
     {
       "nome": "Spy x Family",
@@ -94999,7 +94784,7 @@
           ]
         }
       ],
-      "id": 860
+      "id": 856
     },
     {
       "nome": "Starship Operators",
@@ -95059,7 +94844,7 @@
           ]
         }
       ],
-      "id": 861
+      "id": 857
     },
     {
       "nome": "Steamboy",
@@ -95086,7 +94871,7 @@
           ]
         }
       ],
-      "id": 862
+      "id": 858
     },
     {
       "nome": "Strait Jacket",
@@ -95116,7 +94901,7 @@
           ]
         }
       ],
-      "id": 863
+      "id": 859
     },
     {
       "nome": "Stratos 4",
@@ -95271,7 +95056,7 @@
           ]
         }
       ],
-      "id": 864
+      "id": 860
     },
     {
       "nome": "Street Fighter",
@@ -95517,7 +95302,7 @@
           ]
         }
       ],
-      "id": 865
+      "id": 861
     },
     {
       "nome": "Strike the Blood",
@@ -95841,7 +95626,7 @@
           ]
         }
       ],
-      "id": 866
+      "id": 862
     },
     {
       "nome": "Strike Witches",
@@ -96177,7 +95962,7 @@
           ]
         }
       ],
-      "id": 867
+      "id": 863
     },
     {
       "nome": "Studio Ghibli - Filmes Coleção",
@@ -96486,7 +96271,7 @@
           ]
         }
       ],
-      "id": 868
+      "id": 864
     },
     {
       "nome": "Sugar Apple Fairy Tale",
@@ -96628,7 +96413,7 @@
           ]
         }
       ],
-      "id": 869
+      "id": 865
     },
     {
       "nome": "Suisei no Gargantia",
@@ -96768,7 +96553,7 @@
           ]
         }
       ],
-      "id": 870
+      "id": 866
     },
     {
       "nome": "Sumomomo Momomo Chijou Saikyou no Yome",
@@ -96874,7 +96659,7 @@
           ]
         }
       ],
-      "id": 871
+      "id": 867
     },
     {
       "nome": "Sunabouzu (Desert Punk)",
@@ -96970,7 +96755,7 @@
           ]
         }
       ],
-      "id": 872
+      "id": 868
     },
     {
       "nome": "Suzumiya Haruhi no Yuuutsu",
@@ -97156,7 +96941,7 @@
           ]
         }
       ],
-      "id": 873
+      "id": 869
     },
     {
       "nome": "Sword Art Online",
@@ -97649,7 +97434,7 @@
           ]
         }
       ],
-      "id": 874
+      "id": 870
     },
     {
       "nome": "Sword Gai",
@@ -97696,7 +97481,7 @@
           ]
         }
       ],
-      "id": 875
+      "id": 871
     },
     {
       "nome": "Taboo Tattoo",
@@ -97753,7 +97538,7 @@
           ]
         }
       ],
-      "id": 876
+      "id": 872
     },
     {
       "nome": "Tactical Roar",
@@ -97826,7 +97611,7 @@
           ]
         }
       ],
-      "id": 877
+      "id": 873
     },
     {
       "nome": "Taimadou Gakuen 35 Shiken Shoutai",
@@ -97883,7 +97668,7 @@
           ]
         }
       ],
-      "id": 878
+      "id": 874
     },
     {
       "nome": "Taishou Yakyuu Musume",
@@ -97953,7 +97738,7 @@
           ]
         }
       ],
-      "id": 879
+      "id": 875
     },
     {
       "nome": "Takt Op. Destiny",
@@ -97974,7 +97759,7 @@
           ]
         }
       ],
-      "id": 880
+      "id": 876
     },
     {
       "nome": "Tales of Phantasia",
@@ -98466,7 +98251,7 @@
           ]
         }
       ],
-      "id": 881
+      "id": 877
     },
     {
       "nome": "Tasogare Otome x Amnesia",
@@ -98539,7 +98324,7 @@
           ]
         }
       ],
-      "id": 882
+      "id": 878
     },
     {
       "nome": "Tate no Yuusha no Nariagari",
@@ -98749,7 +98534,7 @@
           ]
         }
       ],
-      "id": 883
+      "id": 879
     },
     {
       "nome": "Tattoon Master",
@@ -98776,7 +98561,7 @@
           ]
         }
       ],
-      "id": 884
+      "id": 880
     },
     {
       "nome": "Tayutama Kiss on My Deity",
@@ -98846,7 +98631,7 @@
           ]
         }
       ],
-      "id": 885
+      "id": 881
     },
     {
       "nome": "Tears to Tiara",
@@ -98945,7 +98730,7 @@
           ]
         }
       ],
-      "id": 886
+      "id": 882
     },
     {
       "nome": "Teizokurei Daydream",
@@ -98978,7 +98763,7 @@
           ]
         }
       ],
-      "id": 887
+      "id": 883
     },
     {
       "nome": "Tejina-senpai",
@@ -99035,7 +98820,7 @@
           ]
         }
       ],
-      "id": 888
+      "id": 884
     },
     {
       "nome": "Tekken",
@@ -99132,7 +98917,7 @@
           ]
         }
       ],
-      "id": 889
+      "id": 885
     },
     {
       "nome": "Tenchi Muyou!",
@@ -99572,7 +99357,7 @@
           ]
         }
       ],
-      "id": 890
+      "id": 886
     },
     {
       "nome": "Tengen Toppa Gurren Lagann",
@@ -99723,7 +99508,7 @@
           ]
         }
       ],
-      "id": 891
+      "id": 887
     },
     {
       "nome": "Tengoku Daimakyou",
@@ -99783,7 +99568,7 @@
           ]
         }
       ],
-      "id": 892
+      "id": 888
     },
     {
       "nome": "Tenjou Tenge",
@@ -99908,7 +99693,7 @@
           ]
         }
       ],
-      "id": 893
+      "id": 889
     },
     {
       "nome": "Tenki no Ko",
@@ -99929,7 +99714,7 @@
           ]
         }
       ],
-      "id": 894
+      "id": 890
     },
     {
       "nome": "Tenkuu Shinpan",
@@ -99950,7 +99735,7 @@
           ]
         }
       ],
-      "id": 895
+      "id": 891
     },
     {
       "nome": "Tensai Ouji no Akaji Kokka Saisei Jutsu",
@@ -99997,7 +99782,7 @@
           ]
         }
       ],
-      "id": 896
+      "id": 892
     },
     {
       "nome": "Tensei Kenja no Isekai Life Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
@@ -100054,7 +99839,7 @@
           ]
         }
       ],
-      "id": 897
+      "id": 893
     },
     {
       "nome": "Tensei Shitara Slime Datta Ken",
@@ -100577,7 +100362,7 @@
           ]
         }
       ],
-      "id": 898
+      "id": 894
     },
     {
       "nome": "Tenshi no Tamago (Angel's Egg)",
@@ -100601,7 +100386,7 @@
           ]
         }
       ],
-      "id": 899
+      "id": 895
     },
     {
       "nome": "Terra e",
@@ -100720,7 +100505,7 @@
           ]
         }
       ],
-      "id": 900
+      "id": 896
     },
     {
       "nome": "Terra formars",
@@ -100780,7 +100565,7 @@
           ]
         }
       ],
-      "id": 901
+      "id": 897
     },
     {
       "nome": "Texhnolyze",
@@ -100814,7 +100599,7 @@
           ]
         }
       ],
-      "id": 902
+      "id": 898
     },
     {
       "nome": "The Maxx",
@@ -100856,7 +100641,7 @@
           ]
         }
       ],
-      "id": 903
+      "id": 899
     },
     {
       "nome": "The New Gate",
@@ -100913,7 +100698,7 @@
           ]
         }
       ],
-      "id": 904
+      "id": 900
     },
     {
       "nome": "The Samurai",
@@ -100937,7 +100722,7 @@
           ]
         }
       ],
-      "id": 905
+      "id": 901
     },
     {
       "nome": "The Sky Crawlers",
@@ -100971,7 +100756,7 @@
           ]
         }
       ],
-      "id": 906
+      "id": 902
     },
     {
       "nome": "The Third Aoi Hitomi no Shoujo",
@@ -101064,7 +100849,7 @@
           ]
         }
       ],
-      "id": 907
+      "id": 903
     },
     {
       "nome": "Tito e os Pássaros",
@@ -101091,7 +100876,7 @@
           ]
         }
       ],
-      "id": 908
+      "id": 904
     },
     {
       "nome": "To Love-Ru",
@@ -101466,7 +101251,7 @@
           ]
         }
       ],
-      "id": 909
+      "id": 905
     },
     {
       "nome": "Toaru Majutsu no Index",
@@ -101660,16 +101445,20 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 9063,
           "nome": "2010 Toaru Kagaku no Railgun Entenka no Satsuei Model mo Raku Ja Arimasen wa ne. - OVA",
           "ano": "2010",
           "nomeSemAno": "Toaru Kagaku no Railgun Entenka no Satsuei Model mo Raku Ja Arimasen wa ne. - OVA",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "9063.jpg"
+            }
+          ]
         },
         {
-          "mal_id": null,
+          "mal_id": 9047,
           "nome": "2010 Toaru Kagaku no Railgun Misaka-san wa Ima Chuumoku no Mato desu kara - OVA",
           "ano": "2010",
           "nomeSemAno": "Toaru Kagaku no Railgun Misaka-san wa Ima Chuumoku no Mato desu kara - OVA",
@@ -101677,7 +101466,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "9047.avif"
+              "nome": "9047.jpg"
             },
             {
               "nome": "[#AnimeNSK]_To_Aru_Kagaku_no_Railgun_-_EX_[Blu-Ray_1280x720_H264+AAC]_(ACC81DA6).mkv"
@@ -101698,7 +101487,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 8937,
           "nome": "2010 Toaru Majutsu no Index II - TV",
           "ano": "2010",
           "nomeSemAno": "Toaru Majutsu no Index II - TV",
@@ -101706,7 +101495,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "8937.avif"
+              "nome": "8937.jpg"
             },
             {
               "nome": "[#AnimeNSK]_To_Aru_Majutsu_no_Index_II_-_01_[Blu-Ray_1280x720_H264+AAC]_(0F2A0F7F).mkv"
@@ -101822,7 +101611,7 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 11743,
           "nome": "2013 Toaru Majutsu no Index Movie Endymion no Kiseki - Filme",
           "ano": "2013",
           "nomeSemAno": "Toaru Majutsu no Index Movie Endymion no Kiseki - Filme",
@@ -101830,7 +101619,7 @@
           "gostei": false,
           "arquivos": [
             {
-              "nome": "11743.webp"
+              "nome": "11743.jpg"
             }
           ]
         },
@@ -101861,13 +101650,17 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 36432,
           "nome": "2018 Toaru Majutsu no Index III - TV",
           "ano": "2018",
           "nomeSemAno": "Toaru Majutsu no Index III - TV",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "36432.jpg"
+            }
+          ]
         },
         {
           "mal_id": 39094,
@@ -101912,7 +101705,7 @@
           ]
         }
       ],
-      "id": 910
+      "id": 906
     },
     {
       "nome": "Tobira wo Akete",
@@ -101933,7 +101726,7 @@
           ]
         }
       ],
-      "id": 911
+      "id": 907
     },
     {
       "nome": "Tokyo Daigaku Monogatari",
@@ -101960,7 +101753,7 @@
           ]
         }
       ],
-      "id": 912
+      "id": 908
     },
     {
       "nome": "Tokyo Ghoul",
@@ -102142,7 +101935,7 @@
           ]
         }
       ],
-      "id": 913
+      "id": 909
     },
     {
       "nome": "Tokyo Magnitude 8.0",
@@ -102176,7 +101969,7 @@
           ]
         }
       ],
-      "id": 914
+      "id": 910
     },
     {
       "nome": "Tokyo Majin Gakuen Kenpuchou",
@@ -102276,7 +102069,7 @@
           ]
         }
       ],
-      "id": 915
+      "id": 911
     },
     {
       "nome": "Tokyo Revengers",
@@ -102463,7 +102256,7 @@
           ]
         }
       ],
-      "id": 916
+      "id": 912
     },
     {
       "nome": "Tonagura",
@@ -102523,7 +102316,7 @@
           ]
         }
       ],
-      "id": 917
+      "id": 913
     },
     {
       "nome": "Tonikaku Kawaii",
@@ -102693,7 +102486,7 @@
           ]
         }
       ],
-      "id": 918
+      "id": 914
     },
     {
       "nome": "Top wo Nerae! Gunbuster",
@@ -102777,13 +102570,17 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 1911,
           "nome": "2006 Top wo Nerae! & Top wo Nerae 2! Gattai Movie!!",
           "ano": "2006",
           "nomeSemAno": "Top wo Nerae! & Top wo Nerae 2! Gattai Movie!!",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "1911.jpg"
+            }
+          ]
         },
         {
           "mal_id": 24123,
@@ -102799,16 +102596,20 @@
           ]
         },
         {
-          "mal_id": null,
+          "mal_id": 20547,
           "nome": "2012 Top wo Nerae 2! Kagaku Kouza - Special",
           "ano": "2012",
           "nomeSemAno": "Top wo Nerae 2! Kagaku Kouza - Special",
           "jaAssisti": false,
           "gostei": false,
-          "arquivos": []
+          "arquivos": [
+            {
+              "nome": "20547.jpg"
+            }
+          ]
         }
       ],
-      "id": 919
+      "id": 915
     },
     {
       "nome": "Toradora",
@@ -102959,7 +102760,7 @@
           ]
         }
       ],
-      "id": 920
+      "id": 916
     },
     {
       "nome": "Totsukuni no Shoujo",
@@ -102999,7 +102800,7 @@
           ]
         }
       ],
-      "id": 921
+      "id": 917
     },
     {
       "nome": "Touhou Project",
@@ -103280,41 +103081,7 @@
           ]
         }
       ],
-      "id": 922
-    },
-    {
-      "nome": "Touka Gettan",
-      "slug": "touka-gettan",
-      "imgSrc": "touka_gettan.jpg",
-      "subpastas": [
-        {
-          "mal_id": 497,
-          "nome": "2003 Yami to Boushi to Hon no Tabibito - TV",
-          "ano": "2003",
-          "nomeSemAno": "Yami to Boushi to Hon no Tabibito - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "497.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 2105,
-          "nome": "2007 Touka Gettan - TV",
-          "ano": "2007",
-          "nomeSemAno": "Touka Gettan - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "2105.jpg"
-            }
-          ]
-        }
-      ],
-      "id": 923
+      "id": 918
     },
     {
       "nome": "Toy Story",
@@ -103376,7 +103143,7 @@
           "arquivos": []
         }
       ],
-      "id": 924
+      "id": 919
     },
     {
       "nome": "Triage X",
@@ -103443,7 +103210,7 @@
           ]
         }
       ],
-      "id": 925
+      "id": 920
     },
     {
       "nome": "Trigun",
@@ -103607,7 +103374,7 @@
           ]
         }
       ],
-      "id": 926
+      "id": 921
     },
     {
       "nome": "Trinity Blood",
@@ -103700,7 +103467,7 @@
           ]
         }
       ],
-      "id": 927
+      "id": 922
     },
     {
       "nome": "Trinity Seven",
@@ -103802,7 +103569,7 @@
           ]
         }
       ],
-      "id": 928
+      "id": 923
     },
     {
       "nome": "Tsugumomo",
@@ -103950,7 +103717,7 @@
           ]
         }
       ],
-      "id": 929
+      "id": 924
     },
     {
       "nome": "Tsuki wa Higashi ni Hi wa Nishi ni Operation Sanctuary",
@@ -104020,7 +103787,7 @@
           ]
         }
       ],
-      "id": 930
+      "id": 925
     },
     {
       "nome": "Tsukuyomi Moon Phase",
@@ -104132,7 +103899,7 @@
           ]
         }
       ],
-      "id": 931
+      "id": 926
     },
     {
       "nome": "Tsurezure Children",
@@ -104189,7 +103956,7 @@
           ]
         }
       ],
-      "id": 932
+      "id": 927
     },
     {
       "nome": "Tytania",
@@ -104288,7 +104055,7 @@
           ]
         }
       ],
-      "id": 933
+      "id": 928
     },
     {
       "nome": "Tá Chovendo Hambúrguer",
@@ -104318,7 +104085,7 @@
           ]
         }
       ],
-      "id": 934
+      "id": 929
     },
     {
       "nome": "Tá Dando Onda",
@@ -104344,7 +104111,7 @@
           "arquivos": []
         }
       ],
-      "id": 935
+      "id": 930
     },
     {
       "nome": "Ubel Blatt",
@@ -104401,7 +104168,7 @@
           ]
         }
       ],
-      "id": 936
+      "id": 931
     },
     {
       "nome": "Uchi no Maid ga Uzasugiru",
@@ -104474,7 +104241,7 @@
           ]
         }
       ],
-      "id": 937
+      "id": 932
     },
     {
       "nome": "Uchuu no Stellvia",
@@ -104573,7 +104340,7 @@
           ]
         }
       ],
-      "id": 938
+      "id": 933
     },
     {
       "nome": "Uchuu Senkan Yamato",
@@ -105026,7 +104793,7 @@
           ]
         }
       ],
-      "id": 939
+      "id": 934
     },
     {
       "nome": "UG☆Ultimate Girls",
@@ -105083,7 +104850,7 @@
           ]
         }
       ],
-      "id": 940
+      "id": 935
     },
     {
       "nome": "Ultraman",
@@ -105301,7 +105068,7 @@
           ]
         }
       ],
-      "id": 941
+      "id": 936
     },
     {
       "nome": "Ultramarines A Warhammer 40.000",
@@ -105318,7 +105085,7 @@
           "arquivos": []
         }
       ],
-      "id": 942
+      "id": 937
     },
     {
       "nome": "Ulysses Jehanne Darc to Renkin no Kishi",
@@ -105339,7 +105106,7 @@
           ]
         }
       ],
-      "id": 943
+      "id": 938
     },
     {
       "nome": "Umi ga Kikoeru",
@@ -105363,7 +105130,7 @@
           ]
         }
       ],
-      "id": 944
+      "id": 939
     },
     {
       "nome": "Under Ninja",
@@ -105420,7 +105187,7 @@
           ]
         }
       ],
-      "id": 945
+      "id": 940
     },
     {
       "nome": "Under The Dog",
@@ -105457,7 +105224,7 @@
           ]
         }
       ],
-      "id": 946
+      "id": 941
     },
     {
       "nome": "Undone",
@@ -105483,7 +105250,7 @@
           "arquivos": []
         }
       ],
-      "id": 947
+      "id": 942
     },
     {
       "nome": "Unnamed Memory",
@@ -105553,7 +105320,7 @@
           ]
         }
       ],
-      "id": 948
+      "id": 943
     },
     {
       "nome": "Up Altas Aventuras",
@@ -105577,7 +105344,7 @@
           ]
         }
       ],
-      "id": 949
+      "id": 944
     },
     {
       "nome": "Upotte",
@@ -105611,7 +105378,7 @@
           ]
         }
       ],
-      "id": 950
+      "id": 945
     },
     {
       "nome": "Urusei Yatsura",
@@ -105841,7 +105608,7 @@
           ]
         }
       ],
-      "id": 951
+      "id": 946
     },
     {
       "nome": "Usagi-chan de Cue!!",
@@ -105880,7 +105647,7 @@
           ]
         }
       ],
-      "id": 952
+      "id": 947
     },
     {
       "nome": "Utawarerumono",
@@ -106251,7 +106018,7 @@
           ]
         }
       ],
-      "id": 953
+      "id": 948
     },
     {
       "nome": "Uzaki-chan wa Asobitai!",
@@ -106285,7 +106052,7 @@
           ]
         }
       ],
-      "id": 954
+      "id": 949
     },
     {
       "nome": "Val x Love",
@@ -106306,7 +106073,7 @@
           ]
         }
       ],
-      "id": 955
+      "id": 950
     },
     {
       "nome": "Valente",
@@ -106330,7 +106097,7 @@
           ]
         }
       ],
-      "id": 956
+      "id": 951
     },
     {
       "nome": "Valkyrie Drive Mermaid",
@@ -106400,7 +106167,7 @@
           ]
         }
       ],
-      "id": 957
+      "id": 952
     },
     {
       "nome": "Vampire Hunter",
@@ -106445,7 +106212,7 @@
           ]
         }
       ],
-      "id": 958
+      "id": 953
     },
     {
       "nome": "Vampire Hunter D",
@@ -106485,7 +106252,7 @@
           ]
         }
       ],
-      "id": 959
+      "id": 954
     },
     {
       "nome": "Vampire Knight",
@@ -106610,7 +106377,7 @@
           ]
         }
       ],
-      "id": 960
+      "id": 955
     },
     {
       "nome": "Vassalord",
@@ -106631,7 +106398,7 @@
           ]
         }
       ],
-      "id": 961
+      "id": 956
     },
     {
       "nome": "Venus Senki (Venus Wars)",
@@ -106658,7 +106425,7 @@
           ]
         }
       ],
-      "id": 962
+      "id": 957
     },
     {
       "nome": "Vexille 2077 Nihon Sakoku",
@@ -106682,52 +106449,13 @@
           ]
         }
       ],
-      "id": 963
+      "id": 958
     },
     {
       "nome": "Vinland Saga",
       "slug": "vinland-saga",
       "imgSrc": "vinland_saga.jpg",
       "subpastas": [
-        {
-          "mal_id": 31667,
-          "nome": "2013 Ponkotsu Quest Maou to Haken no Mamono-tachi - ONA",
-          "ano": "2013",
-          "nomeSemAno": "Ponkotsu Quest Maou to Haken no Mamono-tachi - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "31667.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 34844,
-          "nome": "2014 Ponkotsu Quest x Gatchaman Special - ONA",
-          "ano": "2014",
-          "nomeSemAno": "Ponkotsu Quest x Gatchaman Special - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "34844.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 31647,
-          "nome": "2015 Ponkotsuland Saga - ONA",
-          "ano": "2015",
-          "nomeSemAno": "Ponkotsuland Saga - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "31647.jpg"
-            }
-          ]
-        },
         {
           "mal_id": 37521,
           "nome": "2019 Vinland Saga - TV",
@@ -106853,7 +106581,7 @@
           ]
         }
       ],
-      "id": 964
+      "id": 959
     },
     {
       "nome": "Violet Evergarden",
@@ -106974,7 +106702,7 @@
           ]
         }
       ],
-      "id": 965
+      "id": 960
     },
     {
       "nome": "Viva, A Vida é uma Festa",
@@ -106998,7 +106726,7 @@
           ]
         }
       ],
-      "id": 966
+      "id": 961
     },
     {
       "nome": "Vividred Operation",
@@ -107055,7 +106783,7 @@
           ]
         }
       ],
-      "id": 967
+      "id": 962
     },
     {
       "nome": "Vivy Fluorite Eye's Song",
@@ -107144,7 +106872,7 @@
           ]
         }
       ],
-      "id": 968
+      "id": 963
     },
     {
       "nome": "W Wish (Double Wish)",
@@ -107217,7 +106945,7 @@
           ]
         }
       ],
-      "id": 969
+      "id": 964
     },
     {
       "nome": "WALL.E",
@@ -107241,7 +106969,7 @@
           ]
         }
       ],
-      "id": 970
+      "id": 965
     },
     {
       "nome": "Wata no Kuni Hoshi (The Star of Cottonland)",
@@ -107278,7 +107006,7 @@
           ]
         }
       ],
-      "id": 971
+      "id": 966
     },
     {
       "nome": "Watashi ga Motenai no wa Dou Kangaete mo Omaera ga Warui!",
@@ -107348,7 +107076,7 @@
           ]
         }
       ],
-      "id": 972
+      "id": 967
     },
     {
       "nome": "Wind A Breath of Heart",
@@ -107447,7 +107175,7 @@
           ]
         }
       ],
-      "id": 973
+      "id": 968
     },
     {
       "nome": "Witchblade",
@@ -107495,7 +107223,7 @@
           ]
         }
       ],
-      "id": 974
+      "id": 969
     },
     {
       "nome": "Wizard Barristers Benmashi Cecil",
@@ -107552,7 +107280,7 @@
           ]
         }
       ],
-      "id": 975
+      "id": 970
     },
     {
       "nome": "Wonderful Days (Sky Blue)",
@@ -107576,7 +107304,7 @@
           ]
         }
       ],
-      "id": 976
+      "id": 971
     },
     {
       "nome": "Wood & Stock",
@@ -107593,7 +107321,7 @@
           "arquivos": []
         }
       ],
-      "id": 977
+      "id": 972
     },
     {
       "nome": "X 1999 (X - The Movie)",
@@ -107656,7 +107384,7 @@
           ]
         }
       ],
-      "id": 978
+      "id": 973
     },
     {
       "nome": "Xiong Bing Lian",
@@ -107794,7 +107522,34 @@
           ]
         }
       ],
-      "id": 979
+      "id": 974
+    },
+    {
+      "nome": "Xiyou Ji Dasheng Guilai",
+      "slug": "xiyou-ji-dasheng-guilai",
+      "imgSrc": "xiyou_ji_dasheng_guilai.jpg",
+      "subpastas": [
+        {
+          "mal_id": 32534,
+          "nome": "2015 A Lenda do Rei Macaco A Volta do Herói (Xiyou Ji Dasheng Guilai) - Filme Dub",
+          "ano": "2015",
+          "nomeSemAno": "A Lenda do Rei Macaco A Volta do Herói (Xiyou Ji Dasheng Guilai) - Filme Dub",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "32534.jpg"
+            },
+            {
+              "nome": "A.Lenda.do.Rei.Macaco.A.Volta.do.Herói.2017.720p.WEB-DL.x264.DUAL-WWW.BLUDV.COM.mkv"
+            },
+            {
+              "nome": "A.Lenda.do.Rei.Macaco.A.Volta.do.Herói.2017.720p.WEB-DL.x264.DUAL-WWW.BLUDV.COM.srt"
+            }
+          ]
+        }
+      ],
+      "id": 975
     },
     {
       "nome": "Yagami-kun no Katei no Jijou",
@@ -107824,7 +107579,7 @@
           ]
         }
       ],
-      "id": 980
+      "id": 976
     },
     {
       "nome": "Yamada-kun to 7-nin no Majo",
@@ -107907,7 +107662,7 @@
           ]
         }
       ],
-      "id": 981
+      "id": 977
     },
     {
       "nome": "Yami to Boushi to Hon no Tabibito",
@@ -107980,7 +107735,7 @@
           ]
         }
       ],
-      "id": 982
+      "id": 978
     },
     {
       "nome": "Yao Jing Zhong Zhi Shou Ce",
@@ -108043,7 +107798,7 @@
           ]
         }
       ],
-      "id": 983
+      "id": 979
     },
     {
       "nome": "Yawaraka Sangokushi Tsukisase!! Ryofuko-chan",
@@ -108079,7 +107834,7 @@
           ]
         }
       ],
-      "id": 984
+      "id": 980
     },
     {
       "nome": "Yokohama Kaidashi Kikou",
@@ -108125,7 +107880,7 @@
           ]
         }
       ],
-      "id": 985
+      "id": 981
     },
     {
       "nome": "Yoku Wakaru Gendai Mahou",
@@ -108195,7 +107950,7 @@
           ]
         }
       ],
-      "id": 986
+      "id": 982
     },
     {
       "nome": "Yomigaeru Sora Rescue Wings",
@@ -108281,7 +108036,7 @@
           ]
         }
       ],
-      "id": 987
+      "id": 983
     },
     {
       "nome": "Yosuga no Sora",
@@ -108338,7 +108093,7 @@
           ]
         }
       ],
-      "id": 988
+      "id": 984
     },
     {
       "nome": "Youjo Senki",
@@ -108440,7 +108195,7 @@
           ]
         }
       ],
-      "id": 989
+      "id": 985
     },
     {
       "nome": "Youjuu Toshi (Wicked City)",
@@ -108464,7 +108219,7 @@
           ]
         }
       ],
-      "id": 990
+      "id": 986
     },
     {
       "nome": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
@@ -108586,7 +108341,7 @@
           ]
         }
       ],
-      "id": 991
+      "id": 987
     },
     {
       "nome": "Yozakura Quartet",
@@ -108707,7 +108462,7 @@
           ]
         }
       ],
-      "id": 992
+      "id": 988
     },
     {
       "nome": "Yu Yu Hakusho",
@@ -108832,7 +108587,7 @@
           ]
         }
       ],
-      "id": 993
+      "id": 989
     },
     {
       "nome": "Yume de Aetara",
@@ -108923,7 +108678,7 @@
           ]
         }
       ],
-      "id": 994
+      "id": 990
     },
     {
       "nome": "Yuragi-sou no Yuuna-san",
@@ -108957,7 +108712,7 @@
           ]
         }
       ],
-      "id": 995
+      "id": 991
     },
     {
       "nome": "Yuugo Koushounin (Yugo The Negotiator)",
@@ -109017,7 +108772,7 @@
           ]
         }
       ],
-      "id": 996
+      "id": 992
     },
     {
       "nome": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita",
@@ -109100,7 +108855,7 @@
           ]
         }
       ],
-      "id": 997
+      "id": 993
     },
     {
       "nome": "Yuusha Yamemasu",
@@ -109147,7 +108902,7 @@
           ]
         }
       ],
-      "id": 998
+      "id": 994
     },
     {
       "nome": "Zaion I Wish You Were Here",
@@ -109180,7 +108935,7 @@
           ]
         }
       ],
-      "id": 999
+      "id": 995
     },
     {
       "nome": "Zegapain",
@@ -109340,7 +109095,7 @@
           ]
         }
       ],
-      "id": 1000
+      "id": 996
     },
     {
       "nome": "Zero kara Hajimeru Mahou no Sho",
@@ -109459,7 +109214,7 @@
           ]
         }
       ],
-      "id": 1001
+      "id": 997
     },
     {
       "nome": "Zero no Tsukaima",
@@ -109695,7 +109450,7 @@
           ]
         }
       ],
-      "id": 1002
+      "id": 998
     },
     {
       "nome": "Zom 100 Zombie ni Naru made ni Shitai 100 no Koto",
@@ -109765,7 +109520,7 @@
           ]
         }
       ],
-      "id": 1003
+      "id": 999
     },
     {
       "nome": "Zootopia",
@@ -109813,8 +109568,8 @@
           ]
         }
       ],
-      "id": 1004
+      "id": 1000
     }
   ],
-  "ultimaAtualizacao": "2025-12-20T08:18:47.842Z"
+  "ultimaAtualizacao": "2025-12-23T16:51:35.260Z"
 }
