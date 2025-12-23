@@ -20,11 +20,19 @@ export default function PaginationButtons({  currentPage, totalPages, onPageChan
   return (
     <div className={styles.divContainerBtnPag}>
       <button className={styles.btnPaginacao}
+        onClick={() => handlePageChange(1)}
+        disabled={currentPage === 1 || isLoading}
+        style={{ cursor: currentPage === 1 || isLoading ? 'not-allowed' : 'pointer' }}
+      >
+        ⏮ Início
+      </button>
+
+      <button className={styles.btnPaginacao}
         onClick={() => handlePageChange(currentPage - 1)}
         disabled={currentPage <= 1 || isLoading}
         style={{ cursor: currentPage <= 1 || isLoading ? 'not-allowed' : 'pointer' }}
       >
-        ◀ Prev
+        ◀ Anterior
       </button>
 
       <span className={styles.spanTxtPaginacao}>Página</span> {currentPage} <span className={styles.spanTxtPaginacao}>de</span> {totalPages}
@@ -34,7 +42,15 @@ export default function PaginationButtons({  currentPage, totalPages, onPageChan
         disabled={currentPage >= totalPages || isLoading}
         style={{ cursor: currentPage >= totalPages || isLoading ? 'not-allowed' : 'pointer' }}
       >
-        Next ▶
+        Próxima ▶
+      </button>
+
+      <button className={styles.btnPaginacao}
+        onClick={() => handlePageChange(totalPages)}
+        disabled={currentPage === totalPages || isLoading}
+        style={{ cursor: currentPage === totalPages || isLoading ? 'not-allowed' : 'pointer' }}
+      >
+        Última ⏭
       </button>
     </div>
   );

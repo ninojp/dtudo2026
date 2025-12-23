@@ -40575,21 +40575,8 @@
       "imgSrc": "herlock_captain_harlock.jpg",
       "subpastas": [
         {
-          "mal_id": 1491,
-          "nome": "1978 Ginga Tetsudou 999 - TV",
-          "ano": "1978",
-          "nomeSemAno": "Ginga Tetsudou 999 - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "1491.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 1000,
-          "nome": "1978 Uchuu Kaizoku Captain Herlock - TV",
+          "nome": "1978  Uchuu Kaizoku Captain Herlock - TV",
           "ano": "1978",
           "nomeSemAno": "Uchuu Kaizoku Captain Herlock - TV",
           "jaAssisti": false,
@@ -40602,7 +40589,7 @@
         },
         {
           "mal_id": 2470,
-          "nome": "1978 Uchuu Kaizoku Captain Herlock Arcadia-gou no Nazo - Filme",
+          "nome": "1978  Uchuu Kaizoku Captain Herlock Arcadia-gou no Nazo - Filme",
           "ano": "1978",
           "nomeSemAno": "Uchuu Kaizoku Captain Herlock Arcadia-gou no Nazo - Filme",
           "jaAssisti": false,
@@ -40610,6 +40597,19 @@
           "arquivos": [
             {
               "nome": "2470.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 1491,
+          "nome": "1978 Ginga Tetsudou 999 - TV",
+          "ano": "1978",
+          "nomeSemAno": "Ginga Tetsudou 999 - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "1491.jpg"
             }
           ]
         },
@@ -52571,21 +52571,8 @@
       "imgSrc": "kawaikereba_hentai_demo_suki_ni_natte_kuremasu_ka.jpg",
       "subpastas": [
         {
-          "mal_id": 49871,
-          "nome": "2019 Hensuki▽ - TV",
-          "ano": "2019",
-          "nomeSemAno": "Hensuki▽ - TV",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "49871.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 39326,
-          "nome": "2019 Kawaikereba Hentai demo Suki ni Natte Kuremasu ka - TV",
+          "nome": "2019  Kawaikereba Hentai demo Suki ni Natte Kuremasu ka - TV",
           "ano": "2019",
           "nomeSemAno": "Kawaikereba Hentai demo Suki ni Natte Kuremasu ka - TV",
           "jaAssisti": false,
@@ -52629,6 +52616,19 @@
             },
             {
               "nome": "kawaikereba-hentai-demo-suki-ni-natte-kuremasu-ka-ep-9.mp4"
+            }
+          ]
+        },
+        {
+          "mal_id": 49871,
+          "nome": "2019 Hensuki▽ - TV",
+          "ano": "2019",
+          "nomeSemAno": "Hensuki▽ - TV",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "49871.jpg"
             }
           ]
         }
@@ -75420,21 +75420,8 @@
       "imgSrc": "ore_dake_haireru_kakushi_dungeon.jpg",
       "subpastas": [
         {
-          "mal_id": 45658,
-          "nome": "2021 Dokidoki! Mini Mini! Kakushi Dungeon Gekijou - ONA",
-          "ano": "2021",
-          "nomeSemAno": "Dokidoki! Mini Mini! Kakushi Dungeon Gekijou - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "45658.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 41899,
-          "nome": "2021 Ore dake Haireru Kakushi Dungeon - TV Mult-Subs",
+          "nome": "2021  Ore dake Haireru Kakushi Dungeon - TV Mult-Subs",
           "ano": "2021",
           "nomeSemAno": "Ore dake Haireru Kakushi Dungeon - TV Mult-Subs",
           "jaAssisti": false,
@@ -75511,6 +75498,19 @@
             },
             {
               "nome": "[Judas] Ore dake Haireru Kakushi Dungeon - S01E12.mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 45658,
+          "nome": "2021 Dokidoki! Mini Mini! Kakushi Dungeon Gekijou - ONA",
+          "ano": "2021",
+          "nomeSemAno": "Dokidoki! Mini Mini! Kakushi Dungeon Gekijou - ONA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "45658.jpg"
             }
           ]
         }
@@ -81564,13 +81564,16 @@
       "imgSrc": "rakuen_tsuihou.jpg",
       "subpastas": [
         {
-          "mal_id": null,
+          "mal_id": 13391,
           "nome": "2014 Rakuen Tsuihou - Filme",
           "ano": "2014",
           "nomeSemAno": "Rakuen Tsuihou - Filme",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
+            {
+              "nome": "13391.jpg"
+            },
             {
               "nome": "[#AnimeNSK]_Rakuen_Tsuihou_-_Expelled_From_Paradise_[Blu-Ray_1280x720]_[10Bit]_(12B8D979).mkv"
             }
@@ -81895,67 +81898,8 @@
       "imgSrc": "re.zero_kara_hajimeru_isekai_seikatsu.jpg",
       "subpastas": [
         {
-          "mal_id": 33569,
-          "nome": "2016 RePetit kara Hajimeru Isekai Seikatsu - Special",
-          "ano": "2016",
-          "nomeSemAno": "RePetit kara Hajimeru Isekai Seikatsu - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "33569.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 33142,
-          "nome": "2016 ReZero kara Hajimeru Break Time - Special",
-          "ano": "2016",
-          "nomeSemAno": "ReZero kara Hajimeru Break Time - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "33142.jpg"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_01_[1920x1080][BDRIP][Hi10p][236C23EF].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_02_[1920x1080][BDRIP][Hi10p][24A8F25E].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_03_[1920x1080][BDRIP][Hi10p][F5F254DA].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_04_[1920x1080][BDRIP][Hi10p][C8DA2A9F].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_05_[1920x1080][BDRIP][Hi10p][36313CD5].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_06_[1920x1080][BDRIP][Hi10p][68DF2739].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_07_[1920x1080][BDRIP][Hi10p][195CBBE5].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_08_[1920x1080][BDRIP][Hi10p][680DA841].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_09_[1920x1080][BDRIP][Hi10p][9DD15966].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_10_[1920x1080][BDRIP][Hi10p][E09A9991].mkv"
-            },
-            {
-              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_11_Final_[1920x1080][BDRIP][Hi10p][83970CA1].mkv"
-            }
-          ]
-        },
-        {
           "mal_id": 31240,
-          "nome": "2016 ReZero kara Hajimeru Isekai Seikatsu - TV",
+          "nome": "2016  ReZero kara Hajimeru Isekai Seikatsu - TV",
           "ano": "2016",
           "nomeSemAno": "ReZero kara Hajimeru Isekai Seikatsu - TV",
           "jaAssisti": false,
@@ -82041,6 +81985,65 @@
             },
             {
               "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Isekai_Seikatsu_25_Final_[1920x1080][BDRIP][Hi10p][4550B2C7].mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 33569,
+          "nome": "2016 RePetit kara Hajimeru Isekai Seikatsu - Special",
+          "ano": "2016",
+          "nomeSemAno": "RePetit kara Hajimeru Isekai Seikatsu - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "33569.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 33142,
+          "nome": "2016 ReZero kara Hajimeru Break Time - Special",
+          "ano": "2016",
+          "nomeSemAno": "ReZero kara Hajimeru Break Time - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "33142.jpg"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_01_[1920x1080][BDRIP][Hi10p][236C23EF].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_02_[1920x1080][BDRIP][Hi10p][24A8F25E].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_03_[1920x1080][BDRIP][Hi10p][F5F254DA].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_04_[1920x1080][BDRIP][Hi10p][C8DA2A9F].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_05_[1920x1080][BDRIP][Hi10p][36313CD5].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_06_[1920x1080][BDRIP][Hi10p][68DF2739].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_07_[1920x1080][BDRIP][Hi10p][195CBBE5].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_08_[1920x1080][BDRIP][Hi10p][680DA841].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_09_[1920x1080][BDRIP][Hi10p][9DD15966].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_10_[1920x1080][BDRIP][Hi10p][E09A9991].mkv"
+            },
+            {
+              "nome": "[EA-Valar]Re_Zero_kara_Hajimeru_Break_Time_11_Final_[1920x1080][BDRIP][Hi10p][83970CA1].mkv"
             }
           ]
         },
@@ -91415,21 +91418,8 @@
       "imgSrc": "shironeko_project_zero_chronicle.jpg",
       "subpastas": [
         {
-          "mal_id": 49525,
-          "nome": "2020 Shironeko Project Mini Anime Zerokiss, Ganbaru - ONA",
-          "ano": "2020",
-          "nomeSemAno": "Shironeko Project Mini Anime Zerokiss, Ganbaru - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "49525.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 38843,
-          "nome": "2020 Shironeko Project Zero Chronicle - TV",
+          "nome": "2020  Shironeko Project Zero Chronicle - TV",
           "ano": "2020",
           "nomeSemAno": "Shironeko Project Zero Chronicle - TV",
           "jaAssisti": false,
@@ -91473,6 +91463,19 @@
             },
             {
               "nome": "[#AnimeNSK]_Shironeko_Project_Zero_Chronicle_-_12_Final_[BD_1920x1080]_[HEVC_10Bit]_(20572483).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 49525,
+          "nome": "2020 Shironeko Project Mini Anime Zerokiss, Ganbaru - ONA",
+          "ano": "2020",
+          "nomeSemAno": "Shironeko Project Mini Anime Zerokiss, Ganbaru - ONA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "49525.jpg"
             }
           ]
         }
@@ -91809,9 +91812,9 @@
         },
         {
           "mal_id": null,
-          "nome": "2013 Short Peace - Filme Eng",
+          "nome": "2013 Short Peace (full-version) - Filme",
           "ano": "2013",
-          "nomeSemAno": "Short Peace - Filme Eng",
+          "nomeSemAno": "Short Peace (full-version) - Filme",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
@@ -93267,18 +93270,21 @@
       "id": 843
     },
     {
-      "nome": "Sono Kinisasete yo My My Mai",
-      "slug": "sono-kinisasete-yo-my-my-mai",
-      "imgSrc": "sono_kinisasete_yo_my_my_mai.jpg",
+      "nome": "Sono Ki ni Sasete yo My My Mai",
+      "slug": "sono-ki-ni-sasete-yo-my-my-mai",
+      "imgSrc": "sono_ki_ni_sasete_yo_my_my_mai.jpg",
       "subpastas": [
         {
-          "mal_id": null,
-          "nome": "1993 Sono Kinisasete yo My My Mai - OVA",
+          "mal_id": 3095,
+          "nome": "1993 Sono Ki ni Sasete yo My My Mai - OVA",
           "ano": "1993",
-          "nomeSemAno": "Sono Kinisasete yo My My Mai - OVA",
+          "nomeSemAno": "Sono Ki ni Sasete yo My My Mai - OVA",
           "jaAssisti": false,
           "gostei": false,
           "arquivos": [
+            {
+              "nome": "3095.jpg"
+            },
             {
               "nome": "[_AnimeNSK]_My_My_Mai_-_01_[H264+AAC]_(199A2870).mkv"
             },
@@ -96630,34 +96636,8 @@
       "imgSrc": "suisei_no_gargantia.jpg",
       "subpastas": [
         {
-          "mal_id": 18413,
-          "nome": "2013 Puchitto Gargantia - ONA",
-          "ano": "2013",
-          "nomeSemAno": "Puchitto Gargantia - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "18413.jpg"
-            }
-          ]
-        },
-        {
-          "mal_id": 23099,
-          "nome": "2013 Puchitto Gargantia Marumaru no Gargantia - Special",
-          "ano": "2013",
-          "nomeSemAno": "Puchitto Gargantia Marumaru no Gargantia - Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "23099.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 16524,
-          "nome": "2013 Suisei no Gargantia - TV",
+          "nome": "2013  Suisei no Gargantia - TV",
           "ano": "2013",
           "nomeSemAno": "Suisei no Gargantia - TV",
           "jaAssisti": false,
@@ -96704,6 +96684,32 @@
             },
             {
               "nome": "[#AnimeNSK]_Suisei_no_Gargantia_-_13_[Blu-Ray_1280x720]_[10Bit]_(A7803593).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 18413,
+          "nome": "2013 Puchitto Gargantia - ONA",
+          "ano": "2013",
+          "nomeSemAno": "Puchitto Gargantia - ONA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "18413.jpg"
+            }
+          ]
+        },
+        {
+          "mal_id": 23099,
+          "nome": "2013 Puchitto Gargantia Marumaru no Gargantia - Special",
+          "ano": "2013",
+          "nomeSemAno": "Puchitto Gargantia Marumaru no Gargantia - Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "23099.jpg"
             }
           ]
         },
@@ -102278,21 +102284,8 @@
       "imgSrc": "tokyo_revengers.jpg",
       "subpastas": [
         {
-          "mal_id": 48735,
-          "nome": "2021 Chibi Revenger - ONA",
-          "ano": "2021",
-          "nomeSemAno": "Chibi Revenger - ONA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "48735.jpg"
-            }
-          ]
-        },
-        {
           "mal_id": 42249,
-          "nome": "2021 Tokyo Revengers - TV",
+          "nome": "2021  Tokyo Revengers - TV",
           "ano": "2021",
           "nomeSemAno": "Tokyo Revengers - TV",
           "jaAssisti": false,
@@ -102375,6 +102368,19 @@
             },
             {
               "nome": "[#AnimeNSK]_Tokyo_Ravens_-_24_Final_[Blu-Ray_1280x720]_[10Bit]_(7A3A5827).mkv"
+            }
+          ]
+        },
+        {
+          "mal_id": 48735,
+          "nome": "2021 Chibi Revenger - ONA",
+          "ano": "2021",
+          "nomeSemAno": "Chibi Revenger - ONA",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "48735.jpg"
             }
           ]
         },
@@ -105838,36 +105844,6 @@
       "id": 951
     },
     {
-      "nome": "Usagi-Chan de Cue",
-      "slug": "usagi-chan-de-cue",
-      "imgSrc": "usagi-chan_de_cue.jpg",
-      "subpastas": [
-        {
-          "mal_id": 991,
-          "nome": "2001 Usagi-chan de Cue!! - OVA",
-          "ano": "2001",
-          "nomeSemAno": "Usagi-chan de Cue!! - OVA",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "991.jpg"
-            },
-            {
-              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_01_[H264+AAC]_(A6213904).mkv"
-            },
-            {
-              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_02_[H264+AAC]_(5952073E).mkv"
-            },
-            {
-              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_03_Final_[H264+AAC]_(77488F1E).mkv"
-            }
-          ]
-        }
-      ],
-      "id": 952
-    },
-    {
       "nome": "Usagi-chan de Cue!!",
       "slug": "usagi-chan-de-cue",
       "imgSrc": "usagi-chan_de_cue.jpg",
@@ -105891,11 +105867,20 @@
             },
             {
               "nome": "AnV-03.mp4"
+            },
+            {
+              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_01_[H264+AAC]_(A6213904).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_02_[H264+AAC]_(5952073E).mkv"
+            },
+            {
+              "nome": "[_AnimeNSK]_Usagi-Chan_de_Cue___-_03_Final_[H264+AAC]_(77488F1E).mkv"
             }
           ]
         }
       ],
-      "id": 953
+      "id": 952
     },
     {
       "nome": "Utawarerumono",
@@ -106266,7 +106251,7 @@
           ]
         }
       ],
-      "id": 954
+      "id": 953
     },
     {
       "nome": "Uzaki-chan wa Asobitai!",
@@ -106300,7 +106285,7 @@
           ]
         }
       ],
-      "id": 955
+      "id": 954
     },
     {
       "nome": "Val x Love",
@@ -106321,7 +106306,7 @@
           ]
         }
       ],
-      "id": 956
+      "id": 955
     },
     {
       "nome": "Valente",
@@ -106345,7 +106330,7 @@
           ]
         }
       ],
-      "id": 957
+      "id": 956
     },
     {
       "nome": "Valkyrie Drive Mermaid",
@@ -106415,7 +106400,7 @@
           ]
         }
       ],
-      "id": 958
+      "id": 957
     },
     {
       "nome": "Vampire Hunter",
@@ -106460,7 +106445,7 @@
           ]
         }
       ],
-      "id": 959
+      "id": 958
     },
     {
       "nome": "Vampire Hunter D",
@@ -106500,7 +106485,7 @@
           ]
         }
       ],
-      "id": 960
+      "id": 959
     },
     {
       "nome": "Vampire Knight",
@@ -106625,7 +106610,7 @@
           ]
         }
       ],
-      "id": 961
+      "id": 960
     },
     {
       "nome": "Vassalord",
@@ -106646,7 +106631,7 @@
           ]
         }
       ],
-      "id": 962
+      "id": 961
     },
     {
       "nome": "Venus Senki (Venus Wars)",
@@ -106673,7 +106658,7 @@
           ]
         }
       ],
-      "id": 963
+      "id": 962
     },
     {
       "nome": "Vexille 2077 Nihon Sakoku",
@@ -106697,7 +106682,7 @@
           ]
         }
       ],
-      "id": 964
+      "id": 963
     },
     {
       "nome": "Vinland Saga",
@@ -106868,7 +106853,7 @@
           ]
         }
       ],
-      "id": 965
+      "id": 964
     },
     {
       "nome": "Violet Evergarden",
@@ -106989,7 +106974,7 @@
           ]
         }
       ],
-      "id": 966
+      "id": 965
     },
     {
       "nome": "Viva, A Vida é uma Festa",
@@ -107013,7 +106998,7 @@
           ]
         }
       ],
-      "id": 967
+      "id": 966
     },
     {
       "nome": "Vividred Operation",
@@ -107070,7 +107055,7 @@
           ]
         }
       ],
-      "id": 968
+      "id": 967
     },
     {
       "nome": "Vivy Fluorite Eye's Song",
@@ -107078,24 +107063,8 @@
       "imgSrc": "vivy_fluorite_eye_s_song.jpg",
       "subpastas": [
         {
-          "mal_id": 49241,
-          "nome": "2021 Vivy Fluorite Eye's Song - To Make Everyone Happy With My Singing - recap Special",
-          "ano": "2021",
-          "nomeSemAno": "Vivy Fluorite Eye's Song - To Make Everyone Happy With My Singing - recap Special",
-          "jaAssisti": false,
-          "gostei": false,
-          "arquivos": [
-            {
-              "nome": "49241.jpg"
-            },
-            {
-              "nome": "[Judas] Vivy - Fluorite Eye's Song - S01E13.5.mkv"
-            }
-          ]
-        },
-        {
           "mal_id": 46095,
-          "nome": "2021 Vivy Fluorite Eye's Song - TV Mult-Subs",
+          "nome": "2021  Vivy Fluorite Eye's Song - TV Mult-Subs",
           "ano": "2021",
           "nomeSemAno": "Vivy Fluorite Eye's Song - TV Mult-Subs",
           "jaAssisti": false,
@@ -107146,6 +107115,22 @@
           ]
         },
         {
+          "mal_id": 49241,
+          "nome": "2021 Vivy Fluorite Eye's Song - To Make Everyone Happy With My Singing - recap Special",
+          "ano": "2021",
+          "nomeSemAno": "Vivy Fluorite Eye's Song - To Make Everyone Happy With My Singing - recap Special",
+          "jaAssisti": false,
+          "gostei": false,
+          "arquivos": [
+            {
+              "nome": "49241.jpg"
+            },
+            {
+              "nome": "[Judas] Vivy - Fluorite Eye's Song - S01E13.5.mkv"
+            }
+          ]
+        },
+        {
           "mal_id": 49681,
           "nome": "2021 Vivy Fluorite Eye's Song Pilot - ONA",
           "ano": "2021",
@@ -107159,7 +107144,7 @@
           ]
         }
       ],
-      "id": 969
+      "id": 968
     },
     {
       "nome": "W Wish (Double Wish)",
@@ -107232,7 +107217,7 @@
           ]
         }
       ],
-      "id": 970
+      "id": 969
     },
     {
       "nome": "WALL.E",
@@ -107256,7 +107241,7 @@
           ]
         }
       ],
-      "id": 971
+      "id": 970
     },
     {
       "nome": "Wata no Kuni Hoshi (The Star of Cottonland)",
@@ -107293,7 +107278,7 @@
           ]
         }
       ],
-      "id": 972
+      "id": 971
     },
     {
       "nome": "Watashi ga Motenai no wa Dou Kangaete mo Omaera ga Warui!",
@@ -107363,7 +107348,7 @@
           ]
         }
       ],
-      "id": 973
+      "id": 972
     },
     {
       "nome": "Wind A Breath of Heart",
@@ -107462,7 +107447,7 @@
           ]
         }
       ],
-      "id": 974
+      "id": 973
     },
     {
       "nome": "Witchblade",
@@ -107510,7 +107495,7 @@
           ]
         }
       ],
-      "id": 975
+      "id": 974
     },
     {
       "nome": "Wizard Barristers Benmashi Cecil",
@@ -107567,7 +107552,7 @@
           ]
         }
       ],
-      "id": 976
+      "id": 975
     },
     {
       "nome": "Wonderful Days (Sky Blue)",
@@ -107591,7 +107576,7 @@
           ]
         }
       ],
-      "id": 977
+      "id": 976
     },
     {
       "nome": "Wood & Stock",
@@ -107608,7 +107593,7 @@
           "arquivos": []
         }
       ],
-      "id": 978
+      "id": 977
     },
     {
       "nome": "X 1999 (X - The Movie)",
@@ -107671,7 +107656,7 @@
           ]
         }
       ],
-      "id": 979
+      "id": 978
     },
     {
       "nome": "Xiong Bing Lian",
@@ -107809,7 +107794,7 @@
           ]
         }
       ],
-      "id": 980
+      "id": 979
     },
     {
       "nome": "Yagami-kun no Katei no Jijou",
@@ -107839,7 +107824,7 @@
           ]
         }
       ],
-      "id": 981
+      "id": 980
     },
     {
       "nome": "Yamada-kun to 7-nin no Majo",
@@ -107922,7 +107907,7 @@
           ]
         }
       ],
-      "id": 982
+      "id": 981
     },
     {
       "nome": "Yami to Boushi to Hon no Tabibito",
@@ -107995,7 +107980,7 @@
           ]
         }
       ],
-      "id": 983
+      "id": 982
     },
     {
       "nome": "Yao Jing Zhong Zhi Shou Ce",
@@ -108058,7 +108043,7 @@
           ]
         }
       ],
-      "id": 984
+      "id": 983
     },
     {
       "nome": "Yawaraka Sangokushi Tsukisase!! Ryofuko-chan",
@@ -108094,7 +108079,7 @@
           ]
         }
       ],
-      "id": 985
+      "id": 984
     },
     {
       "nome": "Yokohama Kaidashi Kikou",
@@ -108140,7 +108125,7 @@
           ]
         }
       ],
-      "id": 986
+      "id": 985
     },
     {
       "nome": "Yoku Wakaru Gendai Mahou",
@@ -108210,7 +108195,7 @@
           ]
         }
       ],
-      "id": 987
+      "id": 986
     },
     {
       "nome": "Yomigaeru Sora Rescue Wings",
@@ -108296,7 +108281,7 @@
           ]
         }
       ],
-      "id": 988
+      "id": 987
     },
     {
       "nome": "Yosuga no Sora",
@@ -108353,7 +108338,7 @@
           ]
         }
       ],
-      "id": 989
+      "id": 988
     },
     {
       "nome": "Youjo Senki",
@@ -108455,7 +108440,7 @@
           ]
         }
       ],
-      "id": 990
+      "id": 989
     },
     {
       "nome": "Youjuu Toshi (Wicked City)",
@@ -108479,7 +108464,7 @@
           ]
         }
       ],
-      "id": 991
+      "id": 990
     },
     {
       "nome": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
@@ -108601,7 +108586,7 @@
           ]
         }
       ],
-      "id": 992
+      "id": 991
     },
     {
       "nome": "Yozakura Quartet",
@@ -108722,7 +108707,7 @@
           ]
         }
       ],
-      "id": 993
+      "id": 992
     },
     {
       "nome": "Yu Yu Hakusho",
@@ -108847,7 +108832,7 @@
           ]
         }
       ],
-      "id": 994
+      "id": 993
     },
     {
       "nome": "Yume de Aetara",
@@ -108938,7 +108923,7 @@
           ]
         }
       ],
-      "id": 995
+      "id": 994
     },
     {
       "nome": "Yuragi-sou no Yuuna-san",
@@ -108972,7 +108957,7 @@
           ]
         }
       ],
-      "id": 996
+      "id": 995
     },
     {
       "nome": "Yuugo Koushounin (Yugo The Negotiator)",
@@ -109032,7 +109017,7 @@
           ]
         }
       ],
-      "id": 997
+      "id": 996
     },
     {
       "nome": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita",
@@ -109115,7 +109100,7 @@
           ]
         }
       ],
-      "id": 998
+      "id": 997
     },
     {
       "nome": "Yuusha Yamemasu",
@@ -109162,7 +109147,7 @@
           ]
         }
       ],
-      "id": 999
+      "id": 998
     },
     {
       "nome": "Zaion I Wish You Were Here",
@@ -109195,7 +109180,7 @@
           ]
         }
       ],
-      "id": 1000
+      "id": 999
     },
     {
       "nome": "Zegapain",
@@ -109355,7 +109340,7 @@
           ]
         }
       ],
-      "id": 1001
+      "id": 1000
     },
     {
       "nome": "Zero kara Hajimeru Mahou no Sho",
@@ -109474,7 +109459,7 @@
           ]
         }
       ],
-      "id": 1002
+      "id": 1001
     },
     {
       "nome": "Zero no Tsukaima",
@@ -109710,7 +109695,7 @@
           ]
         }
       ],
-      "id": 1003
+      "id": 1002
     },
     {
       "nome": "Zom 100 Zombie ni Naru made ni Shitai 100 no Koto",
@@ -109780,7 +109765,7 @@
           ]
         }
       ],
-      "id": 1004
+      "id": 1003
     },
     {
       "nome": "Zootopia",
@@ -109828,8 +109813,8 @@
           ]
         }
       ],
-      "id": 1005
+      "id": 1004
     }
   ],
-  "ultimaAtualizacao": "2025-12-20T04:33:08.066Z"
+  "ultimaAtualizacao": "2025-12-20T08:18:47.842Z"
 }

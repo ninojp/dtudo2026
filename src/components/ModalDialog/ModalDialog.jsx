@@ -15,6 +15,20 @@ export default function ModalDialog({ isOpen=false, onClose, title="Modal títul
             modalElement.close();
         }
     }, [isOpen]);
+
+    // Impede o scroll do body quando a modal está aberta
+    useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add('modal-open');
+        } else {
+            document.body.classList.remove('modal-open');
+        }
+
+        // Cleanup: remove a classe quando o componente for desmontado
+        return () => {
+            document.body.classList.remove('modal-open');
+        };
+    }, [isOpen]);
     // Handler(manipulador) para click no backdrop (área fora do modal).
     const handleClick = (e) => {
         if (e.target === e.currentTarget) {
