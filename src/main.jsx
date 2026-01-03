@@ -6,18 +6,21 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx';
 import DtudoRouter from './router/DtudoRouter.jsx';
 import { AuthProvider } from './context_api/AuthContext/AuthProvider.jsx';
 import MyAnimesObjsListProvider from './context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider.jsx';
+import AnimesObjsListDetalhesProvider from './context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesProvider.jsx';
 
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <AnimexObjsListProvider>
+        <AuthProvider>
             <MyAnimesObjsListProvider>
-                <AuthProvider>
-                    <DtudoRouter >
-                        <ScrollToTop />
-                    </DtudoRouter>
-                </AuthProvider>
+                <AnimesObjsListDetalhesProvider>
+                    <AnimexObjsListProvider>
+                        <DtudoRouter >
+                            <ScrollToTop />
+                        </DtudoRouter>
+                    </AnimexObjsListProvider>
+                </AnimesObjsListDetalhesProvider>
             </MyAnimesObjsListProvider>
-        </AnimexObjsListProvider>
+        </AuthProvider>
     </StrictMode>
 );

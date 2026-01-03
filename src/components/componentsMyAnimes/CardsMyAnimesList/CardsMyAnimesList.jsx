@@ -7,6 +7,7 @@ import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
 import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
+import FiltrarPorGenero from '../../FiltrarPorGenero/FiltrarPorGenero';
 
 export default function CardsMyAnimesList() {
     const { listObjsMyAnimes } = useContext(MyAnimesObjsListContext);
@@ -54,6 +55,7 @@ export default function CardsMyAnimesList() {
                 options={[12, 24, 48, 96]}
                 textoParagrafo='Esta é uma seção para listar por ordem alfabetica todos as minhas animações.'
             />
+            <FiltrarPorGenero />
             <div className={styles.divContainerListaCardsMyaAnimes}>
                 {paginatedItems.map((item) => (
                     <CardMyAnimes
