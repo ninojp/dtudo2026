@@ -7,36 +7,36 @@ import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
 import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
-import AnimesObjsListDetalhesContext from '../../../context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesContext';
-import FiltrarPorGenero from '../../FiltrarPorGenero/FiltrarPorGenero';
 
 export default function CardsMyAnimesList() {
+    //Contexto, lista completa MyAnimes (json-server: http://localhost:3666/animacoes)
     const { listObjsMyAnimes } = useContext(MyAnimesObjsListContext);
     const navigate = useNavigate();
+    //Paginação, estado local
     const [page, setPage] = useState(1);
     const [limit, setLimit] = useState(48);
-    const [searchTerm, setSearchTerm] = useState('');
+    //Modal, subpastas, item selecionado
     const [selectedItem, setSelectedItem] = useState(null);
-
+    //Busca
+    const [searchTerm, setSearchTerm] = useState('');
     const filteredItems = useMemo(() => {
         if (!searchTerm) return listObjsMyAnimes;
         return listObjsMyAnimes.filter(item =>
             String(item.nome).toLowerCase().includes(searchTerm.toLowerCase())
         );
     }, [listObjsMyAnimes, searchTerm]);
-
+    //Paginação, cálculo totalPages e itens paginados
     const totalPages = Math.max(1, Math.ceil(filteredItems.length / limit));
-
     const paginatedItems = useMemo(() => {
         const start = (page - 1) * limit;
         return filteredItems.slice(start, start + limit);
     }, [filteredItems, page, limit]);
-
+    //Função de busca
     const handleSearch = useCallback((valor) => {
         setSearchTerm(valor);
         setPage(1);
     }, []);
-
+    //Função ao clicar na imagem do card
     const handleImageClick = (item) => {
         // Se não houver subpastas, navega para a página de detalhes.
         if (!item.subpastas || item.subpastas.length === 0) {
@@ -46,29 +46,6 @@ export default function CardsMyAnimesList() {
             setSelectedItem(item);
         }
     };
-    //===================================================================================
-    // const { listObjsDetalhesAnimes, isLoading } = useContext(AnimesObjsListDetalhesContext);
-    // const [generoSelecionado, setGeneroSelecionado] = useState('');
-
-    // const generosUnicos = useMemo(() => {
-    //     if (listObjsDetalhesAnimes.length > 0) {
-    //         const allGenres = listObjsDetalhesAnimes.flatMap(anime => anime.genres || []);
-    //         return [...new Set(allGenres.map(g => g.name))];
-    //     }
-    //     return [];
-    // }, [listObjsDetalhesAnimes]);
-
-    // const animesFiltrados = useMemo(() => {
-    //     return generoSelecionado
-    //         ? listObjsDetalhesAnimes.filter(anime =>
-    //             anime.genres && anime.genres.some(g => g.name === generoSelecionado)
-    //         )
-    //         : [];
-    // }, [listObjsDetalhesAnimes, generoSelecionado]);
-
-    // if (isLoading) {
-    //     return <div>Loading...</div>;
-    // }
     //=======================================================
     return (
         <main className={styles.mainCardsMyAnimesList}>
@@ -78,7 +55,6 @@ export default function CardsMyAnimesList() {
                 onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
                 options={[12, 24, 48, 96]}
             />
-            <FiltrarPorGenero />
             <div className={styles.divContainerListaCardsMyaAnimes}>
                 {paginatedItems.map((item) => (
                     <CardMyAnimes

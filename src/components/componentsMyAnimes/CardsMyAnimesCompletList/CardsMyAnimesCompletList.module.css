@@ -1,0 +1,27 @@
+.mainCardsMyAnimesList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divContainerListaCardsMyaAnimes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    row-gap: 3rem;
+    padding: 1rem;
+}
+.pListMiniAnimes{
+    max-height: 100px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 1rem;
+}
+.imgListMiniAnimes{
+    width: 70px;
+    height: 100px;
+}
