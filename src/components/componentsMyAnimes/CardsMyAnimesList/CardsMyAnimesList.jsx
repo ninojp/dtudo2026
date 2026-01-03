@@ -7,6 +7,7 @@ import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
 import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
+import AnimesObjsListDetalhesContext from '../../../context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesContext';
 import FiltrarPorGenero from '../../FiltrarPorGenero/FiltrarPorGenero';
 
 export default function CardsMyAnimesList() {
@@ -45,6 +46,29 @@ export default function CardsMyAnimesList() {
             setSelectedItem(item);
         }
     };
+    //===================================================================================
+    // const { listObjsDetalhesAnimes, isLoading } = useContext(AnimesObjsListDetalhesContext);
+    // const [generoSelecionado, setGeneroSelecionado] = useState('');
+
+    // const generosUnicos = useMemo(() => {
+    //     if (listObjsDetalhesAnimes.length > 0) {
+    //         const allGenres = listObjsDetalhesAnimes.flatMap(anime => anime.genres || []);
+    //         return [...new Set(allGenres.map(g => g.name))];
+    //     }
+    //     return [];
+    // }, [listObjsDetalhesAnimes]);
+
+    // const animesFiltrados = useMemo(() => {
+    //     return generoSelecionado
+    //         ? listObjsDetalhesAnimes.filter(anime =>
+    //             anime.genres && anime.genres.some(g => g.name === generoSelecionado)
+    //         )
+    //         : [];
+    // }, [listObjsDetalhesAnimes, generoSelecionado]);
+
+    // if (isLoading) {
+    //     return <div>Loading...</div>;
+    // }
     //=======================================================
     return (
         <main className={styles.mainCardsMyAnimesList}>
@@ -53,7 +77,6 @@ export default function CardsMyAnimesList() {
                 value={limit}
                 onChange={(newLimit) => { setLimit(newLimit); setPage(1); }}
                 options={[12, 24, 48, 96]}
-                textoParagrafo='Esta é uma seção para listar por ordem alfabetica todos as minhas animações.'
             />
             <FiltrarPorGenero />
             <div className={styles.divContainerListaCardsMyaAnimes}>
@@ -70,20 +93,20 @@ export default function CardsMyAnimesList() {
                 totalPages={totalPages}
                 onPageChange={setPage}
             />
-            {selectedItem && ( <ModalDialog
-                    isOpen={!!selectedItem}
-                    onClose={() => setSelectedItem(null)}
-                    title={selectedItem.nome}
-                >
-                    {selectedItem.subpastas && selectedItem.subpastas.map(item => (
-                        <Link key={item.nome} to={`/myanimes/myanimes-detalhes/${selectedItem.slug}`} target='_blank'>
-                            <p className={styles.pListMiniAnimes}>
-                                <img className={styles.imgListMiniAnimes} src={`/myanimes/animes/${item.mal_id}.jpg`} alt={item.nomeSemAno} />
-                                {item.nome}
-                            </p>
-                        </Link>
-                    ))}
-                </ModalDialog>
+            {selectedItem && (<ModalDialog
+                isOpen={!!selectedItem}
+                onClose={() => setSelectedItem(null)}
+                title={selectedItem.nome}
+            >
+                {selectedItem.subpastas && selectedItem.subpastas.map(item => (
+                    <Link key={item.nome} to={`/myanimes/myanimes-detalhes/${selectedItem.slug}`} target='_blank'>
+                        <p className={styles.pListMiniAnimes}>
+                            <img className={styles.imgListMiniAnimes} src={`/myanimes/animes/${item.mal_id}.jpg`} alt={item.nomeSemAno} />
+                            {item.nome}
+                        </p>
+                    </Link>
+                ))}
+            </ModalDialog>
             )}
         </main>
     );

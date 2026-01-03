@@ -11,7 +11,7 @@ export default function AnimesObjsListDetalhesProvider({ children }) {
         try {
             const response = await axiosHttpRequest.get('/animesDetalhes');
             setListObjsDetalhesAnimes(response.data);
-            console.log("Dados fetchAllObjsDetalhesAnimes: ", response.data);
+            // console.log("Dados fetchAllObjsDetalhesAnimes: ", response.data);
             return response.data;
         } catch (error) {
             console.error("Erro ao buscar objetos AnimesDetalhes: ", error);
