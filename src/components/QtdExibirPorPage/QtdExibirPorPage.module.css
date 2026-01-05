@@ -1,9 +1,11 @@
-.divContainerParagQtd{
-    width: 100%;
+.containerParagQtd{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 4rem 0px 4rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 .labelQtdPorPg {
     font-size: 1rem;
@@ -14,12 +16,12 @@
     color: #ffffff;
     border: 0.1px solid #0d4386;
     border-radius: 4px;
-    padding: '4px 8px';
+    padding: 2px 4px;
     font-size: 0.9rem;
     cursor: pointer;
 }
 
 .spanQtdPorPg {
     font-size: 1rem;
-    padding: 0 0.3rem;
+    font-weight: 700;
 }

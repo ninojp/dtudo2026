@@ -1,4 +1,4 @@
-.fieldsetCampoBuscar{
+.fieldsetCampoBuscar {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,23 +7,29 @@
     position: relative;
     border: none;
 }
-.inputCampoBuscar{
+
+.inputCampoBuscar {
     padding: 10px 20px 10px 62px;
     border-radius: 32px;
-    font-size: 14pt;
+    font-size: 1rem;
     min-width: 450px;
     line-height: 20px;
     outline: transparent;
-    border: 1px solid transparent;
-}
-.inputCampoBuscar::placeholder{
-    text-align: center;
-}
-.inputCampoBuscar:hover{
-    border: 1px solid #fff;
+    /* border: 1px solid transparent; */
+    background-color: #041832;
+    color: #ffffff;
+    border: 0.1px solid #0d4386;
 }
 
-.fieldsetCampoBuscar::after{
+.inputCampoBuscar::placeholder {
+    text-align: center;
+}
+
+.inputCampoBuscar:hover {
+    border: 0.1px solid #fff;
+}
+
+.fieldsetCampoBuscar::after {
     content: '';
     position: absolute;
     top: 75%;
@@ -37,7 +43,8 @@
     height: 20px;
     margin-left: 3px;
 }
-.labelInput{
+
+.labelInput {
     font-size: 1rem;
     padding: 0.5rem;
 }

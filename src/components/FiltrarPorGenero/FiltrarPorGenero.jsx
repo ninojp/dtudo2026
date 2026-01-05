@@ -6,28 +6,31 @@ export default function FiltrarPorGenero({ generoSelecionado, setGeneroSeleciona
     const { listObjsDetalhesAnimes } = useContext(AnimesObjsListDetalhesContext);
     const generosUnicos = useMemo(() => {
         if (listObjsDetalhesAnimes.length > 0) {
-            const allGenres = listObjsDetalhesAnimes.flatMap(anime => anime.genres || []);
-            return [...new Set(allGenres.map(g => g.name))];
+            // Extrai todos os genres, explicit_genres, themes, demographics e cria um conjunto único
+            const allGenres = listObjsDetalhesAnimes.flatMap(anime => [
+                ...(anime.genres || []).map(g => g.name),
+                ...(anime.explicit_genres || []).map(g => g.name),
+                ...(anime.themes || []).map(t => t.name),
+                ...(anime.demographics || []).map(d => d.name)
+            ]);
+            return [...new Set(allGenres)].sort();
         }
         return [];
     }, [listObjsDetalhesAnimes]);
     //=======================================================
     return (
-        <div className={styles.divContainerFiltroGenero}>
-            <div className={styles.divFiltrarGenero}>
-                <h4>Filtrar por Gênero</h4>
-                <select className={styles.selectGenero}
-                    value={generoSelecionado}
-                    onChange={(e) => setGeneroSelecionado(e.target.value)}
-                >
-                    <option value="">Selecione um gênero</option>
-                    {generosUnicos.map(genero => (
-                        <option key={genero} value={genero}>
-                            {genero}
-                        </option>
-                    ))}
-                </select>
-            </div>
+        <div className={styles.divFiltrarGenero}>
+            <select name='selectGenero' className={styles.selectOptionsGenero}
+                value={generoSelecionado}
+                onChange={(e) => setGeneroSelecionado(e.target.value)}
+            >
+                <option value="">Gênero</option>
+                {generosUnicos.map(genero => (
+                    <option key={genero} value={genero}>
+                        {genero}
+                    </option>
+                ))}
+            </select>
         </div>
     );
 };
