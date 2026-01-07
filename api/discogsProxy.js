@@ -10,7 +10,6 @@ const PORT = process.env.PORT || 4000;
 const DISCOGS_TOKEN = process.env.DISCOGS_TOKEN || process.env.VITE_DISCOGS_TOKEN;
 
 app.use(express.json());
-
 // Simple CORS and preflight handling
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
@@ -19,7 +18,6 @@ app.use((req, res, next) => {
   if (req.method === 'OPTIONS') return res.sendStatus(200);
   next();
 });
-
 // Endpoint to search for artists
 app.get('/api/discogs/artists', async (req, res) => {
   try {
@@ -35,13 +33,11 @@ app.get('/api/discogs/artists', async (req, res) => {
     // Buscar artistas no Discogs, ordenados por relevância
     const artistResponse = await axios.get('https://api.discogs.com/database/search', { params: artistSearchParams, headers });
     const artistResults = artistResponse.data.results || [];
-
     // Retornar lista de artistas com id e title
     const artists = artistResults.map(result => ({
       id: result.id,
       title: result.title,
     }));
-
     res.status(200).json({ artists });
   } catch (err) {
     console.error('Discogs artists search error:', err.message || err);
@@ -59,18 +55,14 @@ app.get('/api/discogs/search', async (req, res) => {
     const params = { ...req.query };
     const headers = {};
     if (DISCOGS_TOKEN) headers['Authorization'] = `Discogs token=${DISCOGS_TOKEN}`;
-
     if (!params.artistId) {
       return res.status(400).json({ error: 'artistId is required' });
     }
-
     const artistId = params.artistId;
-
     // Buscar os releases do artista
     const releasesResponse = await axios.get(`https://api.discogs.com/artists/${artistId}/releases`, { params: { per_page: 100 }, headers });
-    console.log('Releases response data:', releasesResponse.data);
+    // console.log('Releases response data:', releasesResponse.data);
     let releases = releasesResponse.data.releases || [];
-
     // Aplicar filtros conforme regras
     releases = releases.filter(item => {
       // Para releases, verificar artists array; para masters, verificar item.artist e item.role
@@ -89,97 +81,51 @@ app.get('/api/discogs/search', async (req, res) => {
         isMain = item.role === 'Main';
         artistName = item.artist;
       }
-
       if (!isMain) return false;
-
       // type: 'master' sempre inclui, 'release' só se cumprir outras
       if (item.type === 'master') return true;
       if (item.type !== 'release') return false;
-
       // thumb não vazio
       if (!item.thumb) return false;
-
       // year não vazio
       if (!item.year) return false;
-
-      // artist name: 'Racionais MCs' ou começa com 'Racionais'
+      // artist name: 'nomeArtista' ou começa com 'nomeArtista'
       if (artistName !== 'Racionais MCs' && !artistName.startsWith('Racionais')) return false;
 
       return true;
     });
+    // Prepare the final list of items
+    const allItems = releases.map(item => ({
+      id: item.id,
+      master_id: item.master_id,
+      title: item.title,
+      year: item.year,
+      thumb: item.thumb || null,
+      resource_url: item.resource_url,
+      formats: item.formats || item.format || [],
+      type: item.type,
+    }));
 
-    console.log('Filtered releases count:', releases.length);
-
-    // Categorizar resultados por tipo de formato
-    const formatCategories = {
-      'Releases': [],
-      'Albums': [],
-      'Singles & EPs': [],
-      'Compilations': [],
-    };
-
-    releases.forEach(item => {
-      // Normalize formats to array of strings
-      let formats = [];
-      if (item.format && Array.isArray(item.format)) {
-        formats = item.format;
-      } else if (item.formats && Array.isArray(item.formats)) {
-        formats = item.formats.flatMap(f => [f.name, ...(f.descriptions || [])]);
-      } else if (item.format) {
-        formats = [item.format];
-      }
-
-      // Determine category
-      let category = 'Releases';
-      if (formats.some(f => /Compilation/i.test(f))) category = 'Compilations';
-      else if (formats.some(f => /Single/i.test(f) || /EP/i.test(f))) category = 'Singles & EPs';
-      else if (formats.some(f => /Album/i.test(f))) category = 'Albums';
-
-      formatCategories[category].push({
-        id: item.id,
-        master_id: item.master_id,
-        title: item.title,
-        year: item.year,
-        thumb: item.thumb || null,
-        resource_url: item.resource_url,
-        formats: formats,
-      });
-    });
-
-    const summary = {};
-    Object.entries(formatCategories).forEach(([name, arr]) => {
-      summary[name] = arr.length;
-    });
-    summary.Total = Object.values(summary).reduce((s, v) => s + v, 0);
-
-    // Fazemos de forma sequencial para reduzir risco de rate limit
-    const enrichMissingThumbs = async () => {
-      const categoryNames = Object.keys(formatCategories);
-      for (const cname of categoryNames) {
-        const items = formatCategories[cname];
-        for (let i = 0; i < items.length; i++) {
-          const it = items[i];
-          if (it.thumb) continue;
-          try {
-            const resourceUrl = it.resource_url.startsWith('http') ? it.resource_url : `https://api.discogs.com${it.resource_url}`;
-            const rResp = await axios.get(resourceUrl, { headers });
-            it.thumb = rResp.data.cover_image || (rResp.data.images && rResp.data.images[0] && rResp.data.images[0].uri) || it.thumb;
-          } catch (e) {
-            console.warn('Enrich thumb failed for', it.title, e.message || e);
-          }
-          // small delay to be polite (50ms)
-          await new Promise(r => setTimeout(r, 50));
+    //REMOVER esta parte do codigo!
+    //Enrich missing thumbs sequentially
+    for (const item of allItems) {
+      if (!item.thumb) {
+        try {
+          const resourceUrl = item.resource_url.startsWith('http') ? item.resource_url : `https://api.discogs.com${item.resource_url}`;
+          const rResp = await axios.get(resourceUrl, { headers });
+          item.thumb = rResp.data.cover_image || (rResp.data.images && rResp.data.images[0] && rResp.data.images[0].uri) || item.thumb;
+        } catch (e) {
+          console.warn('Enrich thumb failed for', item.title, e.message || e);
         }
+        // Small delay to be polite
+        await new Promise(r => setTimeout(r, 50));
       }
-    };
-
-    await enrichMissingThumbs();
-
-    // Organizar resposta com contagem por categoria
+    }
+    // Organize response with total count
     const organizedResults = {
-      artist: params.artistName || `Artist ${artistId}`, // Usar artistName se passado, senão placeholder
-      categories: formatCategories,
-      summary,
+      artist: params.artistName || `Artist ${artistId}`,
+      items: allItems,
+      summary: { Total: allItems.length },
     };
 
     res.status(200).json(organizedResults);
@@ -196,34 +142,31 @@ app.get('/api/discogs/search', async (req, res) => {
 // Endpoint to save artist data to local JSON
 app.post('/api/discogs/save', (req, res) => {
   try {
-    const { artist, categories } = req.body;
-    if (!artist || !categories) {
-      return res.status(400).json({ error: 'Missing artist or categories data' });
+    const { artist, items } = req.body;
+    if (!artist || !items) {
+      return res.status(400).json({ error: 'Missing artist or items data' });
     }
 
     const dbPath = path.join(process.cwd(), 'api', 'db', 'cdsDB.json');
-    let dbData = { cdsBD: [] };
+    let dbData = { cdsDB: [] };
     if (fs.existsSync(dbPath)) {
       const dbContent = fs.readFileSync(dbPath, 'utf8');
       dbData = JSON.parse(dbContent);
     }
 
     // Check if artist already exists
-    const existingIndex = dbData.cdsBD.findIndex(item => item.artist.toLowerCase() === artist.toLowerCase());
+    const existingIndex = dbData.cdsDB.findIndex(item => item.artist.toLowerCase() === artist.toLowerCase());
     const artistData = {
       artist,
-      Albums: categories.Albums || [],
-      Compilations: categories.Compilations || [],
-      Releases: categories.Releases || [],
-      "Singles & EPs": categories["Singles & EPs"] || []
+      items: items || []
     };
 
     if (existingIndex !== -1) {
       // Update existing
-      dbData.cdsBD[existingIndex] = artistData;
+      dbData.cdsDB[existingIndex] = artistData;
     } else {
       // Add new
-      dbData.cdsBD.push(artistData);
+      dbData.cdsDB.push(artistData);
     }
 
     fs.writeFileSync(dbPath, JSON.stringify(dbData, null, 2));

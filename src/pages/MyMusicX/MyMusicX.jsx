@@ -74,7 +74,7 @@ export default function MyMusicX() {
             const saveUrl = 'http://localhost:4000/api/discogs/save';
             await axios.post(saveUrl, {
                 artist: data.artist,
-                categories: data.categories
+                items: data.items
             });
             alert('Dados salvos com sucesso!');
         } catch (err) {
@@ -130,35 +130,28 @@ export default function MyMusicX() {
                 
                 {results && (
                     <section className={styles.sectionResultadosCds}>
-                        <h4>Discografia de {results.artist}</h4>
-                        <ButtonPadrao 
-                            styleExterno={styles.btnSalvarDados} 
-                            onClick={() => handleSave(results)}
-                        >
-                            Salvar Dados do Artista
-                        </ButtonPadrao>
-                        {/* Exibir categorias de resultados */}
-                        {Object.entries(results.categories).map(([categoryName, items]) => (
-                            items.length > 0 && (
-                                <div key={categoryName} style={{ marginBottom: '2rem' }}>
-                                    <h3>{categoryName} ({items.length})</h3>
-                                    <div className={styles.divContainerCardsCds}>
-                                        {items.map((r, index) => {
-                                            const uniqueKey = `${r.id}-${index}`;
-                                            return (
-                                                <CardCD
-                                                    key={uniqueKey}
-                                                    cdTitulo={r.title}
-                                                    cdImgSrc={r.thumb}
-                                                    cdAno={r.year}
-                                                    cdVersions={1} // Sem deduplicação, cada item é único
-                                                />
-                                            );
-                                        })}
-                                    </div>
-                                </div>
-                            )
-                        ))}
+                        <div className={styles.divContainerBtnSalvar}>
+                            <h4>Discografia de {results.artist} ({results.summary.Total} itens)</h4>
+                            <ButtonPadrao 
+                                styleExterno={styles.btnSalvarDados} 
+                                onClick={() => handleSave(results)}
+                            >
+                                Salvar Dados do Artista
+                            </ButtonPadrao>
+                        </div>
+                        <div className={styles.divContainerCardsCds}>
+                            {results.items.map((r, index) => {
+                                const uniqueKey = `${r.id}-${index}`;
+                                return (
+                                    <CardCD
+                                        key={uniqueKey}
+                                        cdTitulo={r.title}
+                                        cdImgSrc={r.thumb}
+                                        cdAno={r.year}
+                                    />
+                                );
+                            })}
+                        </div>
                     </section>
                 )}
             </main>

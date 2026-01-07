@@ -1,152 +1,171 @@
 {
-  "cdsBD": [
+  "cdsDB": [
     {
-      "artist": "Baia & Rockboys",
-      "Albums": [
+      "artist": "Racionais MC's",
+      "items": [
         {
-          "id": 27529317,
-          "master_id": null,
-          "title": "Na Fé",
-          "year": "1996",
-          "thumb": "https://i.discogs.com/sjW7l-4fsZe8G814zgSs2FVCT8ySc1RmeOBKr0oVWaM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTI5/MzE3LTE2ODgwNTY3/NTYtMTIzNi5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/27529317",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
+          "id": 430849,
+          "title": "Holocausto Urbano",
+          "year": 1990,
+          "thumb": "https://i.discogs.com/6cmht7oIFEkNSmY46hHT8bXJDLBN2CgBh3AVxlyiwpg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTQ5/NTItMTQ1OTk3MjM0/NS05MDIzLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/430849",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 12560650,
-          "master_id": null,
-          "title": "Overdose De Lucidez",
-          "year": "1997",
-          "thumb": "https://i.discogs.com/2ZK456EkNY377Ck-fk4Jjc5Jn4LAtODZczV4Gvwsy88/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTYw/NjUwLTE1Mzc2MzE5/OTktOTMwMS5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/12560650",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
+          "id": 266287,
+          "title": "Escolha O Seu Caminho",
+          "year": 1992,
+          "thumb": "https://i.discogs.com/0MH68uZnjzyhYoHrFWsSCajyO0GEsIso43JLbw_BTcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDQ0/Ny0xNDk2NzEyODYx/LTgyOTguanBlZw.jpeg",
+          "resource_url": "https://api.discogs.com/masters/266287",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 27529089,
-          "master_id": null,
-          "title": "Entrada De Emergência",
-          "year": "2001",
-          "thumb": "https://i.discogs.com/OO5TyKJ2fBoMJdKWbNlmyxFw2HaaZ4Gwk2AaiSY9r7Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTI5/MDg5LTE2ODgwNTU0/MDktNjUxMi5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/27529089",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
-        }
-      ],
-      "Compilations": [],
-      "Releases": [],
-      "Singles & EPs": []
-    },
-    {
-      "artist": "Bandaliera",
-      "Albums": [
-        {
-          "id": 7451339,
-          "master_id": null,
-          "title": "Nosso Lado Animal",
-          "year": "1987",
-          "thumb": "https://i.discogs.com/jC-UNEQK1gd7Aa_MgnopP99CO6WbQ_kNVrJZI_ByF8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTEz/MzktMTQ0MTc0ODc5/My02NDA3LmpwZWc.jpeg",
-          "uri": "https://api.discogs.com/releases/7451339",
-          "formats": [
-            "Vinyl",
-            "LP",
-            "Album"
-          ],
-          "versions": 1
+          "id": 1046838,
+          "title": "Raio X Brasil - Liberdade De Expressão",
+          "year": 1993,
+          "thumb": "https://i.discogs.com/5aVY1vWHjhp3mFBX3dvJYglGK5AfRtHxr78ll5V8sxo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDQ1/NC0xNDk2MTIwMjUz/LTc4NTIuanBlZw.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1046838",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 15661814,
-          "master_id": 1785286,
+          "id": 2571464,
+          "title": "Fim De Semana No Parque",
+          "year": 1994,
+          "thumb": "https://i.discogs.com/gzhMbJSnJIDI0EOXwW2zl8hHjCa5bXz4OU1R5ptqxLA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDQy/MDMtMTQ5NjAzMTc5/MC00MzgxLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/2571464",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 745142,
+          "title": "Racionais MC's",
+          "year": 1994,
+          "thumb": "https://i.discogs.com/38A9ftpuTJJmsIbCqVqk9-_EGWSxN2H4BWGWQaISmE0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTMw/MDg3LTE1ODgwNDk4/OTMtNjk3Ni5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/745142",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 4318890,
+          "title": "The Best Of Racionais Mc's",
+          "year": 1996,
+          "thumb": "https://i.discogs.com/y0bcWyl3O_AuDYkkO7Jum9cLTah9py4jPLJFyp58CrQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTg4/OTAtMTQ5NjExMjQ4/OC0xMjU1LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/4318890",
+          "formats": "LP, Comp",
+          "type": "release"
+        },
+        {
+          "id": 719701,
+          "title": "Sobrevivendo No Inferno",
+          "year": 1997,
+          "thumb": "https://i.discogs.com/RcBlBxsSDZjw973KUFYXNGBVVBHB8BOAYnNuV-Pzq1g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MDQw/MDktMTM5Nzc2MDIz/My0yMjI4LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/719701",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 1048289,
           "title": "Ao Vivo",
-          "year": "1992",
-          "thumb": "https://i.discogs.com/-pSjdaFvGBGVSmi0aeohq9KHfXBOHm0Ydh2H7lFEHyE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjYx/ODE0LTE1OTU0NDc5/NTAtODM2OC5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/15661814",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 2
+          "year": 2001,
+          "thumb": "https://i.discogs.com/3esLgXMd8pd2q-lIxVjCDvKyNsGNpK-fCDssYf_40tM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5NTUy/NjItMTU3OTc1NDMz/Ni03NTY3LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1048289",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 12224685,
-          "master_id": null,
-          "title": "Estação De Pedro",
-          "year": "1993",
-          "thumb": "https://i.discogs.com/wW1bzDEgHFVzwKUH6DojzO3W9AaDfZfOlqVfNAHq1Lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjI0/Njg1LTE1MzA4NzI5/NTgtNjc5MS5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/12224685",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
+          "id": 430850,
+          "title": "Nada Como Um Dia Após O Outro Dia",
+          "year": 2002,
+          "thumb": "https://i.discogs.com/FpYpDZOtx5yITMQwK6gI6M1pSXpgg089SK_YS8XZxfo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTAy/Mi0xNTg4MjIyMTk0/LTk3NTIuanBlZw.jpeg",
+          "resource_url": "https://api.discogs.com/masters/430850",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 12283131,
-          "master_id": null,
-          "title": "15 Anos",
-          "year": "1998",
-          "thumb": "https://i.discogs.com/39gDDRo8MQSbxq8PFwuHuWOM44t_2l5TVDJCBrPIfhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MTMxLTE1MzIxMTU5/MzQtNjYzMS5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/12283131",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
+          "id": 1072432,
+          "title": "1000 Trutas 1000 Tretas",
+          "year": 2006,
+          "thumb": "https://i.discogs.com/QGaYUO6wDtsf26196hQiYeJCCh-IN7t2iEn3Q94s0dk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Njg4/NzQtMTU4ODEyNjk0/MS02NDUxLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1072432",
+          "formats": [],
+          "type": "master"
         },
         {
-          "id": 12283208,
-          "master_id": null,
-          "title": "Bye Flowers",
-          "year": "2000",
-          "thumb": "https://i.discogs.com/x4ErEnUo9ClcVz9Ux1MtNSMl9tUQkzi6njOpHqMbve4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MjA4LTE1MzIxMTc1/NzktNjE5Ny5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/12283208",
-          "formats": [
-            "CD",
-            "Album"
-          ],
-          "versions": 1
+          "id": 6350850,
+          "title": "Quanto Vale O Show",
+          "year": 2014,
+          "thumb": "https://i.discogs.com/FJiFFGN9uTTw7NWf6QREdpBCgs-c0MfmGsnShz3X0N8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNTA4/NTAtMTQxNzEwNzk5/Mi03MDUwLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/6350850",
+          "formats": "File, MP3, Single, 320",
+          "type": "release"
         },
         {
-          "id": 11603114,
-          "master_id": null,
-          "title": "20 Anos",
-          "year": "2002",
-          "thumb": "https://i.discogs.com/GF1GJApkh-T5Q7QIZCHOEv1fYVD4H-uJ2fo4G7LfSkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjAz/MTE0LTE1MTkyNDYz/MzctNzQxNi5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/11603114",
-          "formats": [
-            "CD",
-            "Album",
-            "Promo"
-          ],
-          "versions": 1
+          "id": 1727010,
+          "title": "Racionais MC's 25",
+          "year": 2014,
+          "thumb": "https://i.discogs.com/4Q2Z_t9lKPBV57qd_7kFO2_IdnFScP7rgW4-G5fS8Bw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTk5/MTg2LTE1MTkxNzY2/ODYtNjM3NC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1727010",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 786448,
+          "title": "Cores & Valores",
+          "year": 2014,
+          "thumb": "https://i.discogs.com/T4YGi4_o8IAERSvpLz1-WR8QlRd7ZCKPv8Y-TVQjRyo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1NDg3/NjMtMTQzNzQ1MDk2/MC0yODEyLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/786448",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 8941062,
+          "title": "Mil Faces De Um Homem Leal (Marighella)",
+          "year": 2017,
+          "thumb": "https://i.discogs.com/hE_z3FI65Bv75zZzEpAsIsnQDwDoXvV6MBHdKP_4kkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5NDEw/NjItMTYxODIwMzkz/NS0yNzczLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/8941062",
+          "formats": "File, MP3, Single, 320",
+          "type": "release"
+        },
+        {
+          "id": 17253439,
+          "title": "Racionais MC's",
+          "year": 2020,
+          "thumb": "https://i.discogs.com/Cgj6JATREJ9AQDtyv82qr5er_AufrolhCkd8QD3smDU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MjUz/NDM5LTE2MTI0NTQ1/OTYtMjIwNC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/17253439",
+          "formats": "Box, Comp, Dlx + LP, Album, RE, RM + LP, EP, RE, R",
+          "type": "release"
+        },
+        {
+          "id": 25745833,
+          "title": "Vida Loka P2 (Kallendario Remix)",
+          "year": 2022,
+          "thumb": "https://i.discogs.com/poUZaFCJ1_vQ3YRPOIhkSAJtMp4xSl99LxsUBIGhbYM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NzQ1/ODMzLTE2NzM1NDMy/MTMtMTk3OC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/25745833",
+          "formats": "File, MP3, Single, 256",
+          "type": "release"
+        },
+        {
+          "id": 29275087,
+          "title": "3 Décadas (Ao Vivo)",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/46XGBraN_BJa0XZPFYTebF2jmZICuFi0nBPZaih0bNc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Mjc1/MDg3LTE3MDMyNDkw/NDgtODc4OS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/29275087",
+          "formats": "22xFile, AAC, Album, 256",
+          "type": "release"
+        },
+        {
+          "id": 36002461,
+          "title": "Sobrevivendo No Inferno",
+          "year": 2025,
+          "thumb": "https://i.discogs.com/kklVx6CHA2uDzpvhNupZhjbkfAyswz9xxmrb-ESWlJI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MDAy/NDYxLTE3NjY1MTU5/MTUtNTE1MS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/36002461",
+          "formats": "2xLP, Album, Dlx, RE, Box",
+          "type": "release"
         }
-      ],
-      "Compilations": [],
-      "Releases": [
-        {
-          "id": 31826648,
-          "master_id": null,
-          "title": "Demo CD",
-          "year": "1997",
-          "thumb": "https://i.discogs.com/USJUV741GzekPnM0gCRUwL7L8h1AcJRoPqvgDGGkDBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODI2/NjQ4LTE3MjczNjMw/MzgtNjU0OC5qcGVn.jpeg",
-          "uri": "https://api.discogs.com/releases/31826648",
-          "formats": [
-            "CDr"
-          ],
-          "versions": 1
-        }
-      ],
-      "Singles & EPs": []
+      ]
     }
   ]
 }

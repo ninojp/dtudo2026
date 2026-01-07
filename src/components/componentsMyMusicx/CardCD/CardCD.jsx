@@ -1,7 +1,7 @@
 import styles from './CardCD.module.css';
 import notaFireMusical from '/mymusicx/NotaMusica.png';
 
-export default function CardCD({ cdTitulo, cdImgSrc, cdAno, cdVersions }) {
+export default function CardCD({ cdTitulo, cdImgSrc, cdAno }) {
     const thumb = cdImgSrc || notaFireMusical;
     return (
         <article className={styles.animesCardArticle}>
@@ -16,7 +16,6 @@ export default function CardCD({ cdTitulo, cdImgSrc, cdAno, cdVersions }) {
             </figure>
             <div className={styles.divContainerData}>
                 <span className={styles.pTextoData}>{cdAno}</span>
-                {cdVersions && <div style={{ fontSize: '0.75rem', color: '#666' }}>{cdVersions} versões</div>}
             </div>
         </article>
     );

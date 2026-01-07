@@ -3,8 +3,8 @@ import path from 'path';
 import axios from 'axios';
 import process from 'process';
 
-const dbPath = path.join(process.cwd(), 'api', 'db', 'cdsDB.json');
-const baseDir = 'E:\\DiscografiasPastas';   
+const dbPath = path.join(process.cwd(), 'db', 'cdsDB.json');
+const baseDir = 'E:\\DiscografiasPasta';   
 
 // Função para criar pastas recursivamente
 function createDir(dirPath) {
@@ -12,7 +12,6 @@ function createDir(dirPath) {
         fs.mkdirSync(dirPath, { recursive: true });
     }
 }
-
 // Função para baixar imagem
 async function downloadImage(url, filePath) {
     const headers = {
@@ -45,37 +44,19 @@ async function downloadImage(url, filePath) {
         }
     }
 }
-
-// Função para mapear categoria para nome
-function getCategoryName(category) {
-    const map = {
-        'Albums': 'Album',
-        'Compilations': 'Compilation',
-        'Releases': 'Release',
-        'Singles & EPs': 'Single'
-    };
-    return map[category] || category;
-}
-
 // Ler o JSON
 const dbData = JSON.parse(fs.readFileSync(dbPath, 'utf8'));
-
 // Processar cada artista
-for (const artistData of dbData.cdsBD) {
+for (const artistData of dbData.cdsDB) {
     const artistDir = path.join(baseDir, artistData.artist);
     createDir(artistDir);
-
     // Processar cada categoria
     for (const [category, items] of Object.entries(artistData)) {
         if (category === 'artist' || !Array.isArray(items)) continue;
-
-        const categoryName = getCategoryName(category);
-
         for (const item of items) {
-            const folderName = `${item.year || 'Unknown'} - ${item.title} - ${categoryName}`;
+            const folderName = `${item.year || 'Unknown'} - ${item.title}`;
             const itemDir = path.join(artistDir, folderName);
             createDir(itemDir);
-
             // Baixar thumb se existir
             if (item.thumb) {
                 const imagePath = path.join(itemDir, `${item.id}.jpg`);
@@ -85,5 +66,4 @@ for (const artistData of dbData.cdsBD) {
         }
     }
 }
-
 console.log('Estrutura de pastas criada com sucesso!');
