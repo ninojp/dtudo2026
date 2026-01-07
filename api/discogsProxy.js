@@ -32,6 +32,7 @@ app.get('/api/discogs/artists', async (req, res) => {
       type: 'artist',
       per_page: 10, // Limitar a 10 resultados para a lista suspensa
     };
+    // Buscar artistas no Discogs, ordenados por relevância
     const artistResponse = await axios.get('https://api.discogs.com/database/search', { params: artistSearchParams, headers });
     const artistResults = artistResponse.data.results || [];
 
@@ -67,19 +68,47 @@ app.get('/api/discogs/search', async (req, res) => {
 
     // Buscar os releases do artista
     const releasesResponse = await axios.get(`https://api.discogs.com/artists/${artistId}/releases`, { params: { per_page: 100 }, headers });
+    console.log('Releases response data:', releasesResponse.data);
     let releases = releasesResponse.data.releases || [];
 
-    // Deduplicar releases por master_id ou title+year (como no código original)
-    const seen = new Map();
+    // Aplicar filtros conforme regras
     releases = releases.filter(item => {
-      const masterId = item.master_id || null;
-      const releaseTitle = (item.title && item.title.includes(' - ')) ? item.title.split(' - ').slice(1).join(' - ').trim() : item.title.trim();
-      const year = item.year || null;
-      const key = masterId ? `m:${masterId}` : `t:${releaseTitle.toLowerCase()}|y:${year || ''}`;
-      if (seen.has(key)) return false;
-      seen.set(key, item);
+      // Para releases, verificar artists array; para masters, verificar item.artist e item.role
+      let isMain = false;
+      let artistName = '';
+
+      if (item.artists && Array.isArray(item.artists)) {
+        // Release
+        const artistEntry = item.artists.find(a => a.id == artistId);
+        if (artistEntry) {
+          isMain = artistEntry.role === 'Main';
+          artistName = artistEntry.name || '';
+        }
+      } else if (item.artist) {
+        // Master
+        isMain = item.role === 'Main';
+        artistName = item.artist;
+      }
+
+      if (!isMain) return false;
+
+      // type: 'master' sempre inclui, 'release' só se cumprir outras
+      if (item.type === 'master') return true;
+      if (item.type !== 'release') return false;
+
+      // thumb não vazio
+      if (!item.thumb) return false;
+
+      // year não vazio
+      if (!item.year) return false;
+
+      // artist name: 'Racionais MCs' ou começa com 'Racionais'
+      if (artistName !== 'Racionais MCs' && !artistName.startsWith('Racionais')) return false;
+
       return true;
     });
+
+    console.log('Filtered releases count:', releases.length);
 
     // Categorizar resultados por tipo de formato
     const formatCategories = {
@@ -90,8 +119,15 @@ app.get('/api/discogs/search', async (req, res) => {
     };
 
     releases.forEach(item => {
-      // Normalize formats to array
-      const formats = Array.isArray(item.format) ? item.format : (item.format ? [item.format] : []);
+      // Normalize formats to array of strings
+      let formats = [];
+      if (item.format && Array.isArray(item.format)) {
+        formats = item.format;
+      } else if (item.formats && Array.isArray(item.formats)) {
+        formats = item.formats.flatMap(f => [f.name, ...(f.descriptions || [])]);
+      } else if (item.format) {
+        formats = [item.format];
+      }
 
       // Determine category
       let category = 'Releases';
@@ -116,7 +152,6 @@ app.get('/api/discogs/search', async (req, res) => {
     });
     summary.Total = Object.values(summary).reduce((s, v) => s + v, 0);
 
-    // Enriquecer itens que não possuem thumbnail consultando o release
     // Fazemos de forma sequencial para reduzir risco de rate limit
     const enrichMissingThumbs = async () => {
       const categoryNames = Object.keys(formatCategories);

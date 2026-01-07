@@ -101,3 +101,42 @@ IA voce consegue acessar a documentação da API: https://www.discogs.com/develo
 e ajustar a url de consulta para que retorne apenas os resultados corretos, conforme o site oficial do discogs.com?
 
 Agora ficou ainda pior, os resultados estão vindo misturados com outros artistas. Vamos fazer como eu quero: quando digitarmos o nome do artista, o sistema deve fazer uma busca na API do discogs, trazer uma lista suspensa com os resultados (com id e nome do artista) para que eu possa escolher o artista correto. Somente após eu escolher o artista correto, é que o sistema deve buscar Somente a DISCOGRAFIA, (álbuns, singles e compilações).
+
+https://www.discogs.com/pt_BR/artist/131139-Racionais-MCs?superFilter=Releases
+
+Após analisar os objetos retornados pela API do discogs, percebi que para filtrar os resultados da discografia do artista "Racionais MCs", eu preciso usar as seguintes condições:
+type: 'master', (todos que estiverem com o tipo 'master', devem ser colocados no resultado final)
+type: 'release', (até pode ser 'release', desde que o cumpra todas as outras condições)
+role: 'Main', (tem que ser 'Main')
+artist: 'Racionais MCs' (TEM que ser o mesmo nome do artista)
+artist: 'Racionais*' (pode ser com asterisco no final do nome do artista)
+thumb: '', (não pode ser vazio)
+year: '', (não pode ser vazio)
+
+Resposta busca releases: 
+{artist: "Racionais MC's", categories: {…}, summary: {…}}
+artist:"Racionais MC's"
+categories:Albums
+: 
+[]
+Compilations
+: 
+[]
+Releases
+: 
+(21) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+Singles & EPs
+: 
+Array(0)
+length
+: 
+0
+[[Prototype]]
+: 
+Array(0)
+[[Prototype]]
+: 
+Object
+summary
+: 
+{Releases: 21, Albums: 0, Singles & EPs: 0, Compilations: 0, Total: 21}
