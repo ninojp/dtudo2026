@@ -9,30 +9,46 @@ import ButtonPadrao from '../../components/ButtonPadrao/ButtonPadrao';
 import CardCD from '../../components/componentsMyMusicx/CardCD/CardCD';
 
 export default function MyMusicX() {
-    const [query, setQuery] = useState('');
+    const [artistQuery, setArtistQuery] = useState('');
+    const [artistSuggestions, setArtistSuggestions] = useState([]);
+    const [selectedArtist, setSelectedArtist] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
     const [results, setResults] = useState(null);
-
-    // Leia o token do Discogs a partir da variável de ambiente Vite
+    // Lê o token do Discogs a partir da variável de ambiente Vite
     const discogsToken = typeof import.meta !== 'undefined' ? import.meta.env.VITE_DISCOGS_TOKEN : undefined;
     //-------------------------------------------------------------------------------------------------------
-    const handleSearch = async (e) => {
-        e.preventDefault();
-        setError(null);
-        setResults(null);
-        if (!query || query.trim().length === 0) {
-            setError('Informe o nome do artista para buscar.');
+    const handleArtistSearch = async (q) => {
+        if (!q.trim()) {
+            setArtistSuggestions([]);
             return;
         }
-        // Iniciar a busca
+        try {
+            const resp = await axios.get('http://localhost:4000/api/discogs/artists', { params: { q } });
+            setArtistSuggestions(resp.data.artists);
+        } catch (err) {
+            console.error('Erro ao buscar artistas:', err);
+            setArtistSuggestions([]);
+        }
+    };
+
+    const selectArtist = (artist) => {
+        setSelectedArtist(artist);
+        setArtistQuery(artist.title);
+        setArtistSuggestions([]);
+        // Agora buscar releases
+        handleSearch(artist);
+    };
+
+    const handleSearch = async (artist) => {
+        setError(null);
+        setResults(null);
         setIsLoading(true);
         try {
-            // Buscar releases do artista usando o proxy local (evita problemas de CORS)
             const searchUrl = 'http://localhost:4000/api/discogs/search';
             const searchParams = {
-                artist: query,
-                type: 'release',
+                artistId: artist.id,
+                artistName: artist.title,
             };
             const searchResp = await axios.get(searchUrl, { params: searchParams });
             console.log('Resposta busca releases:', searchResp.data);
@@ -43,7 +59,6 @@ export default function MyMusicX() {
                 return;
             }
 
-            // Usar a resposta já filtrada e organizada pelo proxy
             setResults(searchResp.data);
         } catch (err) {
             console.error('Erro ao buscar discografia no Discogs: ', err);
@@ -53,6 +68,22 @@ export default function MyMusicX() {
         }
     };
 
+    const handleSave = async (data) => {
+        console.log('Salvando dados para:', data.artist);
+        try {
+            const saveUrl = 'http://localhost:4000/api/discogs/save';
+            await axios.post(saveUrl, {
+                artist: data.artist,
+                categories: data.categories
+            });
+            alert('Dados salvos com sucesso!');
+        } catch (err) {
+            console.error('Erro ao salvar dados:', err);
+            alert('Erro ao salvar dados.');
+        }
+    };
+
+    //=========================================================
     return (
         <>
             <header className={styles.headerContainerPgMusicx}>
@@ -61,18 +92,30 @@ export default function MyMusicX() {
                 <h2>Por hora estamos só buscando por artista no (Discogs)</h2>
             </header>
             <main className={styles.mainContainerPgMusicx}>
-                <form className={styles.formBuscarCds} onSubmit={handleSearch}>
+                <form className={styles.formBuscarCds} onSubmit={(e) => e.preventDefault()}>
                     <FieldsetPadrao>
-                        <LabelPadrao htmlFor='inputMyMusicx'>Buscar por Artista</LabelPadrao>
+                        <LabelPadrao htmlFor='inputArtist'>Buscar por Artista</LabelPadrao>
                         <InputPadrao
-                            itId='inputMyMusicx'
+                            itId='inputArtist'
                             itTipo="search"
-                            itValue={query}
-                            itOnChange={(e) => setQuery(e.target.value)}
-                            itPlaceholder="Nome do artista (ex: Nirvana)"
+                            itValue={artistQuery}
+                            itOnChange={(e) => {
+                                setArtistQuery(e.target.value);
+                                setSelectedArtist(null);
+                                handleArtistSearch(e.target.value);
+                            }}
+                            itPlaceholder="Nome do artista (ex: Racionais)"
                         />
+                        {artistSuggestions.length > 0 && (
+                            <ul style={{ listStyle: 'none', padding: 0, border: '1px solid #ccc', maxHeight: '200px', overflowY: 'auto' }}>
+                                {artistSuggestions.map((artist) => (
+                                    <li key={artist.id} style={{ padding: '8px', cursor: 'pointer' }} onClick={() => selectArtist(artist)}>
+                                        {artist.title}
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
                     </FieldsetPadrao>
-                    <ButtonPadrao styleExterno={styles.btnBuscarDiscos} type="submit" >Buscar</ButtonPadrao>
                 </form>
 
                 {!discogsToken && (<p style={{ color: 'red' }}>
@@ -83,27 +126,32 @@ export default function MyMusicX() {
                 {isLoading && <p>Buscando...</p>}
                 {error && <p style={{ color: 'red' }}>{error}</p>}
 
-                {!results && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
+                {!results && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
                 
                 {results && (
                     <section className={styles.sectionResultadosCds}>
                         <h4>Discografia de {results.artist}</h4>
-                        
+                        <ButtonPadrao 
+                            styleExterno={styles.btnSalvarDados} 
+                            onClick={() => handleSave(results)}
+                        >
+                            Salvar Dados do Artista
+                        </ButtonPadrao>
                         {/* Exibir categorias de resultados */}
                         {Object.entries(results.categories).map(([categoryName, items]) => (
                             items.length > 0 && (
                                 <div key={categoryName} style={{ marginBottom: '2rem' }}>
                                     <h3>{categoryName} ({items.length})</h3>
                                     <div className={styles.divContainerCardsCds}>
-                                        {items.map((r) => {
-                                            const uniqueKey = r.master_id ? `m-${r.master_id}` : `t-${encodeURIComponent(r.title)}-y${r.year || ''}`;
+                                        {items.map((r, index) => {
+                                            const uniqueKey = `${r.id}-${index}`;
                                             return (
                                                 <CardCD
                                                     key={uniqueKey}
                                                     cdTitulo={r.title}
                                                     cdImgSrc={r.thumb}
                                                     cdAno={r.year}
-                                                    cdVersions={r.versions}
+                                                    cdVersions={1} // Sem deduplicação, cada item é único
                                                 />
                                             );
                                         })}

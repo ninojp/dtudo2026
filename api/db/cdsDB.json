@@ -1,0 +1,152 @@
+{
+  "cdsBD": [
+    {
+      "artist": "Baia & Rockboys",
+      "Albums": [
+        {
+          "id": 27529317,
+          "master_id": null,
+          "title": "Na Fé",
+          "year": "1996",
+          "thumb": "https://i.discogs.com/sjW7l-4fsZe8G814zgSs2FVCT8ySc1RmeOBKr0oVWaM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTI5/MzE3LTE2ODgwNTY3/NTYtMTIzNi5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/27529317",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 12560650,
+          "master_id": null,
+          "title": "Overdose De Lucidez",
+          "year": "1997",
+          "thumb": "https://i.discogs.com/2ZK456EkNY377Ck-fk4Jjc5Jn4LAtODZczV4Gvwsy88/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTYw/NjUwLTE1Mzc2MzE5/OTktOTMwMS5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/12560650",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 27529089,
+          "master_id": null,
+          "title": "Entrada De Emergência",
+          "year": "2001",
+          "thumb": "https://i.discogs.com/OO5TyKJ2fBoMJdKWbNlmyxFw2HaaZ4Gwk2AaiSY9r7Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NTI5/MDg5LTE2ODgwNTU0/MDktNjUxMi5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/27529089",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        }
+      ],
+      "Compilations": [],
+      "Releases": [],
+      "Singles & EPs": []
+    },
+    {
+      "artist": "Bandaliera",
+      "Albums": [
+        {
+          "id": 7451339,
+          "master_id": null,
+          "title": "Nosso Lado Animal",
+          "year": "1987",
+          "thumb": "https://i.discogs.com/jC-UNEQK1gd7Aa_MgnopP99CO6WbQ_kNVrJZI_ByF8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTEz/MzktMTQ0MTc0ODc5/My02NDA3LmpwZWc.jpeg",
+          "uri": "https://api.discogs.com/releases/7451339",
+          "formats": [
+            "Vinyl",
+            "LP",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 15661814,
+          "master_id": 1785286,
+          "title": "Ao Vivo",
+          "year": "1992",
+          "thumb": "https://i.discogs.com/-pSjdaFvGBGVSmi0aeohq9KHfXBOHm0Ydh2H7lFEHyE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NjYx/ODE0LTE1OTU0NDc5/NTAtODM2OC5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/15661814",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 2
+        },
+        {
+          "id": 12224685,
+          "master_id": null,
+          "title": "Estação De Pedro",
+          "year": "1993",
+          "thumb": "https://i.discogs.com/wW1bzDEgHFVzwKUH6DojzO3W9AaDfZfOlqVfNAHq1Lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjI0/Njg1LTE1MzA4NzI5/NTgtNjc5MS5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/12224685",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 12283131,
+          "master_id": null,
+          "title": "15 Anos",
+          "year": "1998",
+          "thumb": "https://i.discogs.com/39gDDRo8MQSbxq8PFwuHuWOM44t_2l5TVDJCBrPIfhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MTMxLTE1MzIxMTU5/MzQtNjYzMS5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/12283131",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 12283208,
+          "master_id": null,
+          "title": "Bye Flowers",
+          "year": "2000",
+          "thumb": "https://i.discogs.com/x4ErEnUo9ClcVz9Ux1MtNSMl9tUQkzi6njOpHqMbve4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MjA4LTE1MzIxMTc1/NzktNjE5Ny5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/12283208",
+          "formats": [
+            "CD",
+            "Album"
+          ],
+          "versions": 1
+        },
+        {
+          "id": 11603114,
+          "master_id": null,
+          "title": "20 Anos",
+          "year": "2002",
+          "thumb": "https://i.discogs.com/GF1GJApkh-T5Q7QIZCHOEv1fYVD4H-uJ2fo4G7LfSkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjAz/MTE0LTE1MTkyNDYz/MzctNzQxNi5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/11603114",
+          "formats": [
+            "CD",
+            "Album",
+            "Promo"
+          ],
+          "versions": 1
+        }
+      ],
+      "Compilations": [],
+      "Releases": [
+        {
+          "id": 31826648,
+          "master_id": null,
+          "title": "Demo CD",
+          "year": "1997",
+          "thumb": "https://i.discogs.com/USJUV741GzekPnM0gCRUwL7L8h1AcJRoPqvgDGGkDBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODI2/NjQ4LTE3MjczNjMw/MzgtNjU0OC5qcGVn.jpeg",
+          "uri": "https://api.discogs.com/releases/31826648",
+          "formats": [
+            "CDr"
+          ],
+          "versions": 1
+        }
+      ],
+      "Singles & EPs": []
+    }
+  ]
+}

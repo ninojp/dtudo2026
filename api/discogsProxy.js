@@ -2,6 +2,8 @@
 import 'dotenv/config';
 import express from 'express';
 import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -18,31 +20,76 @@ app.use((req, res, next) => {
   next();
 });
 
-// Proxy endpoint: forwards query params to Discogs /database/search
+// Endpoint to search for artists
+app.get('/api/discogs/artists', async (req, res) => {
+  try {
+    const params = { ...req.query };
+    const headers = {};
+    if (DISCOGS_TOKEN) headers['Authorization'] = `Discogs token=${DISCOGS_TOKEN}`;
+
+    const artistSearchParams = {
+      q: params.q,
+      type: 'artist',
+      per_page: 10, // Limitar a 10 resultados para a lista suspensa
+    };
+    const artistResponse = await axios.get('https://api.discogs.com/database/search', { params: artistSearchParams, headers });
+    const artistResults = artistResponse.data.results || [];
+
+    // Retornar lista de artistas com id e title
+    const artists = artistResults.map(result => ({
+      id: result.id,
+      title: result.title,
+    }));
+
+    res.status(200).json({ artists });
+  } catch (err) {
+    console.error('Discogs artists search error:', err.message || err);
+    if (err.response) {
+      res.status(err.response.status).json(err.response.data);
+    } else {
+      res.status(500).json({ error: 'Proxy error', message: err.message });
+    }
+  }
+});
+
+// Proxy endpoint: get releases for a specific artist
 app.get('/api/discogs/search', async (req, res) => {
   try {
     const params = { ...req.query };
     const headers = {};
     if (DISCOGS_TOKEN) headers['Authorization'] = `Discogs token=${DISCOGS_TOKEN}`;
 
-    // Se não especificou per_page, aumentar para buscar mais resultados (limite Discogs é 100)
-    if (!params.per_page) params.per_page = 100;
+    if (!params.artistId) {
+      return res.status(400).json({ error: 'artistId is required' });
+    }
 
-    const response = await axios.get('https://api.discogs.com/database/search', { params, headers });
-    
-    // Filtrar resultados por tipo de formato e deduplicar por master_id ou título+ano
-    const categoryMaps = {
-      'Releases': new Map(),
-      'Albums': new Map(),
-      'Singles & EPs': new Map(),
-      'Compilations': new Map(),
+    const artistId = params.artistId;
+
+    // Buscar os releases do artista
+    const releasesResponse = await axios.get(`https://api.discogs.com/artists/${artistId}/releases`, { params: { per_page: 100 }, headers });
+    let releases = releasesResponse.data.releases || [];
+
+    // Deduplicar releases por master_id ou title+year (como no código original)
+    const seen = new Map();
+    releases = releases.filter(item => {
+      const masterId = item.master_id || null;
+      const releaseTitle = (item.title && item.title.includes(' - ')) ? item.title.split(' - ').slice(1).join(' - ').trim() : item.title.trim();
+      const year = item.year || null;
+      const key = masterId ? `m:${masterId}` : `t:${releaseTitle.toLowerCase()}|y:${year || ''}`;
+      if (seen.has(key)) return false;
+      seen.set(key, item);
+      return true;
+    });
+
+    // Categorizar resultados por tipo de formato
+    const formatCategories = {
+      'Releases': [],
+      'Albums': [],
+      'Singles & EPs': [],
+      'Compilations': [],
     };
 
-    const results = response.data.results || [];
-    results.forEach(item => {
-      // Ignore items without title (we need title to dedupe)
-      if (!item.title) return;
-
+    releases.forEach(item => {
       // Normalize formats to array
       const formats = Array.isArray(item.format) ? item.format : (item.format ? [item.format] : []);
 
@@ -52,46 +99,24 @@ app.get('/api/discogs/search', async (req, res) => {
       else if (formats.some(f => /Single/i.test(f) || /EP/i.test(f))) category = 'Singles & EPs';
       else if (formats.some(f => /Album/i.test(f))) category = 'Albums';
 
-      // Determine dedupe key: prefer master_id, else title+year
-      const masterId = item.master_id || null;
-      const releaseTitle = (item.title && item.title.includes(' - ')) ? item.title.split(' - ').slice(1).join(' - ').trim() : item.title.trim();
-      const year = item.year || null;
-      const key = masterId ? `m:${masterId}` : `t:${releaseTitle.toLowerCase()}|y:${year || ''}`;
-
-      const map = categoryMaps[category];
-      if (map.has(key)) {
-        // increment versions count
-        const existing = map.get(key);
-        existing.versions = (existing.versions || 1) + 1;
-        // prefer to keep the item that has a thumb and year
-        if (!existing.thumb && item.thumb) existing.thumb = item.thumb;
-        if (!existing.year && item.year) existing.year = item.year;
-        map.set(key, existing);
-      } else {
-        map.set(key, {
-          id: item.id,
-          master_id: masterId,
-          title: releaseTitle,
-          year: year,
-          thumb: item.thumb || null,
-          uri: item.resource_url || item.uri || null,
-          formats: formats,
-          versions: 1,
-        });
-      }
+      formatCategories[category].push({
+        id: item.id,
+        master_id: item.master_id,
+        title: item.title,
+        year: item.year,
+        thumb: item.thumb || null,
+        resource_url: item.resource_url,
+        formats: formats,
+      });
     });
 
-    const formatCategories = {};
     const summary = {};
-    Object.entries(categoryMaps).forEach(([name, map]) => {
-      const arr = Array.from(map.values())
-        .sort((a, b) => (a.year || 0) - (b.year || 0));
-      formatCategories[name] = arr;
+    Object.entries(formatCategories).forEach(([name, arr]) => {
       summary[name] = arr.length;
     });
     summary.Total = Object.values(summary).reduce((s, v) => s + v, 0);
 
-    // Enriquecer itens que não possuem thumbnail consultando o master ou release
+    // Enriquecer itens que não possuem thumbnail consultando o release
     // Fazemos de forma sequencial para reduzir risco de rate limit
     const enrichMissingThumbs = async () => {
       const categoryNames = Object.keys(formatCategories);
@@ -101,16 +126,9 @@ app.get('/api/discogs/search', async (req, res) => {
           const it = items[i];
           if (it.thumb) continue;
           try {
-            if (it.master_id) {
-              const mUrl = `https://api.discogs.com/masters/${it.master_id}`;
-              const mResp = await axios.get(mUrl, { headers });
-              it.thumb = mResp.data.cover_image || (mResp.data.images && mResp.data.images[0] && mResp.data.images[0].uri) || it.thumb;
-            } else if (it.uri) {
-              // it.uri can be a resource_url like '/releases/12345' or full url
-              const resourceUrl = it.uri.startsWith('http') ? it.uri : `https://api.discogs.com${it.uri}`;
-              const rResp = await axios.get(resourceUrl, { headers });
-              it.thumb = rResp.data.cover_image || (rResp.data.images && rResp.data.images[0] && rResp.data.images[0].uri) || it.thumb;
-            }
+            const resourceUrl = it.resource_url.startsWith('http') ? it.resource_url : `https://api.discogs.com${it.resource_url}`;
+            const rResp = await axios.get(resourceUrl, { headers });
+            it.thumb = rResp.data.cover_image || (rResp.data.images && rResp.data.images[0] && rResp.data.images[0].uri) || it.thumb;
           } catch (e) {
             console.warn('Enrich thumb failed for', it.title, e.message || e);
           }
@@ -124,12 +142,12 @@ app.get('/api/discogs/search', async (req, res) => {
 
     // Organizar resposta com contagem por categoria
     const organizedResults = {
-      artist: results[0]?.title?.split(' - ')[0] || params.artist,
+      artist: params.artistName || `Artist ${artistId}`, // Usar artistName se passado, senão placeholder
       categories: formatCategories,
       summary,
     };
 
-    res.status(response.status).json(organizedResults);
+    res.status(200).json(organizedResults);
   } catch (err) {
     console.error('Discogs proxy error:', err.message || err);
     if (err.response) {
@@ -137,6 +155,47 @@ app.get('/api/discogs/search', async (req, res) => {
     } else {
       res.status(500).json({ error: 'Proxy error', message: err.message });
     }
+  }
+});
+
+// Endpoint to save artist data to local JSON
+app.post('/api/discogs/save', (req, res) => {
+  try {
+    const { artist, categories } = req.body;
+    if (!artist || !categories) {
+      return res.status(400).json({ error: 'Missing artist or categories data' });
+    }
+
+    const dbPath = path.join(process.cwd(), 'api', 'db', 'cdsDB.json');
+    let dbData = { cdsBD: [] };
+    if (fs.existsSync(dbPath)) {
+      const dbContent = fs.readFileSync(dbPath, 'utf8');
+      dbData = JSON.parse(dbContent);
+    }
+
+    // Check if artist already exists
+    const existingIndex = dbData.cdsBD.findIndex(item => item.artist.toLowerCase() === artist.toLowerCase());
+    const artistData = {
+      artist,
+      Albums: categories.Albums || [],
+      Compilations: categories.Compilations || [],
+      Releases: categories.Releases || [],
+      "Singles & EPs": categories["Singles & EPs"] || []
+    };
+
+    if (existingIndex !== -1) {
+      // Update existing
+      dbData.cdsBD[existingIndex] = artistData;
+    } else {
+      // Add new
+      dbData.cdsBD.push(artistData);
+    }
+
+    fs.writeFileSync(dbPath, JSON.stringify(dbData, null, 2));
+    res.json({ message: 'Artist data saved successfully' });
+  } catch (err) {
+    console.error('Save error:', err);
+    res.status(500).json({ error: 'Failed to save data' });
   }
 });
 
