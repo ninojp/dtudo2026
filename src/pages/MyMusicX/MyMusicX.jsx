@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import styles from './MyMusicX.module.css';
 import notaFireMusical from '/mymusicx/NotaMusica.png';
 import axios from 'axios';
@@ -14,10 +14,85 @@ export default function MyMusicX() {
     const [selectedArtist, setSelectedArtist] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [results, setResults] = useState(null);
+    const [allResults, setAllResults] = useState(null);
+    const [filteredResults, setFilteredResults] = useState(null);
+
+    const [filters, setFilters] = useState({
+        showMasters: true,
+        showReleases: true,
+        hasThumb: false,
+        hasYear: false,
+        isAlbum: true,
+        isSingle: true,
+        isCompilation: true,
+    });
+
     // Lê o token do Discogs a partir da variável de ambiente Vite
     const discogsToken = typeof import.meta !== 'undefined' ? import.meta.env.VITE_DISCOGS_TOKEN : undefined;
     //-------------------------------------------------------------------------------------------------------
+
+    useEffect(() => {
+        if (!allResults || !selectedArtist) {
+            setFilteredResults(null);
+            return;
+        }
+
+        let filteredItems = allResults.items.filter(item => {
+            // Filtro automático de artista: exibe apenas itens do artista selecionado.
+            // Usamos 'includes' para abranger colaborações (ex: "Artista A & Artista B").
+            if (!item.artist || !item.artist.toLowerCase().includes(selectedArtist.title.toLowerCase())) {
+                return false;
+            }
+
+            // Filtro de tipo (master/release)
+            if (!filters.showMasters && item.type === 'master') {
+                return false;
+            }
+            if (!filters.showReleases && item.type === 'release') {
+                return false;
+            }
+            // Filtro de "tem capa"
+            if (filters.hasThumb && !item.thumb) {
+                return false;
+            }
+            // Filtro de "tem ano"
+            if (filters.hasYear && !item.year) {
+                return false;
+            }
+
+            const formatDescriptions = (Array.isArray(item.formats)
+                ? item.formats.flatMap(f => f.descriptions || []).join(' ')
+                : ''
+            ).toLowerCase();
+
+            const isAlbum = formatDescriptions.includes('album');
+            const isSingle = formatDescriptions.includes('single');
+            const isCompilation = formatDescriptions.includes('compilation');
+
+            if (!filters.isAlbum && isAlbum) return false;
+            if (!filters.isSingle && isSingle) return false;
+            if (!filters.isCompilation && isCompilation) return false;
+
+            return true;
+        });
+
+        setFilteredResults({
+            ...allResults,
+            items: filteredItems,
+            summary: { Total: filteredItems.length },
+        });
+
+    }, [filters, allResults, selectedArtist]);
+
+
+    const handleFilterChange = (e) => {
+        const { name, value, type, checked } = e.target;
+        setFilters(prev => ({
+            ...prev,
+            [name]: type === 'checkbox' ? checked : value
+        }));
+    };
+
     const handleArtistSearch = async (q) => {
         if (!q.trim()) {
             setArtistSuggestions([]);
@@ -42,7 +117,7 @@ export default function MyMusicX() {
 
     const handleSearch = async (artist) => {
         setError(null);
-        setResults(null);
+        setAllResults(null);
         setIsLoading(true);
         try {
             const searchUrl = 'http://localhost:4000/api/discogs/search';
@@ -55,11 +130,12 @@ export default function MyMusicX() {
 
             if (!searchResp.data.summary || searchResp.data.summary.Total === 0) {
                 setError('Nenhum CD encontrado para este artista.');
+                setAllResults(null);
                 setIsLoading(false);
                 return;
             }
 
-            setResults(searchResp.data);
+            setAllResults(searchResp.data);
         } catch (err) {
             console.error('Erro ao buscar discografia no Discogs: ', err);
             setError('Erro ao buscar no Discogs. Verifique o token ou a rede. ');
@@ -107,9 +183,9 @@ export default function MyMusicX() {
                             itPlaceholder="Nome do artista (ex: Racionais)"
                         />
                         {artistSuggestions.length > 0 && (
-                            <ul style={{ listStyle: 'none', padding: 0, border: '1px solid #ccc', maxHeight: '200px', overflowY: 'auto' }}>
+                            <ul className={styles.listaSuspencaArtistas} >
                                 {artistSuggestions.map((artist) => (
-                                    <li key={artist.id} style={{ padding: '8px', cursor: 'pointer' }} onClick={() => selectArtist(artist)}>
+                                    <li key={artist.id}  className={styles.liSuspencaArtistas} onClick={() => selectArtist(artist)}>
                                         {artist.title}
                                     </li>
                                 ))}
@@ -117,7 +193,6 @@ export default function MyMusicX() {
                         )}
                     </FieldsetPadrao>
                 </form>
-
                 {!discogsToken && (<p style={{ color: 'red' }}>
                     Atenção: nenhum token encontrado. Requisições sem autenticação são limitadas.
                 </p>
@@ -125,27 +200,55 @@ export default function MyMusicX() {
 
                 {isLoading && <p>Buscando...</p>}
                 {error && <p style={{ color: 'red' }}>{error}</p>}
+                {!filteredResults && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
 
-                {!results && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
-                
-                {results && (
+                {filteredResults && (
+                    <section className={styles.sectionFiltros}>
+                        <fieldset className={styles.fieldsetFiltros}>
+                            <legend>Filtros</legend>
+                            <div>
+                                <input type="checkbox" id="showMasters" name="showMasters" checked={filters.showMasters} onChange={handleFilterChange} />
+                                <label htmlFor="showMasters">Masters</label>
+                                <input type="checkbox" id="showReleases" name="showReleases" checked={filters.showReleases} onChange={handleFilterChange} />
+                                <label htmlFor="showReleases">Releases</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="isAlbum" name="isAlbum" checked={filters.isAlbum} onChange={handleFilterChange} />
+                                <label htmlFor="isAlbum">Álbuns</label>
+                                <input type="checkbox" id="isSingle" name="isSingle" checked={filters.isSingle} onChange={handleFilterChange} />
+                                <label htmlFor="isSingle">Singles</label>
+                                <input type="checkbox" id="isCompilation" name="isCompilation" checked={filters.isCompilation} onChange={handleFilterChange} />
+                                <label htmlFor="isCompilation">Compilações</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hasThumb" name="hasThumb" checked={filters.hasThumb} onChange={handleFilterChange} />
+                                <label htmlFor="hasThumb">Com Capa</label>
+                                <input type="checkbox" id="hasYear" name="hasYear" checked={filters.hasYear} onChange={handleFilterChange} />
+                                <label htmlFor="hasYear">Com Ano</label>
+                            </div>
+                        </fieldset>
+                    </section>
+                )}
+
+                {filteredResults && (
                     <section className={styles.sectionResultadosCds}>
                         <div className={styles.divContainerBtnSalvar}>
-                            <h4>Discografia de {results.artist} ({results.summary.Total} itens)</h4>
-                            <ButtonPadrao 
-                                styleExterno={styles.btnSalvarDados} 
-                                onClick={() => handleSave(results)}
+                            <h4>Discografia de {filteredResults.artist} ({filteredResults.summary.Total} itens)</h4>
+                            <ButtonPadrao
+                                styleExterno={styles.btnSalvarDados}
+                                onClick={() => handleSave(filteredResults)}
                             >
                                 Salvar Dados do Artista
                             </ButtonPadrao>
                         </div>
                         <div className={styles.divContainerCardsCds}>
-                            {results.items.map((r, index) => {
+                            {filteredResults.items.map((r, index) => {
                                 const uniqueKey = `${r.id}-${index}`;
                                 return (
                                     <CardCD
                                         key={uniqueKey}
                                         cdTitulo={r.title}
+                                        cdArtist={r.artist}
                                         cdImgSrc={r.thumb}
                                         cdAno={r.year}
                                     />
@@ -158,26 +261,3 @@ export default function MyMusicX() {
         </>
     );
 };
-
-/*
-Albums
-
-Holocausto Urbano
-12 versões
-Zimbabwe Records
-1991
-
-Capa de Raio X Brasil - Liberdade De Expressão
-Raio X Brasil - Liberdade De Expressão
-8 versões
-Zimbabwe Records
-1993
-
-Capa de Sobrevivendo No Inferno
-Sobrevivendo No Inferno
-18 versões
-Cosa Nostra, Cosa Nostra
-1997
-...
-
-*/

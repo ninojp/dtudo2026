@@ -113,30 +113,8 @@ artist: 'Racionais*' (pode ser com asterisco no final do nome do artista)
 thumb: '', (não pode ser vazio)
 year: '', (não pode ser vazio)
 
-Resposta busca releases: 
-{artist: "Racionais MC's", categories: {…}, summary: {…}}
-artist:"Racionais MC's"
-categories:Albums
-: 
-[]
-Compilations
-: 
-[]
-Releases
-: 
-(21) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
-Singles & EPs
-: 
-Array(0)
-length
-: 
-0
-[[Prototype]]
-: 
-Array(0)
-[[Prototype]]
-: 
-Object
-summary
-: 
-{Releases: 21, Albums: 0, Singles & EPs: 0, Compilations: 0, Total: 21}
+Perguntar a IA
+Neste meu arquivo atual discogsProxy.js, a partir da linha 66, tem alguns filtros que filtram os resultados retornados pela API do discogs, mas mesmo assim os resultados continuam vindo errados.
+Agora quero retirar todos os filtros do backend e colocar estes filtros no frontend: src/pages/MyMusicX/MyMusicX.jsx, na página, para que o usuário possa ver todos os resultados retornados pela API do discogs e FILTRAR e escolher quais ele quer exibir, para depois se necessário salvar na base de dados local.
+
+

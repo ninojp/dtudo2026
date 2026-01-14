@@ -48,7 +48,6 @@ app.get('/api/discogs/artists', async (req, res) => {
     }
   }
 });
-
 // Proxy endpoint: get releases for a specific artist
 app.get('/api/discogs/search', async (req, res) => {
   try {
@@ -63,50 +62,22 @@ app.get('/api/discogs/search', async (req, res) => {
     const releasesResponse = await axios.get(`https://api.discogs.com/artists/${artistId}/releases`, { params: { per_page: 100 }, headers });
     // console.log('Releases response data:', releasesResponse.data);
     let releases = releasesResponse.data.releases || [];
-    // Aplicar filtros conforme regras
-    releases = releases.filter(item => {
-      // Para releases, verificar artists array; para masters, verificar item.artist e item.role
-      let isMain = false;
-      let artistName = '';
-
-      if (item.artists && Array.isArray(item.artists)) {
-        // Release
-        const artistEntry = item.artists.find(a => a.id == artistId);
-        if (artistEntry) {
-          isMain = artistEntry.role === 'Main';
-          artistName = artistEntry.name || '';
-        }
-      } else if (item.artist) {
-        // Master
-        isMain = item.role === 'Main';
-        artistName = item.artist;
-      }
-      if (!isMain) return false;
-      // type: 'master' sempre inclui, 'release' só se cumprir outras
-      if (item.type === 'master') return true;
-      if (item.type !== 'release') return false;
-      // thumb não vazio
-      if (!item.thumb) return false;
-      // year não vazio
-      if (!item.year) return false;
-      // artist name: 'nomeArtista' ou começa com 'nomeArtista'
-      if (artistName !== 'Racionais MCs' && !artistName.startsWith('Racionais')) return false;
-
-      return true;
-    });
     // Prepare the final list of items
-    const allItems = releases.map(item => ({
-      id: item.id,
-      master_id: item.master_id,
-      title: item.title,
-      year: item.year,
-      thumb: item.thumb || null,
-      resource_url: item.resource_url,
-      formats: item.formats || item.format || [],
-      type: item.type,
-    }));
+    const allItems = releases.map(item => {
+      const artistName = item.artist || (Array.isArray(item.artists) ? item.artists.map(a => a.name).join(', ') : '');
+      return {
+        id: item.id,
+        master_id: item.master_id,
+        artist: artistName,
+        title: item.title,
+        year: item.year,
+        thumb: item.thumb || null,
+        resource_url: item.resource_url,
+        formats: item.formats || item.format || [],
+        type: item.type,
+      };
+    });
 
-    //REMOVER esta parte do codigo!
     //Enrich missing thumbs sequentially
     for (const item of allItems) {
       if (!item.thumb) {

@@ -1,4 +1,4 @@
-.headerContainerPgMusicx{
+.headerContainerPgMusicx {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     padding: 2rem;
 }
 
-.mainContainerPgMusicx{
+.mainContainerPgMusicx {
     width: 100%;
     min-height: 83vh;
     display: flex;
@@ -16,12 +16,24 @@
     padding: 1rem;
 }
 
-.sectionResultadosCds{
+.listaSuspencaArtistas {
+    list-style: none;
+    padding: .5rem;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.liSuspencaArtistas { 
+    padding: 8px;
+    cursor: pointer;
+}
+.sectionResultadosCds {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.divContainerBtnSalvar{
+
+.divContainerBtnSalvar {
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -29,31 +41,35 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
-.btnSalvar{
+
+.btnSalvar {
     width: 10rem;
 }
 
-.sectionResultadosCds h4{
+.sectionResultadosCds h4 {
     padding: 1rem;
 }
-.divContainerCardsCds{
+
+.divContainerCardsCds {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;
 }
-.imgPgMusicx{
+
+.imgPgMusicx {
     max-height: 300px;
 }
 
-.formBuscarCds{
+.formBuscarCds {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
 }
-.btnBuscarDiscos{
+
+.btnBuscarDiscos {
     width: 10rem;
     margin-top: 1rem;
 }

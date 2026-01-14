@@ -166,6 +166,316 @@
           "type": "release"
         }
       ]
+    },
+    {
+      "artist": "Bandaliera",
+      "items": [
+        {
+          "id": 7451339,
+          "artist": "Bandaliera",
+          "title": "Nosso Lado Animal",
+          "year": 1987,
+          "thumb": "https://i.discogs.com/jC-UNEQK1gd7Aa_MgnopP99CO6WbQ_kNVrJZI_ByF8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTEz/MzktMTQ0MTc0ODc5/My02NDA3LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/7451339",
+          "formats": "LP, Album",
+          "type": "release"
+        },
+        {
+          "id": 1785286,
+          "artist": "Bandaliera",
+          "title": "Ao Vivo ",
+          "year": 1992,
+          "thumb": "https://i.discogs.com/hQPGtE8tv2xC07W39DpwBxm5CxNefzx0AE5FELyFGUU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzg1/NTA4LTE1MzQxOTI4/MDAtNTYxMS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1785286",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 12224685,
+          "artist": "Bandaliera",
+          "title": "Estação De Pedro",
+          "year": 1993,
+          "thumb": "https://i.discogs.com/wW1bzDEgHFVzwKUH6DojzO3W9AaDfZfOlqVfNAHq1Lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjI0/Njg1LTE1MzA4NzI5/NTgtNjc5MS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/12224685",
+          "formats": "CD, Album",
+          "type": "release"
+        },
+        {
+          "id": 31826648,
+          "artist": "Bandaliera",
+          "title": "Demo CD",
+          "year": 1997,
+          "thumb": "https://i.discogs.com/USJUV741GzekPnM0gCRUwL7L8h1AcJRoPqvgDGGkDBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODI2/NjQ4LTE3MjczNjMw/MzgtNjU0OC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/31826648",
+          "formats": "CDr",
+          "type": "release"
+        },
+        {
+          "id": 12283131,
+          "artist": "Bandaliera",
+          "title": "15 Anos",
+          "year": 1998,
+          "thumb": "https://i.discogs.com/39gDDRo8MQSbxq8PFwuHuWOM44t_2l5TVDJCBrPIfhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MTMxLTE1MzIxMTU5/MzQtNjYzMS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/12283131",
+          "formats": "CD, Album",
+          "type": "release"
+        },
+        {
+          "id": 12283208,
+          "artist": "Bandaliera",
+          "title": "Bye Flowers",
+          "year": 2000,
+          "thumb": "https://i.discogs.com/x4ErEnUo9ClcVz9Ux1MtNSMl9tUQkzi6njOpHqMbve4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MjA4LTE1MzIxMTc1/NzktNjE5Ny5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/12283208",
+          "formats": "CD, Album",
+          "type": "release"
+        },
+        {
+          "id": 11603114,
+          "artist": "Bandaliera",
+          "title": "20 Anos",
+          "year": 2002,
+          "thumb": "https://i.discogs.com/GF1GJApkh-T5Q7QIZCHOEv1fYVD4H-uJ2fo4G7LfSkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjAz/MTE0LTE1MTkyNDYz/MzctNzQxNi5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/11603114",
+          "formats": "CD, Album, Promo",
+          "type": "release"
+        }
+      ]
+    },
+    {
+      "artist": "Banda Black Rio",
+      "items": [
+        {
+          "id": 3018931,
+          "artist": "Banda Black Rio",
+          "title": "Na Baixa Do Sapateiro",
+          "year": 1977,
+          "thumb": "https://i.discogs.com/saiSlegJadXfU-089MqTMeAPfW-8fPkeEIT0IoCkF_w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMTg5/MzEtMTU5NTc3Mzg3/Ny04NTIyLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/3018931",
+          "formats": "7\", Single",
+          "type": "release"
+        },
+        {
+          "id": 11303057,
+          "artist": "Belchior / Banda Black Rio / Carlos Dafé / Hermeto Pascoal",
+          "title": "Promocional",
+          "year": 1977,
+          "thumb": "https://i.discogs.com/9pgVCtb0vadU83mJVcNn7SjQFFU7CHKtAlwjaXK8yWs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzAz/MDU3LTE2OTg4NDY3/MTUtMTA5Mi5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/11303057",
+          "formats": "7\", EP, Promo",
+          "type": "release"
+        },
+        {
+          "id": 31819634,
+          "artist": "Belchior, Banda Black Rio, Carlos Dafé, Hermeto Pascoal",
+          "title": "Promocional",
+          "year": 1977,
+          "thumb": "https://i.discogs.com/3K3mjEUKvJBpwmGozF_L7-S3Z7rTIRuGYaGsghHnAco/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODE5/NjM0LTE3MjcyMTgz/NDAtMjIyMi5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/31819634",
+          "formats": "7\"",
+          "type": "release"
+        },
+        {
+          "id": 268438,
+          "artist": "Banda Black Rio",
+          "title": "Maria Fumaça",
+          "year": 1977,
+          "thumb": "https://i.discogs.com/cVRi0HpaW-Kyz8TT3ngzTpc6xMUSpvJvuq3ssNXJIYU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjI5/OTItMTU0MjU5OTI5/NC05MTIzLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/268438",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 2281720,
+          "artist": "Banda Black Rio",
+          "title": "Maria Fumaca ",
+          "year": 1977,
+          "thumb": "https://i.discogs.com/dwEsjfKUoc4ATYkikmRQKQMAmj99A8kMlQdvMU4B558/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg3MDcy/ODgtMTU5NTc4NzQ3/My0yNzc3LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/2281720",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 290606,
+          "artist": "Banda Black Rio",
+          "title": "Gafieira Universal",
+          "year": 1978,
+          "thumb": "https://i.discogs.com/JGRfRpeNtdmcjZJGGJbiS5Lqd8Yhltw4qTx-xqtD1-0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzg3/MTgtMTI5MTQwNDAw/OC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/290606",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 4853825,
+          "artist": "Banda Black Rio, Sonia Santos, Emerson (8)",
+          "title": "Trilha Sonora Do Filme Sábado Alucinante",
+          "year": 1979,
+          "thumb": "https://i.discogs.com/kNW5D_IitNnPxqjtmJ1BKbhAxQkBJ1UGM6HXVyKr6jk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NTM4/MjUtMTM3NzU0MzEx/OS00MjY1LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/4853825",
+          "formats": "7\", EP",
+          "type": "release"
+        },
+        {
+          "id": 4666485,
+          "artist": "Banda Black Rio",
+          "title": "Saci Pererê ",
+          "year": 1980,
+          "thumb": "https://i.discogs.com/kN43Ngi5I-_ll3Phvqj5hn7D3l3azYwcgsJCDl1ZbN0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NjY0/ODUtMTYxMzQzNzgz/MC0xNjM1LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/4666485",
+          "formats": "7\", Single, Promo",
+          "type": "release"
+        },
+        {
+          "id": 268440,
+          "artist": "Banda Black Rio",
+          "title": "Miss Cheryl",
+          "year": 1980,
+          "thumb": "https://i.discogs.com/WfUbRiWPqGbq2X2-JkXlTl5n1Jrc4RxBSq--8WGCSdA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDc1/OTItMTM0ODY3ODU3/Ni04Mzc4LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/268440",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 271155,
+          "artist": "Banda Black Rio",
+          "title": "Saci Pererê",
+          "year": 1980,
+          "thumb": "https://i.discogs.com/gab4-auicuOs7fUa1Z2tjrAk6TbYjY-aNhP5lCba3us/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjc4/MDMtMTcwMjkxMzM0/OC0yNzAwLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/271155",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 4446788,
+          "artist": "Banda Black Rio",
+          "title": "Série Aplauso 14 Grandes Sucessos",
+          "year": 1996,
+          "thumb": "https://i.discogs.com/OtXMwEBYpPHteBnpyejTD79UDUTrOCA5U5Xcwp0eRJQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0NDY3/ODgtMTQ5ODMxMDA5/NS04NTg3LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/4446788",
+          "formats": "CD, Comp",
+          "type": "release"
+        },
+        {
+          "id": 268441,
+          "artist": "Banda Black Rio",
+          "title": "The Best Of Banda Black Rio",
+          "year": 1996,
+          "thumb": "https://i.discogs.com/TuEIZ3DjWbR49LdgDIX6bIIoPxW5yWAk_mxMcEojDlc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwOTAz/MzItMTE5MTMyNTgz/NC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/268441",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 15271131,
+          "artist": "Sandra De Sá, Banda Black Rio",
+          "title": "Enciclopédia Musical Brasileira Vol. 34",
+          "year": 2000,
+          "thumb": "https://i.discogs.com/bUoXK4ilKZC6Irfegwg1dfL_eoaEog0qVA99DOFVmQY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mjcx/MTMxLTE1ODg5Nzkw/NDgtMzYyNi5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/15271131",
+          "formats": "CD, Comp",
+          "type": "release"
+        },
+        {
+          "id": 10564591,
+          "artist": "Banda Black Rio / A Cor Do Som",
+          "title": "Saci Pererê / Gosto Do Prazer",
+          "year": 2001,
+          "thumb": "https://i.discogs.com/3X5qbSW9MXhfwarFG4xRSPFduxFL6IssevbSJCCeI1M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTY0/NTkxLTE2Mjk3NTAy/NjEtNTIyMS5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/10564591",
+          "formats": "CD, Album, Comp, RE, RM",
+          "type": "release"
+        },
+        {
+          "id": 3666819,
+          "artist": "Banda Black Rio",
+          "title": "Movimento",
+          "year": 2001,
+          "thumb": "https://i.discogs.com/CzTdKoUimBHj6rIyvqGXd3cCghIqqnB4QClnId9h0EA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4Mjk2/NDItMTY2NzIwNDU4/Mi0xNjQ4LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/3666819",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 11147125,
+          "artist": "Caetano Veloso E Banda Black Rio",
+          "title": "Bicho Baile Show (Ao Vivo - No Teatro Carlos Gomes - Em 1978)",
+          "year": 2002,
+          "thumb": "https://i.discogs.com/MY6czsaHH7CLwMktBYTcc0CEpx5TJwBnZs4k3eggmKY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQ3/MTI1LTE1MTA3MTQz/MDEtMzkyOC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/11147125",
+          "formats": "CD, Album, S/Edition",
+          "type": "release"
+        },
+        {
+          "id": 3202602,
+          "artist": "Banda Black Rio",
+          "title": "Magia Do Prazer / Tomorrow",
+          "year": 2002,
+          "thumb": "https://i.discogs.com/rFBPA_QXoiN4ApHqVs5UHDfH_UVlx5eInn_UkZCh1hU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3OTk5/LTEyMjc2NDQ3NTUu/anBlZw.jpeg",
+          "resource_url": "https://api.discogs.com/masters/3202602",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 11007579,
+          "artist": "Banda Black Rio",
+          "title": "Carrossel",
+          "year": 2003,
+          "thumb": "https://i.discogs.com/OCIHNtOAC3uPdLyJEkc4jL9qkSk9-aD03Q930K85VMw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDA3/NTc5LTE1NTE3MjQ2/MzgtMzcwMi5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/releases/11007579",
+          "formats": "CD, Single, Promo",
+          "type": "release"
+        },
+        {
+          "id": 405177,
+          "artist": "Banda Black Rio",
+          "title": "Rebirth",
+          "year": 2003,
+          "thumb": "https://i.discogs.com/41xSlLeGM3LGK45WvY9oPN8g9GV5RKzWrlGOiBQSSmo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0OTI4/Mi0xMjI3NjQ0OTIx/LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/405177",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 3457333,
+          "artist": "Azymuth / Banda Black Rio",
+          "title": "Aurora / Super Nova Samba Funk",
+          "year": 2011,
+          "thumb": "https://i.discogs.com/Bui1VvkObvECD5ns3pDH5iw3SanW_mAH0jlaX9Owljc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NTcz/MzMtMTUyNDQxODc5/NS0xMjU3LmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/releases/3457333",
+          "formats": "2xLP, Comp, Ltd, RE",
+          "type": "release"
+        },
+        {
+          "id": 416588,
+          "artist": "Banda Black Rio",
+          "title": "Super Nova Samba Funk",
+          "year": 2011,
+          "thumb": "https://i.discogs.com/Amj_Qrc0PnK05A6CtQ7L0KDktpq8BnQl0GQo0kLYlAk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzE3/MjAtMTMzNDEzNjM5/NC5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/416588",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 3343771,
+          "artist": "Banda Black Rio / Miele (3)",
+          "title": "Miss Cheryl / Melô Do Tagarela = Rapper's Delight (Instrumental)",
+          "year": 2016,
+          "thumb": "https://i.discogs.com/Z4dzN_uij_fngJYyB7Zn8Hdo93_tpPNrcs08WyTH92E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwODc5/NTctMTU0MjQ3NDk4/MS00NzIyLmpwZWc.jpeg",
+          "resource_url": "https://api.discogs.com/masters/3343771",
+          "formats": [],
+          "type": "master"
+        },
+        {
+          "id": 1842457,
+          "artist": "Banda Black Rio",
+          "title": "O Som Das Américas",
+          "year": 2019,
+          "thumb": "https://i.discogs.com/5adGAbp48jpd3Tzwf7ATxCsBMI2KDWe5bp4aTjpl910/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzMx/MDQwLTE1NTk5MzMw/ODAtOTYyNy5qcGVn.jpeg",
+          "resource_url": "https://api.discogs.com/masters/1842457",
+          "formats": [],
+          "type": "master"
+        }
+      ]
     }
   ]
 }
