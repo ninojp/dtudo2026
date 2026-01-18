@@ -286,9 +286,6 @@ app.get('/api/discogs/search', async (req, res) => {
         categorized.singlesEPs.push(item);
       }
     });
-
-    // Logs reduzidos para performance
-
     // Etapa 6: Organizar a resposta final.
     const organizedResults = {
       artist: selectedArtistName,
@@ -303,46 +300,45 @@ app.get('/api/discogs/search', async (req, res) => {
         }
       }
     };
-    
     console.log(`[DISCOGS] Artist: ${selectedArtistName} | Total: ${organizedResults.summary.Total} | Albums: ${categorized.albums.length} | Singles/EPs: ${categorized.singlesEPs.length} | Compilations: ${categorized.compilations.length} | Videos: ${categorized.videos.length}`);
     
     // DEBUG: Mostrar vídeos encontrados
-    if (categorized.videos.length > 0) {
-      console.log(`\n[VÍDEOS ENCONTRADOS] (${categorized.videos.length}):`);
-      categorized.videos.forEach(item => {
-        console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}"`);
-      });
-    } else {
-      console.log(`\n[VÍDEOS] Nenhum vídeo encontrado. Analisando itens filtrados vs não-filtrados:`);
-      const videoRoleItems = allItems.filter(item => (item.role || '').toLowerCase() === 'video');
-      console.log(`  - Items com role='video': ${videoRoleItems.length}`);
+    // if (categorized.videos.length > 0) {
+    //   console.log(`\n[VÍDEOS ENCONTRADOS] (${categorized.videos.length}):`);
+    //   categorized.videos.forEach(item => {
+    //     console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}"`);
+    //   });
+    // } else {
+    //   console.log(`\n[VÍDEOS] Nenhum vídeo encontrado. Analisando itens filtrados vs não-filtrados:`);
+    //   const videoRoleItems = allItems.filter(item => (item.role || '').toLowerCase() === 'video');
+    //   console.log(`  - Items com role='video': ${videoRoleItems.length}`);
       
-      // Mostrar items que foram REMOVIDOS pelo filtro de papel
-      const filteredOut = allItems.filter(item => {
-        const role = (item.role || '').toLowerCase();
-        return role !== 'main' && !hasMainRoleAggregate(item);
-      });
-      console.log(`  - Items removidos pelo filtro de papel: ${filteredOut.length}`);
-      console.log(`    (Mostrando até 15 itens removidos para investigação:`);
-      filteredOut.slice(0, 15).forEach(item => {
-        console.log(`      ID: ${item.id} | Role: "${item.role}" | Format: "${item.format}" | AggFormat: "${getAggregatedFormat(item)}" | Title: "${item.title}"`);
-      });
-    }
+    //   // Mostrar items que foram REMOVIDOS pelo filtro de papel
+    //   const filteredOut = allItems.filter(item => {
+    //     const role = (item.role || '').toLowerCase();
+    //     return role !== 'main' && !hasMainRoleAggregate(item);
+    //   });
+    //   console.log(`  - Items removidos pelo filtro de papel: ${filteredOut.length}`);
+    //   console.log(`    (Mostrando até 15 itens removidos para investigação:`);
+    //   filteredOut.slice(0, 15).forEach(item => {
+    //     console.log(`      ID: ${item.id} | Role: "${item.role}" | Format: "${item.format}" | AggFormat: "${getAggregatedFormat(item)}" | Title: "${item.title}"`);
+    //   });
+    // }
     
     // DEBUG: Mostrar compilações encontradas
-    if (categorized.compilations.length > 0) {
-      console.log(`\n[COMPILAÇÕES ENCONTRADAS] (${categorized.compilations.length}):`);
-      categorized.compilations.forEach(item => {
-        console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}"`);
-      });
-    }
+    // if (categorized.compilations.length > 0) {
+    //   console.log(`\n[COMPILAÇÕES ENCONTRADAS] (${categorized.compilations.length}):`);
+    //   categorized.compilations.forEach(item => {
+    //     console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}"`);
+    //   });
+    // }
     
     // DEBUG: Mostrar álbuns para investigar se há itens categorizados errado
-    console.log(`\n[ÁLBUNS] (${categorized.albums.length} - esperado 20):`);
-    console.log(`  Primeiros 10 álbuns:`);
-    categorized.albums.slice(0, 10).forEach(item => {
-      console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}" | Type: "${item.type}"`);
-    });
+    // console.log(`\n[ÁLBUNS] (${categorized.albums.length} - esperado 20):`);
+    // console.log(`  Primeiros 10 álbuns:`);
+    // categorized.albums.slice(0, 10).forEach(item => {
+    //   console.log(`  - ID: ${item.id} | "${item.title}" | Format: "${item.format}" | Type: "${item.type}"`);
+    // });
     
     res.status(200).json(organizedResults);
   } catch (err) {
@@ -354,7 +350,6 @@ app.get('/api/discogs/search', async (req, res) => {
     }
   }
 });
-
 // Endpoint para salvar os daados do artista no DB.JSON local
 app.post('/api/discogs/save', (req, res) => {
   try {

@@ -6,164 +6,399 @@
         {
           "id": 430849,
           "title": "Holocausto Urbano",
+          "type": "master",
+          "main_release": 8354952,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/430849",
           "year": 1990,
           "thumb": "https://i.discogs.com/6cmht7oIFEkNSmY46hHT8bXJDLBN2CgBh3AVxlyiwpg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNTQ5/NTItMTQ1OTk3MjM0/NS05MDIzLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/430849",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 198,
+              "in_collection": 167
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 266287,
           "title": "Escolha O Seu Caminho",
+          "type": "master",
+          "main_release": 170447,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/266287",
           "year": 1992,
           "thumb": "https://i.discogs.com/0MH68uZnjzyhYoHrFWsSCajyO0GEsIso43JLbw_BTcY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDQ0/Ny0xNDk2NzEyODYx/LTgyOTguanBlZw.jpeg",
-          "resource_url": "https://api.discogs.com/masters/266287",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 139,
+              "in_collection": 217
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 12\", ep",
+          "_category": "singleep"
         },
         {
           "id": 1046838,
           "title": "Raio X Brasil - Liberdade De Expressão",
+          "type": "master",
+          "main_release": 170454,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1046838",
           "year": 1993,
           "thumb": "https://i.discogs.com/5aVY1vWHjhp3mFBX3dvJYglGK5AfRtHxr78ll5V8sxo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MDQ1/NC0xNDk2MTIwMjUz/LTc4NTIuanBlZw.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1046838",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 284,
+              "in_collection": 694
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 2571464,
           "title": "Fim De Semana No Parque",
+          "type": "master",
+          "main_release": 3004203,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2571464",
           "year": 1994,
           "thumb": "https://i.discogs.com/gzhMbJSnJIDI0EOXwW2zl8hHjCa5bXz4OU1R5ptqxLA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMDQy/MDMtMTQ5NjAzMTc5/MC00MzgxLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/2571464",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 107,
+              "in_collection": 47
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 12\", 33 ⅓ rpm, single, promo",
+          "_category": "singleep"
         },
         {
           "id": 745142,
           "title": "Racionais MC's",
+          "type": "master",
+          "main_release": 11530087,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/745142",
           "year": 1994,
           "thumb": "https://i.discogs.com/38A9ftpuTJJmsIbCqVqk9-_EGWSxN2H4BWGWQaISmE0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTMw/MDg3LTE1ODgwNDk4/OTMtNjk3Ni5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/745142",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 14,
+              "in_collection": 30
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
         },
         {
           "id": 4318890,
+          "status": "Accepted",
+          "type": "release",
+          "format": "LP, Comp",
+          "label": "Zimbabwe Records",
           "title": "The Best Of Racionais Mc's",
+          "resource_url": "https://api.discogs.com/releases/4318890",
+          "role": "Main",
+          "artist": "Racionais MC's",
           "year": 1996,
           "thumb": "https://i.discogs.com/y0bcWyl3O_AuDYkkO7Jum9cLTah9py4jPLJFyp58CrQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMTg4/OTAtMTQ5NjExMjQ4/OC0xMjU1LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/4318890",
-          "formats": "LP, Comp",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 126,
+              "in_collection": 66
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 719701,
           "title": "Sobrevivendo No Inferno",
+          "type": "master",
+          "main_release": 5604009,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/719701",
           "year": 1997,
           "thumb": "https://i.discogs.com/RcBlBxsSDZjw973KUFYXNGBVVBHB8BOAYnNuV-Pzq1g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU2MDQw/MDktMTM5Nzc2MDIz/My0yMjI4LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/719701",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 671,
+              "in_collection": 153
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 1048289,
           "title": "Ao Vivo",
+          "type": "master",
+          "main_release": 8955262,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1048289",
           "year": 2001,
           "thumb": "https://i.discogs.com/3esLgXMd8pd2q-lIxVjCDvKyNsGNpK-fCDssYf_40tM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5NTUy/NjItMTU3OTc1NDMz/Ni03NTY3LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1048289",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 16,
+              "in_collection": 31
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 430850,
           "title": "Nada Como Um Dia Após O Outro Dia",
+          "type": "master",
+          "main_release": 179022,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/430850",
           "year": 2002,
           "thumb": "https://i.discogs.com/FpYpDZOtx5yITMQwK6gI6M1pSXpgg089SK_YS8XZxfo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3OTAy/Mi0xNTg4MjIyMTk0/LTk3NTIuanBlZw.jpeg",
-          "resource_url": "https://api.discogs.com/masters/430850",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 92,
+              "in_collection": 169
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 1072432,
           "title": "1000 Trutas 1000 Tretas",
+          "type": "master",
+          "main_release": 2968874,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1072432",
           "year": 2006,
           "thumb": "https://i.discogs.com/QGaYUO6wDtsf26196hQiYeJCCh-IN7t2iEn3Q94s0dk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Njg4/NzQtMTU4ODEyNjk0/MS02NDUxLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1072432",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 22,
+              "in_collection": 65
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 6350850,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, MP3, Single, 320",
+          "label": "Boogie Naipe",
           "title": "Quanto Vale O Show",
+          "resource_url": "https://api.discogs.com/releases/6350850",
+          "role": "Main",
+          "artist": "Racionais*",
           "year": 2014,
           "thumb": "https://i.discogs.com/FJiFFGN9uTTw7NWf6QREdpBCgs-c0MfmGsnShz3X0N8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYzNTA4/NTAtMTQxNzEwNzk5/Mi03MDUwLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/6350850",
-          "formats": "File, MP3, Single, 320",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 1727010,
           "title": "Racionais MC's 25",
+          "type": "master",
+          "main_release": 11599186,
+          "artist": "Racionais MC's",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1727010",
           "year": 2014,
           "thumb": "https://i.discogs.com/4Q2Z_t9lKPBV57qd_7kFO2_IdnFScP7rgW4-G5fS8Bw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTk5/MTg2LTE1MTkxNzY2/ODYtNjM3NC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1727010",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 9,
+              "in_collection": 17
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
         },
         {
           "id": 786448,
           "title": "Cores & Valores",
+          "type": "master",
+          "main_release": 6548763,
+          "artist": "Racionais*",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/786448",
           "year": 2014,
           "thumb": "https://i.discogs.com/T4YGi4_o8IAERSvpLz1-WR8QlRd7ZCKPv8Y-TVQjRyo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY1NDg3/NjMtMTQzNzQ1MDk2/MC0yODEyLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/786448",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 27,
+              "in_collection": 182
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 8941062,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, MP3, Single, 320",
+          "label": "Not On Label",
           "title": "Mil Faces De Um Homem Leal (Marighella)",
+          "resource_url": "https://api.discogs.com/releases/8941062",
+          "role": "Main",
+          "artist": "Racionais MC's",
           "year": 2017,
           "thumb": "https://i.discogs.com/hE_z3FI65Bv75zZzEpAsIsnQDwDoXvV6MBHdKP_4kkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg5NDEw/NjItMTYxODIwMzkz/NS0yNzczLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/8941062",
-          "formats": "File, MP3, Single, 320",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 17253439,
+          "status": "Accepted",
+          "type": "release",
+          "format": "Box, Comp, Dlx + LP, Album, RE, RM + LP, EP, RE, R",
+          "label": "Fatiado Discos, EAEO Records, Cosa Nostra, Boogie Naipe",
           "title": "Racionais MC's",
+          "resource_url": "https://api.discogs.com/releases/17253439",
+          "role": "Main",
+          "artist": "Racionais MC's",
           "year": 2020,
           "thumb": "https://i.discogs.com/Cgj6JATREJ9AQDtyv82qr5er_AufrolhCkd8QD3smDU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3MjUz/NDM5LTE2MTI0NTQ1/OTYtMjIwNC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/17253439",
-          "formats": "Box, Comp, Dlx + LP, Album, RE, RM + LP, EP, RE, R",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 125,
+              "in_collection": 92
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 25745833,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, MP3, Single, 256",
+          "label": "White Starship Records",
           "title": "Vida Loka P2 (Kallendario Remix)",
+          "resource_url": "https://api.discogs.com/releases/25745833",
+          "role": "Main",
+          "artist": "Racionais MC's",
           "year": 2022,
           "thumb": "https://i.discogs.com/poUZaFCJ1_vQ3YRPOIhkSAJtMp4xSl99LxsUBIGhbYM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NzQ1/ODMzLTE2NzM1NDMy/MTMtMTk3OC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/25745833",
-          "formats": "File, MP3, Single, 256",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 29275087,
+          "status": "Accepted",
+          "type": "release",
+          "format": "22xFile, AAC, Album, 256",
+          "label": "Boogie Naipe",
           "title": "3 Décadas (Ao Vivo)",
+          "resource_url": "https://api.discogs.com/releases/29275087",
+          "role": "Main",
+          "artist": "Racionais*",
           "year": 2023,
           "thumb": "https://i.discogs.com/46XGBraN_BJa0XZPFYTebF2jmZICuFi0nBPZaih0bNc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5Mjc1/MDg3LTE3MDMyNDkw/NDgtODc4OS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/29275087",
-          "formats": "22xFile, AAC, Album, 256",
-          "type": "release"
-        },
-        {
-          "id": 36002461,
-          "title": "Sobrevivendo No Inferno",
-          "year": 2025,
-          "thumb": "https://i.discogs.com/kklVx6CHA2uDzpvhNupZhjbkfAyswz9xxmrb-ESWlJI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MDAy/NDYxLTE3NjY1MTU5/MTUtNTE1MS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/36002461",
-          "formats": "2xLP, Album, Dlx, RE, Box",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         }
       ]
     },
@@ -172,73 +407,170 @@
       "items": [
         {
           "id": 7451339,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "LP, Album",
+          "label": "Gel Continental",
           "title": "Nosso Lado Animal",
+          "resource_url": "https://api.discogs.com/releases/7451339",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 1987,
           "thumb": "https://i.discogs.com/jC-UNEQK1gd7Aa_MgnopP99CO6WbQ_kNVrJZI_ByF8o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTEz/MzktMTQ0MTc0ODc5/My02NDA3LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/7451339",
-          "formats": "LP, Album",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 7,
+              "in_collection": 48
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         },
         {
           "id": 1785286,
-          "artist": "Bandaliera",
           "title": "Ao Vivo ",
+          "type": "master",
+          "main_release": 12385508,
+          "artist": "Bandaliera",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1785286",
           "year": 1992,
           "thumb": "https://i.discogs.com/hQPGtE8tv2xC07W39DpwBxm5CxNefzx0AE5FELyFGUU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMzg1/NTA4LTE1MzQxOTI4/MDAtNTYxMS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1785286",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 9,
+              "in_collection": 46
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album, stereo",
+          "_category": "album"
         },
         {
           "id": 12224685,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Not On Label (Bandaliera Self-released)",
           "title": "Estação De Pedro",
+          "resource_url": "https://api.discogs.com/releases/12224685",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 1993,
           "thumb": "https://i.discogs.com/wW1bzDEgHFVzwKUH6DojzO3W9AaDfZfOlqVfNAHq1Lk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjI0/Njg1LTE1MzA4NzI5/NTgtNjc5MS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/12224685",
-          "formats": "CD, Album",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 4,
+              "in_collection": 8
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         },
         {
           "id": 31826648,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CDr",
+          "label": "Not On Label (Bandaliera Self-released)",
           "title": "Demo CD",
+          "resource_url": "https://api.discogs.com/releases/31826648",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 1997,
           "thumb": "https://i.discogs.com/USJUV741GzekPnM0gCRUwL7L8h1AcJRoPqvgDGGkDBI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODI2/NjQ4LTE3MjczNjMw/MzgtNjU0OC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/31826648",
-          "formats": "CDr",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 12283131,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Not On Label (Bandaliera Self-released)",
           "title": "15 Anos",
+          "resource_url": "https://api.discogs.com/releases/12283131",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 1998,
           "thumb": "https://i.discogs.com/39gDDRo8MQSbxq8PFwuHuWOM44t_2l5TVDJCBrPIfhk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MTMxLTE1MzIxMTU5/MzQtNjYzMS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/12283131",
-          "formats": "CD, Album",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 22
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         },
         {
           "id": 12283208,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Stop Records (10)",
           "title": "Bye Flowers",
+          "resource_url": "https://api.discogs.com/releases/12283208",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 2000,
           "thumb": "https://i.discogs.com/x4ErEnUo9ClcVz9Ux1MtNSMl9tUQkzi6njOpHqMbve4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjgz/MjA4LTE1MzIxMTc1/NzktNjE5Ny5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/12283208",
-          "formats": "CD, Album",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 33
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         },
         {
           "id": 11603114,
-          "artist": "Bandaliera",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album, Promo",
+          "label": "Stop Records (10), Kives Records",
           "title": "20 Anos",
+          "resource_url": "https://api.discogs.com/releases/11603114",
+          "role": "Main",
+          "artist": "Bandaliera",
           "year": 2002,
           "thumb": "https://i.discogs.com/GF1GJApkh-T5Q7QIZCHOEv1fYVD4H-uJ2fo4G7LfSkg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNjAz/MTE0LTE1MTkyNDYz/MzctNzQxNi5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/11603114",
-          "formats": "CD, Album, Promo",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 24
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         }
       ]
     },
@@ -247,233 +579,2107 @@
       "items": [
         {
           "id": 3018931,
-          "artist": "Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "7\", Single",
+          "label": "Atlantic",
           "title": "Na Baixa Do Sapateiro",
+          "resource_url": "https://api.discogs.com/releases/3018931",
+          "role": "Main",
+          "artist": "Banda Black Rio",
           "year": 1977,
           "thumb": "https://i.discogs.com/saiSlegJadXfU-089MqTMeAPfW-8fPkeEIT0IoCkF_w/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMTg5/MzEtMTU5NTc3Mzg3/Ny04NTIyLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/3018931",
-          "formats": "7\", Single",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 314,
+              "in_collection": 28
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 11303057,
-          "artist": "Belchior / Banda Black Rio / Carlos Dafé / Hermeto Pascoal",
+          "status": "Accepted",
+          "type": "release",
+          "format": "7\", EP, Promo",
+          "label": "WEA",
           "title": "Promocional",
+          "resource_url": "https://api.discogs.com/releases/11303057",
+          "role": "Main",
+          "artist": "Belchior / Banda Black Rio / Carlos Dafé / Hermeto Pascoal",
           "year": 1977,
           "thumb": "https://i.discogs.com/9pgVCtb0vadU83mJVcNn7SjQFFU7CHKtAlwjaXK8yWs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMzAz/MDU3LTE2OTg4NDY3/MTUtMTA5Mi5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/11303057",
-          "formats": "7\", EP, Promo",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 126,
+              "in_collection": 29
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 31819634,
-          "artist": "Belchior, Banda Black Rio, Carlos Dafé, Hermeto Pascoal",
+          "status": "Accepted",
+          "type": "release",
+          "format": "7\"",
+          "label": "WEA Discos Ltda.",
           "title": "Promocional",
+          "resource_url": "https://api.discogs.com/releases/31819634",
+          "role": "Main",
+          "artist": "Belchior, Banda Black Rio, Carlos Dafé, Hermeto Pascoal",
           "year": 1977,
           "thumb": "https://i.discogs.com/3K3mjEUKvJBpwmGozF_L7-S3Z7rTIRuGYaGsghHnAco/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODE5/NjM0LTE3MjcyMTgz/NDAtMjIyMi5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/31819634",
-          "formats": "7\"",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 18,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 268438,
-          "artist": "Banda Black Rio",
           "title": "Maria Fumaça",
+          "type": "master",
+          "main_release": 1262992,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/268438",
           "year": 1977,
           "thumb": "https://i.discogs.com/cVRi0HpaW-Kyz8TT3ngzTpc6xMUSpvJvuq3ssNXJIYU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjI5/OTItMTU0MjU5OTI5/NC05MTIzLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/268438",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 2005,
+              "in_collection": 565
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 2281720,
-          "artist": "Banda Black Rio",
           "title": "Maria Fumaca ",
+          "type": "master",
+          "main_release": 8707288,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2281720",
           "year": 1977,
           "thumb": "https://i.discogs.com/dwEsjfKUoc4ATYkikmRQKQMAmj99A8kMlQdvMU4B558/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg3MDcy/ODgtMTU5NTc4NzQ3/My0yNzc3LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/2281720",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 313,
+              "in_collection": 33
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 7\", 33 ⅓ rpm, single",
+          "_category": "singleep"
         },
         {
           "id": 290606,
-          "artist": "Banda Black Rio",
           "title": "Gafieira Universal",
+          "type": "master",
+          "main_release": 2578718,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/290606",
           "year": 1978,
           "thumb": "https://i.discogs.com/JGRfRpeNtdmcjZJGGJbiS5Lqd8Yhltw4qTx-xqtD1-0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzg3/MTgtMTI5MTQwNDAw/OC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/290606",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 1659,
+              "in_collection": 241
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 4853825,
-          "artist": "Banda Black Rio, Sonia Santos, Emerson (8)",
+          "status": "Accepted",
+          "type": "release",
+          "format": "7\", EP",
+          "label": "RCA",
           "title": "Trilha Sonora Do Filme Sábado Alucinante",
+          "resource_url": "https://api.discogs.com/releases/4853825",
+          "role": "Main",
+          "artist": "Banda Black Rio, Sonia Santos, Emerson (8)",
           "year": 1979,
           "thumb": "https://i.discogs.com/kNW5D_IitNnPxqjtmJ1BKbhAxQkBJ1UGM6HXVyKr6jk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ4NTM4/MjUtMTM3NzU0MzEx/OS00MjY1LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/4853825",
-          "formats": "7\", EP",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 181,
+              "in_collection": 59
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 4666485,
-          "artist": "Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "7\", Single, Promo",
+          "label": "RCA",
           "title": "Saci Pererê ",
+          "resource_url": "https://api.discogs.com/releases/4666485",
+          "role": "Main",
+          "artist": "Banda Black Rio",
           "year": 1980,
           "thumb": "https://i.discogs.com/kN43Ngi5I-_ll3Phvqj5hn7D3l3azYwcgsJCDl1ZbN0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NjY0/ODUtMTYxMzQzNzgz/MC0xNjM1LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/4666485",
-          "formats": "7\", Single, Promo",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 109,
+              "in_collection": 21
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 268440,
-          "artist": "Banda Black Rio",
           "title": "Miss Cheryl",
+          "type": "master",
+          "main_release": 1447592,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/268440",
           "year": 1980,
           "thumb": "https://i.discogs.com/WfUbRiWPqGbq2X2-JkXlTl5n1Jrc4RxBSq--8WGCSdA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDc1/OTItMTM0ODY3ODU3/Ni04Mzc4LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/268440",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 725,
+              "in_collection": 126
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 12\", 45 rpm, single",
+          "_category": "singleep"
         },
         {
           "id": 271155,
-          "artist": "Banda Black Rio",
           "title": "Saci Pererê",
+          "type": "master",
+          "main_release": 3027803,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/271155",
           "year": 1980,
           "thumb": "https://i.discogs.com/gab4-auicuOs7fUa1Z2tjrAk6TbYjY-aNhP5lCba3us/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMjc4/MDMtMTcwMjkxMzM0/OC0yNzAwLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/271155",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 1044,
+              "in_collection": 232
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
         },
         {
           "id": 4446788,
-          "artist": "Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "BMG",
           "title": "Série Aplauso 14 Grandes Sucessos",
+          "resource_url": "https://api.discogs.com/releases/4446788",
+          "role": "Main",
+          "artist": "Banda Black Rio",
           "year": 1996,
           "thumb": "https://i.discogs.com/OtXMwEBYpPHteBnpyejTD79UDUTrOCA5U5Xcwp0eRJQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0NDY3/ODgtMTQ5ODMxMDA5/NS04NTg3LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/4446788",
-          "formats": "CD, Comp",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 7,
+              "in_collection": 30
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 268441,
-          "artist": "Banda Black Rio",
           "title": "The Best Of Banda Black Rio",
+          "type": "master",
+          "main_release": 1090332,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/268441",
           "year": 1996,
           "thumb": "https://i.discogs.com/TuEIZ3DjWbR49LdgDIX6bIIoPxW5yWAk_mxMcEojDlc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwOTAz/MzItMTE5MTMyNTgz/NC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/268441",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 77,
+              "in_collection": 131
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
         },
         {
           "id": 15271131,
-          "artist": "Sandra De Sá, Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "WARNER MUSIC BRASIL LTDA.",
           "title": "Enciclopédia Musical Brasileira Vol. 34",
+          "resource_url": "https://api.discogs.com/releases/15271131",
+          "role": "Main",
+          "artist": "Sandra De Sá, Banda Black Rio",
           "year": 2000,
           "thumb": "https://i.discogs.com/bUoXK4ilKZC6Irfegwg1dfL_eoaEog0qVA99DOFVmQY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Mjcx/MTMxLTE1ODg5Nzkw/NDgtMzYyNi5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/15271131",
-          "formats": "CD, Comp",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 12
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 10564591,
-          "artist": "Banda Black Rio / A Cor Do Som",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album, Comp, RE, RM",
+          "label": "BMG Brasil",
           "title": "Saci Pererê / Gosto Do Prazer",
+          "resource_url": "https://api.discogs.com/releases/10564591",
+          "role": "Main",
+          "artist": "Banda Black Rio / A Cor Do Som",
           "year": 2001,
           "thumb": "https://i.discogs.com/3X5qbSW9MXhfwarFG4xRSPFduxFL6IssevbSJCCeI1M/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNTY0/NTkxLTE2Mjk3NTAy/NjEtNTIyMS5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/10564591",
-          "formats": "CD, Album, Comp, RE, RM",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 34
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 3666819,
-          "artist": "Banda Black Rio",
           "title": "Movimento",
+          "type": "master",
+          "main_release": 6829642,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3666819",
           "year": 2001,
           "thumb": "https://i.discogs.com/CzTdKoUimBHj6rIyvqGXd3cCghIqqnB4QClnId9h0EA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4Mjk2/NDItMTY2NzIwNDU4/Mi0xNjQ4LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/3666819",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 40,
+              "in_collection": 49
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 11147125,
-          "artist": "Caetano Veloso E Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album, S/Edition",
+          "label": "Universal Music",
           "title": "Bicho Baile Show (Ao Vivo - No Teatro Carlos Gomes - Em 1978)",
+          "resource_url": "https://api.discogs.com/releases/11147125",
+          "role": "Main",
+          "artist": "Caetano Veloso E Banda Black Rio",
           "year": 2002,
           "thumb": "https://i.discogs.com/MY6czsaHH7CLwMktBYTcc0CEpx5TJwBnZs4k3eggmKY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTQ3/MTI1LTE1MTA3MTQz/MDEtMzkyOC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/11147125",
-          "formats": "CD, Album, S/Edition",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 87,
+              "in_collection": 36
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
         },
         {
           "id": 3202602,
-          "artist": "Banda Black Rio",
           "title": "Magia Do Prazer / Tomorrow",
+          "type": "master",
+          "main_release": 77999,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3202602",
           "year": 2002,
           "thumb": "https://i.discogs.com/rFBPA_QXoiN4ApHqVs5UHDfH_UVlx5eInn_UkZCh1hU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc3OTk5/LTEyMjc2NDQ3NTUu/anBlZw.jpeg",
-          "resource_url": "https://api.discogs.com/masters/3202602",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 128,
+              "in_collection": 250
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 12\", 33 ⅓ rpm, 45 rpm",
+          "_category": "singleep"
         },
         {
           "id": 11007579,
-          "artist": "Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Single, Promo",
+          "label": "Regata Musica",
           "title": "Carrossel",
+          "resource_url": "https://api.discogs.com/releases/11007579",
+          "role": "Main",
+          "artist": "Banda Black Rio",
           "year": 2003,
           "thumb": "https://i.discogs.com/OCIHNtOAC3uPdLyJEkc4jL9qkSk9-aD03Q930K85VMw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMDA3/NTc5LTE1NTE3MjQ2/MzgtMzcwMi5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/releases/11007579",
-          "formats": "CD, Single, Promo",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 7,
+              "in_collection": 4
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
         },
         {
           "id": 405177,
-          "artist": "Banda Black Rio",
           "title": "Rebirth",
+          "type": "master",
+          "main_release": 449282,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/405177",
           "year": 2003,
           "thumb": "https://i.discogs.com/41xSlLeGM3LGK45WvY9oPN8g9GV5RKzWrlGOiBQSSmo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0OTI4/Mi0xMjI3NjQ0OTIx/LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/405177",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 64,
+              "in_collection": 85
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 3457333,
-          "artist": "Azymuth / Banda Black Rio",
+          "status": "Accepted",
+          "type": "release",
+          "format": "2xLP, Comp, Ltd, RE",
+          "label": "Far Out Recordings, Far Out Recordings",
           "title": "Aurora / Super Nova Samba Funk",
+          "resource_url": "https://api.discogs.com/releases/3457333",
+          "role": "Main",
+          "artist": "Azymuth / Banda Black Rio",
           "year": 2011,
           "thumb": "https://i.discogs.com/Bui1VvkObvECD5ns3pDH5iw3SanW_mAH0jlaX9Owljc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NTcz/MzMtMTUyNDQxODc5/NS0xMjU3LmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/releases/3457333",
-          "formats": "2xLP, Comp, Ltd, RE",
-          "type": "release"
+          "stats": {
+            "community": {
+              "in_wantlist": 212,
+              "in_collection": 7
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
         },
         {
           "id": 416588,
-          "artist": "Banda Black Rio",
           "title": "Super Nova Samba Funk",
+          "type": "master",
+          "main_release": 3531720,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/416588",
           "year": 2011,
           "thumb": "https://i.discogs.com/Amj_Qrc0PnK05A6CtQ7L0KDktpq8BnQl0GQo0kLYlAk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1MzE3/MjAtMTMzNDEzNjM5/NC5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/416588",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 43,
+              "in_collection": 74
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
         },
         {
           "id": 3343771,
-          "artist": "Banda Black Rio / Miele (3)",
           "title": "Miss Cheryl / Melô Do Tagarela = Rapper's Delight (Instrumental)",
+          "type": "master",
+          "main_release": 9087957,
+          "artist": "Banda Black Rio / Miele (3)",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3343771",
           "year": 2016,
           "thumb": "https://i.discogs.com/Z4dzN_uij_fngJYyB7Zn8Hdo93_tpPNrcs08WyTH92E/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkwODc5/NTctMTU0MjQ3NDk4/MS00NzIyLmpwZWc.jpeg",
-          "resource_url": "https://api.discogs.com/masters/3343771",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 512,
+              "in_collection": 749
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 7\", 45 rpm, single",
+          "_category": "singleep"
         },
         {
           "id": 1842457,
-          "artist": "Banda Black Rio",
           "title": "O Som Das Américas",
+          "type": "master",
+          "main_release": 13731040,
+          "artist": "Banda Black Rio",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1842457",
           "year": 2019,
           "thumb": "https://i.discogs.com/5adGAbp48jpd3Tzwf7ATxCsBMI2KDWe5bp4aTjpl910/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzMx/MDQwLTE1NTk5MzMw/ODAtOTYyNy5qcGVn.jpeg",
-          "resource_url": "https://api.discogs.com/masters/1842457",
-          "formats": [],
-          "type": "master"
+          "stats": {
+            "community": {
+              "in_wantlist": 19,
+              "in_collection": 21
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        }
+      ]
+    },
+    {
+      "artist": "Biquini Cavadão",
+      "items": [
+        {
+          "id": 814275,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Single",
+          "label": "Polydor, Polydor",
+          "title": "No Mundo Da Lua / Tédio (Remix)",
+          "resource_url": "https://api.discogs.com/releases/814275",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1985,
+          "thumb": "https://i.discogs.com/O85MJHeZKKso_lLjXox3qE45NAZ7Q2feHumIW1IzLJM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxNDI3/NS0xMzE5NjM4NDM2/LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 26,
+              "in_collection": 128
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 1934205,
+          "title": "Tédio",
+          "type": "master",
+          "main_release": 9640122,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1934205",
+          "year": 1985,
+          "thumb": "https://i.discogs.com/SoXzh7qndnQFVaq_7KoIw5xsUQcLbEqmsVojMQDve3k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk2NDAx/MjItMTQ4NDA1MjAx/My00OTIyLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 11,
+              "in_collection": 40
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 7\", 33 ⅓ rpm, single",
+          "_category": "singleep"
+        },
+        {
+          "id": 14855457,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Múmias ( Remix ) ",
+          "resource_url": "https://api.discogs.com/releases/14855457",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1986,
+          "thumb": "https://i.discogs.com/GvMxSzlMhW4o_UKy5mbivBnAoA5MtFQdmQ6-tYKLmsA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODU1/NDU3LTE3NDQzMTk1/MjYtNDA3Mi5wbmc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 8,
+              "in_collection": 9
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 799503,
+          "title": "Cidades Em Torrente",
+          "type": "master",
+          "main_release": 2240950,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/799503",
+          "year": 1986,
+          "thumb": "https://i.discogs.com/YI3BZkzJJ4siYMkAr14CJnD_HIFb98EBd699XutXUbI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDA5/NTAtMTQwNTE4ODY5/OC02NzU3LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 38,
+              "in_collection": 560
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album, stereo",
+          "_category": "album"
+        },
+        {
+          "id": 3823274,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Ida E Volta",
+          "resource_url": "https://api.discogs.com/releases/3823274",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1987,
+          "thumb": "https://i.discogs.com/cpRU0PNeHwXHp7FnTq5MhOeJ_GOUCuIBnn9c8a2jdmA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MjMy/NzQtMTM0NjQyNDc4/Ni0zODcxLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 17
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 813911,
+          "title": "A Era Da Incerteza",
+          "type": "master",
+          "main_release": 2240961,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/813911",
+          "year": 1987,
+          "thumb": "https://i.discogs.com/tbIrNn2hzxmfJtdvVAsNqdGENmnh9NfTUaDZi0IOzfw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyNDA5/NjEtMTQwNTE4ODU3/OS01MTU1LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 16,
+              "in_collection": 375
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album, stereo",
+          "_category": "album"
+        },
+        {
+          "id": 1744488,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Meu Reino / Teoria (Remix)",
+          "resource_url": "https://api.discogs.com/releases/1744488",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1989,
+          "thumb": "https://i.discogs.com/9FYDo01eGsHksHOn2caGTry5YO_Hd2RoF5T7w-sDY3c/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDQ0/ODgtMTcwMDA3NzM1/My05MjE2LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 12,
+              "in_collection": 20
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 3823262,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Teoria",
+          "resource_url": "https://api.discogs.com/releases/3823262",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1989,
+          "thumb": "https://i.discogs.com/5QmypjpcLqVkl2wSHZJ6ZbG9bbbHE9usb38V6DsLeYQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4MjMy/NjItMTM0NjQyNDgz/MS02ODMwLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 21
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 799506,
+          "title": "Zé",
+          "type": "master",
+          "main_release": 1743109,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/799506",
+          "year": 1989,
+          "thumb": "https://i.discogs.com/xuwU_oq0i5iljTA6oZoIen8DHlHyquRkWA4hcNATpcM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDMx/MDktMTQwNTE4ODM3/OS04ODY1LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 11,
+              "in_collection": 261
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
+        },
+        {
+          "id": 1612540,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Zé Ninguém",
+          "resource_url": "https://api.discogs.com/releases/1612540",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1991,
+          "thumb": "https://i.discogs.com/ORGxhKFbgjuPxAEHY7FCDWrpA02SneviPCq6nZyg3VY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MTI1/NDAtMTM0NjQyNDcw/My0xNTMyLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 5,
+              "in_collection": 16
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 799505,
+          "title": "Descivilização",
+          "type": "master",
+          "main_release": 2887027,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/799505",
+          "year": 1991,
+          "thumb": "https://i.discogs.com/UwL9sJGlybSF9TuWcsAtVg3M1uI1YHHN1ijsFYbBHNU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODcw/MjctMTY4MjQ4MTMx/My0zNTc5LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 33,
+              "in_collection": 478
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album, stereo",
+          "_category": "album"
+        },
+        {
+          "id": 4300681,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Promo",
+          "label": "Polydor",
+          "title": "Vento Ventania",
+          "resource_url": "https://api.discogs.com/releases/4300681",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1992,
+          "thumb": "https://i.discogs.com/_cxrCz9ypkleAuwz9Q7uWOEL7ASS3sC6K-qnCuNhntc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMDA2/ODEtMTQ0NDg4NzY0/My03OTYxLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 18,
+              "in_collection": 7
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 3562562,
+          "title": "Impossível",
+          "type": "master",
+          "main_release": 10716514,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3562562",
+          "year": 1992,
+          "thumb": "https://i.discogs.com/T-yjC2XN0sxuhiUguYp3hlXYLyhMYJuUUqSsFKI7egs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzE2/NTE0LTE1MDI5Nzc3/MTQtMjcyOC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 7
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, 12\", 33 ⅓ rpm, 45 rpm, single, promo",
+          "_category": "singleep"
+        },
+        {
+          "id": 1454435,
+          "status": "Accepted",
+          "type": "release",
+          "format": "12\", Single, Promo",
+          "label": "Columbia",
+          "title": "Chove Chuva",
+          "resource_url": "https://api.discogs.com/releases/1454435",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1993,
+          "thumb": "https://i.discogs.com/5Xt-umYHT79g-wHzOmgsAExcQ4QWQ8tq_xu25cnZfLA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NTQ0/MzUtMTM0NjQyNDY2/MC01MzU0LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 7,
+              "in_collection": 14
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 4118328,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Single, Promo",
+          "label": "Epic",
+          "title": "O Idiota Eletrônico",
+          "resource_url": "https://api.discogs.com/releases/4118328",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1994,
+          "thumb": "https://i.discogs.com/mXwe6Ac0hwNSFAAdMqXQTr-3JdC2OeMrDc6j5AUcIJY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxMTgz/MjgtMTU5NTYyNDE5/Mi01NjQ5LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 4
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 1590847,
+          "title": "O Melhor Do Biquini Cavadão",
+          "type": "master",
+          "main_release": 9526525,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1590847",
+          "year": 1994,
+          "thumb": "https://i.discogs.com/3qa78tMB9ij8l51xxWIErGs6e2MqGpGOAl0nfVjC8pU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk1MjY1/MjUtMTQ4MjEwNTM4/NS0yODI4LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 26,
+              "in_collection": 61
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, compilation",
+          "_category": "compilation"
+        },
+        {
+          "id": 613469,
+          "title": "Agora",
+          "type": "master",
+          "main_release": 2946753,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/613469",
+          "year": 1994,
+          "thumb": "https://i.discogs.com/7FueczzFZ_2NQF5-05l_XjMt5nsUU240fSeUTUdJCGg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NDY3/NTMtMTMyMTczNTU5/Ny5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 9,
+              "in_collection": 88
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album",
+          "_category": "album"
+        },
+        {
+          "id": 813935,
+          "title": "Ilusão '95",
+          "type": "master",
+          "main_release": 1744535,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/813935",
+          "year": 1995,
+          "thumb": "https://i.discogs.com/3J-cuXWpeZPoBm4hh3WyOSib2-HFLNOO9_S8GfjR94Q/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NDQ1/MzUtMTI0MDU4NTYy/MS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 7
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, maxi-single, promo",
+          "_category": "singleep"
+        },
+        {
+          "id": 10430331,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Single, Promo",
+          "label": "BMG Brasil",
+          "title": "Janaína",
+          "resource_url": "https://api.discogs.com/releases/10430331",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1997,
+          "thumb": "https://i.discogs.com/jA5D6LjihhqmnaueZKsj-_YRnx663u4bsPU8Y4mughU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNDMw/MzMxLTE0OTcyNzY4/NjQtNjA2Ny5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 4
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 6815080,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "Polydor, PolyGram",
+          "title": "Remixes",
+          "resource_url": "https://api.discogs.com/releases/6815080",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1998,
+          "thumb": "https://i.discogs.com/bb7fezthLsHdcFXEJg8QqqhkQIs3uSVordWLm_U7uNw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MTUw/ODAtMTQyNzIwMjc4/OC0yNjU0LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 50
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 7848226,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "BMG Brasil Ltda., Ariola",
+          "title": "Biquini.com.br",
+          "resource_url": "https://api.discogs.com/releases/7848226",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1998,
+          "thumb": "https://i.discogs.com/-Izo-m6paCxG-WVlB4rvBp355SH5JVACdMWeO0SGEAA/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc4NDgy/MjYtMTQ1MDA5MTcw/OS02NDA4LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 120
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 15976825,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, EP, Maxi, Promo",
+          "label": "Spotlight Records, PolyGram",
+          "title": "Tédio/Vento Ventania (Remixes)",
+          "resource_url": "https://api.discogs.com/releases/15976825",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1998,
+          "thumb": "https://i.discogs.com/JNsHvKuMatHbqeiOaRrpgjxIgOUu5u0f9sKCJC7jJGg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTc2/ODI1LTE2MDEyNDQx/NTktOTY3NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 6,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 9319664,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "Polydor, Universal Music",
+          "title": "Millennium - 20 Músicas Do Século XX",
+          "resource_url": "https://api.discogs.com/releases/9319664",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1999,
+          "thumb": "https://i.discogs.com/J0wd4AOl99QsDgj_micxnwY_dmBpjF4JKsec7N39y2s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMTk2/NjQtMTQ3ODUyNjA1/My0xNDM2LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 146
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 14885324,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Single, Promo",
+          "label": "BMG Portugal",
+          "title": "Janaína",
+          "resource_url": "https://api.discogs.com/releases/14885324",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 1999,
+          "thumb": "https://i.discogs.com/M8beeDDsHUeitG2UexKwf-RviOl3dGfQUxps0m9qw4o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODg1/MzI0LTE2NTk0NjE0/NDgtOTcxNy5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 4,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 2637089,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Single, Promo",
+          "label": "BMG Brasil, Ariola",
+          "title": "Escuta Aqui",
+          "resource_url": "https://api.discogs.com/releases/2637089",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2000,
+          "thumb": "https://i.discogs.com/Kg5K9bFgqJMZzmXHuq4YyxnVKYtgd3YxiVN-Qd3jP20/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2Mzcw/ODktMTM0MTgwMDM2/OC0zNzk2LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 5
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 9321913,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album, Enh",
+          "label": "Ariola, BMG Brasil",
+          "title": "Escuta Aqui",
+          "resource_url": "https://api.discogs.com/releases/9321913",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2000,
+          "thumb": "https://i.discogs.com/ILtPegPeqVd_RTCWCaR4RmlkvCwXA3L_2WIPNukq1sE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjE5/MTMtMTYyNjU4NjE5/NS00Njk5LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 5,
+              "in_collection": 92
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 17601634,
+          "status": "Accepted",
+          "type": "release",
+          "format": "2xCD, Comp",
+          "label": "Universal Music",
+          "title": "Sem Limite",
+          "resource_url": "https://api.discogs.com/releases/17601634",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2001,
+          "thumb": "https://i.discogs.com/3uXb7KjYvpNSX_jNMuhXLuG4NdD6g5Gpz1mVBrq2Qps/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3NjAx/NjM0LTE2MTQzNzgx/MjctNzQ0Ny5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 25
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 19719025,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "RCA, BMG Brasil",
+          "title": "Quatro Em Um",
+          "resource_url": "https://api.discogs.com/releases/19719025",
+          "role": "Main",
+          "artist": "Capital Inicial, Engenheiros Do Hawaii, Nenhum De Nós, Biquini Cavadão",
+          "year": 2001,
+          "thumb": "https://i.discogs.com/0sFjoAHSyLNJE2DkrfD9g-QI4NCcvz7jupvQt85Twzs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NzE5/MDI1LTE2Mjc5NDA4/MDUtMzE3Mi5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 11
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 991341,
+          "title": "80",
+          "type": "master",
+          "main_release": 9289506,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/991341",
+          "year": 2001,
+          "thumb": "https://i.discogs.com/taY976aHLA_u1gs3BwtEAs9ltFEyi4WxPa1zo-_r9Uo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyODk1/MDYtMTQ3ODAyMzMz/OC05NTQ4LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 4,
+              "in_collection": 137
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        },
+        {
+          "id": 14911434,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "Universal Music, Mercury",
+          "title": "Gold",
+          "resource_url": "https://api.discogs.com/releases/14911434",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2002,
+          "thumb": "https://i.discogs.com/Pn9fuxDG73vyhKUYzS4PcyVCCxPXmBBS1bqPiYM1sgc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0OTEx/NDM0LTE2MzM2NDgw/NDUtNDgxNi5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 18
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 2596358,
+          "title": "Ao Vivo",
+          "type": "master",
+          "main_release": 13725980,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2596358",
+          "year": 2005,
+          "thumb": "https://i.discogs.com/LDqSwRtcaMLNLMWbCrJb8AkdceI8ks20d_LHmtwgoqI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNzI1/OTgwLTE1NTk4MzMy/NDMtMTA4MS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 47
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "dvd, dvd-video, ntsc, repress",
+          "_category": "video"
+        },
+        {
+          "id": 1441164,
+          "title": "Novo Millennium - 20 Músicas Para Uma Nova Era",
+          "type": "master",
+          "main_release": 9167139,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1441164",
+          "year": 2005,
+          "thumb": "https://i.discogs.com/kMRsmlV7xWNlSDbR0qXo74AuaDNkNkOQW6f2uaSbv0k/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNjcx/MzktMTQ3NTk0ODI0/MC04MzYxLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 28
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
+        },
+        {
+          "id": 1278235,
+          "title": "Ao Vivo",
+          "type": "master",
+          "main_release": 9167055,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1278235",
+          "year": 2005,
+          "thumb": "https://i.discogs.com/Wi5cl9IoBePcMpM5nByhW9prPgV1D-zI8PyTo6Tl4Ok/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNjcw/NTUtMTQ3NTk0NzE5/MS0zMDQ4LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 5,
+              "in_collection": 91
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        },
+        {
+          "id": 11238099,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Not On Label",
+          "title": "Só Quem Sonha Acordado Vê O Sol Nascer",
+          "resource_url": "https://api.discogs.com/releases/11238099",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2007,
+          "thumb": "https://i.discogs.com/oLiuVNE1Qy05rw1T2OGxDx2YQ3VQDyIresEYc9yjwo0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjM4/MDk5LTE1NDA1NTE4/NDMtNTI0Ni5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 3,
+              "in_collection": 37
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 1165105,
+          "title": "80 Vol2",
+          "type": "master",
+          "main_release": 9167000,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1165105",
+          "year": 2008,
+          "thumb": "https://i.discogs.com/-isqq1I1Jc5Z8uwql8KZ9zuHbrQtDYQeEtcioaEtDz0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNjcw/MDAtMTQ3NTk0NjQ4/Ny0xNzM1LnBuZw.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 64
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        },
+        {
+          "id": 2835689,
+          "title": "Sucessos Regravados (1985 / 2007) - Volume 1",
+          "type": "master",
+          "main_release": 12620068,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2835689",
+          "year": 2008,
+          "thumb": "https://i.discogs.com/lhPXlxsmzWuGIwYa8g_XvHM2Z4zN5czwmCOX5MWibRs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjIw/MDY4LTE2MzAwODcw/MzAtOTE3NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 24
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        },
+        {
+          "id": 31877695,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album, AA",
+          "label": "Warner Music Brasil",
+          "title": "Roda Gigante",
+          "resource_url": "https://api.discogs.com/releases/31877695",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2013,
+          "thumb": "https://i.discogs.com/Z6LY0kRHs6Whl-MCkCXVQimZ4pT_dxNpxkKW6j4G3oI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxODc3/Njk1LTE3Mjc3NTI0/NTMtNDE2MS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 5
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 32584638,
+          "status": "Accepted",
+          "type": "release",
+          "format": "21xFile, FLAC, Comp",
+          "label": "Sony Music",
+          "title": "Tudo Muito Rápido - Hits E Raridades (1994-2000)",
+          "resource_url": "https://api.discogs.com/releases/32584638",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2013,
+          "thumb": "https://i.discogs.com/qxzSXMApNwcZWCamz5mpzjBunRGt2Y2xq4cydc28vPc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTg0/NjM4LTE3MzQzNzg0/MTgtMTAyMC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 971186,
+          "title": "Roda Gigante",
+          "type": "master",
+          "main_release": 8197427,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/971186",
+          "year": 2013,
+          "thumb": "https://i.discogs.com/ziAiDFyOFFKWDRPI1a_5fjNSRoeBGNPH0QAemWRs_OM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgxOTc0/MjctMTQ1Njk1Mjk2/Mi0xMzY3LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 8,
+              "in_collection": 15
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "vinyl, lp, album, picture disc, stereo",
+          "_category": "album"
+        },
+        {
+          "id": 1549671,
+          "title": "Seleção Essencial",
+          "type": "master",
+          "main_release": 9319640,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1549671",
+          "year": 2013,
+          "thumb": "https://i.discogs.com/zOVBWyu2b9OC1knLqhRocliXm5aFPHA5ygs2P0SisV4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMTk2/NDAtMTQ3ODUyNTY3/OS0yNDQyLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 15
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
+        },
+        {
+          "id": 1291872,
+          "title": "Me Leve Sem Destino (Ao Vivo)",
+          "type": "master",
+          "main_release": 9321935,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1291872",
+          "year": 2014,
+          "thumb": "https://i.discogs.com/xvk9CtvTRteapW-I1LfuOMwa4dDejhNv7mkhhtqBvpQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMjE5/MzUtMTQ3ODU1NDY0/MC01NTY3LmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 76
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, album",
+          "_category": "album"
+        },
+        {
+          "id": 2897896,
+          "title": "Mega Hits",
+          "type": "master",
+          "main_release": 9319688,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2897896",
+          "year": 2015,
+          "thumb": "https://i.discogs.com/x0bQe04DOxzciV4uFu2-GKU90hWu2w95IAnh383i-uU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkzMTk2/ODgtMTQ3ODUyNjQ1/Ny00NTMzLmpwZWc.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 18
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "cd, compilation",
+          "_category": "compilation"
+        },
+        {
+          "id": 11171791,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Coqueiro Verde Records",
+          "title": "As Voltas Que O Mundo Dá",
+          "resource_url": "https://api.discogs.com/releases/11171791",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2017,
+          "thumb": "https://i.discogs.com/2uUX59PxPBcHBs5LqrZVyTxxJbZhXXoQupt403cuTLk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTcx/NzkxLTE2MjY1ODYx/NDItNzIzNS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 40
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 13679370,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Comp",
+          "label": "Som Livre",
+          "title": "Perfil )",
+          "resource_url": "https://api.discogs.com/releases/13679370",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2018,
+          "thumb": "https://i.discogs.com/-ODO3yjSN8r29eLWE50ei4VuMYazxhmTllzA1G1yKC8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjc5/MzcwLTE1NTg4Nzc2/ODMtODI2Ny5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 24
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 14666417,
+          "status": "Accepted",
+          "type": "release",
+          "format": "CD, Album",
+          "label": "Not On Label",
+          "title": "Ilustre Guerreiro",
+          "resource_url": "https://api.discogs.com/releases/14666417",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2019,
+          "thumb": "https://i.discogs.com/5KKPhroANqXwaw7Oe9sbBnKZe86drE8gGZ9yvZSbeOE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NjY2/NDE3LTE1NzkyMjEz/MDUtMzI0Ni5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 4,
+              "in_collection": 24
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 2759531,
+          "title": "Através Dos Tempos",
+          "type": "master",
+          "main_release": 24302282,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/2759531",
+          "year": 2021,
+          "thumb": "https://i.discogs.com/eYiIUQ11FP9fXO74BGk7owEnGOeWlTxQoGU-XFqgrCE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MzAy/MjgyLTE2NjEzNjQz/MjYtMjk2OS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "file, aac, album",
+          "_category": "album"
+        },
+        {
+          "id": 24178322,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "Not On Label (Biquini Cavadão Self-released)",
+          "title": "Vou Te Levar Comigo",
+          "resource_url": "https://api.discogs.com/releases/24178322",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2022,
+          "thumb": "https://i.discogs.com/9sJJ1CJ-NJNrkFf0Zq7ieWt5ZYF-GtY55UDU1-T2RIU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0MTc4/MzIyLTE2NjAzMDUw/MjItMTcxNS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 25203043,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Restos De Sol",
+          "resource_url": "https://api.discogs.com/releases/25203043",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2022,
+          "thumb": "https://i.discogs.com/qScoqWoDV-EiwcIhb6s_ilh4OyK0HHXEtG5oL6zo1xQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MjAz/MDQzLTE2Njg3NzE1/ODAtNjI5MS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 25480435,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Entre Beijos E Mais Beijos",
+          "resource_url": "https://api.discogs.com/releases/25480435",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2022,
+          "thumb": "https://i.discogs.com/zqAbB3GMsh_tb5-wXM-bEGdyThdq0EnAf-eBY8zhUZI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDgw/NDM1LTE2NzExOTE4/OTQtMjM1Ni5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 26865938,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Quem Eu Sou",
+          "resource_url": "https://api.discogs.com/releases/26865938",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/MWTh0gqLcCDO2RVI8YJEnrLBWJbh5V6SmfxVdZrJ1LE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODY1/OTM4LTE2ODIzMzg5/ODYtNTQwOC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 27293706,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Coleção",
+          "resource_url": "https://api.discogs.com/releases/27293706",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/KxQCKl273AgPAqYLGCrvQ8PJnqDYYwb9GpD-A81HYQQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3Mjkz/NzA2LTE2ODU5NjU0/MjItNzM3My5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 27903636,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Vou Te Levar Comigo",
+          "resource_url": "https://api.discogs.com/releases/27903636",
+          "role": "Main",
+          "artist": "Biquini* & Fagner*",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/tQFGAQv4cKOvI-iIEU_gqhIRtfEwgfLoQZnYLJJ_l0s/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3OTAz/NjM2LTE2OTE0MTEz/NjItOTA3OC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 28981156,
+          "status": "Accepted",
+          "type": "release",
+          "format": "3xFile, AAC, Single, 256",
+          "label": "MPE Records",
+          "title": "Moska Apresenta Zoombido",
+          "resource_url": "https://api.discogs.com/releases/28981156",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/TcX6ZFWDr6KTwfv2M7pVBZ3p_5o5II9g_MYG2payB0Y/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4OTgx/MTU2LTE3MDA1ODc1/NzktNjc4NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 29181244,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Tédio",
+          "resource_url": "https://api.discogs.com/releases/29181244",
+          "role": "Main",
+          "artist": "Biquini* com Alex Escobar (2)",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/b6FeiIrGar4VZJCXU476uUM0kmCAQHsiNM8BTX1FRsM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5MTgx/MjQ0LTE3MDIzODE0/MjItOTQyNC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 3464576,
+          "title": "Dani",
+          "type": "master",
+          "main_release": 30473837,
+          "artist": "Biquini* & Falamansa",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3464576",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/7SaHrEX84e0GmmghypDeheeoUFOjzOf9IKaiXdQwmY4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNDcz/ODM3LTE3MTM3OTgy/MjAtODM4OS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "file, aac, single",
+          "_category": "singleep"
+        },
+        {
+          "id": 3535622,
+          "title": "12 De Junho",
+          "type": "master",
+          "main_release": 27607002,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/3535622",
+          "year": 2023,
+          "thumb": "https://i.discogs.com/Q4sd46p1nSF1NAMqKzR9FTwNFq-xwGU-cESe3_59Jn4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3NjA3/MDAyLTE2ODg3Mzgw/OTEtNDM2Mi5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "file, aac, album, deluxe edition",
+          "_category": "album"
+        },
+        {
+          "id": 29497468,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Music",
+          "title": "Vento Ventania (Acústica & Espumante)",
+          "resource_url": "https://api.discogs.com/releases/29497468",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2024,
+          "thumb": "https://i.discogs.com/VSEvTXMq88tUtUvO2j7xoS6h8kf8pYFT2svwlkhdKXE/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NDk3/NDY4LTE3MDUzNDIz/MzktOTgwMC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 31934971,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Music",
+          "title": "Chove Chuva",
+          "resource_url": "https://api.discogs.com/releases/31934971",
+          "role": "Main",
+          "artist": "Biquini* & Sidney Magal",
+          "year": 2024,
+          "thumb": "https://i.discogs.com/VbnAdu1SrGIEQcHbygxB803CdEW4E_znOrCpMwP7f30/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTM0/OTcxLTE3MjgzMTI0/MzgtNDkyOC5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 31935001,
+          "status": "Accepted",
+          "type": "release",
+          "format": "7xFile, AAC, Album, 256",
+          "label": "74 Music",
+          "title": "Vou Te Levar Comigo",
+          "resource_url": "https://api.discogs.com/releases/31935001",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2024,
+          "thumb": "https://i.discogs.com/vYam84NX9odH1-W0byvpS3x4k5aj8-8hx1oeUfI65e4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxOTM1/MDAxLTE3MjgzMTI2/MzMtNjI4Mi5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "album"
+        },
+        {
+          "id": 32194386,
+          "status": "Accepted",
+          "type": "release",
+          "format": "5xFile, AAC, EP, 256",
+          "label": "Not On Label (Biquini Cavadão Self-released)",
+          "title": "Lado B",
+          "resource_url": "https://api.discogs.com/releases/32194386",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2024,
+          "thumb": "https://i.discogs.com/Ueb9f5_HNDQV8Af5PD1NMDnfG8n9SbrIXsYnoT_bDCk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMTk0/Mzg2LTE3MzA3MjM2/NzktMjcwNS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 32526864,
+          "status": "Accepted",
+          "type": "release",
+          "format": "6xFile, AAC, EP, 256",
+          "label": "74 Entretenimento, Not On Label (Biquini Cavadão Self-released)",
+          "title": "Como Nascem As Canções",
+          "resource_url": "https://api.discogs.com/releases/32526864",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2024,
+          "thumb": "https://i.discogs.com/PPVAx7A6w1MDOJNBKmcnMTtdgFV5_GELCBrh2TnG_nU/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNTI2/ODY0LTE3MzM4MzE1/NTctMzc1NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 2,
+              "in_collection": 2
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 33243786,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "A Vida Começa Agora",
+          "resource_url": "https://api.discogs.com/releases/33243786",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2025,
+          "thumb": "https://i.discogs.com/S8TuQq6tcZrQJyjEZSXRYzcincjBfaTzJNKAPjcrNsI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMjQz/Nzg2LTE3NDA0ODYw/OTctOTgzNi5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 33537330,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "74 Entretenimento",
+          "title": "Uma Viagem",
+          "resource_url": "https://api.discogs.com/releases/33537330",
+          "role": "Main",
+          "artist": "Biquini Cavadão",
+          "year": 2025,
+          "thumb": "https://i.discogs.com/bg0n0Dun6pyG1JdqjrxlptW8jUT3NCndse7oavw1o8g/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNTM3/MzMwLTE3NDMxNjI4/MjYtNjA1NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 33871920,
+          "status": "Accepted",
+          "type": "release",
+          "format": "File, AAC, Single, 256",
+          "label": "Not On Label (Biquini Cavadão Self-released)",
+          "title": "Mãos",
+          "resource_url": "https://api.discogs.com/releases/33871920",
+          "role": "Main",
+          "artist": "Biquini*",
+          "year": 2025,
+          "thumb": "https://i.discogs.com/WqOt1g0Le8n4za4xjXcVcc6mwxOioVADYCNZWpjZyog/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzODcx/OTIwLTE3NDYyMTAz/MTktMjg1NS5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 1
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "singleep"
+        },
+        {
+          "id": 12620258,
+          "status": "Accepted",
+          "type": "release",
+          "format": "2xCD, Comp",
+          "label": "Mercury, Universal Music",
+          "title": "O Melhor De 2",
+          "resource_url": "https://api.discogs.com/releases/12620258",
+          "role": "Main",
+          "artist": "Biquini Cavadão / Capital Inicial",
+          "thumb": "https://i.discogs.com/V7_BRC8BLiJ9PYP0zuZyXMrzUraWcRoUFn7VvuwJAlc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjIw/MjU4LTE1Mzg3NTAy/NjgtMjU4My5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 0,
+              "in_collection": 34
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "_category": "compilation"
+        },
+        {
+          "id": 1466561,
+          "title": "80 \\Vol 02 - Ao Vivo Circo Voador",
+          "type": "master",
+          "main_release": 15715225,
+          "artist": "Biquini Cavadão",
+          "role": "Main",
+          "resource_url": "https://api.discogs.com/masters/1466561",
+          "thumb": "https://i.discogs.com/vSXtApvA6T2xlv9iFad-EqmrItorRrRRD4brVJQKWqQ/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1NzE1/MjI1LTE1OTY0NTgz/OTktMTE3Ny5qcGVn.jpeg",
+          "stats": {
+            "community": {
+              "in_wantlist": 1,
+              "in_collection": 7
+            },
+            "user": {
+              "in_wantlist": 0,
+              "in_collection": 0
+            }
+          },
+          "format": "dvd, dvd-video, multichannel, ntsc, repress",
+          "_category": "video"
         }
       ]
     }

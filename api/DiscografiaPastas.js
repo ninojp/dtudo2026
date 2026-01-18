@@ -18,13 +18,44 @@ function sanitizeName(name) {
     return name.replace(/[<>:"/\\|?*]/g, '-').trim();
 }
 
+// Função para traduzir categoria para português no singular
+function translateCategory(category, format = '') {
+    const translations = {
+        'album': 'Album',
+        'singleep': 'Single/EP',
+        'singel': 'Single',
+        'ep': 'EP',
+        'compilation': 'Compilação',
+        'comp': 'Compilação',
+        'video': 'Video',
+        'cover': 'Cover',
+        'live': 'Live',
+        'remix': 'Remix',
+        'bootleg': 'Bootleg',
+        'outros': 'Outro'
+    };
+    
+    const result = translations[category?.toLowerCase()] || category;
+    
+    // Se ainda não encontrou, tenta inferir do format
+    if (result === category && format) {
+        const formatLower = format.toLowerCase();
+        if (formatLower.includes('single')) return 'Single';
+        if (formatLower.includes('ep')) return 'EP';
+        if (formatLower.includes('comp')) return 'Compilação';
+        if (formatLower.includes('lp') || formatLower.includes('album')) return 'Album';
+        if (formatLower.includes('video')) return 'Video';
+    }
+    
+    return result || 'Album';
+}
+
 // Função para criar pastas recursivamente
 function createDir(dirPath) {
     if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath, { recursive: true });
     }
 }
-
 // Função para baixar imagem
 async function downloadImage(url, filePath) {
     const headers = {
@@ -56,10 +87,8 @@ async function downloadImage(url, filePath) {
             throw secondError;
         }
     }
-}
-
-// --- Início do Processamento Principal ---
-
+};
+//===========================
 async function run() {
     // Ler e analisar o JSON
     let dbData;
@@ -70,13 +99,11 @@ async function run() {
         console.error(`Erro ao ler ou analisar o arquivo JSON em ${dbPath}:`, error);
         process.exit(1);
     }
-
     // Validar a estrutura do JSON
     if (!dbData || !Array.isArray(dbData.cdsDB)) {
         console.error(`Erro Crítico: O arquivo JSON não tem a estrutura esperada. Verifique se ele contém a chave "cdsDB" com um array de artistas.`);
         process.exit(1);
     }
-
     // Processar cada artista sequencialmente
     for (const artistData of dbData.cdsDB) {
         const sanitizedArtistName = sanitizeName(artistData.artist);
@@ -91,7 +118,8 @@ async function run() {
 
             for (const item of items) {
                 const sanitizedTitle = sanitizeName(item.title);
-                const folderName = `${item.year || 'Unknown'} - ${sanitizedTitle}`;
+                const categoryPortugues = translateCategory(item._category || category, item.format);
+                const folderName = `${item.year || 'Unknown'} - ${sanitizedTitle} - ${categoryPortugues}`;
                 const itemDir = path.join(artistDir, folderName);
                 createDir(itemDir);
 
@@ -112,6 +140,4 @@ async function run() {
 
     console.log('\nEstrutura de pastas criada com sucesso!');
 }
-
-// Executa o script
 run();

@@ -147,7 +147,7 @@ export default function MyMusicX() {
             <header className={styles.headerContainerPgMusicx}>
                 <h1>MyMusicX</h1>
                 <br />
-                <h2>Por hora estamos só buscando por artista no (Discogs)</h2>
+                <h2>Buscando por artista na API do DB Discogs</h2>
             </header>
             <main className={styles.mainContainerPgMusicx}>
                 <form className={styles.formBuscarCds} onSubmit={(e) => e.preventDefault()}>
