@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import styles from './MyMusicX.module.css';
 import notaFireMusical from '/mymusicx/NotaMusica.png';
 import axios from 'axios';
@@ -7,6 +7,7 @@ import FieldsetPadrao from '../../components/FieldsetPadrao/FieldsetPadrao';
 import LabelPadrao from '../../components/LabelPadrao/LabelPadrao';
 import ButtonPadrao from '../../components/ButtonPadrao/ButtonPadrao';
 import CardCD from '../../components/componentsMyMusicx/CardCD/CardCD';
+import Spinner from '../../components/Spinner/Spinner';
 
 export default function MyMusicX() {
     const [artistQuery, setArtistQuery] = useState('');
@@ -14,77 +15,17 @@ export default function MyMusicX() {
     const [selectedArtist, setSelectedArtist] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [allResults, setAllResults] = useState(null);
-    const [filteredResults, setFilteredResults] = useState(null);
+    const [results, setResults] = useState(null); // Simplified state
 
+    // Simplified filters
     const [filters, setFilters] = useState({
-        showMasters: true,
-        showReleases: true,
         hasThumb: false,
         hasYear: false,
-        isAlbum: true,
-        isSingle: true,
-        isCompilation: true,
     });
 
     // Lê o token do Discogs a partir da variável de ambiente Vite
     const discogsToken = typeof import.meta !== 'undefined' ? import.meta.env.VITE_DISCOGS_TOKEN : undefined;
     //-------------------------------------------------------------------------------------------------------
-
-    useEffect(() => {
-        if (!allResults || !selectedArtist) {
-            setFilteredResults(null);
-            return;
-        }
-
-        let filteredItems = allResults.items.filter(item => {
-            // Filtro automático de artista: exibe apenas itens do artista selecionado.
-            // Usamos 'includes' para abranger colaborações (ex: "Artista A & Artista B").
-            if (!item.artist || !item.artist.toLowerCase().includes(selectedArtist.title.toLowerCase())) {
-                return false;
-            }
-
-            // Filtro de tipo (master/release)
-            if (!filters.showMasters && item.type === 'master') {
-                return false;
-            }
-            if (!filters.showReleases && item.type === 'release') {
-                return false;
-            }
-            // Filtro de "tem capa"
-            if (filters.hasThumb && !item.thumb) {
-                return false;
-            }
-            // Filtro de "tem ano"
-            if (filters.hasYear && !item.year) {
-                return false;
-            }
-
-            const formatDescriptions = (Array.isArray(item.formats)
-                ? item.formats.flatMap(f => f.descriptions || []).join(' ')
-                : ''
-            ).toLowerCase();
-
-            const isAlbum = formatDescriptions.includes('album');
-            const isSingle = formatDescriptions.includes('single');
-            const isCompilation = formatDescriptions.includes('compilation');
-
-            if (!filters.isAlbum && isAlbum) return false;
-            if (!filters.isSingle && isSingle) return false;
-            if (!filters.isCompilation && isCompilation) return false;
-
-            return true;
-        });
-
-        setFilteredResults({
-            ...allResults,
-            items: filteredItems,
-            summary: { Total: filteredItems.length },
-        });
-
-    }, [filters, allResults, selectedArtist]);
-
-
     const handleFilterChange = (e) => {
         const { name, value, type, checked } = e.target;
         setFilters(prev => ({
@@ -111,13 +52,12 @@ export default function MyMusicX() {
         setSelectedArtist(artist);
         setArtistQuery(artist.title);
         setArtistSuggestions([]);
-        // Agora buscar releases
         handleSearch(artist);
     };
 
     const handleSearch = async (artist) => {
         setError(null);
-        setAllResults(null);
+        setResults(null);
         setIsLoading(true);
         try {
             const searchUrl = 'http://localhost:4000/api/discogs/search';
@@ -127,15 +67,14 @@ export default function MyMusicX() {
             };
             const searchResp = await axios.get(searchUrl, { params: searchParams });
             console.log('Resposta busca releases:', searchResp.data);
-
             if (!searchResp.data.summary || searchResp.data.summary.Total === 0) {
                 setError('Nenhum CD encontrado para este artista.');
-                setAllResults(null);
+                setResults(null);
                 setIsLoading(false);
                 return;
             }
 
-            setAllResults(searchResp.data);
+            setResults(searchResp.data); // Use single state
         } catch (err) {
             console.error('Erro ao buscar discografia no Discogs: ', err);
             setError('Erro ao buscar no Discogs. Verifique o token ou a rede. ');
@@ -148,9 +87,10 @@ export default function MyMusicX() {
         console.log('Salvando dados para:', data.artist);
         try {
             const saveUrl = 'http://localhost:4000/api/discogs/save';
+            // We need to save the original unfiltered items
             await axios.post(saveUrl, {
                 artist: data.artist,
-                items: data.items
+                items: data.items 
             });
             alert('Dados salvos com sucesso!');
         } catch (err) {
@@ -158,6 +98,48 @@ export default function MyMusicX() {
             alert('Erro ao salvar dados.');
         }
     };
+
+    // Helper function to render a category with active filters
+    const renderCategory = (category, title) => {
+        if (!results || !category || category.count === 0) return null;
+
+        const filteredItems = category.items.filter(item => {
+            if (filters.hasThumb && !item.thumb) return false;
+            if (filters.hasYear && !item.year) return false;
+            return true;
+        });
+
+        if (filteredItems.length === 0) return null;
+
+        return (
+            <div className={styles.divCategoryGroup}>
+                <h3>{title} ({filteredItems.length})</h3>
+                <div className={styles.divContainerCardsCds}>
+                    {filteredItems.map((r, index) => (
+                        <CardCD
+                            key={`${r.id}-${index}`}
+                            cdTitulo={r.title}
+                            cdArtist={r.artist}
+                            cdImgSrc={r.thumb}
+                            cdAno={r.year}
+                        />
+                    ))}
+                </div>
+            </div>
+        );
+    };
+
+    // Calculate total displayed items after filtering
+    let totalDisplayed = 0;
+    if (results && results.summary.categories) {
+        Object.values(results.summary.categories).forEach(category => {
+            totalDisplayed += category.items.filter(item => {
+                if (filters.hasThumb && !item.thumb) return false;
+                if (filters.hasYear && !item.year) return false;
+                return true;
+            }).length;
+        });
+    }
 
     //=========================================================
     return (
@@ -198,28 +180,15 @@ export default function MyMusicX() {
                 </p>
                 )}
 
-                {isLoading && <p>Buscando...</p>}
+                {isLoading && <Spinner />}
                 {error && <p style={{ color: 'red' }}>{error}</p>}
-                {!filteredResults && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
+                {!results && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
 
-                {filteredResults && (
+                {results && (
                     <section className={styles.sectionFiltros}>
                         <fieldset className={styles.fieldsetFiltros}>
                             <legend>Filtros</legend>
-                            <div>
-                                <input type="checkbox" id="showMasters" name="showMasters" checked={filters.showMasters} onChange={handleFilterChange} />
-                                <label htmlFor="showMasters">Masters</label>
-                                <input type="checkbox" id="showReleases" name="showReleases" checked={filters.showReleases} onChange={handleFilterChange} />
-                                <label htmlFor="showReleases">Releases</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" id="isAlbum" name="isAlbum" checked={filters.isAlbum} onChange={handleFilterChange} />
-                                <label htmlFor="isAlbum">Álbuns</label>
-                                <input type="checkbox" id="isSingle" name="isSingle" checked={filters.isSingle} onChange={handleFilterChange} />
-                                <label htmlFor="isSingle">Singles</label>
-                                <input type="checkbox" id="isCompilation" name="isCompilation" checked={filters.isCompilation} onChange={handleFilterChange} />
-                                <label htmlFor="isCompilation">Compilações</label>
-                            </div>
+                            {/* Simplified filters UI */}
                             <div>
                                 <input type="checkbox" id="hasThumb" name="hasThumb" checked={filters.hasThumb} onChange={handleFilterChange} />
                                 <label htmlFor="hasThumb">Com Capa</label>
@@ -230,31 +199,40 @@ export default function MyMusicX() {
                     </section>
                 )}
 
-                {filteredResults && (
+                {results && (
                     <section className={styles.sectionResultadosCds}>
                         <div className={styles.divContainerBtnSalvar}>
-                            <h4>Discografia de {filteredResults.artist} ({filteredResults.summary.Total} itens)</h4>
+                            <h4>Discografia de {results.artist} ({totalDisplayed} de {results.summary.Total} lançamentos exibidos)</h4>
+                            {results.summary.categories && (
+                                <div className={styles.divCategoriasResumo}>
+                                    {/* Display original counts from backend */}
+                                    {results.summary.categories.albums.count > 0 && (
+                                        <span className={styles.spanCategoria}>{results.summary.categories.albums.count} - Álbuns | </span>
+                                    )}
+                                    {results.summary.categories.singlesEPs.count > 0 && (
+                                        <span className={styles.spanCategoria}>{results.summary.categories.singlesEPs.count} - Singles & EPs | </span>
+                                    )}
+                                    {results.summary.categories.compilations.count > 0 && (
+                                        <span className={styles.spanCategoria}>{results.summary.categories.compilations.count} - Compilações | </span>
+                                    )}
+                                    {results.summary.categories.videos.count > 0 && (
+                                        <span className={styles.spanCategoria}>{results.summary.categories.videos.count} - Vídeos</span>
+                                    )}
+                                </div>
+                            )}
                             <ButtonPadrao
                                 styleExterno={styles.btnSalvarDados}
-                                onClick={() => handleSave(filteredResults)}
+                                onClick={() => handleSave(results)}
                             >
                                 Salvar Dados do Artista
                             </ButtonPadrao>
                         </div>
-                        <div className={styles.divContainerCardsCds}>
-                            {filteredResults.items.map((r, index) => {
-                                const uniqueKey = `${r.id}-${index}`;
-                                return (
-                                    <CardCD
-                                        key={uniqueKey}
-                                        cdTitulo={r.title}
-                                        cdArtist={r.artist}
-                                        cdImgSrc={r.thumb}
-                                        cdAno={r.year}
-                                    />
-                                );
-                            })}
-                        </div>
+
+                        {/* Render using the helper function */}
+                        {renderCategory(results.summary.categories.albums, 'Álbuns')}
+                        {renderCategory(results.summary.categories.singlesEPs, 'Singles & EPs')}
+                        {renderCategory(results.summary.categories.compilations, 'Compilações')}
+                        {renderCategory(results.summary.categories.videos, 'Vídeos')}
                     </section>
                 )}
             </main>
