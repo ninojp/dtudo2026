@@ -15,14 +15,14 @@ function sanitizeName(name) {
     if (typeof name !== 'string') {
         name = String(name);
     }
-    return name.replace(/[<>:"/\\|?*]/g, '-').trim();
+    return name.replace(/[<>:"/\\|?*%.!@#$¨']/g, '-').trim();
 }
 
 // Função para traduzir categoria para português no singular
 function translateCategory(category, format = '') {
     const translations = {
         'album': 'Album',
-        'singleep': 'Single/EP',
+        'singleep': 'Single',
         'singel': 'Single',
         'ep': 'EP',
         'compilation': 'Compilação',

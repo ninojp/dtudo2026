@@ -21,7 +21,7 @@ export default function NavBarPage() {
                     <Link to='myanimes'>
                         <li className={styles.liMenuLink}> MyAnimes </li>
                     </Link>
-                    <Link to='myanimeslista'>
+                    <Link to='animes'>
                         <li className={styles.liMenuLink}> Animes </li>
                     </Link>
                     {isAuthenticated && <Link to='animex'>

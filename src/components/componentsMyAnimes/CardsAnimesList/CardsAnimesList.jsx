@@ -1,4 +1,4 @@
-import styles from './CardsMyAnimesCompletList.module.css';
+import styles from './CardsAnimesList.module.css';
 import { useState, useMemo, useCallback, useContext } from 'react';
 import CampoBuscar from '../../CampoBuscar/CampoBuscar';
 import PaginationButtons from '../../PaginationButtons/PaginationButtons';
@@ -9,7 +9,7 @@ import FiltrarPorLetra from '../../FiltrarPorLetra/FiltrarPorLetra';
 import FiltrarPorAno from '../../FiltrarPorAno/FiltrarPorAno';
 import CardAnime from '../CardAnime/CardAnime';
 
-export default function CardsMyAnimesCompletList() {
+export default function CardsAnimesList() {
     //Contexto, lista completa Animes (mal-id), json-server: http://localhost:3666/animesDetalhes 
     const { listObjsDetalhesAnimes, isLoading } = useContext(AnimesObjsListDetalhesContext);
     //Filtro por Gênero

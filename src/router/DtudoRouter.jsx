@@ -36,7 +36,7 @@ import GitHub from "../components/componentsNinoTI/GitHub/GitHub";
 import Figma from "../components/componentsNinoTI/Figma/Figma";
 import WordPress from "../components/componentsNinoTI/WordPress/WordPress";
 import NinoTICienciaComputacao from "../pages/NinoTICienciaComputacao/NinoTICienciaComputacao";
-import MyAnimesLista from "../pages/MyAnimesLista/MyAnimesLista";
+import Animes from "../pages/Animes/Animes";
 
 export default function DtudoRouter() {
     return (
@@ -53,7 +53,7 @@ export default function DtudoRouter() {
                             </MyAnimesDetalhesProvider>} />
                     </Route>
                     {/* Rotas para Endereços MyAnimesLista */}
-                    <Route path="/myanimeslista" element={<MyAnimesLista />} />
+                    <Route path="/animes" element={<Animes />} />
                     {/* Rotas para Endereços Animex */}
                     <Route path='/animex'>
                         <Route index element={<ProtetorDeRota><Animex /></ProtetorDeRota>} />
