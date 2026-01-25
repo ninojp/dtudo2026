@@ -8,6 +8,7 @@ import FiltrarPorGenero from '../../FiltrarPorGenero/FiltrarPorGenero';
 import FiltrarPorLetra from '../../FiltrarPorLetra/FiltrarPorLetra';
 import FiltrarPorAno from '../../FiltrarPorAno/FiltrarPorAno';
 import CardAnime from '../CardAnime/CardAnime';
+import { Link } from 'react-router-dom';
 
 export default function CardsAnimesList() {
     //Contexto, lista completa Animes (mal-id), json-server: http://localhost:3666/animesDetalhes 
@@ -96,10 +97,12 @@ export default function CardsAnimesList() {
             </div>
             <div className={styles.divContainerListaCardsMyaAnimes}>
                 {paginatedItems?.map((animePg) => (
+                    <Link key={animePg.mal_id} to={`/myanimes/myanimes-detalhes/${animePg.mal_id}`} target='_blank'>
                     <CardAnime
                         key={animePg.mal_id}
                         anime={animePg}
                     />
+                    </Link>
                 ))}
             </div>
             <PaginationButtons

@@ -11,7 +11,7 @@ export default function MyAnimesDetalhes() {
     const navegaPara = useNavigate();
     //-------------------------------
     useEffect(() => {
-        // Só navega se o carregamento terminou (isLoading é false) E o anime não foi encontrado (animexDetalhes é undefined ou null)
+        // Só navega se o carregamento terminou (isLoading é false) E o anime não foi encontrado
         if (!isLoading && !myAnimesDetalhes) {
             navegaPara('/not-found');
         }
