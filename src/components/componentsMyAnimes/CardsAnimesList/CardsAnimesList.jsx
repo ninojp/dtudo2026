@@ -98,10 +98,10 @@ export default function CardsAnimesList() {
             <div className={styles.divContainerListaCardsMyaAnimes}>
                 {paginatedItems?.map((animePg) => (
                     <Link key={animePg.mal_id} to={`/myanimes/myanimes-detalhes/${animePg.mal_id}`} target='_blank'>
-                    <CardAnime
-                        key={animePg.mal_id}
-                        anime={animePg}
-                    />
+                        <CardAnime
+                            key={animePg.mal_id}
+                            anime={animePg}
+                        />
                     </Link>
                 ))}
             </div>
