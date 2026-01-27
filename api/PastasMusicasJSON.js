@@ -59,23 +59,48 @@ const copiarImagemNumeric = async (srcPath, discogsId) => {
     return destino;
 };
 
-const lerArquivosRelease = async (releasePath) => {
+const walkReleaseFiles = async (releasePath, depth = 0, maxDepth = 2, prefix = '') => {
     const dirents = await fsPromises.readdir(releasePath, { withFileTypes: true });
-    const arquivos = dirents.filter((d) => d.isFile()).map((d) => d.name);
-    const imagemNumerica = dirents.find((d) => d.isFile() && IMAGE_REGEX.test(d.name));
-    let discogsId = '';
-    if (imagemNumerica) {
-        const [, id] = imagemNumerica.name.match(IMAGE_REGEX);
-        discogsId = id;
-        await copiarImagemNumeric(path.join(releasePath, imagemNumerica.name), discogsId);
+    dirents.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+
+    const arquivos = [];
+    let primeiraImagemNumerica = '';
+
+    for (const dirent of dirents) {
+        const fullPath = path.join(releasePath, dirent.name);
+        const relPath = prefix ? path.posix.join(prefix, dirent.name) : dirent.name;
+
+        if (dirent.isFile()) {
+            arquivos.push(relPath.replace(/\\/g, '/'));
+            if (!primeiraImagemNumerica && IMAGE_REGEX.test(dirent.name)) {
+                primeiraImagemNumerica = fullPath;
+            }
+        } else if (dirent.isDirectory() && depth < maxDepth) {
+            const nested = await walkReleaseFiles(fullPath, depth + 1, maxDepth, relPath.replace(/\\/g, '/'));
+            arquivos.push(...nested.arquivos);
+            if (!primeiraImagemNumerica && nested.primeiraImagemNumerica) {
+                primeiraImagemNumerica = nested.primeiraImagemNumerica;
+            }
+        }
     }
-    return { arquivos, discogsId };
+
+    return { arquivos, primeiraImagemNumerica };
+};
+
+const lerArquivosRelease = async (releasePath) => {
+    const { arquivos, primeiraImagemNumerica } = await walkReleaseFiles(releasePath);
+    let discogsId = '';
+    if (primeiraImagemNumerica) {
+        const [, id] = path.basename(primeiraImagemNumerica).match(IMAGE_REGEX);
+        discogsId = id;
+        await copiarImagemNumeric(primeiraImagemNumerica, discogsId);
+    }
+    return { arquivos, discogsId, primeiraImagemNumerica };
 };
 
 const montarArtistObj = (nomeArtista) => ({
     id: slugify(nomeArtista) || nomeArtista,
     artista: nomeArtista,
-    slug: slugify(nomeArtista),
     releases: {
         albums: [],
         'singles-EP': [],
@@ -84,16 +109,27 @@ const montarArtistObj = (nomeArtista) => ({
     },
 });
 
+const isImageFile = (name) => /\.(jpe?g|png|webp|avif)$/i.test(name);
+
+const findFirstImageInDir = async (dirPath) => {
+    const dirents = await fsPromises.readdir(dirPath, { withFileTypes: true });
+    const files = dirents.filter((d) => d.isFile()).map((d) => d.name).sort();
+    const firstImage = files.find((n) => isImageFile(n));
+    return firstImage ? path.join(dirPath, firstImage) : '';
+};
+
 const processarArtista = async (baseDir, direntArtista) => {
     const caminhoArtista = path.join(baseDir, direntArtista.name);
     const artistObj = montarArtistObj(direntArtista.name);
-    const releases = await fsPromises.readdir(caminhoArtista, { withFileTypes: true });
+    const releases = (await fsPromises.readdir(caminhoArtista, { withFileTypes: true }))
+        .filter((d) => d.isDirectory())
+        .sort((a, b) => a.name.localeCompare(b.name, 'pt-BR'));
+    let capaCopiada = false;
 
     for (const releaseDir of releases) {
-        if (!releaseDir.isDirectory()) continue;
         const caminhoRelease = path.join(caminhoArtista, releaseDir.name);
         const { ano, titulo, categoria } = parseReleaseNome(releaseDir.name);
-        const { arquivos, discogsId } = await lerArquivosRelease(caminhoRelease);
+        const { arquivos, discogsId, primeiraImagemNumerica } = await lerArquivosRelease(caminhoRelease);
         const releaseObj = {
             discogs_id: discogsId,
             titulo,
@@ -102,6 +138,15 @@ const processarArtista = async (baseDir, direntArtista) => {
         };
         artistObj.releases[categoria] = artistObj.releases[categoria] || [];
         artistObj.releases[categoria].push(releaseObj);
+
+        if (!capaCopiada && categoria === 'albums' && primeiraImagemNumerica) {
+            await ensureDir(CONFIG.pastaDestinoCapas);
+            const destinoCapa = path.join(CONFIG.pastaDestinoCapas, `${artistObj.id}.jpg`);
+            if (!fs.existsSync(destinoCapa)) {
+                await fsPromises.copyFile(primeiraImagemNumerica, destinoCapa);
+            }
+            capaCopiada = true;
+        }
     }
 
     return artistObj;

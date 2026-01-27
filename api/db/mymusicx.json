@@ -3,26 +3,90 @@
         {
             "id": "coletanias-rock-nacional",
             "artista": ".Coletânias Rock Nacional",
-            "slug": "coletanias-rock-nacional",
             "releases": {
                 "albums": [
                     {
                         "discogs_id": "",
                         "titulo": "20 Anos de Rock Brasil 1 -2",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/01 - De Repente Califórnia - Lulu Santos.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/02 - Educação Sentimental - Kid Abelha.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/03 - Todo Amor que Houver Nessa Vida - Barão Vermelho.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/04 - Serão Extra - Dr. Silvana & Cia.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/05 - Sou Boy - Magazine.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/06 - Uma Barata Chamada Kafka - Inimigos do Rei.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/07 - Nós Vamos Invadir Sua Praia - Ultraje a Rigor.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/08 - Perdidos na Selva - Gang 90 & Absurdettes.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/09 - Garota de Berlim - Tokyo.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/10 - Menina Veneno - Ritchie.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/11 - A Fórmula do Amor - Léo Jaime.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/12 - Você Não Soube Me Amar - Blitz.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/13 - Simca Chambord - Camisa de Vênus.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/14 - Inútil - Ultraje a Rigor.mp3",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/AlbumArtSmall.jpg",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/Capa.jpg",
+                            "20 Anos De Rock Brasil CD 01 (Nos Vamos Invadir Sua Praia)/Folder.jpg",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/01 - Como uma Onda (zen Surfismo) - Lulu Santos.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/02 - Pro Dia Nascer Feliz - Barão Vermelho.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/03 - Uniformes - Kid Abelha.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/04 - Rebelde Sem Causa - Ultraje a Rigor.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/05 - Musica Urbana - Capital Inicial.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/06 - Núcleo Base - Ira!.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/07 - Tédio - Biquini Cavadão.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/08 - Até Quando Esperar - Plebe Rude.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/09 - Beat Acelerado 2 - Metrô.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/10 - Eu Sou Free - Sempre Livre.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/11 - Só pro Meu Prazer - Heróis da Resistência.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/12 - Agora Eu Sei - Zero.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/13 - Tempos Modernos - Lulu Santos.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/14 - Alvorada Voraz - RPM.mp3",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/AlbumArtSmall.jpg",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/Capa.jpg",
+                            "20 Anos De Rock Brasil CD 02 (Tempos Modernos)/Folder.jpg"
+                        ]
                     },
                     {
                         "discogs_id": "",
                         "titulo": "89 FM - Live concert",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "1998 - 89 FM - Live concert - Album/Track01.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track02.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track03.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track04.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track05.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track06.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track07.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track08.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track09.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track10.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track11.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track12.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track13.mp3",
+                            "1998 - 89 FM - Live concert - Album/Track14.mp3"
+                        ]
                     },
                     {
                         "discogs_id": "",
                         "titulo": "Almanaque Anos 80 - Nacional",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Agora Eu Sei.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Armadilha.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Até Quando Esperar.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Aumenta, Que Isso Aí É Rock And Roll.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Babilônia.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Betty Frígida.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Cinema Mudo.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Corações E Mentes.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Erva Venenosa.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Flagra.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/No Mundo Da Lua.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Primeiros Erros.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Rebelde Sem Causa.mp3",
+                            "2005 - Almanaque Anos 80 - Nacional - Album/Sou Boy.mp3"
+                        ]
                     },
                     {
                         "discogs_id": "",
@@ -52,7 +116,34 @@
                         "discogs_id": "",
                         "titulo": "Authentic vision Brasil",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "2001 - Authentic Vision Brasil/01 Faixa 1.mp3",
+                            "2001 - Authentic Vision Brasil/02 Faixa 2.mp3",
+                            "2001 - Authentic Vision Brasil/03 Faixa 3.mp3",
+                            "2001 - Authentic Vision Brasil/04 Faixa 4.mp3",
+                            "2001 - Authentic Vision Brasil/05 Faixa 5.mp3",
+                            "2001 - Authentic Vision Brasil/06 Faixa 6.mp3",
+                            "2001 - Authentic Vision Brasil/07 Faixa 7.mp3",
+                            "2001 - Authentic Vision Brasil/08 Faixa 8.mp3",
+                            "2001 - Authentic Vision Brasil/09 Faixa 9.mp3",
+                            "2001 - Authentic Vision Brasil/10 Faixa 10.mp3",
+                            "2001 - Authentic Vision Brasil/11 Faixa 11.mp3",
+                            "2001 - Authentic Vision Brasil/12 Faixa 12.mp3",
+                            "2001 - Authentic Vision Brasil/13 Faixa 13.mp3",
+                            "2001 - Authentic Vision Brasil/14 Faixa 14.mp3",
+                            "2001 - Authentic Vision Brasil/15 Faixa 15.mp3",
+                            "2001 - Authentic Vision Brasil/16 Faixa 16.mp3",
+                            "2001 - Authentic Vision Brasil/17 Faixa 17.mp3",
+                            "2001 - Authentic Vision Brasil/18 Faixa 18.mp3",
+                            "2001 - Authentic Vision Brasil/19 Faixa 19.mp3",
+                            "2001 - Authentic Vision Brasil/20 Faixa 20.mp3",
+                            "2001 - Authentic Vision Brasil/21 Faixa 21.mp3",
+                            "2001 - Authentic Vision Brasil/22 Faixa 22.mp3",
+                            "2001 - Authentic Vision Brasil/23 Faixa 23.mp3",
+                            "2001 - Authentic Vision Brasil/24 Faixa 24.mp3",
+                            "2001 - Authentic Vision Brasil/25 Faixa 25.mp3",
+                            "2001 - Authentic Vision Brasil/26 Faixa 26.mp3"
+                        ]
                     },
                     {
                         "discogs_id": "",
@@ -83,9 +174,9 @@
                             "2-10 - Sandra de Sá - Tente outra vez.mp3",
                             "2-11 - Nasi - Sociedade alternativa.mp3",
                             "2-12 - Raul Seixas - Rock das 'aranha'.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{57B0D745-E5D9-4227-94DC-047538C03185}_Large.jpg",
                             "AlbumArt_{57B0D745-E5D9-4227-94DC-047538C03185}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "cover-O Baú Do Raul (1).jpg",
                             "cover-O Baú Do Raul.jpg",
                             "Folder.jpg"
@@ -120,13 +211,54 @@
                         "discogs_id": "",
                         "titulo": "SP Punk Vol. 1",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "1996 - SP Punk Vol. 1 - Album/01 São Paulo.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/02 Realidade.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/04 Mundo insano.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/05 Desemprego.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/06 Em nome de Jeová.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/07 Junky Spider.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/08 Vítimas do ódio.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/09 Quem sou.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/10 Ameba.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/11 Vítimas da podridão.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/12 Exploração universal.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/13 Contradição.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/14 Abuso de poder.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/15 Onde nós estamos.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/16 Restos de guerra.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/17 Punk até morrer.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/18 Eu não quero mais.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/19 Como eles são maus.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/20 Mandaqui.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/21 Punk até morrer.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/22 Policiais cheios de culpa.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/23 Filhos da Desordem.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/24 Brutalidade policial.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/25 O Punk não morreu.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/26 Colisão Social.mp3",
+                            "1996 - SP Punk Vol. 1 - Album/desktop.ini"
+                        ]
                     },
                     {
                         "discogs_id": "",
                         "titulo": "Wood & Stock Sexo, Orégano e Rock'n'Roll",
                         "ano": "",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/01 - Um Lugar Do Caralho.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/02 - Woody Woodpecker.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/03 - Um Oh! E Um Ah!.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/04 - Quando Você Me Disse Adeus.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/05 - A Marchinha Psicótica De Dr. Soup.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/07 - Canção Para Dormir.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/08 - Ferro Na Boneca.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/09 - Paranormal.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/10 - Querida Superhist X Mr. Frog.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/11 - As Mesmas Coisas.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/12 - Chão De Estrelas.mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/13 - The Freaking Alice (Hippie Under).mp3",
+                            "2006 - Wood & Stock Sexo, Orégano e Rock'n'Roll - Album/14 - Eu Vou Me Salvar.mp3"
+                        ]
                     }
                 ],
                 "singles-EP": [],
@@ -137,7 +269,6 @@
         {
             "id": "acusticos-valvulados",
             "artista": "Acústicos & Valvulados",
-            "slug": "acusticos-valvulados",
             "releases": {
                 "albums": [
                     {
@@ -288,7 +419,6 @@
         {
             "id": "baia-rockboys",
             "artista": "Baia & Rockboys",
-            "slug": "baia-rockboys",
             "releases": {
                 "albums": [
                     {
@@ -397,7 +527,6 @@
         {
             "id": "banda-black-rio",
             "artista": "Banda Black Rio",
-            "slug": "banda-black-rio",
             "releases": {
                 "albums": [
                     {
@@ -421,8 +550,8 @@
                             "14-Baião.mp3",
                             "15-Caminho da Roça.mp3",
                             "268438.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{B5020207-474E-4720-552F-DA0238BCCA00}_Large.jpg",
+                            "AlbumArtSmall.jpg",
                             "info.txt"
                         ]
                     },
@@ -518,9 +647,9 @@
                         "titulo": "Black Rio - Brazil soul power 1971-1980 - Compilação",
                         "ano": "",
                         "arquivosLocais": [
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{062F6120-160D-452E-A9B2-B2D5E8A55F99}_Large.jpg",
                             "AlbumArt_{062F6120-160D-452E-A9B2-B2D5E8A55F99}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Black Rio - Brazil soul power 1971-1980 - 01 - Gang do tagarela - Melo da tagarela(rappers deligh.mp3",
                             "Black Rio - Brazil soul power 1971-1980 - 02 - Copa 7 - Copa 7 No Samba.mp3",
                             "Black Rio - Brazil soul power 1971-1980 - 03 - Grupo Arembepe - Laia.mp3",
@@ -665,7 +794,6 @@
         {
             "id": "bandaliera",
             "artista": "Bandaliera",
-            "slug": "bandaliera",
             "releases": {
                 "albums": [
                     {
@@ -734,7 +862,6 @@
         {
             "id": "barao-vermelho",
             "artista": "Barão Vermelho",
-            "slug": "barao-vermelho",
             "releases": {
                 "albums": [
                     {
@@ -824,9 +951,9 @@
                         "ano": "1986",
                         "arquivosLocais": [
                             "920378.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{FAD4AE2E-4CDD-41A9-9D4C-CD01B071CC16}_Large.jpg",
                             "AlbumArt_{FAD4AE2E-4CDD-41A9-9D4C-CD01B071CC16}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Um Dia Na Vida.Mp3",
                             "Barao Vermelho - 02 - Desabrigado.Mp3",
                             "Barao Vermelho - 03 - Torre De Babel.Mp3",
@@ -847,9 +974,9 @@
                         "ano": "1987",
                         "arquivosLocais": [
                             "1022464.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{8F355810-AEC1-48DE-8AD4-05E706CEB4B5}_Large.jpg",
                             "AlbumArt_{8F355810-AEC1-48DE-8AD4-05E706CEB4B5}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Amor De Irmao.Mp3",
                             "Barao Vermelho - 02 - Sonhos Que Dinheiro Nenhum Compra.Mp3",
                             "Barao Vermelho - 03 - Ta Dificil De Aturar.Mp3",
@@ -989,9 +1116,9 @@
                         "ano": "1996",
                         "arquivosLocais": [
                             "8674484.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{3BCD1292-D97B-4BF2-890B-9C19820AA2A4}_Large.jpg",
                             "AlbumArt_{3BCD1292-D97B-4BF2-890B-9C19820AA2A4}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Lente.Mp3",
                             "Barao Vermelho - 02 - Pense E Dance.Mp3",
                             "Barao Vermelho - 03 - Nao Me Acabo.Mp3",
@@ -1064,9 +1191,9 @@
                         "ano": "1998",
                         "arquivosLocais": [
                             "1084831.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{4999FC01-2514-4B9D-8D21-739413B8BE01}_Large.jpg",
                             "AlbumArt_{4999FC01-2514-4B9D-8D21-739413B8BE01}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Iceberg.mp3",
                             "Barao Vermelho - 02 - Puro Extase.mp3",
                             "Barao Vermelho - 03 - Por Voce.mp3",
@@ -1087,9 +1214,9 @@
                         "ano": "1999",
                         "arquivosLocais": [
                             "874772.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{B81947E8-FA18-455F-A34A-4A1E9F57CA36}_Large.jpg",
                             "AlbumArt_{B81947E8-FA18-455F-A34A-4A1E9F57CA36}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Bilhetinho Azul.mp3",
                             "Barao Vermelho - 02 - Tente Outra Vez.mp3",
                             "Barao Vermelho - 03 - Por Que A Gente E Assim.mp3",
@@ -1133,9 +1260,9 @@
                         "ano": "2005",
                         "arquivosLocais": [
                             "3242557.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{38338A35-04F2-40AB-9C9B-600993E42321}_Large.jpg",
                             "AlbumArt_{38338A35-04F2-40AB-9C9B-600993E42321}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Maior Abandonado.mp3",
                             "Barao Vermelho - 02 - Bete Balanco.mp3",
                             "Barao Vermelho - 03 - Cuidado.mp3",
@@ -1157,9 +1284,9 @@
                         "ano": "2005",
                         "arquivosLocais": [
                             "3195519.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{7B90985E-3E3D-4DB7-BEF6-D7DBB67F14C0}_Large.jpg",
                             "AlbumArt_{7B90985E-3E3D-4DB7-BEF6-D7DBB67F14C0}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Barao Vermelho - 01 - Codinome Beija-Flor.mp3",
                             "Barao Vermelho - 02 - O Tempo Nao Para.mp3",
                             "Barao Vermelho - 03 - O Nosso Mundo.mp3",
@@ -1331,19 +1458,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "10342068",
-                        "titulo": "Todo O Meu Ouro",
-                        "ano": "1990",
-                        "arquivosLocais": [
-                            "10342068.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "1454952",
                         "titulo": "Tão Longe De Tudo",
                         "ano": "1990",
                         "arquivosLocais": [
                             "1454952.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "10342068",
+                        "titulo": "Todo O Meu Ouro",
+                        "ano": "1990",
+                        "arquivosLocais": [
+                            "10342068.jpg"
                         ]
                     },
                     {
@@ -1672,7 +1799,6 @@
         {
             "id": "biquini-cavadao",
             "artista": "Biquini Cavadão",
-            "slug": "biquini-cavadao",
             "releases": {
                 "albums": [
                     {
@@ -2208,7 +2334,6 @@
         {
             "id": "blues-etilicos-blues-etilicos",
             "artista": "Blues Etilicos - Blues Etilicos",
-            "slug": "blues-etilicos-blues-etilicos",
             "releases": {
                 "albums": [
                     {
@@ -2359,7 +2484,6 @@
         {
             "id": "braza",
             "artista": "Braza",
-            "slug": "braza",
             "releases": {
                 "albums": [
                     {
@@ -2584,7 +2708,6 @@
         {
             "id": "bula",
             "artista": "Bula",
-            "slug": "bula",
             "releases": {
                 "albums": [
                     {
@@ -2619,7 +2742,6 @@
         {
             "id": "cachorro-grande",
             "artista": "Cachorro Grande",
-            "slug": "cachorro-grande",
             "releases": {
                 "albums": [
                     {
@@ -2641,9 +2763,9 @@
                             "12 O Dia De Amanhã.mp3",
                             "13 (Os Doces Exóticos de) Charlotte Grapewine.mp3",
                             "1388763.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{0B3AAF77-D378-401F-9A1B-CDBBDECEEF02}_Large.jpg",
                             "AlbumArt_{0B3AAF77-D378-401F-9A1B-CDBBDECEEF02}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -2689,9 +2811,9 @@
                             "1008871.jpg",
                             "11 Situação Dramática.mp3",
                             "12 Velha Amiga.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{4E5372EE-0265-4285-81D7-21994A3C8E02}_Large.jpg",
                             "AlbumArt_{4E5372EE-0265-4285-81D7-21994A3C8E02}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -2832,7 +2954,6 @@
         {
             "id": "capital-inicial",
             "artista": "Capital Inicial",
-            "slug": "capital-inicial",
             "releases": {
                 "albums": [
                     {
@@ -2998,8 +3119,8 @@
                         "arquivosLocais": [
                             "929829.jpg",
                             "Capital Inicial - Eu vou estar.mp3",
-                            "Capital Inicial - Fogo (Acústico).mp3",
                             "Capital Inicial - Fátima.mp3",
+                            "Capital Inicial - Fogo (Acústico).mp3",
                             "Capital Inicial - Leve Desespero.mp3",
                             "Capital Inicial - Natasha.mp3",
                             "Capital Inicial - O Passageiro (The Passenger).mp3",
@@ -3331,19 +3452,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "15685307",
-                        "titulo": "Como Devia Estar",
-                        "ano": "2002",
-                        "arquivosLocais": [
-                            "15685307.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "13626177",
                         "titulo": "À Sua Maneira",
                         "ano": "2002",
                         "arquivosLocais": [
                             "13626177.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "15685307",
+                        "titulo": "Como Devia Estar",
+                        "ano": "2002",
+                        "arquivosLocais": [
+                            "15685307.jpg"
                         ]
                     },
                     {
@@ -3613,7 +3734,6 @@
         {
             "id": "catedral",
             "artista": "Catedral",
-            "slug": "catedral",
             "releases": {
                 "albums": [
                     {
@@ -3873,7 +3993,6 @@
         {
             "id": "cavalera-conspiracy",
             "artista": "Cavalera Conspiracy",
-            "slug": "cavalera-conspiracy",
             "releases": {
                 "albums": [
                     {
@@ -3895,9 +4014,9 @@
                             "12 The Exorcist [-].mp3",
                             "126533.jpg",
                             "13 In Conspiracy [-].mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{4EEB684A-8404-4A78-BCAE-6EA0E6578BC7}_Large.jpg",
                             "AlbumArt_{4EEB684A-8404-4A78-BCAE-6EA0E6578BC7}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -3921,11 +4040,11 @@
                             "13 Jihad Joe-.mp3",
                             "14 Electric Funeral-.mp3",
                             "337510.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{1E2903A9-8267-441A-99CE-9C2174DF6745}_Large.jpg",
                             "AlbumArt_{1E2903A9-8267-441A-99CE-9C2174DF6745}_Small.jpg",
                             "AlbumArt_{99A0375D-F6D0-4BA7-98C7-278615F9CA38}_Large.jpg",
                             "AlbumArt_{99A0375D-F6D0-4BA7-98C7-278615F9CA38}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -4000,7 +4119,6 @@
         {
             "id": "cazuza",
             "artista": "Cazuza",
-            "slug": "cazuza",
             "releases": {
                 "albums": [
                     {
@@ -4019,9 +4137,9 @@
                             "8 - Boa Vida.flac",
                             "825471.jpg",
                             "9 - Só As Mães São Felizes.flac",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{FD5AFCBD-D4A8-45EE-AA56-0E396D6FFCFF}_Large.jpg",
                             "AlbumArt_{FD5AFCBD-D4A8-45EE-AA56-0E396D6FFCFF}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Cazuza - Exagerado - Back - By TntVillage.jpg",
                             "Cazuza - Exagerado - CD - By TntVillage.gif",
                             "Cazuza - Exagerado - Front by TntVillage.jpg",
@@ -4097,9 +4215,9 @@
                             "09 Exagerado.mp3",
                             "10 Faz Parte Do Meu Show.mp3",
                             "914795.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{D58C1ED6-43CC-4961-B054-941570F978FE}_Large.jpg",
                             "AlbumArt_{D58C1ED6-43CC-4961-B054-941570F978FE}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Thumbs.db"
@@ -4157,9 +4275,9 @@
                             "10 Oriental Ii.mp3",
                             "11 O Brasil Vai Ensinar O Mundo.mp3",
                             "986374.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{89255DDC-AEC2-4207-89B7-72FC02610626}_Large.jpg",
                             "AlbumArt_{89255DDC-AEC2-4207-89B7-72FC02610626}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Thumbs.db"
@@ -4328,17 +4446,17 @@
                         "ano": "1995",
                         "arquivosLocais": [
                             "728464.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{36B09694-1DC3-4627-8042-98A252D98F6E}_Large.jpg",
                             "AlbumArt_{36B09694-1DC3-4627-8042-98A252D98F6E}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Cazuza - Codinome Beija-Flor.mp3",
                             "Cazuza - Exagerado.mp3",
                             "Cazuza - Faz Parte do Meu Show.mp3",
                             "Cazuza - Ideologia.mp3",
                             "Cazuza - Nosso Amor a Gente Inventa.mp3",
                             "Cazuza - Pro Dia Nascer Feliz.mp3",
-                            "Cazuza - Solidão que Nada.mp3",
                             "Cazuza - Só as Mães São Felizes.mp3",
+                            "Cazuza - Solidão que Nada.mp3",
                             "Cazuza - Vida Louca Vida.mp3",
                             "Folder.jpg"
                         ]
@@ -4422,6 +4540,42 @@
                         "arquivosLocais": [
                             "151140_4.jpg",
                             "1935063.jpg",
+                            "Cazuza cd1/01-Exagerado.mp3",
+                            "Cazuza cd1/02-Faz Parte do Meu Show.mp3",
+                            "Cazuza cd1/03-Pro Dia Nascer Feliz-Barão Vermelho canta Cazuza.mp3",
+                            "Cazuza cd1/04-Brasil.mp3",
+                            "Cazuza cd1/05-O Nosso Amor a Gente Invente (Estória Romântica).mp3",
+                            "Cazuza cd1/06-Um Trem para as Estrelas.mp3",
+                            "Cazuza cd1/07-Só Se For a Dois.mp3",
+                            "Cazuza cd1/08-Boas-Novas.mp3",
+                            "Cazuza cd1/09-Balada do Esplanada.mp3",
+                            "Cazuza cd1/10-Só as Mães São Felizes.mp3",
+                            "Cazuza cd1/11-Minha Flor, Meu Bebê.mp3",
+                            "Cazuza cd1/12-Quase Um Segundo.mp3",
+                            "Cazuza cd1/13-Vai à Luta.mp3",
+                            "Cazuza cd1/14-Mal Nenhum.mp3",
+                            "Cazuza cd1/15-O Tempo Não Pára.mp3",
+                            "Cazuza cd1/AlbumArtSmall.jpg",
+                            "Cazuza cd1/Folder.jpg",
+                            "Cazuza cd1/Thumbs.db",
+                            "Cazuza cd2/01 - Ideologia.mp3",
+                            "Cazuza cd2/02- Codinome Beija-Flor.mp3",
+                            "Cazuza cd2/03-Maior Abandonado-com Barão Vermelho.mp3",
+                            "Cazuza cd2/04-Todo Amor que Houver Nessa Vida.mp3",
+                            "Cazuza cd2/05-Solidão,que Nada.mp3",
+                            "Cazuza cd2/06-Bete Balanço-Barão Vermelho.mp3",
+                            "Cazuza cd2/07-Completamente Blue.mp3",
+                            "Cazuza cd2/08-Vida Fácil.mp3",
+                            "Cazuza cd2/09-Vida,Louca Vida.mp3",
+                            "Cazuza cd2/10-Ritual.mp3",
+                            "Cazuza cd2/11-Medieval.mp3",
+                            "Cazuza cd2/12-Obrigado(Por Ter Se Mandado).mp3",
+                            "Cazuza cd2/13-Por Aí....mp3",
+                            "Cazuza cd2/14-Burguesia.mp3",
+                            "Cazuza cd2/15-Blues da Piedade.mp3",
+                            "Cazuza cd2/AlbumArtSmall.jpg",
+                            "Cazuza cd2/Folder.jpg",
+                            "Cazuza cd2/Thumbs.db",
                             "sem_t_tulo.jpg"
                         ]
                     },
@@ -4536,7 +4690,6 @@
         {
             "id": "charlie-brown-jr",
             "artista": "Charlie Brown Jr",
-            "slug": "charlie-brown-jr",
             "releases": {
                 "albums": [
                     {
@@ -5513,7 +5666,6 @@
         {
             "id": "chico-science-nacao-zumbi",
             "artista": "Chico Science & Nação Zumbi",
-            "slug": "chico-science-nacao-zumbi",
             "releases": {
                 "albums": [
                     {
@@ -5536,9 +5688,9 @@
                             "13 Computadores Fazem Arte.mp3",
                             "14 Coco Dub (Afrociberdelia).mp3",
                             "282496.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{D85111E6-C6BB-4210-9EC4-2ADED425D780}_Large.jpg",
                             "AlbumArt_{D85111E6-C6BB-4210-9EC4-2ADED425D780}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg",
                             "science da lama ao caos.jpg"
                         ]
@@ -5829,7 +5981,28 @@
                         "ano": "1998",
                         "arquivosLocais": [
                             "789293.jpg",
-                            "Capa.jpg"
+                            "Capa.jpg",
+                            "CD Dia/01 - Malungo.mp3",
+                            "CD Dia/02 - Nos Quintais Do Mundo (Mucunã).mp3",
+                            "CD Dia/03 - Protótipo Sambadélico De Mensagem Digital.mp3",
+                            "CD Dia/04 - Dubismo.mp3",
+                            "CD Dia/05 - Interlude Cien-Zia.mp3",
+                            "CD Dia/06 - Quilombo Groove (Ao Vivo).mp3",
+                            "CD Dia/07 - Um Satélite Na Cabeça (Ao Vivo).mp3",
+                            "CD Dia/08 - Pout-Pourri (Ao Vivo) Lixo Do Mangue - Enquanto O Mundo Explode - Da Lama Ao Caos - Refuse-Resist.mp3",
+                            "CD Dia/09 - Sobremesa (Vivo).mp3",
+                            "CD Dia/10 - Salustiano Song (Ao Vivo).mp3",
+                            "CD Dia/11 - Samba Makossa (Por Planet Hemp).mp3",
+                            "CD Noite/01 - Amor De Muito.mp3",
+                            "CD Noite/02 - Banditismo Por Uma Quesão De Classe.mp3",
+                            "CD Noite/03 - A Cidade.mp3",
+                            "CD Noite/04 - Rios, Pontes E Overdrives.mp3",
+                            "CD Noite/05 - Macô.mp3",
+                            "CD Noite/06 - Corpo De Lama.mp3",
+                            "CD Noite/07 - Côco Dub (Afrociberdelia).mp3",
+                            "CD Noite/08 - O Cidadão Do Mundo.mp3",
+                            "CD Noite/09 - Risoflora.mp3",
+                            "CD Noite/10 - Chico - Death Of A Rockstar.mp3"
                         ]
                     },
                     {
@@ -5871,7 +6044,6 @@
         {
             "id": "cidadao-quem",
             "artista": "Cidadao Quem",
-            "slug": "cidadao-quem",
             "releases": {
                 "albums": [
                     {
@@ -5956,7 +6128,6 @@
         {
             "id": "comunidade-nin-jitsu",
             "artista": "Comunidade Nin-Jitsu",
-            "slug": "comunidade-nin-jitsu",
             "releases": {
                 "albums": [
                     {
@@ -6225,19 +6396,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "27835935",
-                        "titulo": "O Bagulho Remixado",
-                        "ano": "2023",
-                        "arquivosLocais": [
-                            "27835935.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "27197052",
                         "titulo": "O Bagulho É Um Veneno",
                         "ano": "2023",
                         "arquivosLocais": [
                             "27197052.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "27835935",
+                        "titulo": "O Bagulho Remixado",
+                        "ano": "2023",
+                        "arquivosLocais": [
+                            "27835935.jpg"
                         ]
                     },
                     {
@@ -6312,7 +6483,6 @@
         {
             "id": "cpm-22",
             "artista": "CPM 22",
-            "slug": "cpm-22",
             "releases": {
                 "albums": [
                     {
@@ -6594,7 +6764,6 @@
         {
             "id": "dead-fish",
             "artista": "Dead Fish",
-            "slug": "dead-fish",
             "releases": {
                 "albums": [
                     {
@@ -6617,9 +6786,9 @@
                             "13 - No Place.mp3",
                             "14 - The Party.mp3",
                             "712443.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{A9939A70-2266-4229-A6BF-98B061332F66}_Large.jpg",
                             "AlbumArt_{A9939A70-2266-4229-A6BF-98B061332F66}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "Folder.jpg"
                         ]
@@ -6669,9 +6838,9 @@
                             "13 - Me Ensina.mp3",
                             "14 - Perfect Party.mp3",
                             "598054.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{9690EE7F-7D18-4F6D-8DC6-D71CF032D54F}_Large.jpg",
                             "AlbumArt_{9690EE7F-7D18-4F6D-8DC6-D71CF032D54F}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "Folder.jpg"
                         ]
@@ -6735,9 +6904,9 @@
                             "22 - Siga.mp3",
                             "23 - Engarrafamento.mp3",
                             "24 - Noite.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{A644C4D5-809E-484F-B9CA-FF5BCC7BB9E0}_Large.jpg",
                             "AlbumArt_{A644C4D5-809E-484F-B9CA-FF5BCC7BB9E0}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "desktop.ini",
                             "Folder.jpg"
@@ -6763,11 +6932,11 @@
                             "13 - Siga.mp3",
                             "14 - Tudo.mp3",
                             "662461.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Large.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Small.jpg",
                             "AlbumArt_{DF1132FB-052A-4226-B3E7-3419AFBCA99C}_Large.jpg",
                             "AlbumArt_{DF1132FB-052A-4226-B3E7-3419AFBCA99C}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "desktop.ini",
                             "Folder.jpg"
@@ -6793,9 +6962,9 @@
                             "13 - Um Homem Só.mp3",
                             "14 - A Recompensa.mp3",
                             "1605638.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Large.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "desktop.ini",
                             "Folder.jpg"
@@ -6821,9 +6990,9 @@
                             "13 - Armadilhas Verbais.mp3",
                             "14 - Piada Liberal.mp3",
                             "1605640.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Large.jpg",
                             "AlbumArt_{063787AF-CF45-4E83-9186-E3DEF703A5B0}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "desktop.ini",
                             "Folder.jpg"
@@ -6956,9 +7125,9 @@
                             "05 - I Thought It Was A Brand New Start  (Cover de Dance of Days).mp3",
                             "06 - Sometimes.mp3",
                             "1215651.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{35D412C4-2EC6-487C-BDB9-506B86539DB2}_Large.jpg",
                             "AlbumArt_{35D412C4-2EC6-487C-BDB9-506B86539DB2}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "desktop.ini",
                             "Folder.jpg"
@@ -7110,7 +7279,6 @@
         {
             "id": "detonautas-roque-clube",
             "artista": "Detonautas Roque Clube",
-            "slug": "detonautas-roque-clube",
             "releases": {
                 "albums": [
                     {
@@ -7130,11 +7298,11 @@
                             "10 Que diferença faz.mp3",
                             "1031425.jpg",
                             "11 Outro Lugar (versão especial).mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{5304A489-CEBF-4E9F-A6DB-E1B9F1B81068}_Large.jpg",
                             "AlbumArt_{5304A489-CEBF-4E9F-A6DB-E1B9F1B81068}_Small.jpg",
                             "AlbumArt_{F3253875-7713-43B1-8474-ED86AF2416CC}_Large.jpg",
                             "AlbumArt_{F3253875-7713-43B1-8474-ED86AF2416CC}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -7155,9 +7323,9 @@
                             "10 Tû Aprendendo a Viver Sem Você.mp3",
                             "11 Send U Back.mp3",
                             "1223605.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{1C3CE06E-6C6D-42DE-9329-42AAF7DB4EF4}_Large.jpg",
                             "AlbumArt_{1C3CE06E-6C6D-42DE-9329-42AAF7DB4EF4}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -7188,9 +7356,9 @@
                             "12 Tudo que eu falei dormindo.mp3",
                             "13 Um pouco do seu veneno.mp3",
                             "2828432.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{88196F9F-4BA7-4289-AC4E-4DEED3BFAD5E}_Large.jpg",
                             "AlbumArt_{88196F9F-4BA7-4289-AC4E-4DEED3BFAD5E}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -7211,9 +7379,9 @@
                             "10 Enquanto Houver.mp3",
                             "11 Eu Vou Vomitar Em Você.mp3",
                             "2828462.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{EF9D0B34-F82A-4A7E-BC1F-FBB89555829E}_Large.jpg",
                             "AlbumArt_{EF9D0B34-F82A-4A7E-BC1F-FBB89555829E}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -7243,11 +7411,12 @@
                             "Acredite no seu Coração.mp3",
                             "Combate.mp3",
                             "Conversando com o Espelho.mp3",
+                            "É Problema Meu.mp3",
                             "Essa Noite.mp3",
                             "Hello Hello.mp3",
                             "O Alienista.mp3",
-                            "Quem Vai Decidir.mp3",
                             "Quem é Você.mp3",
+                            "Quem Vai Decidir.mp3",
                             "Sabemos Fingir.mp3",
                             "Seja Forte para Lutar.mp3",
                             "Sempre Brilhará.mp3",
@@ -7255,8 +7424,7 @@
                             "Sua Alma Vai Vagar por Aí !.mp3",
                             "Tudo vai Melhorar.mp3",
                             "Um Cara de Sorte.mp3",
-                            "Vamos Viver.mp3",
-                            "É Problema Meu.mp3"
+                            "Vamos Viver.mp3"
                         ]
                     },
                     {
@@ -7599,7 +7767,6 @@
         {
             "id": "devotos",
             "artista": "Devotos",
-            "slug": "devotos",
             "releases": {
                 "albums": [
                     {
@@ -7888,7 +8055,6 @@
         {
             "id": "engenheiros-do-hawaii",
             "artista": "Engenheiros Do Hawaii",
-            "slug": "engenheiros-do-hawaii",
             "releases": {
                 "albums": [
                     {
@@ -8053,9 +8219,9 @@
                             "16 - Pose.mp3",
                             "17 - A Revolta dos Dândis.mp3",
                             "18 - Era um Garoto....mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{398B247F-A768-425E-B58D-5322F1A26247}_Large.jpg",
                             "AlbumArt_{398B247F-A768-425E-B58D-5322F1A26247}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -8353,7 +8519,6 @@
         {
             "id": "forfun",
             "artista": "Forfun",
-            "slug": "forfun",
             "releases": {
                 "albums": [
                     {
@@ -8374,9 +8539,9 @@
                             "11 Noites que virei.mp3",
                             "12 Constelação Karina.mp3",
                             "24877658.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{7FAB7799-B57D-46CB-A783-839DFA9B1B37}_Large.jpg",
                             "AlbumArt_{7FAB7799-B57D-46CB-A783-839DFA9B1B37}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -8402,8 +8567,8 @@
                             "15 ¡Viva La Revolución!.mp3",
                             "16 Constelação Karina.mp3",
                             "2830142.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{F2D5FC3D-6609-4E69-B97A-77CCD5F913A7}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -8440,9 +8605,9 @@
                             "17 Dia do Alívio (Boldo Mix).mp3",
                             "18 O Viajante (Super Shiva Mix).mp3",
                             "19 Suave (Felguk Remix).mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{F2D5FC3D-6609-4E69-B97A-77CCD5F913A7}_Large.jpg",
                             "AlbumArt_{F2D5FC3D-6609-4E69-B97A-77CCD5F913A7}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -8452,6 +8617,27 @@
                         "ano": "2011",
                         "arquivosLocais": [
                             "1159008.jpg",
+                            "Artes e Imagens/Capa.jpg",
+                            "Artes e Imagens/Forfun - Alegria Compartilhada - Foto.jpg",
+                            "Artes e Imagens/Forfun - Alegria Compartilhada - Logo.jpg",
+                            "Artes e Imagens/Forfun - Arte01.jpg",
+                            "Artes e Imagens/Forfun - Arte02.jpg",
+                            "Artes e Imagens/Forfun - Arte03.jpg",
+                            "Artes e Imagens/Forfun - Arte04.jpg",
+                            "Artes e Imagens/Forfun - Arte05.jpg",
+                            "Artes e Imagens/Forfun - Logo.png",
+                            "Cifras/01 - Alegria Compartilhada.doc",
+                            "Cifras/02 - Quem Vai, Vai.doc",
+                            "Cifras/03 - A Garça.doc",
+                            "Cifras/04 - Cosmic Jesus.doc",
+                            "Cifras/05 - Descendo o Rio.doc",
+                            "Cifras/06 - Tropicália Digital.doc",
+                            "Cifras/07 - Dissolver e Recompor.doc",
+                            "Cifras/08 - Largo dos Leões.doc",
+                            "Cifras/09 - Minha Jóia.doc",
+                            "Cifras/10 - Morada.doc",
+                            "Cifras/11 - Quando a Alma Transborda.doc",
+                            "Cifras/12 - Pra Sempre.doc",
                             "Forfun - 01 - Alegria Compartilhada.mp3",
                             "Forfun - 02 - Quem Vai, Vai.mp3",
                             "Forfun - 03 - A Garça.mp3",
@@ -8464,7 +8650,19 @@
                             "Forfun - 10 - Morada.mp3",
                             "Forfun - 11 - Quando a Alma Transborda.mp3",
                             "Forfun - 12 - Pra Sempre.mp3",
-                            "Forfun - Alegria Compartilhada (Encarte).pdf"
+                            "Forfun - Alegria Compartilhada (Encarte).pdf",
+                            "Letras/01 - Alegria Compartilhada.txt",
+                            "Letras/02 - Quem Vai, Vai.txt",
+                            "Letras/03 - A Garça.txt",
+                            "Letras/04 - Cosmic Jesus.txt",
+                            "Letras/05 - Descendo o Rio.txt",
+                            "Letras/06 - Tropicália Digital.txt",
+                            "Letras/07 - Dissolver e Recompor.txt",
+                            "Letras/08 - Largo dos Leões.txt",
+                            "Letras/09 - Minha Jóia.txt",
+                            "Letras/10 - Morada.txt",
+                            "Letras/11 - Quando a Alma Transborda.txt",
+                            "Letras/12 - Pra Sempre.txt"
                         ]
                     },
                     {
@@ -8541,7 +8739,6 @@
         {
             "id": "frejat",
             "artista": "Frejat",
-            "slug": "frejat",
             "releases": {
                 "albums": [
                     {
@@ -8707,7 +8904,6 @@
         {
             "id": "furto",
             "artista": "Furto",
-            "slug": "furto",
             "releases": {
                 "albums": [
                     {
@@ -8751,7 +8947,6 @@
         {
             "id": "garotos-da-rua",
             "artista": "Garotos Da Rua",
-            "slug": "garotos-da-rua",
             "releases": {
                 "albums": [
                     {
@@ -8882,7 +9077,6 @@
         {
             "id": "gloria",
             "artista": "Gloria",
-            "slug": "gloria",
             "releases": {
                 "albums": [
                     {
@@ -8992,7 +9186,6 @@
         {
             "id": "hateen",
             "artista": "Hateen",
-            "slug": "hateen",
             "releases": {
                 "albums": [
                     {
@@ -9175,7 +9368,6 @@
         {
             "id": "ira",
             "artista": "Ira",
-            "slug": "ira",
             "releases": {
                 "albums": [
                     {
@@ -9670,7 +9862,6 @@
         {
             "id": "john-wayne",
             "artista": "John Wayne",
-            "slug": "john-wayne",
             "releases": {
                 "albums": [
                     {
@@ -9759,7 +9950,6 @@
         {
             "id": "joao-gordo",
             "artista": "João Gordo",
-            "slug": "joao-gordo",
             "releases": {
                 "albums": [
                     {
@@ -9904,7 +10094,6 @@
         {
             "id": "jupiter-maca",
             "artista": "Jupiter Maçã",
-            "slug": "jupiter-maca",
             "releases": {
                 "albums": [
                     {
@@ -9957,7 +10146,6 @@
         {
             "id": "kiara-rocks",
             "artista": "Kiara Rocks",
-            "slug": "kiara-rocks",
             "releases": {
                 "albums": [
                     {
@@ -10030,7 +10218,6 @@
         {
             "id": "kid-abelha",
             "artista": "Kid Abelha",
-            "slug": "kid-abelha",
             "releases": {
                 "albums": [
                     {
@@ -10263,20 +10450,20 @@
                         ]
                     },
                     {
+                        "discogs_id": "6010267",
+                        "titulo": "Educação Sentimental II",
+                        "ano": "1986",
+                        "arquivosLocais": [
+                            "6010267.jpg"
+                        ]
+                    },
+                    {
                         "discogs_id": "23480111",
                         "titulo": "Educacion Sentimental = Educacao Sentimental",
                         "ano": "1986",
                         "arquivosLocais": [
                             "23480111.jpg",
                             "27845688.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "6010267",
-                        "titulo": "Educação Sentimental II",
-                        "ano": "1986",
-                        "arquivosLocais": [
-                            "6010267.jpg"
                         ]
                     },
                     {
@@ -10641,7 +10828,6 @@
         {
             "id": "legiao-urbana",
             "artista": "Legião Urbana",
-            "slug": "legiao-urbana",
             "releases": {
                 "albums": [
                     {
@@ -10660,8 +10846,8 @@
                             "09 Que país é esse.mp3",
                             "10 Música urbana.mp3",
                             "AbortoEletrico–Unb1978.jpg",
-                            "Cover.jpg",
                             "Cópia de Leia Rock Gratis MP3.txt",
+                            "Cover.jpg",
                             "Rock Gratis MP3.url"
                         ]
                     },
@@ -11054,7 +11240,6 @@
         {
             "id": "level-nine",
             "artista": "Level Nine",
-            "slug": "level-nine",
             "releases": {
                 "albums": [
                     {
@@ -11098,9 +11283,9 @@
                             "13 Satelite.mp3",
                             "14 O Preço.mp3",
                             "9597729.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{1180F393-4EDA-4438-8472-763F4A56CDA8}_Large.jpg",
                             "AlbumArt_{1180F393-4EDA-4438-8472-763F4A56CDA8}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -11144,7 +11329,6 @@
         {
             "id": "lulu-santos",
             "artista": "Lulu Santos",
-            "slug": "lulu-santos",
             "releases": {
                 "albums": [
                     {
@@ -11292,11 +11476,11 @@
                             "AlbumArtSmall.jpg",
                             "Apenas mais uma de Amor.mp3",
                             "Folder.jpg",
-                            "lulu santos (acústico) - tempos modernos.mp3",
                             "lulu santos - acústico - apenas mais uma de amor33.mp3",
                             "lulu santos - assim caminha a humanidade.mp3",
                             "Lulu Santos - Astronauta (Acústico).mp3",
-                            "Lulu Santos - Tempos Modernos.mp3"
+                            "Lulu Santos - Tempos Modernos.mp3",
+                            "lulu santos (acústico) - tempos modernos.mp3"
                         ]
                     },
                     {
@@ -11373,19 +11557,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "1321527",
-                        "titulo": "Toca + Lulu Ao Vivo",
-                        "ano": "2015",
-                        "arquivosLocais": [
-                            "1321527.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "2246710",
                         "titulo": "Tão Bem",
                         "ano": "2015",
                         "arquivosLocais": [
                             "2246710.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "1321527",
+                        "titulo": "Toca + Lulu Ao Vivo",
+                        "ano": "2015",
+                        "arquivosLocais": [
+                            "1321527.jpg"
                         ]
                     },
                     {
@@ -11911,19 +12095,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "9029172",
-                        "titulo": "Geracão Pop 2",
-                        "ano": "1995",
-                        "arquivosLocais": [
-                            "9029172.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "9029214",
                         "titulo": "Geração Pop",
                         "ano": "1995",
                         "arquivosLocais": [
                             "9029214.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "9029172",
+                        "titulo": "Geracão Pop 2",
+                        "ano": "1995",
+                        "arquivosLocais": [
+                            "9029172.jpg"
                         ]
                     },
                     {
@@ -12046,7 +12230,6 @@
         {
             "id": "mamonas-assassinas",
             "artista": "Mamonas Assassinas",
-            "slug": "mamonas-assassinas",
             "releases": {
                 "albums": [
                     {
@@ -12238,7 +12421,6 @@
         {
             "id": "maria-do-relento",
             "artista": "Maria do Relento",
-            "slug": "maria-do-relento",
             "releases": {
                 "albums": [
                     {
@@ -12355,7 +12537,6 @@
         {
             "id": "matanza",
             "artista": "Matanza",
-            "slug": "matanza",
             "releases": {
                 "albums": [
                     {
@@ -12631,7 +12812,6 @@
         {
             "id": "mundo-livre-sa",
             "artista": "Mundo Livre SA",
-            "slug": "mundo-livre-sa",
             "releases": {
                 "albums": [
                     {
@@ -12701,9 +12881,9 @@
                             "13 Minha Galera.mp3",
                             "14 Garota de Ipanema.mp3",
                             "3618868.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{F1EE0982-1FB4-49DD-91DA-7776679ACB05}_Large.jpg",
                             "AlbumArt_{F1EE0982-1FB4-49DD-91DA-7776679ACB05}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -12815,7 +12995,6 @@
         {
             "id": "nailbomb",
             "artista": "Nailbomb",
-            "slug": "nailbomb",
             "releases": {
                 "albums": [
                     {
@@ -12884,7 +13063,6 @@
         {
             "id": "nacao-zumbi",
             "artista": "Nação Zumbi",
-            "slug": "nacao-zumbi",
             "releases": {
                 "albums": [
                     {
@@ -13072,9 +13250,6 @@
                             "csnz6.jpg",
                             "csnz7.jpg",
                             "csnz8.jpg",
-                            "nacao1.jpg",
-                            "nacao2.jpg",
-                            "nacao3.jpg",
                             "nação zumbi - afrociberdelia.jpeg",
                             "nação zumbi - csnz.jpg",
                             "nação zumbi - da lama ao caos.jpg",
@@ -13089,7 +13264,10 @@
                             "nação zumbi - noite do ben.jpg",
                             "nação zumbi - propagando FV.jpg",
                             "nação zumbi - propagando.jpg",
-                            "nação zumbi - radio s.amb.a.jpg"
+                            "nação zumbi - radio s.amb.a.jpg",
+                            "nacao1.jpg",
+                            "nacao2.jpg",
+                            "nacao3.jpg"
                         ]
                     },
                     {
@@ -13213,7 +13391,6 @@
         {
             "id": "nocaute",
             "artista": "Nocaute",
-            "slug": "nocaute",
             "releases": {
                 "albums": [
                     {
@@ -13285,7 +13462,6 @@
         {
             "id": "nx-zero",
             "artista": "NX Zero",
-            "slug": "nx-zero",
             "releases": {
                 "albums": [
                     {
@@ -13336,11 +13512,11 @@
                             "7. Pela última vez.mp3",
                             "8. La prision.mp3",
                             "9. Incompleta.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{AA07C14C-D9E6-4E51-A322-31950A368E84}_Large.jpg",
                             "AlbumArt_{AA07C14C-D9E6-4E51-A322-31950A368E84}_Small.jpg",
                             "AlbumArt_{E41E9D62-C8D7-4E40-B8CE-1989E4143A15}_Large.jpg",
                             "AlbumArt_{E41E9D62-C8D7-4E40-B8CE-1989E4143A15}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg",
                             "front.jpg"
                         ]
@@ -13415,8 +13591,8 @@
                             "Nx Zero - Mais Além.mp3",
                             "Nx Zero - Perto de Você.mp3",
                             "Nx Zero - Sem Saida.mp3",
-                            "Nx Zero - Subliminar.mp3",
                             "Nx Zero - Só Rezo.mp3",
+                            "Nx Zero - Subliminar.mp3",
                             "Nx Zero - Tudo Em Seu Lugar.mp3",
                             "Nx Zero - Vertigem.mp3",
                             "Nx Zero - Vicio.mp3",
@@ -13627,7 +13803,6 @@
         {
             "id": "o-surto",
             "artista": "O Surto",
-            "slug": "o-surto",
             "releases": {
                 "albums": [
                     {
@@ -13728,7 +13903,6 @@
         {
             "id": "os-kmaradas",
             "artista": "Os Kmaradas",
-            "slug": "os-kmaradas",
             "releases": {
                 "albums": [
                     {
@@ -13770,7 +13944,6 @@
         {
             "id": "os-paralamas-do-sucesso",
             "artista": "Os Paralamas do Sucesso",
-            "slug": "os-paralamas-do-sucesso",
             "releases": {
                 "albums": [
                     {
@@ -13896,9 +14069,9 @@
                             "20. Nebulosa Do Amor.mp3",
                             "21. Caleidoscopio.mp3",
                             "966425.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{AED96B18-7092-4EF2-91FF-DBBEC3690CD4}_Large.jpg",
                             "AlbumArt_{AED96B18-7092-4EF2-91FF-DBBEC3690CD4}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -13953,9 +14126,9 @@
                             "12-Deus Lhe Pague.MP3",
                             "13-Ao Acaso Dub.MP3",
                             "850187.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{6AE3A1AA-B11F-41A9-B7FA-B97ED2F4CC72}_Large.jpg",
                             "AlbumArt_{6AE3A1AA-B11F-41A9-B7FA-B97ED2F4CC72}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.JPG",
                             "Folder.jpg"
                         ]
@@ -14181,19 +14354,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "3630408",
-                        "titulo": "Uns Dias",
-                        "ano": "1988",
-                        "arquivosLocais": [
-                            "3630408.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "1200701",
                         "titulo": "Uns Dias",
                         "ano": "1988",
                         "arquivosLocais": [
                             "1200701.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "3630408",
+                        "titulo": "Uns Dias",
+                        "ano": "1988",
+                        "arquivosLocais": [
+                            "3630408.jpg"
                         ]
                     },
                     {
@@ -14654,7 +14827,6 @@
         {
             "id": "pavilhao-9",
             "artista": "Pavilhão 9",
-            "slug": "pavilhao-9",
             "releases": {
                 "albums": [
                     {
@@ -14677,11 +14849,11 @@
                             "13 - Vietnan (Will Die Version).mp3",
                             "14 - Vietnan (Radio Edit).mp3",
                             "623728.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{5EC6EEDC-BC45-4020-8D84-698EE8DE619B}_Large.jpg",
                             "AlbumArt_{5EC6EEDC-BC45-4020-8D84-698EE8DE619B}_Small.jpg",
                             "AlbumArt_{F9EEF2DF-756E-4535-83D3-99DDF68A4E7F}_Large.jpg",
                             "AlbumArt_{F9EEF2DF-756E-4535-83D3-99DDF68A4E7F}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa-Verso.jpg",
                             "Capa.jpg",
                             "CD.jpg",
@@ -14709,9 +14881,9 @@
                             "14 - Opalão preto (Dance Mix).mp3",
                             "15 - Opalão preto (Drão Mix).mp3",
                             "1725666.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{0B250D15-4070-4ADE-A67B-47F0084B0709}_Large.jpg",
                             "AlbumArt_{0B250D15-4070-4ADE-A67B-47F0084B0709}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "CD.jpg",
                             "Folder.jpg"
@@ -14916,7 +15088,6 @@
         {
             "id": "pedra-leticia",
             "artista": "Pedra Leticia",
-            "slug": "pedra-leticia",
             "releases": {
                 "albums": [
                     {
@@ -15090,7 +15261,6 @@
         {
             "id": "penelope",
             "artista": "Penélope",
-            "slug": "penelope",
             "releases": {
                 "albums": [
                     {
@@ -15127,7 +15297,6 @@
         {
             "id": "pitty",
             "artista": "Pitty",
-            "slug": "pitty",
             "releases": {
                 "albums": [
                     {
@@ -15147,9 +15316,9 @@
                             "10 I Wanna Be.mp3",
                             "11 Semana Que Vem.mp3",
                             "721206.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{308CE9F3-8C6C-4B6F-8343-17914305B3D1}_Large.jpg",
                             "AlbumArt_{308CE9F3-8C6C-4B6F-8343-17914305B3D1}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -15172,11 +15341,11 @@
                             "12 Guereiros Sao Guerreiros.mp3",
                             "13 Querer Depois.mp3",
                             "479266.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{02F8EC4D-9CF2-4412-8983-BD10D6F51BDA}_Large.jpg",
                             "AlbumArt_{02F8EC4D-9CF2-4412-8983-BD10D6F51BDA}_Small.jpg",
                             "AlbumArt_{40F32F64-9892-46AE-BE02-4A1D5CC99397}_Large.jpg",
                             "AlbumArt_{40F32F64-9892-46AE-BE02-4A1D5CC99397}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -15205,9 +15374,9 @@
                             "10 A Sombra.mp3",
                             "11 Todos Estão Mudos.mp3",
                             "721208.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{E3DB9554-01B1-4642-80F6-3C2275BD9305}_Large.jpg",
                             "AlbumArt_{E3DB9554-01B1-4642-80F6-3C2275BD9305}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -15519,7 +15688,6 @@
         {
             "id": "planet-hemp",
             "artista": "Planet Hemp",
-            "slug": "planet-hemp",
             "releases": {
                 "albums": [
                     {
@@ -15754,19 +15922,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "27721227",
-                        "titulo": "Ninguém Segura A Gente",
-                        "ano": "2023",
-                        "arquivosLocais": [
-                            "27721227.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "27596433",
                         "titulo": "Não Vamos Desistir",
                         "ano": "2023",
                         "arquivosLocais": [
                             "27596433.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "27721227",
+                        "titulo": "Ninguém Segura A Gente",
+                        "ano": "2023",
+                        "arquivosLocais": [
+                            "27721227.jpg"
                         ]
                     },
                     {
@@ -15907,7 +16075,6 @@
         {
             "id": "project46",
             "artista": "Project46",
-            "slug": "project46",
             "releases": {
                 "albums": [
                     {
@@ -15996,7 +16163,6 @@
         {
             "id": "raimundos",
             "artista": "Raimundos",
-            "slug": "raimundos",
             "releases": {
                 "albums": [
                     {
@@ -16103,9 +16269,9 @@
                             "13 Língua Presa.mp3",
                             "14 Mulher de Fases.mp3",
                             "1427255.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{A2C2B40C-6AFD-4DC9-B578-4AC5CE3A0C8F}_Large.jpg",
                             "AlbumArt_{A2C2B40C-6AFD-4DC9-B578-4AC5CE3A0C8F}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -16115,6 +16281,26 @@
                         "ano": "2000",
                         "arquivosLocais": [
                             "1095301.jpg",
+                            "CD2/Track01.mp3",
+                            "CD2/Track02.mp3",
+                            "CD2/Track03.mp3",
+                            "CD2/Track04.mp3",
+                            "CD2/Track05.mp3",
+                            "CD2/Track06.mp3",
+                            "CD2/Track07.mp3",
+                            "CD2/Track08.mp3",
+                            "CD2/Track09.mp3",
+                            "CD2/Track10.mp3",
+                            "CD2/Track11.mp3",
+                            "CD2/Track12.mp3",
+                            "CD2/Track13.mp3",
+                            "CD2/Track14.mp3",
+                            "CD2/Track15.mp3",
+                            "CD2/Track16.mp3",
+                            "CD2/Track17.mp3",
+                            "CD2/Track18.mp3",
+                            "CD2/Track19.mp3",
+                            "CD2/Track20.mp3",
                             "Track01.mp3",
                             "Track02.mp3",
                             "Track03.mp3",
@@ -16156,9 +16342,9 @@
                             "12. Pinhead.mp3",
                             "13. Blitzkrieg Bop.mp3",
                             "2777447.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{9215751D-4FBA-4493-B2D3-F404906B4144}_Large.jpg",
                             "AlbumArt_{9215751D-4FBA-4493-B2D3-F404906B4144}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Capa.jpg",
                             "Folder.jpg"
                         ]
@@ -16596,7 +16782,6 @@
         {
             "id": "ratos-de-porao",
             "artista": "Ratos De Porão",
-            "slug": "ratos-de-porao",
             "releases": {
                 "albums": [
                     {
@@ -16963,7 +17148,6 @@
         {
             "id": "raul-seixas",
             "artista": "Raul Seixas",
-            "slug": "raul-seixas",
             "releases": {
                 "albums": [
                     {
@@ -17199,8 +17383,8 @@
                             "cover-Novo Aeon.jpg",
                             "Ficha Técnica.txt",
                             "Raul Seixas - Novo Aeon.gif",
-                            "RAÚL SEIXAS (NOVO AEON)..jpg",
-                            "RAÚL SEIXAS (NOVO AEON.jpg"
+                            "RAÚL SEIXAS (NOVO AEON.jpg",
+                            "RAÚL SEIXAS (NOVO AEON)..jpg"
                         ]
                     },
                     {
@@ -17302,9 +17486,9 @@
                             "Capa.jpg",
                             "cover-Raul Rock Seixas.jpg",
                             "Ficha Técnica.txt",
-                            "raul rock seixass.jpg",
                             "Raul Rock Seixas_atrás.jpg",
                             "Raul Rock Seixas_frente.jpg",
+                            "raul rock seixass.jpg",
                             "RAUL SEIXAS (ROCK)..jpg",
                             "RAUL SEIXAS (ROCK).jpg"
                         ]
@@ -17710,9 +17894,9 @@
                             "17 - Prelúdio.flac",
                             "18 - Medley-Gita-Ouro De Tolo-Eu Nasci Há Dez Mil Anos Atrás.flac",
                             "802442.jpg",
+                            "Raul Seixas - Raul Vivo.gif",
                             "RAUL SEIXAS (AO VIVO)..jpg",
                             "RAUL SEIXAS (AO VIVO).jpg",
-                            "Raul Seixas - Raul Vivo.gif",
                             "Vivo - back.jpg",
                             "Vivo - booklet01.jpg",
                             "Vivo - booklet02.jpg",
@@ -17849,7 +18033,35 @@
                         "titulo": "Bis",
                         "ano": "2000",
                         "arquivosLocais": [
-                            "2904706.jpg"
+                            "2904706.jpg",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 01 - Abertura - Quando Acabar o Maluco Sou Eu.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 02 - Cowboy Fora da Lei.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 03 - I'm (Gita).mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 04 - Metrô Linha 743.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 05 - Não Quero Andar Mais na Contra Mão (No No Song).mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 06 - Check-Up.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 07 - Cavalos Calados.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 08 - Senhora Dona Persona.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 09 - Gente.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 10 - Brincadeira.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 11 - O Dorminhoco.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 12 - Dê-me Tua Mão.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 13 - Vera Verinha.mp3",
+                            "Raul Seixas - Coleção BIS - CD1/CD1 - 14 - Menina de Amaralina.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 01 - Cambalache.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 02 - Loba.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 03 - Cantar.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 04 - Paranóia II (Baby Baby Baby).mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 05 - A Lei.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 06 - A Pedra dos Genesis.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 07 - Lua Bonita.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 08 - Areia da Ampulheta.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 09 - Fazendo o Que o Diabo Gosta.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 10 - Canceriano Sem Lar (Clínica Tobias Blues).mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 11 - Alice Maria.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 12 - Trem 103.mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 13 - Um Minuto Mais (I Will).mp3",
+                            "Raul Seixas - Coleção BIS - CD2/CD2 - 14 - Você Ainda Pode Sonhar (Lucy in the Sky With Diam.mp3"
                         ]
                     },
                     {
@@ -18277,6 +18489,14 @@
                         ]
                     },
                     {
+                        "discogs_id": "6690400",
+                        "titulo": "É Fim De Mês",
+                        "ano": "1998",
+                        "arquivosLocais": [
+                            "6690400.jpg"
+                        ]
+                    },
+                    {
                         "discogs_id": "6690453",
                         "titulo": "Entrevistas Históricas",
                         "ano": "1998",
@@ -18290,14 +18510,6 @@
                         "ano": "1998",
                         "arquivosLocais": [
                             "6690427.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "6690400",
-                        "titulo": "É Fim De Mês",
-                        "ano": "1998",
-                        "arquivosLocais": [
-                            "6690400.jpg"
                         ]
                     },
                     {
@@ -18383,9 +18595,9 @@
                             "21 - Sessão das dez.mp3",
                             "22 - Super-heróis.mp3",
                             "802685.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{38CE621F-6371-4147-BF32-F9BE19140AD9}_Large.jpg",
                             "AlbumArt_{38CE621F-6371-4147-BF32-F9BE19140AD9}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "cover-A arte de Raul Seixas.jpg",
                             "Folder.jpg",
                             "Raul Seixas - A Arte de Raul Seixas.gif"
@@ -18718,9 +18930,9 @@
                             "19 - How Could I Know.mp3",
                             "20 - Tente outra vez.mp3",
                             "3397126.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{210EBF2B-2ED0-43F8-AC14-A389A01A7F3D}_Large.jpg",
                             "AlbumArt_{210EBF2B-2ED0-43F8-AC14-A389A01A7F3D}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "cover-Millennium.jpg",
                             "Folder.jpg"
                         ]
@@ -18856,7 +19068,6 @@
         {
             "id": "reacao-em-cadeia",
             "artista": "Reação Em Cadeia",
-            "slug": "reacao-em-cadeia",
             "releases": {
                 "albums": [
                     {
@@ -18879,9 +19090,9 @@
                             "13 Um Dia.mp3",
                             "14 Te Amar (extra).mp3",
                             "1646291.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{152DD25C-DA9A-4FC3-BA06-9339D3F5572A}_Large.jpg",
                             "AlbumArt_{152DD25C-DA9A-4FC3-BA06-9339D3F5572A}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -18902,9 +19113,9 @@
                             "10 Nunca Me Deixe Só.mp3",
                             "11-Música Secreta (Cd Resto).mp3",
                             "2911858.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{C19094FE-834A-4563-A4D7-6C37F8CC0658}_Large.jpg",
                             "AlbumArt_{C19094FE-834A-4563-A4D7-6C37F8CC0658}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -18914,9 +19125,9 @@
                         "ano": "2006",
                         "arquivosLocais": [
                             "14105867.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{BA2FAEE7-2863-48A2-9272-46386BE9CD3D}_Large.jpg",
                             "AlbumArt_{BA2FAEE7-2863-48A2-9272-46386BE9CD3D}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg",
                             "Reação Em Cadeia - Febre Confessional - 01 - O Jantar.mp3",
                             "Reação Em Cadeia - Febre Confessional - 02 - Os Dias.mp3",
@@ -19052,7 +19263,6 @@
         {
             "id": "renato-russo",
             "artista": "Renato Russo",
-            "slug": "renato-russo",
             "releases": {
                 "albums": [
                     {
@@ -19078,8 +19288,8 @@
                             "08_RENATO_RUSSO___PASSERA.MP3",
                             "09_RENATO_RUSSO___WAVE___CO.MP3",
                             "10_RENATO_RUSSO___LA_FORZA_.MP3",
-                            "1101269.jpg",
                             "11_RENATO_RUSSO___DUE.MP3",
+                            "1101269.jpg",
                             "12_RENATO_RUSSO___PIU_O_MEN.MP3",
                             "13_RENATO_RUSSO___LA_VITA__.MP3"
                         ]
@@ -19098,9 +19308,9 @@
                             "07 - E Tu Come Stai.mp3",
                             "08 - Change Partners.mp3",
                             "2652506.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{BA54D2DA-BD5C-4364-BC13-5B78D1663ECA}_Large.jpg",
                             "AlbumArt_{BA54D2DA-BD5C-4364-BC13-5B78D1663ECA}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -19244,7 +19454,6 @@
         {
             "id": "rhossi",
             "artista": "Rhossi",
-            "slug": "rhossi",
             "releases": {
                 "albums": [
                     {
@@ -19297,7 +19506,6 @@
         {
             "id": "rita-lee",
             "artista": "Rita Lee",
-            "slug": "rita-lee",
             "releases": {
                 "albums": [
                     {
@@ -19714,19 +19922,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "10415911",
-                        "titulo": "Pra Você Eu Digo Sim (Remixes)",
-                        "ano": "2001",
-                        "arquivosLocais": [
-                            "10415911.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "2635840",
                         "titulo": "Pra Você Eu Digo Sim",
                         "ano": "2001",
                         "arquivosLocais": [
                             "2635840.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "10415911",
+                        "titulo": "Pra Você Eu Digo Sim (Remixes)",
+                        "ano": "2001",
+                        "arquivosLocais": [
+                            "10415911.jpg"
                         ]
                     },
                     {
@@ -19955,7 +20163,6 @@
         {
             "id": "rodox",
             "artista": "Rodox",
-            "slug": "rodox",
             "releases": {
                 "albums": [
                     {
@@ -20032,7 +20239,6 @@
         {
             "id": "rosa-tattooada",
             "artista": "Rosa Tattooada",
-            "slug": "rosa-tattooada",
             "releases": {
                 "albums": [
                     {
@@ -20110,7 +20316,6 @@
         {
             "id": "rpm",
             "artista": "RPM",
-            "slug": "rpm",
             "releases": {
                 "albums": [
                     {
@@ -20203,9 +20408,6 @@
                         "titulo": "Elektra",
                         "ano": "2011",
                         "arquivosLocais": [
-                            "1013838.jpg",
-                            "AlbumArtSmall.jpg",
-                            "Folder.jpg",
                             "[01] Dois Olhos Verdes.mp3",
                             "[02] Problema Seu.mp3",
                             "[03] Muito Tudo.mp3",
@@ -20217,7 +20419,10 @@
                             "[09] Cassino Royale.mp3",
                             "[10] Ela É Demais Pra Mim.mp3",
                             "[11] Ninfa.mp3",
-                            "[12] Santo Graal.mp3"
+                            "[12] Santo Graal.mp3",
+                            "1013838.jpg",
+                            "AlbumArtSmall.jpg",
+                            "Folder.jpg"
                         ]
                     },
                     {
@@ -20288,19 +20493,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "12948622",
-                        "titulo": "Revoluções Por Minuto = Revoluciones Por Minuto",
-                        "ano": "1985",
-                        "arquivosLocais": [
-                            "12948622.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "1472117",
                         "titulo": "Rádio Pirata  (Re",
                         "ano": "1985",
                         "arquivosLocais": [
                             "1472117.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "12948622",
+                        "titulo": "Revoluções Por Minuto = Revoluciones Por Minuto",
+                        "ano": "1985",
+                        "arquivosLocais": [
+                            "12948622.jpg"
                         ]
                     },
                     {
@@ -20555,7 +20760,6 @@
         {
             "id": "rumbora",
             "artista": "Rumbora",
-            "slug": "rumbora",
             "releases": {
                 "albums": [
                     {
@@ -20624,7 +20828,6 @@
         {
             "id": "sapo-banjo",
             "artista": "Sapo Banjo",
-            "slug": "sapo-banjo",
             "releases": {
                 "albums": [
                     {
@@ -20689,7 +20892,6 @@
         {
             "id": "sepultura",
             "artista": "Sepultura",
-            "slug": "sepultura",
             "releases": {
                 "albums": [
                     {
@@ -20706,6 +20908,10 @@
                         "ano": "1986",
                         "arquivosLocais": [
                             "58036.jpg",
+                            "Sepultura_-_Morbid_Vision_Remasters-back.jpg",
+                            "Sepultura_-_Morbid_Vision_Remasters-front.jpg",
+                            "Sepultura_-_Morbid_Vision_Remasters-inlay.jpg",
+                            "Sepultura_-_Morbid_Vision_Remasters-inside.jpg",
                             "Sepultura- Morbid Visions_Bestial Devastation- 01- Morbid Visions.mp3",
                             "Sepultura- Morbid Visions_Bestial Devastation- 02- Mayhem.mp3",
                             "Sepultura- Morbid Visions_Bestial Devastation- 03- Troops Of Doom.mp3",
@@ -20720,11 +20926,7 @@
                             "Sepultura- Morbid Visions_Bestial Devastation- 12- Necromancer.mp3",
                             "Sepultura- Morbid Visions_Bestial Devastation- 13- Warriors Of Death.mp3",
                             "Sepultura- Morbid Visions_Bestial Devastation- 14- Necromancer (Bonus - Demo Version).mp3",
-                            "Sepultura- Morbid Visions_Bestial Devastation- 15- Anticop [Bonus Live].mp3",
-                            "Sepultura_-_Morbid_Vision_Remasters-back.jpg",
-                            "Sepultura_-_Morbid_Vision_Remasters-front.jpg",
-                            "Sepultura_-_Morbid_Vision_Remasters-inlay.jpg",
-                            "Sepultura_-_Morbid_Vision_Remasters-inside.jpg"
+                            "Sepultura- Morbid Visions_Bestial Devastation- 15- Anticop [Bonus Live].mp3"
                         ]
                     },
                     {
@@ -20852,6 +21054,42 @@
                             "11. Roots Bloody Roots (Megawatt Mix 1).mp3",
                             "12. Roots Bloody Roots (Megawatt Mix 2).mp3",
                             "57974.jpg",
+                            "CD 1/01. Roots Bloody Roots.mp3",
+                            "CD 1/02. Attitude.mp3",
+                            "CD 1/03. Cut-Throat.mp3",
+                            "CD 1/04. Ratamahatta.mp3",
+                            "CD 1/05. Breed Apart.mp3",
+                            "CD 1/06. Straighthate.mp3",
+                            "CD 1/07. Spit.mp3",
+                            "CD 1/08. Lookaway.mp3",
+                            "CD 1/09. Dusted.mp3",
+                            "CD 1/10. Born Stubborn.mp3",
+                            "CD 1/11. Jasco.mp3",
+                            "CD 1/12. Itsari.mp3",
+                            "CD 1/13. Ambush.mp3",
+                            "CD 1/14. Endangered Species.mp3",
+                            "CD 1/15. Dictatorshit.mp3",
+                            "CD 1/16. Canyon Jam.mp3",
+                            "CD 2/Sepultura- Roots CD2- 01- Intro.mp3",
+                            "CD 2/Sepultura- Roots CD2- 02- Criminals In Uniform.mp3",
+                            "CD 2/Sepultura- Roots CD2- 03- Orgasmatron.mp3",
+                            "CD 2/Sepultura- Roots CD2- 04- Dead Embryonic Cells.mp3",
+                            "CD 2/Sepultura- Roots CD2- 05- Desperate Cry.mp3",
+                            "CD 2/Sepultura- Roots CD2- 06- Murder.mp3",
+                            "CD 2/Sepultura- Roots CD2- 07- Under Siege.mp3",
+                            "CD 2/Sepultura- Roots CD2- 08- Necromancer.mp3",
+                            "CD 2/Sepultura- Roots CD2- 09- The Past Reborns The Storms.mp3",
+                            "CD 2/Sepultura- Roots CD2- 10- A Hora E A Vez Do Cabelo Nasce.mp3",
+                            "CD 2/Sepultura- Roots CD2- 11- Drug Me.mp3",
+                            "CD 2/Sepultura- Roots CD2- 12- Crucificados Pelo Sistema.mp3",
+                            "CD 2/Sepultura- Roots CD2- 13- Anticop.mp3",
+                            "CD 2/Sepultura- Roots CD2- 14- Intro Live.mp3",
+                            "CD 2/Sepultura- Roots CD2- 15- Arise.mp3",
+                            "CD 2/Sepultura- Roots CD2- 16- Inner Self.mp3",
+                            "CD 2/Sepultura- Roots CD2- 17- Mass Hypnosis.mp3",
+                            "CD 2/Sepultura- Roots CD2- 18- Escape To The Void.mp3",
+                            "CD 2/Sepultura- Roots CD2- 19- Troops Of Doom.mp3",
+                            "CD 2/Sepultura- Roots CD2- 20- Altered State.mp3",
                             "Sepultura-Roots-Back.jpg",
                             "Sepultura-Roots-Front.jpg"
                         ]
@@ -20903,14 +21141,6 @@
                         ]
                     },
                     {
-                        "discogs_id": "588862",
-                        "titulo": "Nation (2 Track Sampler)",
-                        "ano": "2001",
-                        "arquivosLocais": [
-                            "588862.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "58044",
                         "titulo": "Nation",
                         "ano": "2001",
@@ -20936,12 +21166,20 @@
                             "19. Revolt (Demo).mp3",
                             "20. Roots Bloody Roots (Live).mp3",
                             "58044.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{FA1334FC-F5BF-44D2-A170-F6AF48CEFA17}_Large.jpg",
                             "AlbumArt_{FA1334FC-F5BF-44D2-A170-F6AF48CEFA17}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg",
                             "Sepultura-Nation-Back.jpg",
                             "Sepultura-Nation-Front.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "588862",
+                        "titulo": "Nation (2 Track Sampler)",
+                        "ano": "2001",
+                        "arquivosLocais": [
+                            "588862.jpg"
                         ]
                     },
                     {
@@ -20967,6 +21205,34 @@
                         "ano": "2002",
                         "arquivosLocais": [
                             "58042.jpg",
+                            "disc1/01 Itsári (Intro).mp3",
+                            "disc1/02 Roots Bloody Roots.mp3",
+                            "disc1/03SPIT~1.MP3",
+                            "disc1/04 Territory.mp3",
+                            "disc1/05 Monologo Ao Pé Do Ouvido.mp3",
+                            "disc1/06 Breed Apart.mp3",
+                            "disc1/07 Attitude.mp3",
+                            "disc1/08 Cut-Throat.mp3",
+                            "disc1/09 Troops of Doom.mp3",
+                            "disc1/10 Beneath the Remains _ Mass Hypnosis.mp3",
+                            "disc1/11 Born Stubborn.mp3",
+                            "disc1/12 Desperate Cry.mp3",
+                            "disc1/13 Necromancer.mp3",
+                            "disc1/14 Dusted.mp3",
+                            "disc1/15 Endangered Species.mp3",
+                            "disc2/01 We Who Are Not as Others.mp3",
+                            "disc2/02 StraightHate.mp3",
+                            "disc2/03 Dictatorshit.mp3",
+                            "disc2/04 Refuse _ Resist.mp3",
+                            "disc2/05 Arise _ Dead Embryonic Cells.mp3",
+                            "disc2/06 Slave New World.mp3",
+                            "disc2/07 Biotech Is Godzilla_1.mp3",
+                            "disc2/08 Inner Self.mp3",
+                            "disc2/09 Policia.mp3",
+                            "disc2/10 We Gotta Know.mp3",
+                            "disc2/11 Kaiowas.mp3",
+                            "disc2/12 Ratamahatta.mp3",
+                            "disc2/13 Orgasmatron.mp3",
                             "Sepultura-UnderAPaleGreySky-Back.jpg",
                             "Sepultura-UnderAPaleGreySky-Front.jpg"
                         ]
@@ -21279,9 +21545,9 @@
                             "04 Necromancer.mp3",
                             "05 Warriors Of Death.mp3",
                             "286286.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{E6D18D94-C340-4E3E-A448-78D4B1887B3B}_Large.jpg",
                             "AlbumArt_{E6D18D94-C340-4E3E-A448-78D4B1887B3B}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.JPG"
                         ]
                     },
@@ -21694,7 +21960,6 @@
         {
             "id": "skank",
             "artista": "Skank",
-            "slug": "skank",
             "releases": {
                 "albums": [
                     {
@@ -21771,9 +22036,9 @@
                             "10 - No meio do mar.mp3",
                             "1000504.jpg",
                             "11 - Saideira.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{95241150-DAF7-4DA5-B234-58FE194A5EA7}_Large.jpg",
                             "AlbumArt_{95241150-DAF7-4DA5-B234-58FE194A5EA7}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -21988,6 +22253,14 @@
                         ]
                     },
                     {
+                        "discogs_id": "1587992",
+                        "titulo": "É Proibido Fumar",
+                        "ano": "1994",
+                        "arquivosLocais": [
+                            "1587992.jpg"
+                        ]
+                    },
+                    {
                         "discogs_id": "14317375",
                         "titulo": "Especial Para",
                         "ano": "1994",
@@ -22001,14 +22274,6 @@
                         "ano": "1994",
                         "arquivosLocais": [
                             "7656276.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1587992",
-                        "titulo": "É Proibido Fumar",
-                        "ano": "1994",
-                        "arquivosLocais": [
-                            "1587992.jpg"
                         ]
                     },
                     {
@@ -22060,6 +22325,14 @@
                         ]
                     },
                     {
+                        "discogs_id": "1441386",
+                        "titulo": "É Uma Partida De Futebol",
+                        "ano": "1998",
+                        "arquivosLocais": [
+                            "1441386.jpg"
+                        ]
+                    },
+                    {
                         "discogs_id": "9447121",
                         "titulo": "Mandrake E Os Cubanos",
                         "ano": "1998",
@@ -22089,14 +22362,6 @@
                         "ano": "1998",
                         "arquivosLocais": [
                             "2134246.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1441386",
-                        "titulo": "É Uma Partida De Futebol",
-                        "ano": "1998",
-                        "arquivosLocais": [
-                            "1441386.jpg"
                         ]
                     },
                     {
@@ -22245,7 +22510,6 @@
         {
             "id": "soulfly",
             "artista": "Soulfly",
-            "slug": "soulfly",
             "releases": {
                 "albums": [
                     {
@@ -22661,19 +22925,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "31206241",
-                        "titulo": "Blood Fire War Hate (Digital Tour EP)",
-                        "ano": "2009",
-                        "arquivosLocais": [
-                            "31206241.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "3909805",
                         "titulo": "Blood Fire War Hate",
                         "ano": "2009",
                         "arquivosLocais": [
                             "3909805.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "31206241",
+                        "titulo": "Blood Fire War Hate (Digital Tour EP)",
+                        "ano": "2009",
+                        "arquivosLocais": [
+                            "31206241.jpg"
                         ]
                     },
                     {
@@ -22790,7 +23054,6 @@
         {
             "id": "squaws",
             "artista": "Squaws",
-            "slug": "squaws",
             "releases": {
                 "albums": [
                     {
@@ -22832,7 +23095,6 @@
         {
             "id": "strike",
             "artista": "Strike",
-            "slug": "strike",
             "releases": {
                 "albums": [
                     {
@@ -22851,9 +23113,9 @@
                             "09 Desencane.mp3",
                             "10 Sem Moderação.mp3",
                             "11 Desvio De Conduta.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{786F44A3-6DCF-4BAB-BCBC-9D41E1D5962D}_Large.jpg",
                             "AlbumArt_{786F44A3-6DCF-4BAB-BCBC-9D41E1D5962D}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Thumbs.db"
@@ -22875,9 +23137,9 @@
                             "09 Pecado Predileto.mp3",
                             "10 Pra ser um só.mp3",
                             "11 Te descartar é o vício.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{529DC294-815E-47D4-B05F-4C201E684319}_Large.jpg",
                             "AlbumArt_{529DC294-815E-47D4-B05F-4C201E684319}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Thumbs.db"
@@ -22935,7 +23197,6 @@
         {
             "id": "tequila-baby",
             "artista": "Tequila Baby",
-            "slug": "tequila-baby",
             "releases": {
                 "albums": [
                     {
@@ -22989,9 +23250,9 @@
                             "12 Não pra Mim Também.mp3",
                             "13 Sexo HC.mp3",
                             "2067784.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{AD52E9B5-24B2-4E30-9F15-CFF5B8DC3881}_Large.jpg",
                             "AlbumArt_{AD52E9B5-24B2-4E30-9F15-CFF5B8DC3881}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "folder.jpg"
                         ]
                     },
@@ -23023,9 +23284,9 @@
                             "13 Coma.mp3",
                             "14 Coisas Da Vida.mp3",
                             "5924909.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{409AB919-EC84-4706-B138-E97EAC515273}_Large.jpg",
                             "AlbumArt_{409AB919-EC84-4706-B138-E97EAC515273}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -23050,9 +23311,9 @@
                             "13 Superficial.mp3",
                             "14 Isso Eu Não Quero.mp3",
                             "15 Atitude.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{E7240FDD-9B45-4F9D-86FE-668650F65B3A}_Large.jpg",
                             "AlbumArt_{E7240FDD-9B45-4F9D-86FE-668650F65B3A}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -23215,7 +23476,6 @@
         {
             "id": "the-funk-fuckers",
             "artista": "The Funk Fuckers",
-            "slug": "the-funk-fuckers",
             "releases": {
                 "albums": [
                     {
@@ -23279,7 +23539,6 @@
         {
             "id": "theoria-de-allice",
             "artista": "Theoria de Allice",
-            "slug": "theoria-de-allice",
             "releases": {
                 "albums": [
                     {
@@ -23314,7 +23573,6 @@
         {
             "id": "tianastacia",
             "artista": "Tianastácia",
-            "slug": "tianastacia",
             "releases": {
                 "albums": [
                     {
@@ -23552,7 +23810,6 @@
         {
             "id": "tihuana",
             "artista": "Tihuana",
-            "slug": "tihuana",
             "releases": {
                 "albums": [
                     {
@@ -23659,9 +23916,9 @@
                             "12 O Fogo.mp3",
                             "13 No Meio Do Caos.mp3",
                             "14 Silêncio.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{19AE92DC-6563-4AD6-BDAA-1DC22EDB2618}_Large.jpg",
                             "AlbumArt_{19AE92DC-6563-4AD6-BDAA-1DC22EDB2618}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -23832,7 +24089,6 @@
         {
             "id": "tim-maia",
             "artista": "Tim Maia",
-            "slug": "tim-maia",
             "releases": {
                 "albums": [
                     {
@@ -24092,19 +24348,19 @@
                         ]
                     },
                     {
-                        "discogs_id": "2819867",
-                        "titulo": "Sorriso De Criança",
-                        "ano": "1997",
-                        "arquivosLocais": [
-                            "2819867.jpg"
-                        ]
-                    },
-                    {
                         "discogs_id": "1404795",
                         "titulo": "Só Você – Para Ouvir E Dançar",
                         "ano": "1997",
                         "arquivosLocais": [
                             "1404795.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "2819867",
+                        "titulo": "Sorriso De Criança",
+                        "ano": "1997",
+                        "arquivosLocais": [
+                            "2819867.jpg"
                         ]
                     },
                     {
@@ -24600,18 +24856,18 @@
                         ]
                     },
                     {
+                        "discogs_id": "",
+                        "titulo": "Onde Está Você",
+                        "ano": "1987",
+                        "arquivosLocais": []
+                    },
+                    {
                         "discogs_id": "2586459",
                         "titulo": "Onde Esta Você",
                         "ano": "1987",
                         "arquivosLocais": [
                             "2586459.jpg"
                         ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "Onde Está Você",
-                        "ano": "1987",
-                        "arquivosLocais": []
                     },
                     {
                         "discogs_id": "1474864",
@@ -25031,7 +25287,6 @@
         {
             "id": "tim-maia-discografia-baixar",
             "artista": "TIM MAIA DISCOGRAFIA BAIXAR",
-            "slug": "tim-maia-discografia-baixar",
             "releases": {
                 "albums": [
                     {
@@ -25140,9 +25395,9 @@
                         "arquivosLocais": [
                             "1976 - Racional - Vol. 2 - Back.jpg",
                             "1976 - Racional - Vol. 2 - Front.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{21A6B9F7-EEE2-4EA1-B6C5-0D409582779C}_Large.jpg",
                             "AlbumArt_{21A6B9F7-EEE2-4EA1-B6C5-0D409582779C}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Tim Maia - 01 - Quer Queira Quer Não Queira.Mp3",
@@ -25281,9 +25536,9 @@
                         "titulo": "1983 - O Descobridor dos Sete Mares",
                         "ano": "",
                         "arquivosLocais": [
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Large.jpg",
                             "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "desktop.ini",
                             "Folder.jpg",
                             "Tim Maia - 01 - O Descobridor Dos Sete Mares.Mp3",
@@ -25544,23 +25799,6 @@
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "1997 - Sorriso De Criança",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Pense Em Mim (Não Me Trate Assim).Mp3",
-                            "Tim Maia - 02 - Sozinho.Mp3",
-                            "Tim Maia - 03 - Acenda O Farol.Mp3",
-                            "Tim Maia - 04 - Para Que Vou Recordar (O Que Chorei).Mp3",
-                            "Tim Maia - 05 - África Mãe (Poema Musicado).Mp3",
-                            "Tim Maia - 06 - Dizer Que Te Amo (É Muito Pouco).Mp3",
-                            "Tim Maia - 07 - Crazy Feelings.Mp3",
-                            "Tim Maia - 08 - Sorriso De Criança.Mp3",
-                            "Tim Maia - 09 - The Queen.Mp3",
-                            "Tim Maia - 10 - O Pescador.Mp3"
-                        ]
-                    },
-                    {
                         "discogs_id": "1997",
                         "titulo": "Só Você",
                         "ano": "1997",
@@ -25580,6 +25818,23 @@
                             "Tim Maia - 12 - 12. O Morro Não Tem Vez.Mp3",
                             "Tim Maia - 13 - 13. Day By Day.Mp3",
                             "Tim Maia - 14 - 14. Vivo Sonhando.Mp3"
+                        ]
+                    },
+                    {
+                        "discogs_id": "",
+                        "titulo": "1997 - Sorriso De Criança",
+                        "ano": "",
+                        "arquivosLocais": [
+                            "Tim Maia - 01 - Pense Em Mim (Não Me Trate Assim).Mp3",
+                            "Tim Maia - 02 - Sozinho.Mp3",
+                            "Tim Maia - 03 - Acenda O Farol.Mp3",
+                            "Tim Maia - 04 - Para Que Vou Recordar (O Que Chorei).Mp3",
+                            "Tim Maia - 05 - África Mãe (Poema Musicado).Mp3",
+                            "Tim Maia - 06 - Dizer Que Te Amo (É Muito Pouco).Mp3",
+                            "Tim Maia - 07 - Crazy Feelings.Mp3",
+                            "Tim Maia - 08 - Sorriso De Criança.Mp3",
+                            "Tim Maia - 09 - The Queen.Mp3",
+                            "Tim Maia - 10 - O Pescador.Mp3"
                         ]
                     },
                     {
@@ -25657,7 +25912,6 @@
         {
             "id": "titas",
             "artista": "Titãs",
-            "slug": "titas",
             "releases": {
                 "albums": [
                     {
@@ -25938,9 +26192,9 @@
                             "14-Bananas.mp3",
                             "15-Alma Lavada.mp3",
                             "16-Cuidado com Você.mp3",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{6B95E549-AF47-4D51-858E-37C0A7CF2AAE}_Large.jpg",
                             "AlbumArt_{6B95E549-AF47-4D51-858E-37C0A7CF2AAE}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -26621,7 +26875,6 @@
         {
             "id": "tnt",
             "artista": "TNT",
-            "slug": "tnt",
             "releases": {
                 "albums": [
                     {
@@ -26663,7 +26916,6 @@
         {
             "id": "ultraje-a-rigor",
             "artista": "Ultraje A Rigor",
-            "slug": "ultraje-a-rigor",
             "releases": {
                 "albums": [
                     {
@@ -27279,7 +27531,6 @@
         {
             "id": "ultramen",
             "artista": "Ultramen",
-            "slug": "ultramen",
             "releases": {
                 "albums": [
                     {
@@ -27432,7 +27683,6 @@
         {
             "id": "velhas-virgens",
             "artista": "Velhas Virgens",
-            "slug": "velhas-virgens",
             "releases": {
                 "albums": [
                     {
@@ -27578,9 +27828,9 @@
                             "16 - Aposentadoria De Malandro (Samba).mp3",
                             "17 - Homem Do Bigode Cheiroso (Completa).mp3",
                             "1827635.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{67D6DD86-E390-42E0-8138-46272269A9CF}_Large.jpg",
                             "AlbumArt_{67D6DD86-E390-42E0-8138-46272269A9CF}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -27966,7 +28216,6 @@
         {
             "id": "ze-ramalho",
             "artista": "Zé Ramalho",
-            "slug": "ze-ramalho",
             "releases": {
                 "albums": [
                     {
@@ -28226,9 +28475,9 @@
                             "10 - Porta De Luz.mp3",
                             "11 - As Aparências Enganam.mp3",
                             "4056076.jpg",
-                            "AlbumArtSmall.jpg",
                             "AlbumArt_{A31A1AF8-B900-436A-A63B-CFADC613DF9B}_Large.jpg",
                             "AlbumArt_{A31A1AF8-B900-436A-A63B-CFADC613DF9B}_Small.jpg",
+                            "AlbumArtSmall.jpg",
                             "Folder.jpg"
                         ]
                     },
@@ -28384,7 +28633,35 @@
                             "Violando Com Hermeto.met",
                             "Violando Com Hermeto.mp3",
                             "Você Ainda Pode Sonhar (Lucy In The Sky With Diamond).met",
-                            "Você Ainda Pode Sonhar (Lucy In The Sky With Diamond).mp3"
+                            "Você Ainda Pode Sonhar (Lucy In The Sky With Diamond).mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/A Peleja De Zé Limeira No Final Do Segundo Milênio.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/A Peleja De Zé Limeira No Final Do Segundo Milênio.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/A Peleja Do Diabo Com O Dono Do Céu.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/A Peleja Do Diabo Com O Dono Do Céu.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Alforria.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Alforria.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Avohai (Versão Acústica).met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Avohai (Versão Acústica).mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Beira-Mar.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Beira-Mar.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Das Maravilhas.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Das Maravilhas.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Errare Humanum Est.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Errare Humanum Est.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Lamento Sertanejo (Forró Do Dominguinhos).met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Lamento Sertanejo (Forró Do Dominguinhos).mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Litúrgica.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Litúrgica.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Menino Do Sertão.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Menino Do Sertão.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Mulher Nova, Bonita E Carinhosa, Faz O Homem Gemer Sem Senti.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Mulher Nova, Bonita E Carinhosa, Faz O Homem Gemer Sem Senti.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Para Um Amor No Recife.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Para Um Amor No Recife.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Pau De Arara.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Pau De Arara.mp3",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Temporal.met",
+                            "Ze Ramalho - RCA - 100 Anos (Disc 2)/Temporal.mp3"
                         ]
                     },
                     {
