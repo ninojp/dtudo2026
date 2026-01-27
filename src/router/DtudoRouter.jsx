@@ -1,10 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Outlet } from "react-router-dom";
 import AnimexDetalhesProvider from "../context_api/AnimexDetalhesContext/AnimexDetalhesProvider";
 import ProtetorDeRota from "../components/ProtetorDeRota/ProtetorDeRota";
 import IndexLayout from "../layouts/IndexLayout/IndexLayout";
 import NinoTIPageLayout from "../layouts/NinoTIPageLayout/NinoTIPageLayout";
 import MyAnimesDetalhesProvider from "../context_api/MyAnimesDetalhesContext/MyAnimesDetalhesProvider";
 import MyAnimesObjsListProvider from "../context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider";
+import MyMusicxObjsListProvider from "../context_api/MyMusicxObjsListContext/MyMusicxObjsListProvider";
 import Animex from "../pages/Animex/Animex";
 import MyAnimes from "../pages/MyAnimes/MyAnimes";
 import AnimexDetalhes from "../pages/AnimexDetalhes/AnimexDetalhes";
@@ -37,6 +38,7 @@ import Figma from "../components/componentsNinoTI/Figma/Figma";
 import WordPress from "../components/componentsNinoTI/WordPress/WordPress";
 import NinoTICienciaComputacao from "../pages/NinoTICienciaComputacao/NinoTICienciaComputacao";
 import Animes from "../pages/Animes/Animes";
+import MyMusicXBuscar from "../pages/MyMusicXBuscar/MyMusicXBuscar";
 
 export default function DtudoRouter() {
     return (
@@ -93,9 +95,10 @@ export default function DtudoRouter() {
                         <Route path="design-ux" element={<NinoTIDesignUX />} />
                     </Route>
 
-                    {/* Rotas para Endereços MyMusicX */}
-                    <Route path="/mymusicx">
+                    {/* Rotas para Endereços MyMusicX, passando o contexto */}
+                    <Route path="/mymusicx" element={<MyMusicxObjsListProvider><Outlet /></MyMusicxObjsListProvider>}>
                         <Route index element={<MyMusicX />} />
+                        <Route path="mymusicx-buscar" element={<MyMusicXBuscar />} />
                     </Route>
 
                     {/* Rotas para Endereços de Autentificação */}

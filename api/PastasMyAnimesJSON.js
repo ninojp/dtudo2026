@@ -237,14 +237,14 @@ async function atualizarAnimacoes() {
             }
         } catch (readErr) {
             console.warn(`Falha ao ler ${CONFIG.arquivoSaida}: ${readErr.message}`);
-            jsonAtual = { animacoes: [] };
+            jsonAtual = { myanimes: [] };
         }
-        jsonAtual.animacoes = estrutura;
+        jsonAtual.myanimes = estrutura;
         jsonAtual.ultimaAtualizacao = new Date().toISOString();
         await writeJsonAtomically(CONFIG.arquivoSaida, jsonAtual);
         console.log(`Arquivo ${CONFIG.arquivoSaida} atualizado com sucesso!`);
     } catch (err) {
-        console.error('Erro ao atualizar animacoes.json:', err);
+        console.error('Erro ao atualizar myanimes.json:', err);
     }
 }
 // --- Execução Principal ---

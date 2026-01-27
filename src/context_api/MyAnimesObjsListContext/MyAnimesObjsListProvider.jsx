@@ -9,7 +9,7 @@ export default function MyAnimesObjsListProvider({ children }) {
     async function fetchAllObjsMyAnimes() {
         setIsLoading(true);
         try {
-            const response = await axiosHttpRequest.get('/animacoes');
+            const response = await axiosHttpRequest.get('/myanimes');
             setListObjsMyAnimes(response.data);
             return response.data;
         } catch (error) {
@@ -24,13 +24,13 @@ export default function MyAnimesObjsListProvider({ children }) {
         fetchAllObjsMyAnimes();
     }, []);
     return (
-        <MyAnimesObjsListContext
+        <MyAnimesObjsListContext.Provider
             value={{ 
                 listObjsMyAnimes,
                 isLoading,
             }}
         >
             {children}
-        </MyAnimesObjsListContext>
+        </MyAnimesObjsListContext.Provider>
     );
 };
