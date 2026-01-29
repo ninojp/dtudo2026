@@ -6,9 +6,9 @@ import PaginationButtons from '../../PaginationButtons/PaginationButtons';
 import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
 import ModalDialog from '../../ModalDialog/ModalDialog';
 import CardMyAnimes from '../CardMyAnimes/CardMyAnimes';
-import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
 import FiltrarPorLetra from '../../FiltrarPorLetra/FiltrarPorLetra';
 import FiltrarPorAno from '../../FiltrarPorAno/FiltrarPorAno';
+import MyAnimesObjsListContext from '../../../context_api/MyAnimesObjsListContext/MyAnimesObjsListContext';
 
 export default function CardsMyAnimesList() {
     //Contexto, lista completa MyAnimes (json-server: http://localhost:3666/animacoes)

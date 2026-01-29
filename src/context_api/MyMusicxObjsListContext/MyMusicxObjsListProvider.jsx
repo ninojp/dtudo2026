@@ -10,7 +10,7 @@ export default function MyMusicxObjsListProvider({ children }) {
         setIsLoading(true);
         try {
             const response = await axiosHttpRequest.get('/mymusicx');
-            console.log(response.data);
+            //console.log(response.data);
             setListObjsMyMusicx(response.data);
             return response.data;
         } catch (error) {
