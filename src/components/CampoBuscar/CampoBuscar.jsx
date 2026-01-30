@@ -50,7 +50,7 @@ const CampoBuscar = ({ onSearch = () => {} }) => {
     return (
         <fieldset className={styles.fieldsetCampoBuscar}>
             <label htmlFor="campo-buscar" className={styles.labelInput}>
-                Busque pelo nome do Anime que deseja procurar.
+                Busque pelo nome do que deseja procurar.
             </label>
             <input
                 className={styles.inputCampoBuscar}

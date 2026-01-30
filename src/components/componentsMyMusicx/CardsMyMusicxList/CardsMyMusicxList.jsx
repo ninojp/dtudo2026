@@ -92,14 +92,34 @@ export default function CardsMyMusicxList() {
                 )}
             </div>
             <div className={styles.divContainerListaCardsMyaAnimes}>
-                {paginatedItems.map((item) => (
-                    <CardCD
-                        key={item.id}
-                        cdTitulo={item.artista}
-                        cdImgSrc={`/mymusicx/${item.id}.jpg`}
-                        onImageClick={handleImageClick}
-                    />
-                ))}
+                {paginatedItems.map((item) => {
+                    // Calcular primeiro e último ano dos álbuns
+                    const albums = item.releases?.albums || [];
+                    // Filtrar apenas álbuns que têm ano válido (não vazio)
+                    const albumsComAno = albums.filter(album => album.ano && album.ano.trim() !== '');
+                    let anoExibir = '';
+                    if (albumsComAno.length === 1) {
+                        anoExibir = albumsComAno[0].ano;
+                    } else if (albumsComAno.length > 1) {
+                        const primeiroAno = albumsComAno[0].ano;
+                        const ultimoAno = albumsComAno[albumsComAno.length - 1].ano;
+                        // Se primeiro e último ano são iguais, exibe só um
+                        if (primeiroAno === ultimoAno) {
+                            anoExibir = primeiroAno;
+                        } else {
+                            anoExibir = `${primeiroAno} - ${ultimoAno}`;
+                        }
+                    }
+                    return (
+                        <Link key={item.id} to={`/mymusicx/mymusicx-detalhes/${item.id}`}>
+                            <CardCD
+                                cdTitulo={item.artista}
+                                cdImgSrc={`/mymusicx/${item.id}.jpg`}
+                                cdAno={anoExibir}
+                            />
+                        </Link>
+                    );
+                })}
             </div>
             <PaginationButtons
                 currentPage={page}

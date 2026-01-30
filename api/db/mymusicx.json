@@ -6486,9 +6486,17 @@
             "releases": {
                 "albums": [
                     {
-                        "discogs_id": "",
-                        "titulo": "2000 - A Alguns Quilometros de Lugar Nenhum",
-                        "ano": "",
+                        "discogs_id": "1137016",
+                        "titulo": "CPM 22",
+                        "ano": "1998",
+                        "arquivosLocais": [
+                            "1137016.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "2913670",
+                        "titulo": "A Alguns Quilômetros De Lugar Nenhum",
+                        "ano": "2000",
                         "arquivosLocais": [
                             "01 - Regina Let's Go!.mp3",
                             "02 - O Mundo Dá Voltas.mp3",
@@ -6504,15 +6512,16 @@
                             "12 - Vai Mudar.mp3",
                             "13 - Pregur.mp3",
                             "14 - A Alguns kms de Lugar Nenhum.mp3",
+                            "2913670.jpg",
                             "AlbumArtSmall.jpg",
                             "CPM 22 - 2000 - A Alguns Quilômetros de Lugar Nenhum.png",
                             "folder.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2001 - CPM 22",
-                        "ano": "",
+                        "discogs_id": "659082",
+                        "titulo": "CPM 22",
+                        "ano": "2001",
                         "arquivosLocais": [
                             "01. Regina Let' Go.mp3",
                             "02. Tarde de Outubro.mp3",
@@ -6528,13 +6537,14 @@
                             "12. ...É Isso.mp3",
                             "13. Últimas Palavras.mp3",
                             "14. Duas Semanas.mp3",
+                            "659082.jpg",
                             "Cpm_22-Cpm_22-Frontal.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2002 - Chegou a Hora de Recomeçar",
-                        "ano": "",
+                        "discogs_id": "1624917",
+                        "titulo": "Chegou A Hora De Recomeçar",
+                        "ano": "2002",
                         "arquivosLocais": [
                             "01. Desconfio.mp3",
                             "02. Sonhos e Planos.mp3",
@@ -6550,13 +6560,14 @@
                             "12. Argumento.mp3",
                             "13. Peter.mp3",
                             "14. Mentiras Novas.mp3",
+                            "1624917.jpg",
                             "Cpm_22-Chegou_A_Hora_De_Recomecar-Frontal.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2005 - Felicidade Instantânea",
-                        "ano": "",
+                        "discogs_id": "1624945",
+                        "titulo": "Felicidade Instantânea",
+                        "ano": "2005",
                         "arquivosLocais": [
                             "01 - Felicidade Instantanea.mp3",
                             "02 - Um Minuto Para O Fim Do Mundo.mp3",
@@ -6574,15 +6585,16 @@
                             "14 - Reflexões.mp3",
                             "15 - Depois Do Fim.mp3",
                             "16 - Repetição.mp3",
+                            "1624945.jpg",
                             "AlbumArtSmall.jpg",
                             "Cpm_22-Felicidade_Instantanea-Frontal.jpg",
                             "folder.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2006 - MTV Ao Vivo",
-                        "ano": "",
+                        "discogs_id": "1259946",
+                        "titulo": "MTV Ao Vivo",
+                        "ano": "2006",
                         "arquivosLocais": [
                             "01. Regina Let's Go!.mp3",
                             "02. Desconfio.mp3",
@@ -6596,6 +6608,7 @@
                             "10. Além de Nós.mp3",
                             "11. Atordoado.mp3",
                             "12. Apostas e Certezas.mp3",
+                            "1259946.jpg",
                             "13. Um Minuto Para o Fim do Mundo.mp3",
                             "14. Não Vá Embora.mp3",
                             "15. Pouco Pra Mim.mp3",
@@ -6609,9 +6622,9 @@
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2007 - Cidade Cinza",
-                        "ano": "",
+                        "discogs_id": "1413501",
+                        "titulo": "Cidade Cinza",
+                        "ano": "2007",
                         "arquivosLocais": [
                             "01. Estranho No Espelho.mp3",
                             "02. Nossa Música.mp3",
@@ -6625,13 +6638,14 @@
                             "10. Tempo.mp3",
                             "11. Maldita Herança.mp3",
                             "12. Cidade Cinza.mp3",
+                            "1413501.jpg",
                             "Cpm_22-Cidade_Cinza-Frontal.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2011 - Depois de Um Longo Inverno",
-                        "ano": "",
+                        "discogs_id": "3260272",
+                        "titulo": "Depois De Um Longo Inverno",
+                        "ano": "2011",
                         "arquivosLocais": [
                             "01. Abominável.mp3",
                             "02. Vida ou Morte.mp3",
@@ -6646,14 +6660,15 @@
                             "11. CPM 22.mp3",
                             "12. Minoria.mp3",
                             "13. Março 76.mp3",
+                            "3260272.jpg",
                             "Cpm_22-Depois_De_Um_Longo_Inverno-Frontal.jpg",
                             "Cpm_22-Depois_De_Um_Longo_Inverno-Trasera.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2013 - Acústico",
-                        "ano": "",
+                        "discogs_id": "2833898",
+                        "titulo": "Acústico",
+                        "ano": "2013",
                         "arquivosLocais": [
                             "01. Não Sei Viver Sem Ter Você.mp3",
                             "02. Desconfio.mp3",
@@ -6677,13 +6692,268 @@
                             "20. A Cura.mp3",
                             "21. 1000 Motivos.mp3",
                             "22. Regina Let's Go.mp3",
+                            "2833898.jpg",
                             "CPM 22 - 2013 - Acústico.png"
                         ]
                     },
                     {
-                        "discogs_id": "",
-                        "titulo": "2015 - CPM 20 Anos",
-                        "ano": "",
+                        "discogs_id": "2833901",
+                        "titulo": "Rock In Rio Ao Vivo",
+                        "ano": "2016",
+                        "arquivosLocais": [
+                            "01. Regina Let's Go! (Ao Vivo).mp3",
+                            "02. O Mundo Dá Voltas (Ao Vivo).mp3",
+                            "03. Tarde De Outubro (Ao Vivo).mp3",
+                            "04. Dias Atrás (Ao Vivo).mp3",
+                            "05. Não Sei Viver Sem Ter Você (Ao Vivo).mp3",
+                            "06. Atordoado (Ao Vivo).mp3",
+                            "07. Vida Ou Morte (Ao Vivo).mp3",
+                            "08. Sheena Is A Punk Rocker (Ao Vivo).mp3",
+                            "09. Um Minuto Para O Fim Do Mundo (Ao Vivo).mp3",
+                            "10. Irreversível (Ao Vivo).mp3",
+                            "11. Apostas & Certezas (Ao Vivo).mp3",
+                            "12. Não Vá Embora (Ao Vivo).mp3",
+                            "13. Inevitável (Ao Vivo).mp3",
+                            "14. Ontem (Ao Vivo).mp3",
+                            "15. Anteontem (Ao Vivo).mp3",
+                            "16. Desconfio (Ao Vivo).mp3",
+                            "2833901.jpg",
+                            "Frente.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "1479556",
+                        "titulo": "Suor E Sacrifício",
+                        "ano": "2017",
+                        "arquivosLocais": [
+                            "01. Combustível.mp3",
+                            "02. Pagar Pra Ver!.mp3",
+                            "03. Ser Mais Simples.mp3",
+                            "04. Conta Comigo.mp3",
+                            "05. Linha De Frente.mp3",
+                            "06. A Esperança Não Morreu.mp3",
+                            "07. Como No Passado.mp3",
+                            "08. Desconexo.mp3",
+                            "09. Never Going To Be the Same (feat. Trever Keith).mp3",
+                            "10. Honrar Teu Nome.mp3",
+                            "11. Segunda Chance.mp3",
+                            "12. Destemido.mp3",
+                            "13. Em Busca De Uma Pista.mp3",
+                            "14. Todos Por 1  Citação Hino Nacional.mp3",
+                            "1479556.jpg",
+                            "15. Revolução.mp3",
+                            "16. Cruz.mp3",
+                            "CPM 22 - 2017 - Suor e Sacrifício.png"
+                        ]
+                    },
+                    {
+                        "discogs_id": "28803823",
+                        "titulo": "Enfrente",
+                        "ano": "2024",
+                        "arquivosLocais": [
+                            "28803823.jpg"
+                        ]
+                    }
+                ],
+                "singles-EP": [
+                    {
+                        "discogs_id": "8290703",
+                        "titulo": "CPM",
+                        "ano": "1996",
+                        "arquivosLocais": [
+                            "8290703.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "13022495",
+                        "titulo": "Regina Let",
+                        "ano": "2001",
+                        "arquivosLocais": [
+                            "13022495.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "13372838",
+                        "titulo": "Tarde De Outubro",
+                        "ano": "2001",
+                        "arquivosLocais": [
+                            "13372838.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "26521283",
+                        "titulo": "Desconfio",
+                        "ano": "2002",
+                        "arquivosLocais": [
+                            "26521283.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "13535586",
+                        "titulo": "Não Sei Viver Sem Você",
+                        "ano": "2002",
+                        "arquivosLocais": [
+                            "13535586.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "15310349",
+                        "titulo": "O Mundo Dá Voltas",
+                        "ano": "2002",
+                        "arquivosLocais": [
+                            "15310349.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "13022416",
+                        "titulo": "Um Minuto Para O Fim Do Mundo",
+                        "ano": "2005",
+                        "arquivosLocais": [
+                            "13022416.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "26248328",
+                        "titulo": "Inevitável",
+                        "ano": "2006",
+                        "arquivosLocais": [
+                            "26248328.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "28984096",
+                        "titulo": "Nossa Música",
+                        "ano": "2007",
+                        "arquivosLocais": [
+                            "28984096.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284784",
+                        "titulo": "Faça Sua Parte",
+                        "ano": "2018",
+                        "arquivosLocais": [
+                            "34284784.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35115125",
+                        "titulo": "Honrar Teu Nome (Versão Acústica)",
+                        "ano": "2018",
+                        "arquivosLocais": [
+                            "35115125.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35137064",
+                        "titulo": "Que País É Este",
+                        "ano": "2018",
+                        "arquivosLocais": [
+                            "35137064.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35115158",
+                        "titulo": "Ser Mais Simples (Versão Acústica)",
+                        "ano": "2018",
+                        "arquivosLocais": [
+                            "35115158.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284805",
+                        "titulo": "Ditados",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "34284805.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284811",
+                        "titulo": "Escravos",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "34284811.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284829",
+                        "titulo": "Oriente",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "34284829.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35101106",
+                        "titulo": "Por Quê",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "35101106.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35101070",
+                        "titulo": "Pregur",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "35101070.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284850",
+                        "titulo": "Quando",
+                        "ano": "2020",
+                        "arquivosLocais": [
+                            "34284850.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284868",
+                        "titulo": "2014",
+                        "ano": "2021",
+                        "arquivosLocais": [
+                            "34284868.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "34284889",
+                        "titulo": "Tudo Vale A Pena",
+                        "ano": "2022",
+                        "arquivosLocais": [
+                            "34284889.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "32009873",
+                        "titulo": "Fuzis E Refrões",
+                        "ano": "2024",
+                        "arquivosLocais": [
+                            "32009873.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "35660188",
+                        "titulo": "30 Anos Depois",
+                        "ano": "2025",
+                        "arquivosLocais": [
+                            "35660188.jpg"
+                        ]
+                    }
+                ],
+                "compilations": [
+                    {
+                        "discogs_id": "2941778",
+                        "titulo": "Sem Limite",
+                        "ano": "2008",
+                        "arquivosLocais": [
+                            "2941778.jpg"
+                        ]
+                    },
+                    {
+                        "discogs_id": "9087649",
+                        "titulo": "20 Anos",
+                        "ano": "2015",
                         "arquivosLocais": [
                             "01. Regina Let's Go!.mp3",
                             "02. Tarde De Outubro.mp3",
@@ -6704,61 +6974,21 @@
                             "18. Sonhos E Planos.mp3",
                             "19. Atordoado.mp3",
                             "20. Anteontem.mp3",
+                            "9087649.jpg",
                             "CPM 22 - 2015 - CPM 20 Anos.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "2016 - Rock In Rio Ao Vivo",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "01. Regina Let's Go! (Ao Vivo).mp3",
-                            "02. O Mundo Dá Voltas (Ao Vivo).mp3",
-                            "03. Tarde De Outubro (Ao Vivo).mp3",
-                            "04. Dias Atrás (Ao Vivo).mp3",
-                            "05. Não Sei Viver Sem Ter Você (Ao Vivo).mp3",
-                            "06. Atordoado (Ao Vivo).mp3",
-                            "07. Vida Ou Morte (Ao Vivo).mp3",
-                            "08. Sheena Is A Punk Rocker (Ao Vivo).mp3",
-                            "09. Um Minuto Para O Fim Do Mundo (Ao Vivo).mp3",
-                            "10. Irreversível (Ao Vivo).mp3",
-                            "11. Apostas & Certezas (Ao Vivo).mp3",
-                            "12. Não Vá Embora (Ao Vivo).mp3",
-                            "13. Inevitável (Ao Vivo).mp3",
-                            "14. Ontem (Ao Vivo).mp3",
-                            "15. Anteontem (Ao Vivo).mp3",
-                            "16. Desconfio (Ao Vivo).mp3",
-                            "Frente.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "2017 - Suor e Sacrifício",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "01. Combustível.mp3",
-                            "02. Pagar Pra Ver!.mp3",
-                            "03. Ser Mais Simples.mp3",
-                            "04. Conta Comigo.mp3",
-                            "05. Linha De Frente.mp3",
-                            "06. A Esperança Não Morreu.mp3",
-                            "07. Como No Passado.mp3",
-                            "08. Desconexo.mp3",
-                            "09. Never Going To Be the Same (feat. Trever Keith).mp3",
-                            "10. Honrar Teu Nome.mp3",
-                            "11. Segunda Chance.mp3",
-                            "12. Destemido.mp3",
-                            "13. Em Busca De Uma Pista.mp3",
-                            "14. Todos Por 1  Citação Hino Nacional.mp3",
-                            "15. Revolução.mp3",
-                            "16. Cruz.mp3",
-                            "CPM 22 - 2017 - Suor e Sacrifício.png"
                         ]
                     }
                 ],
-                "singles-EP": [],
-                "compilations": [],
-                "videos": []
+                "videos": [
+                    {
+                        "discogs_id": "10507096",
+                        "titulo": "O Vídeo (1995 A 2003)",
+                        "ano": "2003",
+                        "arquivosLocais": [
+                            "10507096.jpg"
+                        ]
+                    }
+                ]
             }
         },
         {
@@ -9076,13 +9306,13 @@
         },
         {
             "id": "gloria",
-            "artista": "Gloria",
+            "artista": "Glória",
             "releases": {
                 "albums": [
                     {
                         "discogs_id": "",
-                        "titulo": "2005 - O Fim É Uma Certeza",
-                        "ano": "",
+                        "titulo": "O Fim É Uma Certeza",
+                        "ano": "2005",
                         "arquivosLocais": [
                             "01 - Piano Perfeito.mp3",
                             "02 - Quem Cai.mp3",
@@ -9101,8 +9331,8 @@
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2006 - Nueva",
-                        "ano": "",
+                        "titulo": "Nueva",
+                        "ano": "2006",
                         "arquivosLocais": [
                             "01 - Asas Fracas.mp3",
                             "02 - Foi Você,Saudade E Eu.mp3",
@@ -9123,8 +9353,8 @@
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2009 - Gloria",
-                        "ano": "",
+                        "titulo": "Gloria",
+                        "ano": "2009",
                         "arquivosLocais": [
                             "01 - Anemia (Versão II).mp3",
                             "02 - Minha Paz.mp3",
@@ -9147,8 +9377,8 @@
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2012 - (Re)nascido",
-                        "ano": "",
+                        "titulo": "(Re)nascido",
+                        "ano": "2012",
                         "arquivosLocais": [
                             "01 - Bicho Do Mato.mp3",
                             "02 - É tudo meu.mp3",
@@ -9866,8 +10096,8 @@
                 "albums": [
                     {
                         "discogs_id": "",
-                        "titulo": "2012 - Tempestade",
-                        "ano": "",
+                        "titulo": "Tempestade",
+                        "ano": "2012",
                         "arquivosLocais": [
                             "01 - Tormenta.mp3",
                             "02 - Tempestade.mp3",
@@ -9905,20 +10135,20 @@
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2018 - Aliança, Pt. II",
-                        "ano": "",
+                        "titulo": "Aliança, Pt. II",
+                        "ano": "2018",
                         "arquivosLocais": []
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2019 - Purgatório",
-                        "ano": "",
+                        "titulo": "Purgatório",
+                        "ano": "2019",
                         "arquivosLocais": []
                     },
                     {
                         "discogs_id": "",
-                        "titulo": "2023 - Semblantes",
-                        "ano": "",
+                        "titulo": "Semblantes",
+                        "ano": "2023",
                         "arquivosLocais": []
                     }
                 ],
@@ -15268,6 +15498,7 @@
                         "titulo": "Mi Casa, Su Casa",
                         "ano": "1999",
                         "arquivosLocais": [
+                            "ab67616d00001e024ca14e92ad8d86209fc234a1.jpg",
                             "Penélope - Namorinho de Portão.mp3",
                             "Penélope - Tão Seu.mp3"
                         ]
@@ -15276,13 +15507,16 @@
                         "discogs_id": "",
                         "titulo": "Buganvilia",
                         "ano": "2001",
-                        "arquivosLocais": []
+                        "arquivosLocais": [
+                            "D_987366-MLB27179296258_042018-C.jpg"
+                        ]
                     },
                     {
-                        "discogs_id": "",
+                        "discogs_id": "13887",
                         "titulo": "Rock, Meu Amor",
                         "ano": "2003",
                         "arquivosLocais": [
+                            "13887.avif",
                             "Penélope - A Fórmula do Amor.mp3",
                             "Penélope - Saber Amar.mp3",
                             "Penélope - Tudo com você.mp3"
@@ -24096,15 +24330,41 @@
                         "titulo": "Tim Maia",
                         "ano": "1970",
                         "arquivosLocais": [
-                            "434522.jpg"
+                            "434522.jpg",
+                            "Tim Maia - 01 - Coroné Antonio Bento.Mp3",
+                            "Tim Maia - 02 - Cristina.Mp3",
+                            "Tim Maia - 03 - Jurema.Mp3",
+                            "Tim Maia - 04 - Padre Cícero.Mp3",
+                            "Tim Maia - 05 - Flamengo.Mp3",
+                            "Tim Maia - 06 - Você Fingiu.Mp3",
+                            "Tim Maia - 07 - Eu Amo Você.Mp3",
+                            "Tim Maia - 08 - Primavera (Vai Chuva).Mp3",
+                            "Tim Maia - 09 - Risos.Mp3",
+                            "Tim Maia - 10 - Azul Da Cor Do Mar.Mp3",
+                            "Tim Maia - 11 - Cristina No. 2.Mp3",
+                            "Tim Maia - 12 - Tributo A Booker Pittman.Mp3",
+                            "timmaia.jpg"
                         ]
                     },
                     {
-                        "discogs_id": "282018",
+                        "discogs_id": "1971",
                         "titulo": "Tim Maia",
                         "ano": "1971",
                         "arquivosLocais": [
-                            "282018.jpg"
+                            "1971.jpg",
+                            "282018.jpg",
+                            "Tim Maia - 01 - Festa Do Santo Reis.Mp3",
+                            "Tim Maia - 02 - Não Quero Dinheiro (Só Quero Amar).Mp3",
+                            "Tim Maia - 03 - Salve Nossa Senhora.Mp3",
+                            "Tim Maia - 04 - Um Dia Eu Chego Lá.Mp3",
+                            "Tim Maia - 05 - Não Vou Ficar.Mp3",
+                            "Tim Maia - 06 - Broken Heart.Mp3",
+                            "Tim Maia - 07 - Você.Mp3",
+                            "Tim Maia - 08 - Preciso Aprender A Ser Só.Mp3",
+                            "Tim Maia - 09 - I Don't Know What To Do With Myself.Mp3",
+                            "Tim Maia - 10 - É Por Você Que Eu Vivo.Mp3",
+                            "Tim Maia - 11 - Meu País.Mp3",
+                            "Tim Maia - 12 - I Don't Care.Mp3"
                         ]
                     },
                     {
@@ -24112,7 +24372,19 @@
                         "titulo": "Tim Maia",
                         "ano": "1972",
                         "arquivosLocais": [
-                            "687744.jpg"
+                            "687744.jpg",
+                            "Tim Maia - 01 - Idade.Mp3",
+                            "Tim Maia - 02 - My Little Girl.Mp3",
+                            "Tim Maia - 03 - O Que Você Quer Apostar.Mp3",
+                            "Tim Maia - 04 - Canário Do Reino.Mp3",
+                            "Tim Maia - 05 - Já Era Tempo De Você.Mp3",
+                            "Tim Maia - 06 - These Are The Songs.Mp3",
+                            "Tim Maia - 07 - O Que Me Importa.Mp3",
+                            "Tim Maia - 08 - Lamento.Mp3",
+                            "Tim Maia - 09 - Sofre.Mp3",
+                            "Tim Maia - 10 - Razão De Sambar.Mp3",
+                            "Tim Maia - 11 - Pelo Amor De Deus.Mp3",
+                            "Tim Maia - 12 - Where Is My Other Half.Mp3"
                         ]
                     },
                     {
@@ -24120,7 +24392,20 @@
                         "titulo": "Tim Maia",
                         "ano": "1973",
                         "arquivosLocais": [
-                            "434521.jpg"
+                            "434521.jpg",
+                            "Tim Maia - 01 - Réu Confesso.Mp3",
+                            "Tim Maia - 02 - Compadre.Mp3",
+                            "Tim Maia - 03 - Over Again.Mp3",
+                            "Tim Maia - 04 - Até Que Enfim Encontrei Você.Mp3",
+                            "Tim Maia - 05 - Balanço.Mp3",
+                            "Tim Maia - 06 - New Love.Mp3",
+                            "Tim Maia - 07 - Do Your Thing, Behave Yourself.Mp3",
+                            "Tim Maia - 08 - Gostava Tanto De Você.Mp3",
+                            "Tim Maia - 09 - Música No Ar.Mp3",
+                            "Tim Maia - 10 - A Paz Do Meu Mundo É Você.Mp3",
+                            "Tim Maia - 11 - Preciso Ser Amado.Mp3",
+                            "Tim Maia - 12 - Amores.Mp3",
+                            "timmaia1973xn4.jpg"
                         ]
                     },
                     {
@@ -24128,7 +24413,20 @@
                         "titulo": "Racional Vol",
                         "ano": "1974",
                         "arquivosLocais": [
-                            "74043.jpg"
+                            "1975 - Racional - Vol. 1 - Back.jpg",
+                            "1975 - Racional - Vol. 1 - Front.jpg",
+                            "74043.jpg",
+                            "Tim Maia - 01 - Imunização Racional.Mp3",
+                            "Tim Maia - 02 - O Grão Mestre Varonil.Mp3",
+                            "Tim Maia - 03 - Bom Senso.Mp3",
+                            "Tim Maia - 04 - Energia Racional.Mp3",
+                            "Tim Maia - 05 - Leia O Livro Universo Em Desencanto.Mp3",
+                            "Tim Maia - 06 - Contacto Com O Mundo Racional.Mp3",
+                            "Tim Maia - 07 - Universo Em Desencanto.Mp3",
+                            "Tim Maia - 08 - You Don't Know What I Know.Mp3",
+                            "Tim Maia - 09 - Rational Culture.Mp3",
+                            "Tim Maia - 10 - Ela Partiu (Bônus).Mp3",
+                            "Tim Maia - 11 - Meus Inimigos.Mp3"
                         ]
                     },
                     {
@@ -24136,7 +24434,21 @@
                         "titulo": "Racional Vol",
                         "ano": "1975",
                         "arquivosLocais": [
-                            "434523.jpg"
+                            "1976 - Racional - Vol. 2 - Back.jpg",
+                            "1976 - Racional - Vol. 2 - Front.jpg",
+                            "434523.jpg",
+                            "AlbumArt_{21A6B9F7-EEE2-4EA1-B6C5-0D409582779C}_Large.jpg",
+                            "AlbumArtSmall.jpg",
+                            "Folder.jpg",
+                            "Tim Maia - 01 - Quer Queira Quer Não Queira.Mp3",
+                            "Tim Maia - 02 - Paz Interior.Mp3",
+                            "Tim Maia - 03 - O Caminho Do Bem.Mp3",
+                            "Tim Maia - 04 - Energia Racional.Mp3",
+                            "Tim Maia - 05 - Que Legal.Mp3",
+                            "Tim Maia - 06 - Cultura Racional.Mp3",
+                            "Tim Maia - 07 - O Dever De Fazer Propaganda Deste Conhecimento.Mp3",
+                            "Tim Maia - 08 - Guine Bissau Moçambique E Angola Racional.Mp3",
+                            "Tim Maia - 09 - Imunização Nacional Que Beleza.Mp3"
                         ]
                     },
                     {
@@ -24144,7 +24456,21 @@
                         "titulo": "Tim Maia",
                         "ano": "1976",
                         "arquivosLocais": [
-                            "1040342.jpg"
+                            "1040342.jpg",
+                            "1976 - Tim Maia.jpg",
+                            "AlbumArtSmall.jpg",
+                            "Folder.jpg",
+                            "Tim Maia - 01 - Dance Enquanto É Tempo.Mp3",
+                            "Tim Maia - 02 - É Preciso Amar.Mp3",
+                            "Tim Maia - 03 - Rodésia.Mp3",
+                            "Tim Maia - 04 - Márcio Leonardo E Telmo.Mp3",
+                            "Tim Maia - 05 - Sentimental.Mp3",
+                            "Tim Maia - 06 - Nobody Can Live For Ever.Mp3",
+                            "Tim Maia - 07 - Me Neganei.Mp3",
+                            "Tim Maia - 08 - Manhã De Sol Florida, Cheia De Coisas Maravilhosas.Mp3",
+                            "Tim Maia - 09 - Brother, Father, Sister And Mother.Mp3",
+                            "Tim Maia - 10 - Batata Frita, O Ladrão De Bicicleta.Mp3",
+                            "Tim Maia - 11 - The Dance Is Over.Mp3"
                         ]
                     },
                     {
@@ -24160,7 +24486,23 @@
                         "titulo": "Disco Club",
                         "ano": "1978",
                         "arquivosLocais": [
-                            "272542.jpg"
+                            "1978 - Disco Club - Back.jpg",
+                            "1978 - Disco Club - Front.jpg",
+                            "1978 - Disco Club - Inside 1.jpg",
+                            "1978 - Disco Club - Inside 2.jpg",
+                            "272542.jpg",
+                            "AlbumArtSmall.jpg",
+                            "Folder.jpg",
+                            "Tim Maia - 01 - A Fim De Voltar.Mp3",
+                            "Tim Maia - 02 - Acenda O Farol.Mp3",
+                            "Tim Maia - 03 - Sossego.Mp3",
+                            "Tim Maia - 04 - Vitória Régia Estou Contigo E Não Abro.Mp3",
+                            "Tim Maia - 05 - All I Want.Mp3",
+                            "Tim Maia - 06 - Murmúrio.Mp3",
+                            "Tim Maia - 07 - Pais E Filhos.Mp3",
+                            "Tim Maia - 08 - Se Me Lembro Faz Doer.Mp3",
+                            "Tim Maia - 09 - Juras.Mp3",
+                            "Tim Maia - 10 - Jhony.Mp3"
                         ]
                     },
                     {
@@ -24168,7 +24510,21 @@
                         "titulo": "Tim Maia",
                         "ano": "1978",
                         "arquivosLocais": [
-                            "470742.jpg"
+                            "1978 - Tim Maia - Back.jpg",
+                            "1978 - Tim Maia - Front.jpg",
+                            "1978 - Tim Maia - Inside.jpg",
+                            "470742.jpg",
+                            "AlbumArtSmall.jpg",
+                            "Folder.jpg",
+                            "Tim Maia - 01 - With No One Else Around.Mp3",
+                            "Tim Maia - 02 - I Love You, Girl.Mp3",
+                            "Tim Maia - 03 - To Fall In Love.Mp3",
+                            "Tim Maia - 04 - Only A Dream.Mp3",
+                            "Tim Maia - 05 - People.Mp3",
+                            "Tim Maia - 06 - Let S Have A Ball Tonight.Mp3",
+                            "Tim Maia - 07 - I.Mp3",
+                            "Tim Maia - 08 - Day By Day.Mp3",
+                            "Tim Maia - 09 - Vit Ria-R Gia.Mp3"
                         ]
                     },
                     {
@@ -24176,7 +24532,21 @@
                         "titulo": "Reencontro",
                         "ano": "1979",
                         "arquivosLocais": [
-                            "563998.jpg"
+                            "563998.jpg",
+                            "Tim Maia - 01 - Até Parece Que Foi Sonho.Mp3",
+                            "Tim Maia - 02 - Canção Para Cristina.Mp3",
+                            "Tim Maia - 03 - Reencontro.Mp3",
+                            "Tim Maia - 04 - Pára Com Isso.Mp3",
+                            "Tim Maia - 05 - Chegou A Hora.Mp3",
+                            "Tim Maia - 06 - Velho Camarada.Mp3",
+                            "Tim Maia - 07 - Eu Só Quero Ver.Mp3",
+                            "Tim Maia - 08 - Frente A Frente.Mp3",
+                            "Tim Maia - 09 - Vou Com Gás.Mp3",
+                            "Tim Maia - 10 - Foi Para O Seu Bem.Mp3",
+                            "Tim Maia - 11 - Vou Correndo Te Buscar.Mp3",
+                            "Tim Maia - 12 - Boogie Esperto.Mp3",
+                            "Tim Maia - 13 - Lábios De Mel.Mp3",
+                            "Tim Maia - 14 - Pra Você Voltar.Mp3"
                         ]
                     },
                     {
@@ -24184,7 +24554,15 @@
                         "titulo": "Tim Maia",
                         "ano": "1980",
                         "arquivosLocais": [
-                            "805853.jpg"
+                            "805853.jpg",
+                            "Tim Maia - 01 - Você E Eu, Eu E Você (Juntinhos).Mp3",
+                            "Tim Maia - 02 - Não Vá.Mp3",
+                            "Tim Maia - 03 - Tudo Vai Mudar.Mp3",
+                            "Tim Maia - 04 - Nissei Linda, Linda Nissei.Mp3",
+                            "Tim Maia - 05 - Nossa História De Amor.Mp3",
+                            "Tim Maia - 06 - Nosso Adeus.Mp3",
+                            "Tim Maia - 07 - Não Fique Triste.Mp3",
+                            "Tim Maia - 08 - Está Difícil De Esquecer.Mp3"
                         ]
                     },
                     {
@@ -24192,7 +24570,19 @@
                         "titulo": "Nuvens",
                         "ano": "1982",
                         "arquivosLocais": [
-                            "687745.jpg"
+                            "687745.jpg",
+                            "Tim Maia - 01 - Nuvens.Mp3",
+                            "Tim Maia - 02 - Outra Mulher.Mp3",
+                            "Tim Maia - 03 - Ar Puro.Mp3",
+                            "Tim Maia - 04 - O Trem - 1  Parte.Mp3",
+                            "Tim Maia - 05 - A Festa.Mp3",
+                            "Tim Maia - 06 - Apesar Dos Poucos Anos.Mp3",
+                            "Tim Maia - 07 - Deixar As Coisas Tristes Pr  Depois.Mp3",
+                            "Tim Maia - 08 - Ningu M Gosta De Se Sentir S.Mp3",
+                            "Tim Maia - 09 - Hadock Lobo Esquina Com Matoso.Mp3",
+                            "Tim Maia - 10 - O Trem.Mp3",
+                            "Tim Maia - 11 - Na Rua, Na Chuva, Na Fazenda (Casinha De Sap ).Mp3",
+                            "Tim Maia - 12 - Sol Brilhante.Mp3"
                         ]
                     },
                     {
@@ -24200,7 +24590,23 @@
                         "titulo": "O Descobridor Dos Sete Mares",
                         "ano": "1983",
                         "arquivosLocais": [
-                            "817353.jpg"
+                            "817353.jpg",
+                            "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Large.jpg",
+                            "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Small.jpg",
+                            "AlbumArtSmall.jpg",
+                            "desktop.ini",
+                            "Folder.jpg",
+                            "Tim Maia - 01 - O Descobridor Dos Sete Mares.Mp3",
+                            "Tim Maia - 02 - Terapêutica Do Grito.Mp3",
+                            "Tim Maia - 03 - Pecado Capital.Mp3",
+                            "Tim Maia - 04 - Mal De Amor.Mp3",
+                            "Tim Maia - 05 - 3 Em 1.Mp3",
+                            "Tim Maia - 06 - Neves E Parques.Mp3",
+                            "Tim Maia - 07 - Rio Mon Amour.Mp3",
+                            "Tim Maia - 08 - Me Dê Motivo.Mp3",
+                            "Tim Maia - 09 - Olá (Emoções).Mp3",
+                            "Tim Maia - 10 - Essa Dor Me Apanha.Mp3",
+                            "Tim Maia, 1983, O Descobridor dos Sete Mares, Front.jpg"
                         ]
                     },
                     {
@@ -24208,7 +24614,17 @@
                         "titulo": "Sufocante",
                         "ano": "1984",
                         "arquivosLocais": [
-                            "1116071.jpg"
+                            "1116071.jpg",
+                            "Tim Maia - 01 - Debaixo Do Manacá.Mp3",
+                            "Tim Maia - 02 - Quero Te Dar (Desejos).Mp3",
+                            "Tim Maia - 03 - Ga-Gaguejando.Mp3",
+                            "Tim Maia - 04 - Mama Super Mama.Mp3",
+                            "Tim Maia - 05 - Aquariar.Mp3",
+                            "Tim Maia - 06 - Sufocante.Mp3",
+                            "Tim Maia - 07 - Bons Momentos.Mp3",
+                            "Tim Maia - 08 - Amor Verdadeiro.Mp3",
+                            "Tim Maia - 09 - Venha Ser Minha Mulher.Mp3",
+                            "Tim Maia - 10 - Ai Que Bom - Instrumental.Mp3"
                         ]
                     },
                     {
@@ -24216,7 +24632,17 @@
                         "titulo": "Tim Maia",
                         "ano": "1985",
                         "arquivosLocais": [
-                            "986373.jpg"
+                            "986373.jpg",
+                            "Tim Maia - 01 - Bem Vinda.Mp3",
+                            "Tim Maia - 02 - Você Me Enganou.Mp3",
+                            "Tim Maia - 03 - Pede A Ela.Mp3",
+                            "Tim Maia - 04 - O Adeus De Quem Tanto Amei.Mp3",
+                            "Tim Maia - 05 - Você Tem Que Saber.Mp3",
+                            "Tim Maia - 06 - Uma Estrela A Mais.Mp3",
+                            "Tim Maia - 07 - A Grande Família Brasileira De Comunicação (A Nossa Família).Mp3",
+                            "Tim Maia - 08 - Pense Bem.Mp3",
+                            "Tim Maia - 09 - Leva.Mp3",
+                            "Tim Maia - 10 - Acredito.Mp3"
                         ]
                     },
                     {
@@ -24224,7 +24650,17 @@
                         "titulo": "Tim Maia",
                         "ano": "1986",
                         "arquivosLocais": [
-                            "710466.jpg"
+                            "710466.jpg",
+                            "Tim Maia - 01 - Pudera.Mp3",
+                            "Tim Maia - 02 - Brilho.Mp3",
+                            "Tim Maia - 03 - Vê Se Decide.Mp3",
+                            "Tim Maia - 04 - Telefone.Mp3",
+                            "Tim Maia - 05 - O Vento E As Canções.Mp3",
+                            "Tim Maia - 06 - Do Leme Ao Pontal (Tomo Guaraná Suco De Cajú Goiabada Para Sobremesa).Mp3",
+                            "Tim Maia - 07 - Preciosa.Mp3",
+                            "Tim Maia - 08 - Sonhar Contigo.Mp3",
+                            "Tim Maia - 09 - Se Eu Soubesse.Mp3",
+                            "Tim Maia - 10 - Brother Father Sister And Mother.Mp3"
                         ]
                     },
                     {
@@ -24240,7 +24676,18 @@
                         "titulo": "Somos América",
                         "ano": "1987",
                         "arquivosLocais": [
-                            "1163632.jpg"
+                            "1163632.jpg",
+                            "1987.jpg",
+                            "Tim Maia - 01 - Onde Está Você.Mp3",
+                            "Tim Maia - 02 - Amigo Verdadeiro.Mp3",
+                            "Tim Maia - 03 - Se Esse Amor Termina.Mp3",
+                            "Tim Maia - 04 - Parabéns.Mp3",
+                            "Tim Maia - 05 - Amiga.Mp3",
+                            "Tim Maia - 06 - Somos América.Mp3",
+                            "Tim Maia - 07 - Você Mentiu.Mp3",
+                            "Tim Maia - 08 - Terna Paixão.Mp3",
+                            "Tim Maia - 09 - Ternura Em Seu Olhar.Mp3",
+                            "Tim Maia - 10 - Sem Volta.Mp3"
                         ]
                     },
                     {
@@ -24248,7 +24695,18 @@
                         "titulo": "Carinhos",
                         "ano": "1988",
                         "arquivosLocais": [
-                            "1339590.jpg"
+                            "1339590.jpg",
+                            "Capa.jpg",
+                            "Tim Maia - 01 - Carinhos.Mp3",
+                            "Tim Maia - 02 - Eu Quero Amar Voc  (Definitivamente).Mp3",
+                            "Tim Maia - 03 - Paix O Antiga.Mp3",
+                            "Tim Maia - 04 - With No One Else Around.Mp3",
+                            "Tim Maia - 05 - Turn The Light Down Low.Mp3",
+                            "Tim Maia - 06 - Cabe A Feita.Mp3",
+                            "Tim Maia - 07 - Fora Do Normal.Mp3",
+                            "Tim Maia - 08 - Ar Puro.Mp3",
+                            "Tim Maia - 09 - Tudo Em Cima.Mp3",
+                            "Tim Maia - 10 - Forever.Mp3"
                         ]
                     },
                     {
@@ -24260,11 +24718,22 @@
                         ]
                     },
                     {
-                        "discogs_id": "547498",
+                        "discogs_id": "1990",
                         "titulo": "Dance Bem",
                         "ano": "1990",
                         "arquivosLocais": [
-                            "547498.jpg"
+                            "1990.jpg",
+                            "547498.jpg",
+                            "Tim Maia - 01 - Dance Bem.Mp3",
+                            "Tim Maia - 02 - Rodézia.Mp3",
+                            "Tim Maia - 03 - Acenda O Farol.Mp3",
+                            "Tim Maia - 04 - Eu Te Amo Muito Mais.Mp3",
+                            "Tim Maia - 05 - Vale Tudo.Mp3",
+                            "Tim Maia - 06 - O Descobridor Dos 7 Mares.Mp3",
+                            "Tim Maia - 07 - Paixão Antiga.Mp3",
+                            "Tim Maia - 08 - I've Never Felt Like This Before.Mp3",
+                            "Tim Maia - 09 - Amizade Não Tem Preço.Mp3",
+                            "Tim Maia - 10 - Mãe Natureza.Mp3"
                         ]
                     },
                     {
@@ -24272,15 +24741,44 @@
                         "titulo": "Interpreta Clássicos Da Bossa Nova",
                         "ano": "1991",
                         "arquivosLocais": [
-                            "519796.jpg"
+                            "519796.jpg",
+                            "Tim Maia - 01 - Folha De Papel.Mp3",
+                            "Tim Maia - 02 - Eu E A Brisa.Mp3",
+                            "Tim Maia - 03 - A Rã.Mp3",
+                            "Tim Maia - 04 - A Rã Ii.Mp3",
+                            "Tim Maia - 05 - Minha Namorada.Mp3",
+                            "Tim Maia - 06 - Useless Landscape.Mp3",
+                            "Tim Maia - 07 - Wave.Mp3",
+                            "Tim Maia - 08 - Girl From Ipanema.Mp3",
+                            "Tim Maia - 09 - Samba Da Pergunta.Mp3",
+                            "Tim Maia - 10 - Meditação.Mp3"
                         ]
                     },
                     {
-                        "discogs_id": "787795",
+                        "discogs_id": "1992",
                         "titulo": "Ao Vivo",
                         "ano": "1992",
                         "arquivosLocais": [
-                            "787795.jpg"
+                            "1992.jpg",
+                            "787795.jpg",
+                            "Tim Maia - 01 - Vale Tudo.Mp3",
+                            "Tim Maia - 02 - Telefone.Mp3",
+                            "Tim Maia - 03 - Descobridor Dos 7 Mares.Mp3",
+                            "Tim Maia - 04 - Paixao Antiga.Mp3",
+                            "Tim Maia - 05 - Sossego.Mp3",
+                            "Tim Maia - 06 - Voce.Mp3",
+                            "Tim Maia - 07 - Me De Motivo.Mp3",
+                            "Tim Maia - 08 - Folha De Papel.Mp3",
+                            "Tim Maia - 09 - A Ra.Mp3",
+                            "Tim Maia - 10 - Wave.Mp3",
+                            "Tim Maia - 11 - Garota De Ipanema.Mp3",
+                            "Tim Maia - 12 - Dia De Domingo.Mp3",
+                            "Tim Maia - 13 - Primavera.Mp3",
+                            "Tim Maia - 14 - Azul Da Cor Do Mar.Mp3",
+                            "Tim Maia - 15 - Voce E Eu, Eu E Voce.Mp3",
+                            "Tim Maia - 16 - Do Leme Ao Pontal.Mp3",
+                            "Tim Maia - 17 - A Festa De Santo Reis.Mp3",
+                            "Tim Maia - 18 - Vale Tudo.Mp3"
                         ]
                     },
                     {
@@ -24300,11 +24798,26 @@
                         ]
                     },
                     {
-                        "discogs_id": "787799",
+                        "discogs_id": "1993",
                         "titulo": "Romântico",
                         "ano": "1993",
                         "arquivosLocais": [
-                            "787799.jpg"
+                            "1993.jpg",
+                            "787799.jpg",
+                            "Tim Maia - 01 - Essa Tal Felicidade.Mp3",
+                            "Tim Maia - 02 - Azul Da Cor Do Mar.Mp3",
+                            "Tim Maia - 03 - Me Dê Motivo.Mp3",
+                            "Tim Maia - 04 - Não Me Iludo Mais.Mp3",
+                            "Tim Maia - 05 - A Rã.Mp3",
+                            "Tim Maia - 06 - Carinhos.Mp3",
+                            "Tim Maia - 07 - Meu País Chocolate Não Quero Dinheiro, Só Quero Amar.Mp3",
+                            "Tim Maia - 08 - Paixão Antiga.Mp3",
+                            "Tim Maia - 09 - Primavera (Vai Chuva).Mp3",
+                            "Tim Maia - 10 - Folha De Papel.Mp3",
+                            "Tim Maia - 11 - Vale Tudo.Mp3",
+                            "Tim Maia - 12 - Sossego.Mp3",
+                            "Tim Maia - 13 - A Fim De Voltar.Mp3",
+                            "Tim Maia - 14 - Aquele Abraço.Mp3"
                         ]
                     },
                     {
@@ -24320,7 +24833,17 @@
                         "titulo": "Voltou Clarear",
                         "ano": "1994",
                         "arquivosLocais": [
-                            "1393102.jpg"
+                            "1393102.jpg",
+                            "Tim Maia - 01 - Voltou Clarear.Mp3",
+                            "Tim Maia - 02 - O Que Vem Da Bahia.Mp3",
+                            "Tim Maia - 03 - Coisa Mais Bonita.Mp3",
+                            "Tim Maia - 04 - O Barquinho.Mp3",
+                            "Tim Maia - 05 - Corcovado.Mp3",
+                            "Tim Maia - 06 - Sai Pr  L.Mp3",
+                            "Tim Maia - 07 - Voc  Foi A Primeira.Mp3",
+                            "Tim Maia - 08 - Minha Musa.Mp3",
+                            "Tim Maia - 09 - O Nordeste   Lindo.Mp3",
+                            "Tim Maia - 10 - Fim De Noite.Mp3"
                         ]
                     },
                     {
@@ -24328,7 +24851,17 @@
                         "titulo": "Nova Era Glacial",
                         "ano": "1995",
                         "arquivosLocais": [
-                            "976458.jpg"
+                            "976458.jpg",
+                            "Tim Maia - 01 - Nova Era Glacial.Mp3",
+                            "Tim Maia - 02 - Totalmente Natural.Mp3",
+                            "Tim Maia - 03 - Essa Tal Felicidade.Mp3",
+                            "Tim Maia - 04 - Arrastao.Mp3",
+                            "Tim Maia - 05 - Oceano.Mp3",
+                            "Tim Maia - 06 - Corcovado (Quiet Night Of Quiet Stars).Mp3",
+                            "Tim Maia - 07 - Vale Tudo.Mp3",
+                            "Tim Maia - 08 - Nao Me Iludo Mais.Mp3",
+                            "Tim Maia - 09 - Aquarela Do Brasil.Mp3",
+                            "Tim Maia - 10 - Meditacao (Meditation).Mp3"
                         ]
                     },
                     {
@@ -24336,7 +24869,17 @@
                         "titulo": "Amigo Do Rei",
                         "ano": "1997",
                         "arquivosLocais": [
-                            "3144057.jpg"
+                            "3144057.jpg",
+                            "Tim Maia & Os Cariocas - 01 - Ter Você É Ter Razão.Mp3",
+                            "Tim Maia & Os Cariocas - 02 - Essa Tal Felicidade.Mp3",
+                            "Tim Maia & Os Cariocas - 03 - Ela É Carioca.Mp3",
+                            "Tim Maia & Os Cariocas - 04 - Lindeza.Mp3",
+                            "Tim Maia & Os Cariocas - 05 - Amigo Do Rei.Mp3",
+                            "Tim Maia & Os Cariocas - 06 - Não Quero Dinheiro Só Quero Amar.Mp3",
+                            "Tim Maia & Os Cariocas - 07 - Telefone.Mp3",
+                            "Tim Maia & Os Cariocas - 08 - Samba Do Avião.Mp3",
+                            "Tim Maia & Os Cariocas - 09 - Azul Da Cor Do Mar.Mp3",
+                            "Tim Maia & Os Cariocas - 10 - Valsa De Uma Cidade.Mp3"
                         ]
                     },
                     {
@@ -24344,7 +24887,23 @@
                         "titulo": "Pro Meu Grande Amor",
                         "ano": "1997",
                         "arquivosLocais": [
-                            "12325528.jpg"
+                            "12325528.jpg",
+                            "Back.jpg",
+                            "Front.jpg",
+                            "Tim Maia - 01 - Estoria De Cantador.Mp3",
+                            "Tim Maia - 02 - Nana.Mp3",
+                            "Tim Maia - 03 - Pro Meu Grande Amor.Mp3",
+                            "Tim Maia - 04 - Pra Fazer Voce Sorrir.Mp3",
+                            "Tim Maia - 05 - Oceano.Mp3",
+                            "Tim Maia - 06 - Tudo Era Lindo (E Se Foi).Mp3",
+                            "Tim Maia - 07 - Rio.Mp3",
+                            "Tim Maia - 08 - Por Causa De Voce.Mp3",
+                            "Tim Maia - 09 - Flor De Lis.Mp3",
+                            "Tim Maia - 10 - Rapaz De Bem.Mp3",
+                            "Tim Maia - 11 - Eu Confesso.Mp3",
+                            "Tim Maia - 12 - Ole, Ola.Mp3",
+                            "Tim Maia - 13 - Eu Sei Que Vou Te Amar.Mp3",
+                            "Tim Maia - 14 - A Felicidade.Mp3"
                         ]
                     },
                     {
@@ -24352,7 +24911,22 @@
                         "titulo": "Só Você – Para Ouvir E Dançar",
                         "ano": "1997",
                         "arquivosLocais": [
-                            "1404795.jpg"
+                            "1404795.jpg",
+                            "1997.jpg",
+                            "Tim Maia - 01 - 01. Olhou Pra Mim.Mp3",
+                            "Tim Maia - 02 - 02. Só Você.Mp3",
+                            "Tim Maia - 03 - 03. Vixe.Mp3",
+                            "Tim Maia - 04 - 04. Cross My Heart.Mp3",
+                            "Tim Maia - 05 - 05. Lindo Lago Do Amor.Mp3",
+                            "Tim Maia - 06 - 06. Não Se Envolva.Mp3",
+                            "Tim Maia - 07 - 07. Só Danço Samba.Mp3",
+                            "Tim Maia - 08 - 08. People.Mp3",
+                            "Tim Maia - 09 - 09. E Nada Mais.Mp3",
+                            "Tim Maia - 10 - 10. Eu Te Adoro.Mp3",
+                            "Tim Maia - 11 - 11. Saigon.Mp3",
+                            "Tim Maia - 12 - 12. O Morro Não Tem Vez.Mp3",
+                            "Tim Maia - 13 - 13. Day By Day.Mp3",
+                            "Tim Maia - 14 - 14. Vivo Sonhando.Mp3"
                         ]
                     },
                     {
@@ -24360,7 +24934,17 @@
                         "titulo": "Sorriso De Criança",
                         "ano": "1997",
                         "arquivosLocais": [
-                            "2819867.jpg"
+                            "2819867.jpg",
+                            "Tim Maia - 01 - Pense Em Mim (Não Me Trate Assim).Mp3",
+                            "Tim Maia - 02 - Sozinho.Mp3",
+                            "Tim Maia - 03 - Acenda O Farol.Mp3",
+                            "Tim Maia - 04 - Para Que Vou Recordar (O Que Chorei).Mp3",
+                            "Tim Maia - 05 - África Mãe (Poema Musicado).Mp3",
+                            "Tim Maia - 06 - Dizer Que Te Amo (É Muito Pouco).Mp3",
+                            "Tim Maia - 07 - Crazy Feelings.Mp3",
+                            "Tim Maia - 08 - Sorriso De Criança.Mp3",
+                            "Tim Maia - 09 - The Queen.Mp3",
+                            "Tim Maia - 10 - O Pescador.Mp3"
                         ]
                     },
                     {
@@ -24368,7 +24952,19 @@
                         "titulo": "What A Wonderful World, Oldies But Goodies",
                         "ano": "1997",
                         "arquivosLocais": [
-                            "1356644.jpg"
+                            "1356644.jpg",
+                            "Tim Maia - 01 - Hey There Lonely Girl.Mp3",
+                            "Tim Maia - 02 - What A Wonderful World.Mp3",
+                            "Tim Maia - 03 - Tears On My Pillow.Mp3",
+                            "Tim Maia - 04 - Save The Last Dance For Me.Mp3",
+                            "Tim Maia - 05 - Daddy's Home.Mp3",
+                            "Tim Maia - 06 - Chain Gang.Mp3",
+                            "Tim Maia - 07 - Earth Angel.Mp3",
+                            "Tim Maia - 08 - On Broadway.Mp3",
+                            "Tim Maia - 09 - Diamonds And Pearls.Mp3",
+                            "Tim Maia - 10 - Since I Don't Have You.Mp3",
+                            "Tim Maia - 11 - What's Your Name.Mp3",
+                            "Tim Maia - 12 - When We Get Married.Mp3"
                         ]
                     },
                     {
@@ -24376,7 +24972,26 @@
                         "titulo": "Ao Vivo II",
                         "ano": "1998",
                         "arquivosLocais": [
-                            "1422719.jpg"
+                            "1422719.jpg",
+                            "1998.jpg",
+                            "Tim Maia - 01 - Telefone.Mp3",
+                            "Tim Maia - 02 - Primavera.Mp3",
+                            "Tim Maia - 02 - Sossego.Mp3",
+                            "Tim Maia - 03 - Azul Da Cor Do Mar.Mp3",
+                            "Tim Maia - 04 - Meu País - Chocolate - Não.Mp3",
+                            "Tim Maia - 05 - Essa Tal Felicidade.Mp3",
+                            "Tim Maia - 06 - Vale Tudo.Mp3",
+                            "Tim Maia - 07 - Se Me Levam, Eu Vou.Mp3",
+                            "Tim Maia - 08 - Gostava Tanto De Você.Mp3",
+                            "Tim Maia - 09 - Você.Mp3",
+                            "Tim Maia - 10 - Me Dê Motivo.Mp3",
+                            "Tim Maia - 11 - A Festa Do Santo Reis.Mp3",
+                            "Tim Maia - 12 - Você E Eu, Eu E Você.Mp3",
+                            "Tim Maia - 13 - Do Leme Ao Pontal.Mp3",
+                            "Tim Maia - 14 - Paixão Antiga.Mp3",
+                            "Tim Maia - 16 - Não Quero Dinheiro.Mp3",
+                            "Tim Maia - 17 - Um Dia De Domingo.Mp3",
+                            "Tim Maia - 18 - Vale Tudo.Mp3"
                         ]
                     },
                     {
@@ -24472,7 +25087,21 @@
                         "titulo": "In Concert",
                         "ano": "2007",
                         "arquivosLocais": [
-                            "1558065.jpg"
+                            "1558065.jpg",
+                            "2007.jpg",
+                            "Tim Maia - 01 - A Festa Dos Santos Reis.Mp3",
+                            "Tim Maia - 02 - Sossego.Mp3",
+                            "Tim Maia - 03 - Gostava Tanto De Voce.Mp3",
+                            "Tim Maia - 04 - Primavera (Vai Chuva).Mp3",
+                            "Tim Maia - 05 - Baby.Mp3",
+                            "Tim Maia - 06 - Telefone.Mp3",
+                            "Tim Maia - 07 - Do Leme Ao Pontal.Mp3",
+                            "Tim Maia - 08 - O Descobridor Dos Sete Mares.Mp3",
+                            "Tim Maia - 09 - Voce E Eu, Eu E Voce.Mp3",
+                            "Tim Maia - 10 - Me De Motivo.Mp3",
+                            "Tim Maia - 11 - Voce.Mp3",
+                            "Tim Maia - 12 - Um Dia De Domingo.Mp3",
+                            "Tim Maia - 13 - Vale Tudo.Mp3"
                         ]
                     },
                     {
@@ -25282,631 +25911,6 @@
                         ]
                     }
                 ]
-            }
-        },
-        {
-            "id": "tim-maia-discografia-baixar",
-            "artista": "TIM MAIA DISCOGRAFIA BAIXAR",
-            "releases": {
-                "albums": [
-                    {
-                        "discogs_id": "",
-                        "titulo": "1970 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Coroné Antonio Bento.Mp3",
-                            "Tim Maia - 02 - Cristina.Mp3",
-                            "Tim Maia - 03 - Jurema.Mp3",
-                            "Tim Maia - 04 - Padre Cícero.Mp3",
-                            "Tim Maia - 05 - Flamengo.Mp3",
-                            "Tim Maia - 06 - Você Fingiu.Mp3",
-                            "Tim Maia - 07 - Eu Amo Você.Mp3",
-                            "Tim Maia - 08 - Primavera (Vai Chuva).Mp3",
-                            "Tim Maia - 09 - Risos.Mp3",
-                            "Tim Maia - 10 - Azul Da Cor Do Mar.Mp3",
-                            "Tim Maia - 11 - Cristina No. 2.Mp3",
-                            "Tim Maia - 12 - Tributo A Booker Pittman.Mp3",
-                            "timmaia.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1971",
-                        "titulo": "1971 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1971.jpg",
-                            "Tim Maia - 01 - Festa Do Santo Reis.Mp3",
-                            "Tim Maia - 02 - Não Quero Dinheiro (Só Quero Amar).Mp3",
-                            "Tim Maia - 03 - Salve Nossa Senhora.Mp3",
-                            "Tim Maia - 04 - Um Dia Eu Chego Lá.Mp3",
-                            "Tim Maia - 05 - Não Vou Ficar.Mp3",
-                            "Tim Maia - 06 - Broken Heart.Mp3",
-                            "Tim Maia - 07 - Você.Mp3",
-                            "Tim Maia - 08 - Preciso Aprender A Ser Só.Mp3",
-                            "Tim Maia - 09 - I Don't Know What To Do With Myself.Mp3",
-                            "Tim Maia - 10 - É Por Você Que Eu Vivo.Mp3",
-                            "Tim Maia - 11 - Meu País.Mp3",
-                            "Tim Maia - 12 - I Don't Care.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1972 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Idade.Mp3",
-                            "Tim Maia - 02 - My Little Girl.Mp3",
-                            "Tim Maia - 03 - O Que Você Quer Apostar.Mp3",
-                            "Tim Maia - 04 - Canário Do Reino.Mp3",
-                            "Tim Maia - 05 - Já Era Tempo De Você.Mp3",
-                            "Tim Maia - 06 - These Are The Songs.Mp3",
-                            "Tim Maia - 07 - O Que Me Importa.Mp3",
-                            "Tim Maia - 08 - Lamento.Mp3",
-                            "Tim Maia - 09 - Sofre.Mp3",
-                            "Tim Maia - 10 - Razão De Sambar.Mp3",
-                            "Tim Maia - 11 - Pelo Amor De Deus.Mp3",
-                            "Tim Maia - 12 - Where Is My Other Half.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1973 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Réu Confesso.Mp3",
-                            "Tim Maia - 02 - Compadre.Mp3",
-                            "Tim Maia - 03 - Over Again.Mp3",
-                            "Tim Maia - 04 - Até Que Enfim Encontrei Você.Mp3",
-                            "Tim Maia - 05 - Balanço.Mp3",
-                            "Tim Maia - 06 - New Love.Mp3",
-                            "Tim Maia - 07 - Do Your Thing, Behave Yourself.Mp3",
-                            "Tim Maia - 08 - Gostava Tanto De Você.Mp3",
-                            "Tim Maia - 09 - Música No Ar.Mp3",
-                            "Tim Maia - 10 - A Paz Do Meu Mundo É Você.Mp3",
-                            "Tim Maia - 11 - Preciso Ser Amado.Mp3",
-                            "Tim Maia - 12 - Amores.Mp3",
-                            "timmaia1973xn4.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "Racional",
-                        "ano": "1975",
-                        "arquivosLocais": [
-                            "1975 - Racional - Vol. 1 - Back.jpg",
-                            "1975 - Racional - Vol. 1 - Front.jpg",
-                            "Tim Maia - 01 - Imunização Racional.Mp3",
-                            "Tim Maia - 02 - O Grão Mestre Varonil.Mp3",
-                            "Tim Maia - 03 - Bom Senso.Mp3",
-                            "Tim Maia - 04 - Energia Racional.Mp3",
-                            "Tim Maia - 05 - Leia O Livro Universo Em Desencanto.Mp3",
-                            "Tim Maia - 06 - Contacto Com O Mundo Racional.Mp3",
-                            "Tim Maia - 07 - Universo Em Desencanto.Mp3",
-                            "Tim Maia - 08 - You Don't Know What I Know.Mp3",
-                            "Tim Maia - 09 - Rational Culture.Mp3",
-                            "Tim Maia - 10 - Ela Partiu (Bônus).Mp3",
-                            "Tim Maia - 11 - Meus Inimigos.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "Racional",
-                        "ano": "1976",
-                        "arquivosLocais": [
-                            "1976 - Racional - Vol. 2 - Back.jpg",
-                            "1976 - Racional - Vol. 2 - Front.jpg",
-                            "AlbumArt_{21A6B9F7-EEE2-4EA1-B6C5-0D409582779C}_Large.jpg",
-                            "AlbumArt_{21A6B9F7-EEE2-4EA1-B6C5-0D409582779C}_Small.jpg",
-                            "AlbumArtSmall.jpg",
-                            "desktop.ini",
-                            "Folder.jpg",
-                            "Tim Maia - 01 - Quer Queira Quer Não Queira.Mp3",
-                            "Tim Maia - 02 - Paz Interior.Mp3",
-                            "Tim Maia - 03 - O Caminho Do Bem.Mp3",
-                            "Tim Maia - 04 - Energia Racional.Mp3",
-                            "Tim Maia - 05 - Que Legal.Mp3",
-                            "Tim Maia - 06 - Cultura Racional.Mp3",
-                            "Tim Maia - 07 - O Dever De Fazer Propaganda Deste Conhecimento.Mp3",
-                            "Tim Maia - 08 - Guine Bissau Moçambique E Angola Racional.Mp3",
-                            "Tim Maia - 09 - Imunização Nacional Que Beleza.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1976 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1976 - Tim Maia.jpg",
-                            "AlbumArtSmall.jpg",
-                            "Folder.jpg",
-                            "Tim Maia - 01 - Dance Enquanto É Tempo.Mp3",
-                            "Tim Maia - 02 - É Preciso Amar.Mp3",
-                            "Tim Maia - 03 - Rodésia.Mp3",
-                            "Tim Maia - 04 - Márcio Leonardo E Telmo.Mp3",
-                            "Tim Maia - 05 - Sentimental.Mp3",
-                            "Tim Maia - 06 - Nobody Can Live For Ever.Mp3",
-                            "Tim Maia - 07 - Me Neganei.Mp3",
-                            "Tim Maia - 08 - Manhã De Sol Florida, Cheia De Coisas Maravilhosas.Mp3",
-                            "Tim Maia - 09 - Brother, Father, Sister And Mother.Mp3",
-                            "Tim Maia - 10 - Batata Frita, O Ladrão De Bicicleta.Mp3",
-                            "Tim Maia - 11 - The Dance Is Over.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1978 - Disco Club",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1978 - Disco Club - Back.jpg",
-                            "1978 - Disco Club - Front.jpg",
-                            "1978 - Disco Club - Inside 1.jpg",
-                            "1978 - Disco Club - Inside 2.jpg",
-                            "AlbumArtSmall.jpg",
-                            "Folder.jpg",
-                            "Tim Maia - 01 - A Fim De Voltar.Mp3",
-                            "Tim Maia - 02 - Acenda O Farol.Mp3",
-                            "Tim Maia - 03 - Sossego.Mp3",
-                            "Tim Maia - 04 - Vitória Régia Estou Contigo E Não Abro.Mp3",
-                            "Tim Maia - 05 - All I Want.Mp3",
-                            "Tim Maia - 06 - Murmúrio.Mp3",
-                            "Tim Maia - 07 - Pais E Filhos.Mp3",
-                            "Tim Maia - 08 - Se Me Lembro Faz Doer.Mp3",
-                            "Tim Maia - 09 - Juras.Mp3",
-                            "Tim Maia - 10 - Jhony.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1978 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1978 - Tim Maia - Back.jpg",
-                            "1978 - Tim Maia - Front.jpg",
-                            "1978 - Tim Maia - Inside.jpg",
-                            "AlbumArtSmall.jpg",
-                            "Folder.jpg",
-                            "Tim Maia - 01 - With No One Else Around.Mp3",
-                            "Tim Maia - 02 - I Love You, Girl.Mp3",
-                            "Tim Maia - 03 - To Fall In Love.Mp3",
-                            "Tim Maia - 04 - Only A Dream.Mp3",
-                            "Tim Maia - 05 - People.Mp3",
-                            "Tim Maia - 06 - Let S Have A Ball Tonight.Mp3",
-                            "Tim Maia - 07 - I.Mp3",
-                            "Tim Maia - 08 - Day By Day.Mp3",
-                            "Tim Maia - 09 - Vit Ria-R Gia.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1979 - Reencontro",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Até Parece Que Foi Sonho.Mp3",
-                            "Tim Maia - 02 - Canção Para Cristina.Mp3",
-                            "Tim Maia - 03 - Reencontro.Mp3",
-                            "Tim Maia - 04 - Pára Com Isso.Mp3",
-                            "Tim Maia - 05 - Chegou A Hora.Mp3",
-                            "Tim Maia - 06 - Velho Camarada.Mp3",
-                            "Tim Maia - 07 - Eu Só Quero Ver.Mp3",
-                            "Tim Maia - 08 - Frente A Frente.Mp3",
-                            "Tim Maia - 09 - Vou Com Gás.Mp3",
-                            "Tim Maia - 10 - Foi Para O Seu Bem.Mp3",
-                            "Tim Maia - 11 - Vou Correndo Te Buscar.Mp3",
-                            "Tim Maia - 12 - Boogie Esperto.Mp3",
-                            "Tim Maia - 13 - Lábios De Mel.Mp3",
-                            "Tim Maia - 14 - Pra Você Voltar.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1980 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Você E Eu, Eu E Você (Juntinhos).Mp3",
-                            "Tim Maia - 02 - Não Vá.Mp3",
-                            "Tim Maia - 03 - Tudo Vai Mudar.Mp3",
-                            "Tim Maia - 04 - Nissei Linda, Linda Nissei.Mp3",
-                            "Tim Maia - 05 - Nossa História De Amor.Mp3",
-                            "Tim Maia - 06 - Nosso Adeus.Mp3",
-                            "Tim Maia - 07 - Não Fique Triste.Mp3",
-                            "Tim Maia - 08 - Está Difícil De Esquecer.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1982 - Nuvens",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Nuvens.Mp3",
-                            "Tim Maia - 02 - Outra Mulher.Mp3",
-                            "Tim Maia - 03 - Ar Puro.Mp3",
-                            "Tim Maia - 04 - O Trem - 1  Parte.Mp3",
-                            "Tim Maia - 05 - A Festa.Mp3",
-                            "Tim Maia - 06 - Apesar Dos Poucos Anos.Mp3",
-                            "Tim Maia - 07 - Deixar As Coisas Tristes Pr  Depois.Mp3",
-                            "Tim Maia - 08 - Ningu M Gosta De Se Sentir S.Mp3",
-                            "Tim Maia - 09 - Hadock Lobo Esquina Com Matoso.Mp3",
-                            "Tim Maia - 10 - O Trem.Mp3",
-                            "Tim Maia - 11 - Na Rua, Na Chuva, Na Fazenda (Casinha De Sap ).Mp3",
-                            "Tim Maia - 12 - Sol Brilhante.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1983 - O Descobridor dos Sete Mares",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Large.jpg",
-                            "AlbumArt_{F7042B37-1BE0-454E-BCA6-97549C9139C1}_Small.jpg",
-                            "AlbumArtSmall.jpg",
-                            "desktop.ini",
-                            "Folder.jpg",
-                            "Tim Maia - 01 - O Descobridor Dos Sete Mares.Mp3",
-                            "Tim Maia - 02 - Terapêutica Do Grito.Mp3",
-                            "Tim Maia - 03 - Pecado Capital.Mp3",
-                            "Tim Maia - 04 - Mal De Amor.Mp3",
-                            "Tim Maia - 05 - 3 Em 1.Mp3",
-                            "Tim Maia - 06 - Neves E Parques.Mp3",
-                            "Tim Maia - 07 - Rio Mon Amour.Mp3",
-                            "Tim Maia - 08 - Me Dê Motivo.Mp3",
-                            "Tim Maia - 09 - Olá (Emoções).Mp3",
-                            "Tim Maia - 10 - Essa Dor Me Apanha.Mp3",
-                            "Tim Maia, 1983, O Descobridor dos Sete Mares, Front.jpg"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1984 - Sufocante",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Debaixo Do Manacá.Mp3",
-                            "Tim Maia - 02 - Quero Te Dar (Desejos).Mp3",
-                            "Tim Maia - 03 - Ga-Gaguejando.Mp3",
-                            "Tim Maia - 04 - Mama Super Mama.Mp3",
-                            "Tim Maia - 05 - Aquariar.Mp3",
-                            "Tim Maia - 06 - Sufocante.Mp3",
-                            "Tim Maia - 07 - Bons Momentos.Mp3",
-                            "Tim Maia - 08 - Amor Verdadeiro.Mp3",
-                            "Tim Maia - 09 - Venha Ser Minha Mulher.Mp3",
-                            "Tim Maia - 10 - Ai Que Bom - Instrumental.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1985 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Bem Vinda.Mp3",
-                            "Tim Maia - 02 - Você Me Enganou.Mp3",
-                            "Tim Maia - 03 - Pede A Ela.Mp3",
-                            "Tim Maia - 04 - O Adeus De Quem Tanto Amei.Mp3",
-                            "Tim Maia - 05 - Você Tem Que Saber.Mp3",
-                            "Tim Maia - 06 - Uma Estrela A Mais.Mp3",
-                            "Tim Maia - 07 - A Grande Família Brasileira De Comunicação (A Nossa Família).Mp3",
-                            "Tim Maia - 08 - Pense Bem.Mp3",
-                            "Tim Maia - 09 - Leva.Mp3",
-                            "Tim Maia - 10 - Acredito.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1986 - Tim Maia",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Pudera.Mp3",
-                            "Tim Maia - 02 - Brilho.Mp3",
-                            "Tim Maia - 03 - Vê Se Decide.Mp3",
-                            "Tim Maia - 04 - Telefone.Mp3",
-                            "Tim Maia - 05 - O Vento E As Canções.Mp3",
-                            "Tim Maia - 06 - Do Leme Ao Pontal (Tomo Guaraná Suco De Cajú Goiabada Para Sobremesa).Mp3",
-                            "Tim Maia - 07 - Preciosa.Mp3",
-                            "Tim Maia - 08 - Sonhar Contigo.Mp3",
-                            "Tim Maia - 09 - Se Eu Soubesse.Mp3",
-                            "Tim Maia - 10 - Brother Father Sister And Mother.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1987",
-                        "titulo": "1987 - Somos América",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1987.jpg",
-                            "Tim Maia - 01 - Onde Está Você.Mp3",
-                            "Tim Maia - 02 - Amigo Verdadeiro.Mp3",
-                            "Tim Maia - 03 - Se Esse Amor Termina.Mp3",
-                            "Tim Maia - 04 - Parabéns.Mp3",
-                            "Tim Maia - 05 - Amiga.Mp3",
-                            "Tim Maia - 06 - Somos América.Mp3",
-                            "Tim Maia - 07 - Você Mentiu.Mp3",
-                            "Tim Maia - 08 - Terna Paixão.Mp3",
-                            "Tim Maia - 09 - Ternura Em Seu Olhar.Mp3",
-                            "Tim Maia - 10 - Sem Volta.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1988 - Carinhos",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Capa.jpg",
-                            "Tim Maia - 01 - Carinhos.Mp3",
-                            "Tim Maia - 02 - Eu Quero Amar Voc  (Definitivamente).Mp3",
-                            "Tim Maia - 03 - Paix O Antiga.Mp3",
-                            "Tim Maia - 04 - With No One Else Around.Mp3",
-                            "Tim Maia - 05 - Turn The Light Down Low.Mp3",
-                            "Tim Maia - 06 - Cabe A Feita.Mp3",
-                            "Tim Maia - 07 - Fora Do Normal.Mp3",
-                            "Tim Maia - 08 - Ar Puro.Mp3",
-                            "Tim Maia - 09 - Tudo Em Cima.Mp3",
-                            "Tim Maia - 10 - Forever.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1990",
-                        "titulo": "1990 - Dance Bem",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1990.jpg",
-                            "Tim Maia - 01 - Dance Bem.Mp3",
-                            "Tim Maia - 02 - Rodézia.Mp3",
-                            "Tim Maia - 03 - Acenda O Farol.Mp3",
-                            "Tim Maia - 04 - Eu Te Amo Muito Mais.Mp3",
-                            "Tim Maia - 05 - Vale Tudo.Mp3",
-                            "Tim Maia - 06 - O Descobridor Dos 7 Mares.Mp3",
-                            "Tim Maia - 07 - Paixão Antiga.Mp3",
-                            "Tim Maia - 08 - I've Never Felt Like This Before.Mp3",
-                            "Tim Maia - 09 - Amizade Não Tem Preço.Mp3",
-                            "Tim Maia - 10 - Mãe Natureza.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1990 - Tim Maia Interpreta Classicos Da Bossa Nova",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Folha De Papel.Mp3",
-                            "Tim Maia - 02 - Eu E A Brisa.Mp3",
-                            "Tim Maia - 03 - A Rã.Mp3",
-                            "Tim Maia - 04 - A Rã Ii.Mp3",
-                            "Tim Maia - 05 - Minha Namorada.Mp3",
-                            "Tim Maia - 06 - Useless Landscape.Mp3",
-                            "Tim Maia - 07 - Wave.Mp3",
-                            "Tim Maia - 08 - Girl From Ipanema.Mp3",
-                            "Tim Maia - 09 - Samba Da Pergunta.Mp3",
-                            "Tim Maia - 10 - Meditação.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1992",
-                        "titulo": "1992 - Ao vivo",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1992.jpg",
-                            "Tim Maia - 01 - Vale Tudo.Mp3",
-                            "Tim Maia - 02 - Telefone.Mp3",
-                            "Tim Maia - 03 - Descobridor Dos 7 Mares.Mp3",
-                            "Tim Maia - 04 - Paixao Antiga.Mp3",
-                            "Tim Maia - 05 - Sossego.Mp3",
-                            "Tim Maia - 06 - Voce.Mp3",
-                            "Tim Maia - 07 - Me De Motivo.Mp3",
-                            "Tim Maia - 08 - Folha De Papel.Mp3",
-                            "Tim Maia - 09 - A Ra.Mp3",
-                            "Tim Maia - 10 - Wave.Mp3",
-                            "Tim Maia - 11 - Garota De Ipanema.Mp3",
-                            "Tim Maia - 12 - Dia De Domingo.Mp3",
-                            "Tim Maia - 13 - Primavera.Mp3",
-                            "Tim Maia - 14 - Azul Da Cor Do Mar.Mp3",
-                            "Tim Maia - 15 - Voce E Eu, Eu E Voce.Mp3",
-                            "Tim Maia - 16 - Do Leme Ao Pontal.Mp3",
-                            "Tim Maia - 17 - A Festa De Santo Reis.Mp3",
-                            "Tim Maia - 18 - Vale Tudo.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1993",
-                        "titulo": "1993 - Romântico",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1993.jpg",
-                            "Tim Maia - 01 - Essa Tal Felicidade.Mp3",
-                            "Tim Maia - 02 - Azul Da Cor Do Mar.Mp3",
-                            "Tim Maia - 03 - Me Dê Motivo.Mp3",
-                            "Tim Maia - 04 - Não Me Iludo Mais.Mp3",
-                            "Tim Maia - 05 - A Rã.Mp3",
-                            "Tim Maia - 06 - Carinhos.Mp3",
-                            "Tim Maia - 07 - Meu País Chocolate Não Quero Dinheiro, Só Quero Amar.Mp3",
-                            "Tim Maia - 08 - Paixão Antiga.Mp3",
-                            "Tim Maia - 09 - Primavera (Vai Chuva).Mp3",
-                            "Tim Maia - 10 - Folha De Papel.Mp3",
-                            "Tim Maia - 11 - Vale Tudo.Mp3",
-                            "Tim Maia - 12 - Sossego.Mp3",
-                            "Tim Maia - 13 - A Fim De Voltar.Mp3",
-                            "Tim Maia - 14 - Aquele Abraço.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1994 - Voltou A Clarear",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Voltou Clarear.Mp3",
-                            "Tim Maia - 02 - O Que Vem Da Bahia.Mp3",
-                            "Tim Maia - 03 - Coisa Mais Bonita.Mp3",
-                            "Tim Maia - 04 - O Barquinho.Mp3",
-                            "Tim Maia - 05 - Corcovado.Mp3",
-                            "Tim Maia - 06 - Sai Pr  L.Mp3",
-                            "Tim Maia - 07 - Voc  Foi A Primeira.Mp3",
-                            "Tim Maia - 08 - Minha Musa.Mp3",
-                            "Tim Maia - 09 - O Nordeste   Lindo.Mp3",
-                            "Tim Maia - 10 - Fim De Noite.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1995 - Nova Era Glacial",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Nova Era Glacial.Mp3",
-                            "Tim Maia - 02 - Totalmente Natural.Mp3",
-                            "Tim Maia - 03 - Essa Tal Felicidade.Mp3",
-                            "Tim Maia - 04 - Arrastao.Mp3",
-                            "Tim Maia - 05 - Oceano.Mp3",
-                            "Tim Maia - 06 - Corcovado (Quiet Night Of Quiet Stars).Mp3",
-                            "Tim Maia - 07 - Vale Tudo.Mp3",
-                            "Tim Maia - 08 - Nao Me Iludo Mais.Mp3",
-                            "Tim Maia - 09 - Aquarela Do Brasil.Mp3",
-                            "Tim Maia - 10 - Meditacao (Meditation).Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "Os Cariocas",
-                        "ano": "1997",
-                        "arquivosLocais": [
-                            "Tim Maia & Os Cariocas - 01 - Ter Você É Ter Razão.Mp3",
-                            "Tim Maia & Os Cariocas - 02 - Essa Tal Felicidade.Mp3",
-                            "Tim Maia & Os Cariocas - 03 - Ela É Carioca.Mp3",
-                            "Tim Maia & Os Cariocas - 04 - Lindeza.Mp3",
-                            "Tim Maia & Os Cariocas - 05 - Amigo Do Rei.Mp3",
-                            "Tim Maia & Os Cariocas - 06 - Não Quero Dinheiro Só Quero Amar.Mp3",
-                            "Tim Maia & Os Cariocas - 07 - Telefone.Mp3",
-                            "Tim Maia & Os Cariocas - 08 - Samba Do Avião.Mp3",
-                            "Tim Maia & Os Cariocas - 09 - Azul Da Cor Do Mar.Mp3",
-                            "Tim Maia & Os Cariocas - 10 - Valsa De Uma Cidade.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1997 - Pro Meu Grande Amor",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Back.jpg",
-                            "Front.jpg",
-                            "Tim Maia - 01 - Estoria De Cantador.Mp3",
-                            "Tim Maia - 02 - Nana.Mp3",
-                            "Tim Maia - 03 - Pro Meu Grande Amor.Mp3",
-                            "Tim Maia - 04 - Pra Fazer Voce Sorrir.Mp3",
-                            "Tim Maia - 05 - Oceano.Mp3",
-                            "Tim Maia - 06 - Tudo Era Lindo (E Se Foi).Mp3",
-                            "Tim Maia - 07 - Rio.Mp3",
-                            "Tim Maia - 08 - Por Causa De Voce.Mp3",
-                            "Tim Maia - 09 - Flor De Lis.Mp3",
-                            "Tim Maia - 10 - Rapaz De Bem.Mp3",
-                            "Tim Maia - 11 - Eu Confesso.Mp3",
-                            "Tim Maia - 12 - Ole, Ola.Mp3",
-                            "Tim Maia - 13 - Eu Sei Que Vou Te Amar.Mp3",
-                            "Tim Maia - 14 - A Felicidade.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1997",
-                        "titulo": "Só Você",
-                        "ano": "1997",
-                        "arquivosLocais": [
-                            "1997.jpg",
-                            "Tim Maia - 01 - 01. Olhou Pra Mim.Mp3",
-                            "Tim Maia - 02 - 02. Só Você.Mp3",
-                            "Tim Maia - 03 - 03. Vixe.Mp3",
-                            "Tim Maia - 04 - 04. Cross My Heart.Mp3",
-                            "Tim Maia - 05 - 05. Lindo Lago Do Amor.Mp3",
-                            "Tim Maia - 06 - 06. Não Se Envolva.Mp3",
-                            "Tim Maia - 07 - 07. Só Danço Samba.Mp3",
-                            "Tim Maia - 08 - 08. People.Mp3",
-                            "Tim Maia - 09 - 09. E Nada Mais.Mp3",
-                            "Tim Maia - 10 - 10. Eu Te Adoro.Mp3",
-                            "Tim Maia - 11 - 11. Saigon.Mp3",
-                            "Tim Maia - 12 - 12. O Morro Não Tem Vez.Mp3",
-                            "Tim Maia - 13 - 13. Day By Day.Mp3",
-                            "Tim Maia - 14 - 14. Vivo Sonhando.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1997 - Sorriso De Criança",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Pense Em Mim (Não Me Trate Assim).Mp3",
-                            "Tim Maia - 02 - Sozinho.Mp3",
-                            "Tim Maia - 03 - Acenda O Farol.Mp3",
-                            "Tim Maia - 04 - Para Que Vou Recordar (O Que Chorei).Mp3",
-                            "Tim Maia - 05 - África Mãe (Poema Musicado).Mp3",
-                            "Tim Maia - 06 - Dizer Que Te Amo (É Muito Pouco).Mp3",
-                            "Tim Maia - 07 - Crazy Feelings.Mp3",
-                            "Tim Maia - 08 - Sorriso De Criança.Mp3",
-                            "Tim Maia - 09 - The Queen.Mp3",
-                            "Tim Maia - 10 - O Pescador.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "",
-                        "titulo": "1997 - What A Wonderful World",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "Tim Maia - 01 - Hey There Lonely Girl.Mp3",
-                            "Tim Maia - 02 - What A Wonderful World.Mp3",
-                            "Tim Maia - 03 - Tears On My Pillow.Mp3",
-                            "Tim Maia - 04 - Save The Last Dance For Me.Mp3",
-                            "Tim Maia - 05 - Daddy's Home.Mp3",
-                            "Tim Maia - 06 - Chain Gang.Mp3",
-                            "Tim Maia - 07 - Earth Angel.Mp3",
-                            "Tim Maia - 08 - On Broadway.Mp3",
-                            "Tim Maia - 09 - Diamonds And Pearls.Mp3",
-                            "Tim Maia - 10 - Since I Don't Have You.Mp3",
-                            "Tim Maia - 11 - What's Your Name.Mp3",
-                            "Tim Maia - 12 - When We Get Married.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "1998",
-                        "titulo": "1998 - Ao Vivo 2",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "1998.jpg",
-                            "Tim Maia - 01 - Telefone.Mp3",
-                            "Tim Maia - 02 - Primavera.Mp3",
-                            "Tim Maia - 02 - Sossego.Mp3",
-                            "Tim Maia - 03 - Azul Da Cor Do Mar.Mp3",
-                            "Tim Maia - 04 - Meu País - Chocolate - Não.Mp3",
-                            "Tim Maia - 05 - Essa Tal Felicidade.Mp3",
-                            "Tim Maia - 06 - Vale Tudo.Mp3",
-                            "Tim Maia - 07 - Se Me Levam, Eu Vou.Mp3",
-                            "Tim Maia - 08 - Gostava Tanto De Você.Mp3",
-                            "Tim Maia - 09 - Você.Mp3",
-                            "Tim Maia - 10 - Me Dê Motivo.Mp3",
-                            "Tim Maia - 11 - A Festa Do Santo Reis.Mp3",
-                            "Tim Maia - 12 - Você E Eu, Eu E Você.Mp3",
-                            "Tim Maia - 13 - Do Leme Ao Pontal.Mp3",
-                            "Tim Maia - 14 - Paixão Antiga.Mp3",
-                            "Tim Maia - 16 - Não Quero Dinheiro.Mp3",
-                            "Tim Maia - 17 - Um Dia De Domingo.Mp3",
-                            "Tim Maia - 18 - Vale Tudo.Mp3"
-                        ]
-                    },
-                    {
-                        "discogs_id": "2007",
-                        "titulo": "2007 -  In Concert",
-                        "ano": "",
-                        "arquivosLocais": [
-                            "2007.jpg",
-                            "Tim Maia - 01 - A Festa Dos Santos Reis.Mp3",
-                            "Tim Maia - 02 - Sossego.Mp3",
-                            "Tim Maia - 03 - Gostava Tanto De Voce.Mp3",
-                            "Tim Maia - 04 - Primavera (Vai Chuva).Mp3",
-                            "Tim Maia - 05 - Baby.Mp3",
-                            "Tim Maia - 06 - Telefone.Mp3",
-                            "Tim Maia - 07 - Do Leme Ao Pontal.Mp3",
-                            "Tim Maia - 08 - O Descobridor Dos Sete Mares.Mp3",
-                            "Tim Maia - 09 - Voce E Eu, Eu E Voce.Mp3",
-                            "Tim Maia - 10 - Me De Motivo.Mp3",
-                            "Tim Maia - 11 - Voce.Mp3",
-                            "Tim Maia - 12 - Um Dia De Domingo.Mp3",
-                            "Tim Maia - 13 - Vale Tudo.Mp3"
-                        ]
-                    }
-                ],
-                "singles-EP": [],
-                "compilations": [],
-                "videos": []
             }
         },
         {

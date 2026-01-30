@@ -8,7 +8,7 @@ export default function CardCD({ cdTitulo, cdImgSrc, cdAno }) {
             <div className={styles.divContainerTitulo}>
                 <h3 className={styles.h3Titulo}>{cdTitulo}</h3>
             </div>
-            <figure className={styles.figureImagemAnimacao} title="Clique para abrir o modal com mais informações">
+            <figure className={styles.figureImagemAnimacao} title="Clique para abrir uma nova aba com mais informações">
                 <img className={styles.imgAnimacao}
                     src={thumb}
                     alt={cdTitulo}
