@@ -6,7 +6,7 @@ import InputPadrao from '../../components/InputPadrao/InputPadrao';
 import FieldsetPadrao from '../../components/FieldsetPadrao/FieldsetPadrao';
 import LabelPadrao from '../../components/LabelPadrao/LabelPadrao';
 import ButtonPadrao from '../../components/ButtonPadrao/ButtonPadrao';
-import CardCD from '../../components/componentsMyMusicx/CardCD/CardCD';
+import CardRelease from '../../components/componentsMyMusicx/CardRelease/CardRelease';
 import Spinner from '../../components/Spinner/Spinner';
 import HeaderPage from '../../components/HeaderPage/HeaderPage';
 import H1TituloPage from '../../components/H1TituloPage/H1TituloPage';
@@ -88,16 +88,27 @@ export default function MyMusicXBuscar() {
 
     const handleSave = async (data) => {
         console.log('Salvando dados para:', data.artist);
+        console.log('Data structure:', {
+            artist: data.artist,
+            summary: data.summary ? {
+                Total: data.summary.Total,
+                categories: data.summary.categories ? Object.keys(data.summary.categories) : null
+            } : null
+        });
         try {
             const saveUrl = 'http://localhost:4000/api/discogs/save';
-            // We need to save the original unfiltered items
-            await axios.post(saveUrl, {
+            // Enviar artist e summary (nova estrutura)
+            const payload = {
                 artist: data.artist,
-                items: data.items
-            });
+                summary: data.summary
+            };
+            console.log('Sending payload:', JSON.stringify(payload, null, 2).substring(0, 500));
+            const response = await axios.post(saveUrl, payload);
+            console.log('Save response:', response.data);
             alert('Dados salvos com sucesso!');
         } catch (err) {
             console.error('Erro ao salvar dados:', err);
+            console.error('Error response:', err.response?.data);
             alert('Erro ao salvar dados.');
         }
     };
@@ -119,7 +130,7 @@ export default function MyMusicXBuscar() {
                 <h3>{title} ({filteredItems.length})</h3>
                 <div className={styles.divContainerCardsCds}>
                     {filteredItems.map((r, index) => (
-                        <CardCD
+                        <CardRelease
                             key={`${r.id}-${index}`}
                             cdTitulo={r.title}
                             cdArtist={r.artist}

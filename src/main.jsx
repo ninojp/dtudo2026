@@ -6,7 +6,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop.jsx';
 import DtudoRouter from './router/DtudoRouter.jsx';
 import { AuthProvider } from './context_api/AuthContext/AuthProvider.jsx';
 import MyAnimesObjsListProvider from './context_api/MyAnimesObjsListContext/MyAnimesObjsListProvider.jsx';
-import AnimesObjsListDetalhesProvider from './context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesProvider.jsx';
+import AnimesObjsListDetalhesProvider from './context_api/AnimesDetalhesObjsListContext/AnimesDetalhesObjsListProvider.jsx';
 
 
 createRoot(document.getElementById('root')).render(

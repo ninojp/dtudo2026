@@ -1,5 +1,5 @@
 import { useContext, useMemo } from 'react';
-import AnimesObjsListDetalhesContext from '../../context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesContext';
+import AnimesObjsListDetalhesContext from '../../context_api/AnimesDetalhesObjsListContext/AnimesDetalhesObjsListContext';
 import styles from './FiltrarPorAno.module.css';
 
 export default function FiltrarPorAno({ anoSelecionado, setAnoSelecionado }) {

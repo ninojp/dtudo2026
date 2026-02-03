@@ -3,7 +3,7 @@ import { useState, useMemo, useCallback, useContext } from 'react';
 import CampoBuscar from '../../CampoBuscar/CampoBuscar';
 import PaginationButtons from '../../PaginationButtons/PaginationButtons';
 import QtdExibirPorPage from '../../QtdExibirPorPage/QtdExibirPorPage';
-import AnimesObjsListDetalhesContext from '../../../context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesContext';
+import AnimesObjsListDetalhesContext from '../../../context_api/AnimesDetalhesObjsListContext/AnimesDetalhesObjsListContext';
 import FiltrarPorGenero from '../../FiltrarPorGenero/FiltrarPorGenero';
 import FiltrarPorLetra from '../../FiltrarPorLetra/FiltrarPorLetra';
 import FiltrarPorAno from '../../FiltrarPorAno/FiltrarPorAno';

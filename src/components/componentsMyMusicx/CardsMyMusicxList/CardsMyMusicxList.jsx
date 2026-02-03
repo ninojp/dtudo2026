@@ -7,7 +7,7 @@ import FiltrarPorLetra from "../../FiltrarPorLetra/FiltrarPorLetra";
 import FiltrarPorAno from "../../FiltrarPorAno/FiltrarPorAno";
 import QtdExibirPorPage from "../../QtdExibirPorPage/QtdExibirPorPage";
 import PaginationButtons from "../../PaginationButtons/PaginationButtons";
-import CardCD from "../CardCD/CardCD";
+import CardRelease from "../CardRelease/CardRelease";
 export default function CardsMyMusicxList() {
     const { listObjsMyMusicx } = useContext(MyMusicxObjsListContext);
     console.log('listObjsMyMusicx:', listObjsMyMusicx);
@@ -112,7 +112,7 @@ export default function CardsMyMusicxList() {
                     }
                     return (
                         <Link key={item.id} to={`/mymusicx/mymusicx-detalhes/${item.id}`}>
-                            <CardCD
+                            <CardRelease
                                 cdTitulo={item.artista}
                                 cdImgSrc={`/mymusicx/${item.id}.jpg`}
                                 cdAno={anoExibir}

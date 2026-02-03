@@ -4,7 +4,7 @@ import H2SubTitulo from '../../components/H2SubTitulo/H2SubTitulo';
 import HeaderPage from '../../components/HeaderPage/HeaderPage';
 import styles from './Animes.module.css';
 import { useContext } from 'react';
-import AnimesObjsListDetalhesContext from '../../context_api/AnimesObjsListDetalhesContext/AnimesObjsListDetalhesContext';
+import AnimesObjsListDetalhesContext from '../../context_api/AnimesDetalhesObjsListContext/AnimesDetalhesObjsListContext';
 
 
 export default function Animes() {

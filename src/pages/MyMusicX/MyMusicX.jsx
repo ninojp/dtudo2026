@@ -16,9 +16,7 @@ export default function MyMusicX() {
                 <H1TituloPage>MyMusicX</H1TituloPage>
                 <H2SubTitulo><span className={styles.spanTotalAnimes}>{listObjsMyMusicx.length}</span> Artistas e seus 'Releases', agrupadas por Albuns, Singles & EPs, Compilações e Videos.</H2SubTitulo>
                 <div>
-                    <Link to="/mymusicx/mymusicx-buscar">
-                            Buscar Artista na API do DB Discogs
-                    </Link>
+                    Buscar Artista na API do DB Discogs - <Link to="/mymusicx/mymusicx-buscar" className={styles.linkBuscar}>MyMusicX-Buscar</Link>
                 </div>
             </HeaderPage>
             <CardsMyMusicxList />
