@@ -10,7 +10,7 @@ import PaginationButtons from "../../PaginationButtons/PaginationButtons";
 import CardRelease from "../CardRelease/CardRelease";
 export default function CardsMyMusicxList() {
     const { listObjsMyMusicx } = useContext(MyMusicxObjsListContext);
-    console.log('listObjsMyMusicx:', listObjsMyMusicx);
+    // console.log('listObjsMyMusicx:', listObjsMyMusicx);
     const navigate = useNavigate();
     //Filtro por Letra
     const [letraSelecionada, setLetraSelecionada] = useState('');

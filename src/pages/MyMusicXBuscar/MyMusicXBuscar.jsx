@@ -18,24 +18,10 @@ export default function MyMusicXBuscar() {
     const [selectedArtist, setSelectedArtist] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [results, setResults] = useState(null); // Simplified state
-
-    // Simplified filters
-    const [filters, setFilters] = useState({
-        hasThumb: false,
-        hasYear: false,
-    });
+    const [results, setResults] = useState(null);
 
     // Lê o token do Discogs a partir da variável de ambiente Vite
     const discogsToken = typeof import.meta !== 'undefined' ? import.meta.env.VITE_DISCOGS_TOKEN : undefined;
-    //-------------------------------------------------------------------------------------------------------
-    const handleFilterChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        setFilters(prev => ({
-            ...prev,
-            [name]: type === 'checkbox' ? checked : value
-        }));
-    };
 
     const handleArtistSearch = async (q) => {
         if (!q.trim()) {
@@ -113,23 +99,15 @@ export default function MyMusicXBuscar() {
         }
     };
 
-    // Helper function to render a category with active filters
+    // Helper function to render a category
     const renderCategory = (category, title) => {
         if (!results || !category || category.count === 0) return null;
 
-        const filteredItems = category.items.filter(item => {
-            if (filters.hasThumb && !item.thumb) return false;
-            if (filters.hasYear && !item.year) return false;
-            return true;
-        });
-
-        if (filteredItems.length === 0) return null;
-
         return (
             <div className={styles.divCategoryGroup}>
-                <h3>{title} ({filteredItems.length})</h3>
+                <h3>{title} ({category.items.length})</h3>
                 <div className={styles.divContainerCardsCds}>
-                    {filteredItems.map((r, index) => (
+                    {category.items.map((r, index) => (
                         <CardRelease
                             key={`${r.id}-${index}`}
                             cdTitulo={r.title}
@@ -143,17 +121,8 @@ export default function MyMusicXBuscar() {
         );
     };
 
-    // Calculate total displayed items after filtering
-    let totalDisplayed = 0;
-    if (results && results.summary.categories) {
-        Object.values(results.summary.categories).forEach(category => {
-            totalDisplayed += category.items.filter(item => {
-                if (filters.hasThumb && !item.thumb) return false;
-                if (filters.hasYear && !item.year) return false;
-                return true;
-            }).length;
-        });
-    }
+    // Calculate total displayed items
+    let totalDisplayed = results?.summary?.Total || 0;
 
     //=========================================================
     return (
@@ -196,21 +165,6 @@ export default function MyMusicXBuscar() {
                 {isLoading && <Spinner />}
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 {!results && !selectedArtist && <img className={styles.imgPgMusicx} src={notaFireMusical} alt='Imagem nota musical em chamas' />}
-
-                {results && (
-                    <section className={styles.sectionFiltros}>
-                        <fieldset className={styles.fieldsetFiltros}>
-                            <legend>Filtros</legend>
-                            {/* Simplified filters UI */}
-                            <div>
-                                <input type="checkbox" id="hasThumb" name="hasThumb" checked={filters.hasThumb} onChange={handleFilterChange} />
-                                <label htmlFor="hasThumb">Com Capa</label>
-                                <input type="checkbox" id="hasYear" name="hasYear" checked={filters.hasYear} onChange={handleFilterChange} />
-                                <label htmlFor="hasYear">Com Ano</label>
-                            </div>
-                        </fieldset>
-                    </section>
-                )}
 
                 {results && (
                     <section className={styles.sectionResultadosCds}>
