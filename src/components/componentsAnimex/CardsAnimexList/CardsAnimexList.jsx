@@ -22,7 +22,7 @@ export default function CardsAnimexList() {
     const [anoSelecionado, setAnoSelecionado] = useState('');
     //Paginação
     const [page, setPage] = useState(1);
-    const [limit, setLimit] = useState(24);
+    const [limit, setLimit] = useState(48);
     //Busca
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedItem, setSelectedItem] = useState(null);

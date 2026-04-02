@@ -34,6 +34,7 @@ export default function CardsAnimesList() {
             );
         };
         // Filtro por gênero os campos: genres, explicit_genres, themes, demographics
+        // Agora preciso ordenar por ordem alfabetica os resultados
         if (generoSelecionado) {
             animesList = animesList.filter(anime =>
                 anime.genres && anime.genres.some(g => g.name === generoSelecionado) ||
@@ -55,6 +56,14 @@ export default function CardsAnimesList() {
                 return String(anoAnime) === anoSelecionado;
             });
         };
+        // Ordenar por título quando filtrar por gênero, letra ou ano.
+        if (generoSelecionado || letraSelecionada || anoSelecionado) {
+            animesList = [...animesList].sort((a, b) =>
+                String(a.title || '').localeCompare(String(b.title || ''), 'pt-BR', {
+                    sensitivity: 'base'
+                })
+            );
+        }
         return animesList;
     }, [listObjsDetalhesAnimes, searchTerm, generoSelecionado, letraSelecionada, anoSelecionado]);
     //Paginação

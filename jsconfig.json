@@ -2,13 +2,12 @@
     "compilerOptions": {
         "target": "ES6",
         "module": "ESNext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "jsx": "react",
-        "baseUrl": ".",
         "paths": {
-            "@/*": ["src/*"],
-            "@components/*": ["src/components/*"],
-            "@context/*": ["src/context_api/*"]
+            "@/*": ["./src/*"],
+            "@components/*": ["./src/components/*"],
+            "@context/*": ["./src/context_api/*"]
         },
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
