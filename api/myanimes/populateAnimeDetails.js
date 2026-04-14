@@ -2,9 +2,9 @@ import fs from 'fs';
 import axios from 'axios';
 
 // Arquivo origem dos dados locais das coleções de animes
-const ANIMACOES_FILE = './db/myanimes.json';
+const ANIMACOES_FILE = './myanimes.json';
 // Arquivo de destino para salvar os detalhes dos animes
-const ANIME_DETAILS_FILE = './db/animesDetalhes.json';
+const ANIME_DETAILS_FILE = './animesDetalhes.json';
 // API externa Jikan para buscar detalhes dos animes
 const JIKAN_BASE_URL = 'https://api.jikan.moe/v4/anime';
 
@@ -39,7 +39,7 @@ async function populateAnimeDetails() {
     let duplicatas = [];
     
     // Iterar sobre cada animação
-    for (const animacao of data.animacoes) {
+    for (const animacao of data.myanimes) {
         console.log(`Processando coleção: ${animacao.nome}`);
         // Iterar sobre cada subpasta (anime), limitado
         for (const subpasta of animacao.subpastas) { 
